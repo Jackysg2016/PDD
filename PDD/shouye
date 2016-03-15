@@ -1,0 +1,2810 @@
+{
+"favorite_update_time": 0,
+"goods_list": [
+{
+"event_type": "1",
+"goods_id": "21204",
+"goods_name": "【限量250份】4.9元1个泰国进口榴莲（3-4斤），再慢就被别人抢完啦！",
+"group": {
+"customer_num": "10",
+"price": "490"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/780b5d69c22925acf772aa7145879489/452bf322fa3efac5a56adddd99d1af5f.jpg",
+"is_app": "0",
+"list_desc": "[\"\u6cf0\u56fd\u8fdb\u53e3\u69b4\u83b2\",\"\u65b0\u9c9c\u7a7a\u8fd0 \u8d28\u5730\u9971\u6ee1\",\"\u6d3b\u8840\u6563\u5bd2 \u5065\u813e\u8865\u6c14\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/base/logo.jpg",
+"mall_id": "1",
+"market_price": "9900"
+},
+{
+"event_type": "1",
+"goods_id": "21229",
+"goods_name": "【APP专享团】5元国产烟台美早大樱桃2斤装（果径约26mm）限量200份，再慢就被别人抢完啦！",
+"group": {
+"customer_num": "10",
+"price": "500"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/280b2c9f2b/750/352/559c77336049f41c914c787b19ab7c63.jpg",
+"is_app": "1",
+"list_desc": "[\"\u7f20\u7ef5\u6a31\u6843 \u7231\u60c5\u751c\u871c\u679c\",\"\u8106\u751c\u53ef\u53e3 \u679c\u5f62\u9971\u6ee1\",\"\u8089\u539a\u6838\u5c0f \u751c\u7f8e\u591a\u6c41\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/base/logo.jpg",
+"mall_id": "1",
+"market_price": "9900"
+},
+{
+"event_type": "0",
+"goods_id": "14627",
+"goods_name": "【澳洲进口】99元 酣畅 菲力牛排套餐130g*10片 家庭团购套餐 送酱料油包 顺丰包邮 澳洲天然草饲",
+"group": {
+"customer_num": "2",
+"price": "9900"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/2aecaba3dc/750/352/69dc0c4ad0002ada43163432c0be8926.jpg",
+"is_app": "0",
+"list_desc": "[\"\u5168\u83f2\u529b\u725b\u639210\u4efd\",\"\u8089\u8d28\u7cbe\u8d35\u9c9c\u5ae9\",\"\u8d85\u5927\u4efd\u91cf\uff0c\u5f15\u7206\u98df\u6b32\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/588cd8e171283a2be4e1ab02765232d5/45a4d7ba11bcae80807ed739c11f1fbd.jpg",
+"mall_id": "270",
+"market_price": "12800"
+},
+{
+"event_type": "0",
+"goods_id": "19742",
+"goods_name": "【预售】36元 紫色韩式pink睡衣 绝对全棉 长袖家居服套装纯棉睡衣 马伊俐同款",
+"group": {
+"customer_num": "2",
+"price": "3600"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/d7c6a8a2f1/750/352/78288bda81361668350fc97a755412a4.jpg",
+"is_app": "0",
+"list_desc": "[\"\u97e9\u5f0fpink\u957f\u8896\u7761\u8863\",\"\u5706\u9886\u8bbe\u8ba1\uff0c\u62fc\u63a5\u88e4\u811a\",\"\u5fc3\u5f62\u56fe\u6848\uff0c\u4e0a\u8863\u63d2\u888b\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/10/tunuq8byfnwtwscs.jpg",
+"mall_id": "122",
+"market_price": "7800"
+},
+{
+"event_type": "0",
+"goods_id": "20562",
+"goods_name": "65元1个海南菠萝蜜（15斤左右）世界上最大的水果（预售，3月19日完成发货）",
+"group": {
+"customer_num": "2",
+"price": "6500"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/280b2c9f2b/750/352/92b72176c75c582641720889611ea699.jpg",
+"is_app": "0",
+"list_desc": "[\"\u9999\u751c\u723d\u6ed1 \u8106\u5ae9Q\u5f39\",\"\u4e2a\u5927\u9971\u6ee1 \u679c\u8089\u91d1\u9ec4\",\"\u5207\u5f00\u5373\u98df \u8001\u5c11\u7686\u5b9c\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/d06f144f1d/310/310/9cee2d3206156c862582404019ee7bcc.jpg",
+"mall_id": "1061",
+"market_price": "7900"
+},
+{
+"event_type": "0",
+"goods_id": "15902",
+"goods_name": "【韩国直供】57.8元 可莱丝韩国正品NMF针剂水库面膜升级版10片/盒【假一赔十】24小时终极补水",
+"group": {
+"customer_num": "2",
+"price": "5780"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/278d835147/750/352/7e21ba647675357b9c89f008c5ca6e69.jpg",
+"is_app": "0",
+"list_desc": "[\"\u6df1\u5c42\u8865\u6c34\",\"15\u5206\u949f\u76f4\u8fbe\u808c\u5e95\",\"\u6e29\u548c\u4e0d\u523a\u6fc0\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/dd5a6e9548/310/310/5657bf70a06341f1045453eac5fb1ac6.jpg",
+"mall_id": "623",
+"market_price": "12900"
+},
+{
+"event_type": "0",
+"goods_id": "21109",
+"goods_name": "【汁水丰润】26.9元四川不知火5斤（12-15个）产地直发（预售，3月20日完成发货）",
+"group": {
+"customer_num": "2",
+"price": "2690"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/642dafb624/750/352/9c27b2259ce3c123a0f7041381853086.jpg",
+"is_app": "0",
+"list_desc": "[\"\u6c41\u6c34\u4e30\u6da6\uff0c\u9999\u751c\u7f8e\u5473\",\"\u8425\u517b\u4e30\u5bcc\uff0c\u751f\u6d25\u89e3\u6691\",\"\u539f\u751f\u6001\u7f8e\u5473\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/5635bbe762/310/310/20f63e85a633a04b242c9ef973845b54.jpg",
+"mall_id": "547",
+"market_price": "3190"
+},
+{
+"event_type": "0",
+"goods_id": "18440",
+"goods_name": "19.9元玫瑰血橙6斤（约20-25个）产地直发 （预售，3月25日完成发货）",
+"group": {
+"customer_num": "3",
+"price": "1990"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/280b2c9f2b/750/352/af162eda2efd78c6dc1841ae26173616.jpg",
+"is_app": "0",
+"list_desc": "[\"\u989c\u8272\u9c9c\u8273 \u9178\u751c\u723d\u53e3\",\"\u9971\u6ee1\u591a\u6c41 \u8425\u517b\u4e30\u5bcc\",\"\u5bcc\u542b\u7ef4\u751f\u7d20C\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/5635bbe762/310/310/20f63e85a633a04b242c9ef973845b54.jpg",
+"mall_id": "547",
+"market_price": "2490"
+},
+{
+"event_type": "0",
+"goods_id": "15708",
+"goods_name": "22.9元正宗海南小台农芒果净重5斤精选果（单果约50-80g左右）（预售，3月19日完成发货）肉厚多汁 嫩滑香甜 当季直供",
+"group": {
+"customer_num": "3",
+"price": "2290"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/280b2c9f2b/750/352/3274fb0e1fe464fed4663600b6692255.jpg",
+"is_app": "0",
+"list_desc": "[\"\u987a\u6ed1\u6e05\u751c \u8292\u9999\u6d53\u90c1\",\"\u4e30\u5bcc\u8425\u517b \u679c\u6838\u8f7b\u8584\",\"\u9633\u5149\u6d77\u5357 \u65b0\u9c9c\u76f4\u4f9b\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/280b2c9f2b/310/310/552051944e0527f7c6f2cc19a89d3ab2.jpg",
+"mall_id": "548",
+"market_price": "3600"
+},
+{
+"event_type": "0",
+"goods_id": "16132",
+"goods_name": "27元正宗原味手抓饼面饼25片家庭装 好吃根本停不下来",
+"group": {
+"customer_num": "2",
+"price": "2700"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/280b2c9f2b/750/352/a0a8e62f21a975f2cd5b333d2f77b08b.jpg",
+"is_app": "0",
+"list_desc": "[\"\u9999\u9165\u53ef\u53e3 \u8001\u5c11\u7686\u5b9c\",\"\u5343\u5c42\u767e\u53e0 \u5c42\u5982\u8584\u7eb8\",\"\u91d1\u9ec4\u9165\u8106 \u9999\u5473\u6251\u9f3b\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/280b2c9f2b/310/310/552051944e0527f7c6f2cc19a89d3ab2.jpg",
+"mall_id": "548",
+"market_price": "3500"
+},
+{
+"event_type": "0",
+"goods_id": "20822",
+"goods_name": "【全网最低】25.6元【莫代尔正品限量】 拉拉女神隐形文胸贴 一拉聚拢 1秒A变C",
+"group": {
+"customer_num": "2",
+"price": "2560"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/5766613959/750/352/5ca50b282d03de7cd05a1e2033fe71f1.jpg",
+"is_app": "0",
+"list_desc": "[\" \u521b\u65b0\u7cfb\u5e26 \u9ad8\u4eff\u751f\u624b\",\"\u7845\u80f6\u6750\u8d28 \u5b89\u5168\u65e0\u523a\u6fc0\",\"\u4e00\u62c9\u805a\u62e2 \u5e73\u80f8\u53d8\u6ce2\u9738\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/5766613959/310/310/fe1d5f18e29c7fa443780f4127359594.jpg",
+"mall_id": "993",
+"market_price": "19900"
+},
+{
+"event_type": "0",
+"goods_id": "16732",
+"goods_name": "【日本进口】49元Calbee卡乐比水果颗粒谷物即食早餐冲饮燕麦片800g 【最好吃的麦片没有之一】",
+"group": {
+"customer_num": "2",
+"price": "4900"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/5fdee5a68b/750/352/bf10caec38e0efbfaff4c2d932f7690c.jpg",
+"is_app": "0",
+"list_desc": "[\"\u8fde\u7eed3\u5e74\u65e5\u672c\u9500\u91cf\u9886\u5148\",\"\u8425\u517b\u65e9\u9910 \u5feb\u6377\u7f8e\u5473 \",\"\u8574\u542b\u4e30\u5bcc\u7684\u81b3\u98df\u7ea4\u7ef4\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/5fdee5a68b5fbd618121bdc278b7f21e/a9ead8bf4b8663a1284c2e8560f3d55c.jpg",
+"mall_id": "400",
+"market_price": "10900"
+},
+{
+"event_type": "0",
+"goods_id": "14656",
+"goods_name": "预售3月19日发完【越南进口】44.8元 红心火龙果5斤 新鲜进口水果 ",
+"group": {
+"customer_num": "2",
+"price": "4480"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/828a47a7ef/750/352/c9c3f01119dea646dec62808a53f5537.jpg",
+"is_app": "0",
+"list_desc": "[\"\u7ea2\u5fc3\u706b\u9f99\u679c5\u65a4\",\"\u5355\u679c\u91cd\u7ea6350g\",\"7.6\u5143\/\u65a4 \u8d85\u5212\u7b97\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/828a47a7ef0bdc4e443dce940a30fe12/b82e4f95ba2abbc737a657daa2a4154c.jpg",
+"mall_id": "360",
+"market_price": "7990"
+},
+{
+"event_type": "0",
+"goods_id": "17493",
+"goods_name": "【韩国进口】54.5元/瓶奇迹马油霜 去痘印淡斑淡疤补水保湿面霜 70ml/瓶【假一赔万·全网最低价】【万能马油·润的滴出水】",
+"group": {
+"customer_num": "2",
+"price": "5450"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/005b3fb3d6f4095670583dadee8ee597/aa081f0dbcf25fbbe13199a5bbde734c.jpg",
+"is_app": "0",
+"list_desc": "[\"\u97e9\u56fd\u6b63\u54c1\u5947\u8ff9\u9a6c\u6cb9\",\"\u4fdd\u6e7f\u795b\u75d8\u795b\u75a4\u53bb\u598a\u8fb0\u7eb9\",\"\u808c\u80a4\u91cd\u7115\u65b0\u751f\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/9e2bf42020/310/310/83502a66f58b34a3679d951a80aa50a7.jpg",
+"mall_id": "998",
+"market_price": "16800"
+},
+{
+"event_type": "0",
+"goods_id": "11690",
+"goods_name": "【俄罗斯进口】39.5元 迈克西盟俄罗斯进口提拉米苏约800克 原味/奶油味随机发 手工无添加【满满爱的味道】",
+"group": {
+"customer_num": "2",
+"price": "3950"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/dd5a6e9548/750/352/f36b92fbbbd85eccf549817775cfcf44.jpg",
+"is_app": "0",
+"list_desc": "[\"100%\u4fc4\u7f57\u65af\u8fdb\u53e3\",\"\u53e3\u611f\u7ec6\u817b \u751c\u871c\u5728\u5fc3\",\"800\u514b\u5403\u4e2a\u591f\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/005b3fb3d6/310/310/5c618f3a82073fed4de6f07a3e2570ed.jpg",
+"mall_id": "728",
+"market_price": "7900"
+},
+{
+"event_type": "0",
+"goods_id": "19676",
+"goods_name": "14.5元 瘦腰塑形拉力器 仰卧起坐器材 减肥减肚子 ",
+"group": {
+"customer_num": "2",
+"price": "1450"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/bd3279e25e/750/352/905df509e5b191b20f4aa4d9d0dc8c8e.jpg",
+"is_app": "0",
+"list_desc": "[\"\u7626\u8eab\u51cf\u809a\u5b50 \u7f8e\u5f62\",\"\u5f39\u6027\u6ce1\u6cab\u624b\u67c4\u67d4\u8f6f\u8212\u9002\",\"\u5927\u4eba\u5c0f\u5b69\u5747\u53ef\u8f7b\u677e\u4f7f\u7528\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/d06f144f1d/310/310/f18110cadc08a55d3e637701fc5cffd8.jpg",
+"mall_id": "1065",
+"market_price": "5990"
+},
+{
+"event_type": "0",
+"goods_id": "6051",
+"goods_name": "【新疆特产】32.8元 500g家庭分享装思宏枣夹核桃 双重营养亚克西！",
+"group": {
+"customer_num": "2",
+"price": "3280"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/828a47a7ef/750/352/37c793241948becfdb4099474ccc5eb6.jpg",
+"is_app": "0",
+"list_desc": "[\"\u67a3\u8089:\u6838\u6843\u8089=7:3\",\"500g\u5bb6\u5ead\u5206\u4eab\u88c5\",\"\u72ec\u7acb\u5c0f\u5305\u88c5 \u53cc\u91cd\u8425\u517b\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/828a47a7ef0bdc4e443dce940a30fe12/f9e0de5f0b4813f2801e0a7727ee0df7.jpg",
+"mall_id": "370",
+"market_price": "7980"
+},
+{
+"event_type": "0",
+"goods_id": "11837",
+"goods_name": "【德国进口】27.5元10连包共250g德国Knoppers牛奶榛子巧克力威化饼干 低脂低卡 不含防腐剂",
+"group": {
+"customer_num": "2",
+"price": "2750"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/005b3fb3d6/750/352/018dee080fe535fb0f199cac7f99399b.jpg",
+"is_app": "0",
+"list_desc": "[\"\u6700\u597d\u5403\u7684\u5a01\u5316\u997c\",\"\u5fb7\u56fd\u8fdb\u53e3\u54c1\u8d28\u4fdd\u8bc1\",\"\u6d53\u90c1\u5976\u9999\u914d\u575a\u679c\u53e3\u611f\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/5fdee5a68b/310/310/7f2827db1f1eb00017ce3f013e93ad37.jpg",
+"mall_id": "745",
+"market_price": "6000"
+},
+{
+"event_type": "0",
+"goods_id": "16894",
+"goods_name": "【越南进口】129元越南猫山王榴莲1个(4-6斤)  有奶油味的顶级榴莲（预售，3月20日完成发货）【榴莲控最爱】",
+"group": {
+"customer_num": "2",
+"price": "12900"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/280b2c9f2b/750/352/d1a66b89863cf0f6bbc116e1452957fb.jpg",
+"is_app": "0",
+"list_desc": "[\"\u679c\u8089\u8f6f\u7cef \u6d53\u90c1\u9999\u751c\",\"\u53e3\u611f\u7ec6\u817b \u8425\u517b\u4e30\u5bcc\",\"\u8d8a\u5357\u8fdb\u53e3 \u54c1\u8d28\u4fdd\u969c\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/280b2c9f2bd375f02a775e570915c02e/4cf13754a63f3cccc077c7066d915a5f.jpg",
+"mall_id": "520",
+"market_price": "15900"
+},
+{
+"event_type": "0",
+"goods_id": "15556",
+"goods_name": "49元 山东东阿红枣枸杞阿胶糕 女士型即食即食阿胶糕500g",
+"group": {
+"customer_num": "2",
+"price": "4900"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/3aef4b2dfc/750/352/a8478cc4f386b4a4e3966bb37a80fc87.jpg",
+"is_app": "0",
+"list_desc": "[\"\u8c03\u7ecf\u6ecb\u9634 \u7f8e\u5bb9\u517b\u989c\",\"\u63d0\u9ad8\u514d\u75ab \u6539\u5584\u7761\u7720\",\"\u5065\u8111\u76ca\u667a \u5ef6\u7f13\u8870\u8001\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/3aef4b2dfc/310/310/6280afe9d4e2cb93c3d7979acbfe8e5a.jpg",
+"mall_id": "895",
+"market_price": "12600"
+},
+{
+"event_type": "0",
+"goods_id": "14808",
+"goods_name": "15.8元遇水开花黑胶加厚晴雨伞黑胶防晒伞 有效阻隔可见光 一天防晒超等于七天美白【限量超低价】【预售3月18日发完】",
+"group": {
+"customer_num": "2",
+"price": "1580"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/bd3279e25e/750/352/cb7d8bb25544031fe945a2ba1ec574c1.jpg",
+"is_app": "0",
+"list_desc": "[\" 1\u5929\u9632\u6652\uff1d7\u5929\u7f8e\u767d\",\"\u6674\u96e8\u5168\u80fd\u9047\u6c34\u5f00\u82b1\",\"\u65f6\u5c1a\u767e\u642d\u51fa\u8857\u5fc5\u5907\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/fd6598aa29/310/310/79bc2b7e521a4f5dc5ce648e9e7dc594.jpg",
+"mall_id": "868",
+"market_price": "4900"
+},
+{
+"event_type": "0",
+"goods_id": "11598",
+"goods_name": "29.8 元 正宗砀山糖水黄桃罐头425g*6  出口韩国 ",
+"group": {
+"customer_num": "2",
+"price": "2980"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/588cd8e171/750/352/ff96b60f602f189bc19b629d52e72df3.jpg",
+"is_app": "0",
+"list_desc": "[\"\u4ea7\u5730\u76f4\u9500\u3001\u4ef7\u683c\u66f4\u4f4e\",\"\u4e00\u54c1\u7ea7\u9ec4\u6843\u3001\u8d28\u91cf\u66f4\u597d\",\"\u9ec4\u6843\u9996\u9009 \u7800\u5c71\u76f4\u53d1\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/d06f144f1d7e273e20f09350fbb614bf/78738a3d7c4d7b223fe9d5d1e6ea228b.jpg",
+"mall_id": "275",
+"market_price": "5000"
+},
+{
+"event_type": "0",
+"goods_id": "13492",
+"goods_name": "17.9元云南高原红泥沙雪莲果9斤（约15-25个）清甜爽脆 现挖现发",
+"group": {
+"customer_num": "3",
+"price": "1790"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/280b2c9f2b/750/352/2a89976b280b343f81fb807aef4012cc.jpg",
+"is_app": "0",
+"list_desc": "[\"\u9ad8\u539f\u7ea2\u6ce5\u6c99\u96ea\u83b2\u679c\",\"\u751c\u8106\u591a\u6c41 \u679c\u5473\u6e05\u9999\",\"\u65b0\u9c9c\u91c7\u6316 \u5f53\u5929\u53d1\u8d27\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/280b2c9f2b/310/310/d5cee524cb09781e91adac97d2cee742.jpg",
+"mall_id": "791",
+"market_price": "2900"
+},
+{
+"event_type": "0",
+"goods_id": "12939",
+"goods_name": "【韩国进口】79元 杯具熊保温杯儿童水壶带吸管不锈钢杯子600ml 四款可选【预售3.24发完】",
+"group": {
+"customer_num": "2",
+"price": "7900"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/dd5a6e9548/750/352/41590c498c29d90ee2d7628a799eab2f.jpg",
+"is_app": "0",
+"list_desc": "[\"\u4e00\u676f\u4e09\u76d6 \u56db\u6b3e\u53ef\u9009\",\"\u8d85\u5f3a\u4fdd\u6e29 \u7172\u7ca5\",\"\u98df\u54c1\u7ea7\u4e0d\u9508\u94a2\u5185\u80c6\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/dd5a6e9548d3ba96b4b440cb9ef11a60/20d7a2fa761559ef9b9f16de9f2fb2e1.jpg",
+"mall_id": "109",
+"market_price": "20900"
+},
+{
+"event_type": "0",
+"goods_id": "19031",
+"goods_name": "39.8元 法式马卡龙24粒装 100%进口原料制作",
+"group": {
+"customer_num": "2",
+"price": "3980"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/588cd8e171ae3d9d3c37dfc224fca1d13fc97f231d.jpg",
+"is_app": "0",
+"list_desc": "[\"100%\u8fdb\u53e3\u539f\u6599\",\"24\u7c92\u7ecf\u5178\u793c\u76d2\",\"\u9001\u793c\u81ea\u98df\u4f73\u54c1\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/d06f144f1d/310/310/33055b042d44e4a2ebca0cf37237c12e.jpg",
+"mall_id": "1032",
+"market_price": "12800"
+},
+{
+"event_type": "0",
+"goods_id": "19076",
+"goods_name": "【历史最低】34.9元  明星同款平底舒适休闲运动鞋 小白鞋",
+"group": {
+"customer_num": "2",
+"price": "3490"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/576661395936aab2cdfdb2c15a62a453263128126f.jpg",
+"is_app": "0",
+"list_desc": "[\"\u767e\u642d\u3001\u7ecf\u5178\",\"\u8212\u9002\u5ea6\u597d\",\"\u4f17\u660e\u661f\u540c\u6b3e\u65f6\u5c1a\u5ea6\u9ad8\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/5766613959/310/310/1d31fbce36320e0270da8e38062a2a8c.jpg",
+"mall_id": "629",
+"market_price": "13900"
+},
+{
+"event_type": "0",
+"goods_id": "7472",
+"goods_name": "19.9元旅行箱收纳袋六件套 防水环材",
+"group": {
+"customer_num": "2",
+"price": "1990"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/588cd8e171283a2be4e1ab02765232d5/356f4cf7aa1ef6d2989f3cbd76754375.jpg",
+"is_app": "0",
+"list_desc": "[\"\u5c3a\u5bf8\u5347\u7ea7\",\"\u9632\u6c34\u73af\u6750\",\"\u52a0\u5927\u52a0\u539a\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/588cd8e171283a2be4e1ab02765232d5/c7e3159f28dc80359c5c5140e9624635.jpg",
+"mall_id": "467",
+"market_price": "3600"
+},
+{
+"event_type": "0",
+"goods_id": "8560",
+"goods_name": "【1斤只要2元】19.8元海南红心木瓜8斤(4-6个)",
+"group": {
+"customer_num": "2",
+"price": "1980"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/280b2c9f2bd375f02a775e570915c02e/47e69f07685707dd886cdca2fd924b7d.jpg",
+"is_app": "0",
+"list_desc": "[\"\u7eaf\u5929\u7136\u6811\u4e0a\u719f\",\"\u8089\u8d28\u6ed1\u5ae9 \u6e05\u751c\u723d\u53e3\",\"\u5973\u795e\u6700\u7231\u7f8e\u989c\u4f73\u54c1\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/280b2c9f2bd375f02a775e570915c02e/7a3233fca549a0f89f25a2b189d15494.jpg",
+"mall_id": "514",
+"market_price": "2900"
+},
+{
+"event_type": "0",
+"goods_id": "20170",
+"goods_name": "【日本直供】128元/瓶  dokkan abura das植物酵素 夜间瘦身排毒去脂通便180粒【传说1月瘦10斤】",
+"group": {
+"customer_num": "2",
+"price": "12800"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/99be854a78/750/352/0c8642b01f2114d3c45f441a4c9550f6.jpg",
+"is_app": "0",
+"list_desc": "[\"\u65e5\u672c\u300aan an\u300b\u6742\",\"\u7eaf\u5929\u7136\u690d\u7269\u9175\u7d20\u914d\u65b9\",\"\u5065\u5eb7\u7626\u8eab\u7684\u79d8\u8bc0\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/11/xznchuz11i2bzupc.gif",
+"mall_id": "167",
+"market_price": "21900"
+},
+{
+"event_type": "0",
+"goods_id": "20896",
+"goods_name": "27.5元5个泰国进口小菠萝（单果约400g）【预售，3月22日完成发货】",
+"group": {
+"customer_num": "3",
+"price": "2750"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/642dafb624/750/352/3b194a194e49e9374fc2397909e3e9e6.jpg",
+"is_app": "0",
+"list_desc": "[\"\u8089\u8d28\u8106\u723d\uff0c\u6e05\u751c\u591a\u6c41\",\"\u6cf0\u56fd\u4ea7\u5730\uff0c\u54c1\u79cd\u7eaf\u6b63\",\"\u6e05\u70ed\u751f\u6d25\uff0c\u8425\u517b\u4e30\u5bcc\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/5635bbe762/310/310/20f63e85a633a04b242c9ef973845b54.jpg",
+"mall_id": "547",
+"market_price": "3250"
+},
+{
+"event_type": "0",
+"goods_id": "18086",
+"goods_name": "16.8元升级版可穿浴巾百变抹胸女吸水浴袍 四合按扣设计 穿戴方便【预售3月18号发完】",
+"group": {
+"customer_num": "2",
+"price": "1680"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/e1a3a07e15/750/352/201113cbfe2610b1816967bf251b32fe.jpg",
+"is_app": "0",
+"list_desc": "[\"\u5065\u5eb7\u65e0\u5f02\u5473\",\"\u67d4\u8f6f\u4e0d\u7c97\u7cd9\u4e0d\u53d1\u786c\",\"\u5feb\u5e72\u5438\u6c34\u65b9\u4fbf\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/10/sfqy0wi2wr4dicaa.jpg",
+"mall_id": "73",
+"market_price": "6800"
+},
+{
+"event_type": "0",
+"goods_id": "20786",
+"goods_name": "17.8元加厚无味10mm健身垫加宽瑜伽垫加长仰卧起坐垫防滑瑜伽毯子颜色随机发",
+"group": {
+"customer_num": "2",
+"price": "1780"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/fd6598aa29/750/352/41e31253e19986827d65fe2964e58dc1.jpg",
+"is_app": "0",
+"list_desc": "[\"\u52a0\u539a\u65e0\u5473\u5065\u8eab\u745c\u4f3d\u57ab\",\"\u591a\u529f\u80fd\u73af\u4fddTPE\",\"\u8fd0\u52a8\u597d\u5e2e\u624b\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/10/guwhefykhyh9ra41.jpg",
+"mall_id": "132",
+"market_price": "3900"
+},
+{
+"event_type": "0",
+"goods_id": "18029",
+"goods_name": "【印尼进口】8.6元/3包 丽芝士纳宝帝奶酪威化饼干58g*3共54根 大包装 酥脆美味超好吃",
+"group": {
+"customer_num": "2",
+"price": "860"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/dd5a6e9548/750/352/a7db7946e3687d6f987b769da81c8a13.jpg",
+"is_app": "0",
+"list_desc": "[\"\u829d\u58eb\u63a7\u7684\u8d85\u7ea7\u798f\u5229\",\"\u6d53\u9999\u54b8\u829d\u58eb\u7edd\u5999\u53e3\u611f\",\"\u5403\u8d27\u6700\u7231\u7684\u5a01\u5316\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/d06f144f1d/310/310/f8aab4e1c30b112475d5d2a72f1cdba7.jpg",
+"mall_id": "896",
+"market_price": "1900"
+},
+{
+"event_type": "0",
+"goods_id": "15376",
+"goods_name": "89元独家儿童电话手表智能手表GPS防丢学生插卡新款大屏触摸定位",
+"group": {
+"customer_num": "2",
+"price": "8900"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/fd6598aa29/750/352/0a2d9187e4fb012913c9067b92548f49.jpg",
+"is_app": "0",
+"list_desc": "[\"\u513f\u7ae5GPS\u5b9a\u4f4d\u624b\u8868\",\"\u9632\u4e22\u667a\u80fd\u5b9a\u4f4d\",\"\u7f8e\u89c2\u8212\u9002 \u5b69\u5b50\u6700\u7231\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/10/guwhefykhyh9ra41.jpg",
+"mall_id": "132",
+"market_price": "19900"
+},
+{
+"event_type": "0",
+"goods_id": "4614",
+"goods_name": "【澳洲进口】55元 酣畅 菲力牛排套餐650g（130g*5块）家庭团购套餐 新鲜牛扒 送黑椒汁黄油包  顺丰包邮",
+"group": {
+"customer_num": "2",
+"price": "5500"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/2aecaba3dc/750/352/c3942c69843b4db0b02039dd0380a58b.jpg",
+"is_app": "0",
+"list_desc": "[\"\u5168\u83f2\u529b\u725b\u63925\u4efd\",\"\u8089\u8d28\u7cbe\u8d35\u9c9c\u5ae9\",\"\u5168\u5bb6\u90fd\u7231\u5403\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/588cd8e171283a2be4e1ab02765232d5/45a4d7ba11bcae80807ed739c11f1fbd.jpg",
+"mall_id": "270",
+"market_price": "8900"
+},
+{
+"event_type": "0",
+"goods_id": "6013",
+"goods_name": "42.9元 清风无芯家用3提36卷原木加量厕纸卷纸 柔软卫生【每卷只要1.1元】",
+"group": {
+"customer_num": "2",
+"price": "4290"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/3426b30a24952fdf6681dcdef6bd22ed/fa6194abdd0c4c0fe250e9650fadfa9e.jpg",
+"is_app": "0",
+"list_desc": "[\"\",\"\",\"\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/10/oq06xjnjdn51avti.jpg",
+"mall_id": "107",
+"market_price": "9900"
+},
+{
+"event_type": "0",
+"goods_id": "1901",
+"goods_name": "【澳大利亚直供】102元德运成人全脂奶粉1kg*2袋 全世界都在喝！",
+"group": {
+"customer_num": "2",
+"price": "10200"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/3426b30a24/750/352/64453823d764d8ce6b488851b21b1e87.jpg",
+"is_app": "0",
+"list_desc": "[\"\u6fb3\u6d32\u7b2c\u4e00\u54c1\u724c\",\"\u5168\u5bb6\u90fd\u80fd\u559d\u7684\u5976\u7c89\",\"\u9ad8\u9499 \u9ad8\u86cb\u767d\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/dd5a6e9548/310/310/3ac882ac6a8ea3302d4cb6e2cabc8e22.jpg",
+"mall_id": "119",
+"market_price": "25900"
+},
+{
+"event_type": "0",
+"goods_id": "8160",
+"goods_name": "【韩国进口】38.5元莱斯比水晶防晒喷雾150ML",
+"group": {
+"customer_num": "2",
+"price": "3850"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/9e2bf4202057e5506c175f2bd3767ebb/40d1fb2717a0f0878015a4180e2fb60e.jpg",
+"is_app": "0",
+"list_desc": "[\"\u6c34\u6676\u9632\u6652\",\"\u8f7b\u8584\u9694\u79bb\",\"\u5929\u7136\u6210\u5206\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/11/t6bza2llrf0eumbb.jpg",
+"mall_id": "200",
+"market_price": "17500"
+},
+{
+"event_type": "0",
+"goods_id": "20758",
+"goods_name": "【顺丰包邮】54元蒜蓉粉丝扇贝（200g*3包）18个装 加热5分钟即食",
+"group": {
+"customer_num": "2",
+"price": "5400"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/2aecaba3dc/750/352/afd2dd9e6ffbe2135ffc0c1c5d741ee8.jpg",
+"is_app": "0",
+"list_desc": "[\"5\u5206\u949f\u52a0\u70ed\u5373\u98df\",\"\u849c\u84c9\u79d8\u5236\u98ce\u5473\u9c9c\u7f8e\",\"\u8089\u8d28\u7518\u751c \u7c89\u4e1d\u723d\u6ed1\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/10/cz9wvusbhhd3sz2m.jpg",
+"mall_id": "126",
+"market_price": "9800"
+},
+{
+"event_type": "0",
+"goods_id": "20288",
+"goods_name": "【一周内发货】119元国产烟台美早大樱桃2斤装（果径约26mm）（预售，3月18日完成发货） 现摘现发 顺丰包邮",
+"group": {
+"customer_num": "2",
+"price": "11900"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/280b2c9f2b/750/352/559c77336049f41c914c787b19ab7c63.jpg",
+"is_app": "0",
+"list_desc": "[\"\u7f20\u7ef5\u6a31\u6843 \u7231\u60c5\u751c\u871c\u679c\",\"\u8106\u751c\u53ef\u53e3 \u679c\u5f62\u9971\u6ee1\",\"\u8089\u539a\u6838\u5c0f \u751c\u7f8e\u591a\u6c41\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/10/2935qrxi3iv1e5bl.jpg",
+"mall_id": "128",
+"market_price": "13900"
+},
+{
+"event_type": "0",
+"goods_id": "20428",
+"goods_name": "【直降10元】39元 2016春装新款韩版宽松中长款碎花超薄女士文艺衬衣衬衫 PYL6030508",
+"group": {
+"customer_num": "2",
+"price": "3900"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/10fd55b4e9/750/352/831fae7ba459ccb33288e7fcc6636c4d.jpg",
+"is_app": "0",
+"list_desc": "[\"\u5165\u6625\u5fc5\u5907\u767e\u642d\u6b3e\",\"\u788e\u82b1\u8d85\u8584\u886c\u8863\",\"\u4e2d\u957f\u6b3e\u7acb\u4f53\u526a\u88c1\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/d06f144f1d/310/310/cde5f9db733f6c46db8f2a6c197e2e6e.jpg",
+"mall_id": "1013",
+"market_price": "12900"
+},
+{
+"event_type": "0",
+"goods_id": "20285",
+"goods_name": "【直降3元】14.5元 这是条神奇的裤子",
+"group": {
+"customer_num": "2",
+"price": "1450"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/10fd55b4e9/750/352/bef069f59d15d4b5f406a8a2fe5f4c05.jpg",
+"is_app": "0",
+"list_desc": "[\"\u85b0\u8863\u6f6e\u65d7\u8230\u5e97\",\"\u85b0\u8863\u6f6e\u65d7\u8230\u5e97\",\"\u8461\u8404\u7259\u5149\u6cfd\u88e4\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/d7c6a8a2f1/310/310/14d5116eb6bd05016f3b9317cddedd34.jpg",
+"mall_id": "979",
+"market_price": "6900"
+},
+{
+"event_type": "0",
+"goods_id": "20489",
+"goods_name": "12.9元对折挤水胶棉拖把 人字海绵折叠拖把 可伸缩硬塑杆地拖 【预售3月25日发完】",
+"group": {
+"customer_num": "2",
+"price": "1290"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/fd6598aa29/750/350/25d6112e04bebf2f8dd5072d09166515.jpg",
+"is_app": "0",
+"list_desc": "[\"\u7d27\u8d34\u5730\u9762\",\"\u8d85\u5f3a\u5438\u6c34\",\"\u9ad8\u6548\u6e05\u6d01\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/d06f144f1d/310/310/833be40622f6b329e05c36f1c7299099.jpg",
+"mall_id": "1073",
+"market_price": "2900"
+},
+{
+"event_type": "0",
+"goods_id": "21024",
+"goods_name": "32元春夏新款韩式女神潮流宽松运动卫衣套装 两件套",
+"group": {
+"customer_num": "2",
+"price": "3200"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/d7c6a8a2f1/750/352/d4aff0abc423cacef88837e61fb59597.jpg",
+"is_app": "0",
+"list_desc": "[\"\u4f18\u8d28\u9762\u6599 \u8212\u670d\u900f\u6c14 \",\"\u97e9\u7248\u9996\u53d1 \u661f\u661f\u5370\u82b1\",\"\u5bbd\u677e\u6f6e\u6b3e \u5c3d\u663e\u5973\u795e\u8303\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/d06f144f1d/310/310/bf8c9e53e0a91ae6726cee19f4ffb764.jpg",
+"mall_id": "624",
+"market_price": "6800"
+},
+{
+"event_type": "0",
+"goods_id": "14414",
+"goods_name": "【日本直供】59元 熊野油脂无硅天然弱酸性马油600ml洗发水加600ml护发素套装 拯救枯草星人【预售3.25发完】",
+"group": {
+"customer_num": "2",
+"price": "5900"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/dd5a6e9548/750/352/6653bab1c9638d8b84308328762cc86e.jpg",
+"is_app": "0",
+"list_desc": "[\"\u81ea\u7136\u7eaf\u51c0 \u9632\u6b62\u8131\u53d1\",\"\u6d17\u53d1\u62a4\u53d1\u4e00\u6b21\u641e\u5b9a\",\"\u8d85\u503c\u5957\u88c5\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/dd5a6e9548d3ba96b4b440cb9ef11a60/20d7a2fa761559ef9b9f16de9f2fb2e1.jpg",
+"mall_id": "109",
+"market_price": "13900"
+},
+{
+"event_type": "0",
+"goods_id": "1986",
+"goods_name": "28.5元2016春夏新款韩版休闲百搭仿牛仔小脚铅笔裤 高弹力修身 超显瘦好品质",
+"group": {
+"customer_num": "2",
+"price": "2850"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/5766613959/750/352/39f07d03999fe8faf98b7188457ef471.jpg",
+"is_app": "0",
+"list_desc": "[\"\u56db\u8272\u53ef\u9009 \u5168\u56fd\u5305\u90ae\",\"\u5929\u7136\u9762\u6599 \u8212\u9002\u67d4\u8f6f\",\"\u8d85\u9ad8\u54c1\u8d28 \u65f6\u5c1a\u767e\u642d\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/10/ees70kyyha1gpzdq.jpg",
+"mall_id": "85",
+"market_price": "9800"
+},
+{
+"event_type": "0",
+"goods_id": "873",
+"goods_name": "12.9元十双全国包邮 女生爆款春季可爱全棉船袜 低帮 防臭吸汗",
+"group": {
+"customer_num": "2",
+"price": "1290"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/d7c6a8a2f1/730/450/67a410f86418acfdf786883f802a7194.jpg",
+"is_app": "0",
+"list_desc": "[\"\u5168\u56fd\u5305\u90ae\",\"\u4e0d\u540c\u6b3e\u5f0f\u968f\u673a\u53d1\u8d27\",\"\u7ecf\u5178\u5973\u58eb\u8239\u889c\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/11/kgbpjxfc4niul6fe.jpg",
+"mall_id": "27",
+"market_price": "2500"
+},
+{
+"event_type": "0",
+"goods_id": "21106",
+"goods_name": "【韩国进口】96元 Jayjun水光面膜10片/盒 从此不用打水光针",
+"group": {
+"customer_num": "2",
+"price": "9600"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/005b3fb3d6/750/352/25ba1489519a3671cd1c12030025b773.jpg",
+"is_app": "0",
+"list_desc": "[\"\u6548\u679c\u5ab2\u7f8e\u6c34\u5149\u9488\",\"\u7f8e\u767d\u4fdd\u6e7f\u6de1\u5316\u7ec6\u7eb9\",\"\u4fdd\u6301\u76ae\u80a4\u767d\u7699\u548c\u5149\u6cfd\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/11/t6bza2llrf0eumbb.jpg",
+"mall_id": "200",
+"market_price": "15000"
+},
+{
+"event_type": "0",
+"goods_id": "21017",
+"goods_name": "【韩国进口】88.8元 AHC玻尿酸面膜 30g*5片装 细胞喝饱水【媲美微整水光针】",
+"group": {
+"customer_num": "2",
+"price": "8880"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/9e2bf42020/750/352/0f7fbc43219c62c07a59ca78e3603789.jpg",
+"is_app": "0",
+"list_desc": "[\"AHC \u9547\u5e97\u4e4b\u5b9d\",\"\u4e00\u8d34=\u4e00\u5242\u6c34\u5149\u9488\",\"\u4e00\u7247=30\u7247\u53ef\u83b1\u4e1d\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/5fdee5a68b5fbd618121bdc278b7f21e/ab3fc3fc141689534b749cee6e2bb171.jpg",
+"mall_id": "303",
+"market_price": "16800"
+},
+{
+"event_type": "0",
+"goods_id": "4170",
+"goods_name": "【泰国进口】88元2盒装泰国金枕头冻榴莲（单盒450克）一个榴莲抵得上十只老母鸡",
+"group": {
+"customer_num": "2",
+"price": "8800"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/280b2c9f2b/750/352/8644c3367b3ae6c30ce6cce6a1b64d53.jpg",
+"is_app": "0",
+"list_desc": "[\"\u6cf0\u56fd\u51bb\u69b4\u83b22\u76d2\",\"\u5355\u76d2450\u514b\",\"\u7eaf\u6b63\u6811\u719f\u51b7\u85cf\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/588cd8e171/310/310/8e6f6f7ec87260e9f09d96def2516ef0.jpg",
+"mall_id": "13",
+"market_price": "13600"
+},
+{
+"event_type": "0",
+"goods_id": "7440",
+"goods_name": "【印尼进口】17元Danisa皇冠丹麦曲奇饼干糕点72g/盒*3【娘娘也爱吃的曲奇】",
+"group": {
+"customer_num": "2",
+"price": "1700"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/dd5a6e9548/750/352/c8a966a4f13e4149e9c7b5b7f9084da3.jpg",
+"is_app": "0",
+"list_desc": "[\"\u6025\u901f\u914d\u9001\",\"\u4f18\u8d28\u539f\u6599\",\"\u7834\u635f\u5305\u8d54\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/588cd8e171283a2be4e1ab02765232d5/f45d827874f0328d79ed6f02ee5d26cb.jpg",
+"mall_id": "225",
+"market_price": "1400"
+},
+{
+"event_type": "0",
+"goods_id": "4657",
+"goods_name": "28元 两瓶蜂蜜蜜炼柚子茶/柠檬茶 500g*2 果肉看得见补充维生素 送杯勺",
+"group": {
+"customer_num": "2",
+"price": "2800"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/005b3fb3d6f4095670583dadee8ee597/c53881b07a240f0fb8413cc454f1844f.jpg",
+"is_app": "0",
+"list_desc": "[\"\u871c\u70bc\u67da\u5b50+\u67e0\u6aac+\u676f\u52fa\",\"\u6ee1\u6ee1\u679c\u8089\uff0c\u53e3\u611f\u9178\u751c\",\"\u8425\u517b\u4e30\u5bcc\uff0c\u8865\u5145VC\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/d06f144f1d7e273e20f09350fbb614bf/78738a3d7c4d7b223fe9d5d1e6ea228b.jpg",
+"mall_id": "275",
+"market_price": "5800"
+},
+{
+"event_type": "0",
+"goods_id": "21185",
+"goods_name": "39元 春季新款小香风A字蕾丝衫PYP631004",
+"group": {
+"customer_num": "2",
+"price": "3900"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/10fd55b4e9/750/352/efa1e5140f227cae12fe79d9f7a70b26.jpg",
+"is_app": "0",
+"list_desc": "[\"\u5165\u6625\u5fc5\u5907\u767e\u642d\u6b3e\",\".\u5c0f\u9999\u98ce\u6597\u7bf7\u88d9\u6446\",\"\u857e\u4e1d\u886b\u62fc\u63a5\u6253\u5e95\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/d06f144f1d/310/310/146a4eac03abbaec60bfaf14c2acf00c.jpg",
+"mall_id": "1012",
+"market_price": "3900"
+},
+{
+"event_type": "0",
+"goods_id": "21275",
+"goods_name": "45元限量KT猫小型迷你榨汁机多功能家用水果汁机婴儿电动搅拌机料理机【直降4元】",
+"group": {
+"customer_num": "2",
+"price": "4500"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/3426b30a24/750/352/7531a2eefdf45e2baf6e93703ddf5ff8.jpg",
+"is_app": "0",
+"list_desc": "[\"KT\u732b\u8ff7\u4f60\u578b\u69a8\u6c41\u673a\",\"\u53ef\u968f\u8eab\u643a\u5e26\u65b9\u4fbf\u5feb\u6377\",\"\u5bb6\u91cc\u516c\u53f8\u51fa\u6e38\u90fd\u53ef\u7528\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/10/guwhefykhyh9ra41.jpg",
+"mall_id": "132",
+"market_price": "9900"
+},
+{
+"event_type": "0",
+"goods_id": "18531",
+"goods_name": "【澳洲直供】71元  swisse蔓越莓胶囊蔓越莓精华妇科泌尿卵巢保养30粒/1瓶 【假一罚十】",
+"group": {
+"customer_num": "2",
+"price": "7100"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/b03704ec55/750/352/fc47965e21e895c62648c6508d39ed96.jpg",
+"is_app": "0",
+"list_desc": "[\"\u6709\u6548\u4fdd\u62a4\u79c1\u5904\",\"\u6291\u5236\u8eab\u4f53\u75c5\u83cc\",\"\u7ef4\u6301\u808c\u80a4\u5e74\u8f7b\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/dd5a6e9548/310/310/5657bf70a06341f1045453eac5fb1ac6.jpg",
+"mall_id": "623",
+"market_price": "19000"
+},
+{
+"event_type": "0",
+"goods_id": "15776",
+"goods_name": "28.8元徐香奇异果绿果24个（约重4.5斤，单果80-100g）国产新鲜水果 猕猴桃",
+"group": {
+"customer_num": "4",
+"price": "2880"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/280b2c9f2b/750/352/5919c48658a7c45ba10a73a8db61b560.jpg",
+"is_app": "0",
+"list_desc": "[\"\u679c\u8089\u7fe0\u7eff \u679c\u76ae\u5149\u6d01\",\"\u7ec6\u5ae9\u591a\u6c41 \u9999\u751c\u53ef\u53e3\",\"\u7f8e\u98df\u4e4b\u90fd \u5468\u81f3\u7279\u4ea7\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/280b2c9f2b/320/320/c8b2d9ac41a985908c4f5a237a140205.jpg",
+"mall_id": "855",
+"market_price": "3900"
+},
+{
+"event_type": "0",
+"goods_id": "16218",
+"goods_name": "【韩国进口】69元/2支 LG润膏洗发水护发素二合一250ml*2支 无硅油男女控油去屑防脱柔顺",
+"group": {
+"customer_num": "2",
+"price": "6900"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/809e6500c8/750/352/3748d530afebadb211230d5b618a5a41.jpg",
+"is_app": "0",
+"list_desc": "[\"\u6d17\u51c0\u5934\u76ae \u5f3a\u5316\u53d1\u6839\",\"\u6bdb\u53d1\u4fdd\u6e7f \u8d4b\u4e88\u6da6\u6cfd\",\"\u65e0\u7845\u6cb9 \u4e22\u6389\u4f60\u7684\u62a4\u53d1\u7d20\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/11/tvvrpcpbu03rdjav.jpg",
+"mall_id": "187",
+"market_price": "19800"
+},
+{
+"event_type": "0",
+"goods_id": "16266",
+"goods_name": "【美国进口】109元3款Q版礼盒Dior迪奥香水3件套礼盒装送喷瓶",
+"group": {
+"customer_num": "2",
+"price": "10900"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/9e2bf42020/750/352/6e542eb56dc170511b6c7bdd97c6e740.jpg",
+"is_app": "0",
+"list_desc": "[\"\u7cbe\u88c5\u793c\u76d2\",\"\u7f8e\u56fd\u4e13\u67dc\",\"\u539f\u88c5\u6b63\u54c1\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/11/t6bza2llrf0eumbb.jpg",
+"mall_id": "200",
+"market_price": "29900"
+},
+{
+"event_type": "0",
+"goods_id": "20452",
+"goods_name": "25.7元【童年记】夏威夷果独立小包 500g",
+"group": {
+"customer_num": "2",
+"price": "2570"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/2ee7433b00/750/352/ad4498bbfc8fc6d2d396a6d4841068da.jpg",
+"is_app": "0",
+"list_desc": "[\"\u8584\u58f3\u4ec1\u6ee1 \u9c9c\u9999\u6d53\u90c1\",\"\u6d53\u6d53\u5976\u9999\uff0c\u5ae9\u6ed1\u53e3\u611f\",\"\u5f00\u53e3\u5747\u5300\uff0c\u5bb9\u6613\u5265\u5f00\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/2ee7433b00/310/310/b7ee21d3589dcd8144c44f921034b4fa.jpg",
+"mall_id": "986",
+"market_price": "3990"
+},
+{
+"event_type": "0",
+"goods_id": "20581",
+"goods_name": "【南非进口】29.9元南非红心西柚6个包邮（单果265-300克）",
+"group": {
+"customer_num": "2",
+"price": "2990"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/280b2c9f2b8cc50f431751b1ca1e90b1aa7d93d00b.jpg",
+"is_app": "0",
+"list_desc": "[\"\u9178\u751c\u53ef\u53e3 \u9971\u6ee1\u539a\u5b9e\",\"\u8425\u517b\u4e30\u5bcc \u6d53\u90c1\u591a\u6c41\",\"\u76ae\u8584\u8089\u591a \u542b\u7cd6\u91cf\u5c11\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/1/2015/09/2835268c8dc708a2.png",
+"mall_id": "12",
+"market_price": "3900"
+},
+{
+"event_type": "0",
+"goods_id": "15942",
+"goods_name": "【韩国进口】28.8 韩国大肚贴mymi大肚贴减肥贴5片装 大肚贴瘦身贴",
+"group": {
+"customer_num": "2",
+"price": "2880"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/5fdee5a68b/750/352/4b99f02a0a6f9f927bcf51d93bf145e0.jpg",
+"is_app": "0",
+"list_desc": "[\"\u590f\u5b63\u51cf\u8863\u5fc5\u5907\u54c1\",\"\u4e0a\u73ed\u5de5\u4f5c\u968f\u65f6\u8d34\",\"\u8f7b\u677e\u6253\u9020\u5c0f\u86ee\u8170\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/3426b30a24/310/310/6dba2e5338ddd65a6b96659f670e92e2.jpg",
+"mall_id": "312",
+"market_price": "5990"
+},
+{
+"event_type": "0",
+"goods_id": "13256",
+"goods_name": "9.5元 春夏男女凉拖鞋居家可爱情侣室内防滑洗澡浴室拖鞋厚底9色可选",
+"group": {
+"customer_num": "2",
+"price": "950"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/fd6598aa29/750/352/d11c69865c77d677390e006e5114ccef.jpg",
+"is_app": "0",
+"list_desc": "[\"\u957f\u957f\u7684\u8033\u6735\u840c\u840c\u7684\u5c0f\u773c\",\"\u67d4\u8f6f\u8212\u9002 \u9632\u6ed1\u8010\u78e8\",\"\u73af\u4fdd\u65e0\u5473 \u989c\u8272\u9c9c\u8273\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/fd6598aa29/310/310/d8c109692f3e54fe1ca4beb7e0f49b8e.jpg",
+"mall_id": "54",
+"market_price": "2900"
+},
+{
+"event_type": "0",
+"goods_id": "20244",
+"goods_name": "69元 【2016新品】大号不锈钢烧烤炉 适合5-15人",
+"group": {
+"customer_num": "2",
+"price": "6900"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/92100237d8/750/352/9849dcae56742d8edfa41362b0983a30.jpg",
+"is_app": "0",
+"list_desc": "[\"\u4e0d\u9508\u94a2\u6750\u8d28\",\"\u5927\u53f7\u70e7\u70e4\u7089\",\"\u9002\u54085-15\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/09/wh0rl9xg2oxif8nb.jpg",
+"mall_id": "59",
+"market_price": "19900"
+},
+{
+"event_type": "0",
+"goods_id": "15840",
+"goods_name": "58元双层防晒小黑伞UPF>50折叠伞晴雨伞防紫外线遮阳伞",
+"group": {
+"customer_num": "2",
+"price": "5800"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/bd3279e25e/750/352/809b0f5d15c8bb0037a62aa4f653d303.jpg",
+"is_app": "0",
+"list_desc": "[\"\u53cc\u5c42\u79d1\u6280\u9632\u6652\u9762\u6599\",\"UPF>50\u771f\u6b63\u7684\u9632\",\"\u53cc\u5c42\u4f1e\u9762\u7ed3\u6784\u771f\u9632\u6652\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/fd6598aa29/310/310/79bc2b7e521a4f5dc5ce648e9e7dc594.jpg",
+"mall_id": "868",
+"market_price": "19800"
+},
+{
+"event_type": "0",
+"goods_id": "19015",
+"goods_name": "26.8元 陕西正宗 凉皮擀面皮300g*5包 传统工艺 真空包装  现做现发 ",
+"group": {
+"customer_num": "2",
+"price": "2680"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/3aef4b2dfcec09175c5ad4deeadaa38820047d1c0c.jpg",
+"is_app": "0",
+"list_desc": "[\"\u9655\u897f\u51c9\u76ae\u9762\u76ae\",\"\u9178\u8fa3\u9187\u9999 \u6e05\u723d\u53ef\u53e3\",\"\u53e3\u611f\u8f6f\u7ef5\u8584\u97e7\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/3aef4b2dfc08f53932ddaf8906473524/27d02e4b8fabf9c14b9148de518e6b91.jpg",
+"mall_id": "510",
+"market_price": "3990"
+},
+{
+"event_type": "0",
+"goods_id": "10718",
+"goods_name": "【澳洲直供】58元Devondale德运高钙脱脂速溶奶粉1kg/袋【澳洲总理也喝的奶粉】",
+"group": {
+"customer_num": "2",
+"price": "5800"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/278d835147/750/352/c2d58bad1c1d3997e262529f1dda2d06.jpg",
+"is_app": "0",
+"list_desc": "[\"\u6fb3\u6d32\u8fdb\u53e3\u8131\u8102\u5976\u7c89\",\"\u81ea\u7136\u653e\u517b \u751f\u6001\u7267\u573a\",\"\u9ad8\u86cb\u767d \u5168\u5bb6\u5171\u4eab\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/dd5a6e9548/500/500/9926a87a80a70b2e6fd9ed52f566a8df.jpg",
+"mall_id": "600",
+"market_price": "15000"
+},
+{
+"event_type": "0",
+"goods_id": "18816",
+"goods_name": "44.9元包邮 【夏你一跳】冰丝席三件套空调凉席",
+"group": {
+"customer_num": "2",
+"price": "4490"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/e1a3a07e15/750/352/6c18983be11f2d1879f3341b649c4b33.jpg",
+"is_app": "0",
+"list_desc": "[\"\u6e05\u51c9\u4e00\u590f \u7eff\u8272\u5065\u5eb7\",\"\u56db\u89d2\u7ed1\u5e26 \u4f18\u8d28\u9632\u6ed1\",\"\u5929\u7136\u51c9\u723d \u900f\u6c14\u4fdd\u5065\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/e1a3a07e15/310/310/aa96de89a188eaa7e4da22783459bbd6.jpg",
+"mall_id": "159",
+"market_price": "19800"
+},
+{
+"event_type": "0",
+"goods_id": "21880",
+"goods_name": "129元/套  【磁力片数量火爆升级，豪礼赠送】磁力片积木宝宝早教益智儿童玩具百变提拉磁性积木108件套【送120片雪花片】",
+"group": {
+"customer_num": "2",
+"price": "12900"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/2c103478d7/750/352/c2e59d2f3c940fba7ef319d6f366f314.jpg",
+"is_app": "0",
+"list_desc": "[\"\u78c1\u529b\u7247\u6570\u5927\u5347\u7ea7\",\"\u591a\u79cd\u56fe\u5f62\uff0c\u968f\u610f\u642d\u914d\",\"\u524d1000\u540d\u9001\u96ea\u82b1\u7247\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/dd5a6e9548/310/310/238efec55351c8f96bf587c444aa6c3e.jpg",
+"mall_id": "585",
+"market_price": "35900"
+},
+{
+"event_type": "0",
+"goods_id": "5837",
+"goods_name": "【韩国进口】67元 ahc第三代眼霜保湿提拉紧致去眼袋细纹黑眼圈30ml/盒 预售3月22日发货",
+"group": {
+"customer_num": "2",
+"price": "6700"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/dd5a6e9548d3ba96b4b440cb9ef11a60/8190b8a21b1388f6fd85211f983d72b8.jpg",
+"is_app": "0",
+"list_desc": "[\"\u51fb\u9000\u808c\u80a4\u8001\u5316\",\"\u6539\u5584\u773c\u90e8\u5e72\u71e5\u7eb9\u8def\",\"\u6d88\u9664\u773c\u888b\u6d6e\u80bf\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/11/t6bza2llrf0eumbb.jpg",
+"mall_id": "200",
+"market_price": "23900"
+},
+{
+"event_type": "0",
+"goods_id": "17970",
+"goods_name": "【日本进口】48元 久光制药 伤筋药膏 Hisamitsu 7枚 ",
+"group": {
+"customer_num": "2",
+"price": "4800"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/b8db62ba91/750/352/e426d9007d71b86d5b6a19d1c1d2526e.jpg",
+"is_app": "0",
+"list_desc": "[\"\u836f\u6027\u6e17\u900f\u529b\u5f3a\",\"\u6709\u6548\u8212\u7f13\u808c\u8089\u52b3\u635f\",\"\u66f4\u6301\u4e45\u5730\u9547\u75db\u7597\u6548\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/5fdee5a68b5fbd618121bdc278b7f21e/c81ad74a83e3795ce3f840236ba38f20.jpg",
+"mall_id": "405",
+"market_price": "7900"
+},
+{
+"event_type": "0",
+"goods_id": "21062",
+"goods_name": "【澳洲直供】166元/2瓶 Swisse活力胶原蛋白500ml*2瓶 超值组合装【让你美到女神级】",
+"group": {
+"customer_num": "2",
+"price": "16600"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/809e6500c8/750/352/6e8648b84d989e50c891a7071a92787e.jpg",
+"is_app": "0",
+"list_desc": "[\"\u4fee\u590d\u7ec6\u80de \u6de1\u5316\u8272\u6591 \",\"\u4fc3\u8fdb\u80f6\u539f\u86cb\u767d\u518d\u751f \",\"\u5973\u795e\u4e0d\u8001\u795e\u5668\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/35ea4c679df10f40d266d3ac099b6982/31887b65121719cbb8a8f2131515644b.jpg",
+"mall_id": "410",
+"market_price": "35900"
+},
+{
+"event_type": "0",
+"goods_id": "16227",
+"goods_name": "17.9元 防勾丝超薄如蝉翼春夏打底丝袜裤 3条装【每条不足6元超低价】",
+"group": {
+"customer_num": "2",
+"price": "1790"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/d7c6a8a2f1/750/352/b046efa8a13f1fd316a3f74b68389e79.jpg",
+"is_app": "0",
+"list_desc": "[\"\u88c6\u88e4\u5347\u7ea7 \u675c\u7edd\u6389\u6863\",\"\u9632\u52fe\u8010\u7a7f \u62d2\u7edd\u5c34\u5c2c\",\"\u67d4\u8f6f\u8f7b\u80a4 \u7eb5\u4eab\u4e1d\u6ed1\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/d7c6a8a2f10b4b998beb7db9d2f53289/a12d12ae9e4c0b204401f1f2e6c5cd11.jpg",
+"mall_id": "285",
+"market_price": "5800"
+},
+{
+"event_type": "0",
+"goods_id": "20933",
+"goods_name": "23.9元 2016新款春秋款儿童套装 英伦男童女童套装 ",
+"group": {
+"customer_num": "2",
+"price": "2390"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/2c103478d7/750/352/5b8db3b8c766c9f2641fcb475e11407d.jpg",
+"is_app": "0",
+"list_desc": "[\"\u9ad8\u6863\u9762\u6599\uff0c\u7ecf\u5178\u8212\u9002\",\"\u6625\u5b63\u7206\u6b3e\uff0c\u7ecf\u5178\u7545\u9500\",\"\u8d85\u4f4e\u4ef7\u683c\uff0c\u5b9e\u60e0\u591a\u591a\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/d06f144f1d/310/310/db0d521a2e356cdbab285ed28bb2319f.jpg",
+"mall_id": "1106",
+"market_price": "12800"
+},
+{
+"event_type": "0",
+"goods_id": "21011",
+"goods_name": "【直降10元】35元 吊带+睡裙两件套 仿真丝睡衣性感舒适家居服",
+"group": {
+"customer_num": "2",
+"price": "3500"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/d7c6a8a2f1/750/352/80895c966c53d9cab48906f462bf542f.jpg",
+"is_app": "0",
+"list_desc": "[\"\u771f\u4e1d\u8d28\u611f \u7eb5\u4eab\u4e1d\u6ed1\",\"\u7cbe\u81f4\u7ee3\u82b1 \u6027\u611f\u65f6\u5c1a\",\"\u8d35\u65cf\u6c14\u8d28 \u975e\u51e1\u4f53\u9a8c\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/d7c6a8a2f10b4b998beb7db9d2f53289/a12d12ae9e4c0b204401f1f2e6c5cd11.jpg",
+"mall_id": "285",
+"market_price": "9900"
+},
+{
+"event_type": "0",
+"goods_id": "9725",
+"goods_name": "9.5元 带高清后视镜 彩色自拍杆 可折叠 正反高清自拍【买3送1】",
+"group": {
+"customer_num": "2",
+"price": "950"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/328d0b658f/750/352/91b72ca7df65d892934c48dbab2cbcc8.jpg",
+"is_app": "0",
+"list_desc": "[\"\u5927\u955c\u5b50\u8ff7\u4f60\u81ea\u62cd\u6746\",\"\u65c5\u6e38\u795e\u5668 \u5bb9\u6613\u643a\u5e26\",\"\u5382\u5bb6\u76f4\u9500 \u5168\u56fd\u5305\u90ae\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/328d0b658fa4f419967090021af12f24/17b62aec9053aef393d76267020cd876.jpg",
+"mall_id": "375",
+"market_price": "1990"
+},
+{
+"event_type": "0",
+"goods_id": "10331",
+"goods_name": "【泰国进口】29.9元泰国龙眼4斤（单果9克左右）个大饱满 鲜甜爽口 滋补佳品",
+"group": {
+"customer_num": "3",
+"price": "2990"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/005b3fb3d6f4095670583dadee8ee597/47167df3df6b11e85d85b904492548a5.jpg",
+"is_app": "0",
+"list_desc": "[\"\u6838\u5c0f\u8089\u539a \u5706\u6da6\u7ec6\u5ae9\",\"\u6c41\u6c34\u5145\u6c9b \u7518\u751c\u9187\u9999\",\"\u6cf0\u56fd\u76f4\u8fd0 \u65b0\u9c9c\u5982\u73b0\u6458\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/588cd8e171/310/310/8e6f6f7ec87260e9f09d96def2516ef0.jpg",
+"mall_id": "13",
+"market_price": "3900"
+},
+{
+"event_type": "0",
+"goods_id": "2928",
+"goods_name": "16.9元充电式毛球修剪器剃毛机去球器 超强扭力 旋风式刀头 大容量储存盒",
+"group": {
+"customer_num": "2",
+"price": "1690"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/3426b30a24952fdf6681dcdef6bd22ed/7fcf28df5bf15bbc46bc2515503225c6.jpg",
+"is_app": "0",
+"list_desc": "[\"\u5145\u7535\u5f0f\u8702\u5de2\u7f51\u7f69\",\"3\u53f6\u5200\u950b \u5f3a\u529b\u53bb\u6bdb\",\"\u84c4\u7535\u6c60\u5f85\u673a\u65f6\u95f4\u66f4\u957f\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/fd6598aa29/310/310/5a1badf189d94c8e972cbd52d9e025ee.jpg",
+"mall_id": "24",
+"market_price": "4900"
+},
+{
+"event_type": "0",
+"goods_id": "14621",
+"goods_name": "33.8元收纳博士11件套加厚真空压缩袋送手泵 棉被衣服收纳袋真空袋【限时特价】",
+"group": {
+"customer_num": "2",
+"price": "3380"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/fd6598aa29/750/352/b8487d87d107ad31f9d913cd943d7667.jpg",
+"is_app": "0",
+"list_desc": "[\"\u8282\u7701\u7a7a\u95f4 \u7acb\u7aff\u89c1\u5f71\",\"\u5168\u80fd\u6536\u7eb3\u738b\",\"\u5206\u7c7b\u6536\u7eb3 \u5168\u56fd\u5305\u90ae\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/fd6598aa29e714574f8959cca79dd8aa/5700dca765bb1654e953258ab2e6bab1.jpg",
+"mall_id": "522",
+"market_price": "9900"
+},
+{
+"event_type": "0",
+"goods_id": "8003",
+"goods_name": "9.5元家用迷你手动缝纫机 轻松按压即可缝纫衣物",
+"group": {
+"customer_num": "2",
+"price": "950"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/fd6598aa29e714574f8959cca79dd8aa/a174b3a00e1a4894c5920a33920cd4e8.jpg",
+"is_app": "0",
+"list_desc": "[\"\u8f7b\u677e\u6309\u538b\u5373\u53ef\u7f1d\u7eab\u8863\u7269\",\"\u8d60\u90011\u5377\u7ebf\u548c1\u6839\u9488\",\"\u90011\u4e2a\u957f\u8f74\u548c1\u4e2a\u7a7f\u7ebf\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/fd6598aa29e714574f8959cca79dd8aa/57659e33091024943239f92109782cd4.jpg",
+"mall_id": "515",
+"market_price": "2900"
+},
+{
+"event_type": "0",
+"goods_id": "18180",
+"goods_name": "23.9元/2箱 慕滋炼奶味三明治蒸蛋糕整箱500g*2鸡蛋手撕小面包休闲礼盒装",
+"group": {
+"customer_num": "2",
+"price": "2390"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/588cd8e171d8b189d3589ac14c1f889d317b31b61d.jpg",
+"is_app": "0",
+"list_desc": "[\"\u6155\u6ecb\u4e09\u660e\u6cbb\u84b8\u86cb\u7cd5\",\"\u70bc\u5976\u53e3\u5473 \u9c9c\u5ae9\u597d\u5403\",\"\u72ec\u7acb\u5c0f\u5305\u88c5 \u65b9\u4fbf\u536b\u751f\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/005b3fb3d6/310/310/5b35df9e5c6e273feebcc1725a73bcce.jpg",
+"mall_id": "842",
+"market_price": "3900"
+},
+{
+"event_type": "0",
+"goods_id": "18051",
+"goods_name": "25元 儿童多米诺骨牌识字积木3-5岁益智玩具数字汉字多米诺木制100粒",
+"group": {
+"customer_num": "2",
+"price": "2500"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/6bdfe0af87/750/352/2fa62f5758aec3ac9532e9b871a4c4ec.jpg",
+"is_app": "0",
+"list_desc": "[\"\u53cc\u9762\u5370\u5237\",\"\u5706\u89d2\u5b89\u5168\",\"\u5bd3\u6559\u4e8e\u4e50\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/d06f144f1d/310/310/e4b7caaeabe7d830c03e816a4fb23bb2.jpg",
+"mall_id": "1015",
+"market_price": "5900"
+},
+{
+"event_type": "0",
+"goods_id": "18020",
+"goods_name": "9.8元时尚玻璃杯300ml带卡通印花带杯套 时尚随手杯出游必备 买就送杯刷",
+"group": {
+"customer_num": "2",
+"price": "980"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/fd6598aa29301b2d09a9b2521478795fe09ccfef47.jpg",
+"is_app": "0",
+"list_desc": "[\"\u62ce\u624b\u8bbe\u8ba1 \u9001\u676f\u5237\",\"\u52a0\u539a\u6750\u8d28\uff0c\u7ed3\u5b9e\u8010\u7528\",\"\u5361\u901a\u5e03\u5957 \u9632\u70eb\u53ef\u7231\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/11/anhmghtye8shdo24.jpg",
+"mall_id": "189",
+"market_price": "1900"
+},
+{
+"event_type": "0",
+"goods_id": "16632",
+"goods_name": "【泰国进口】26.9元泰国榴莲蜜迷你菠萝蜜1只装2-3斤（预售，3月25日完成发货）",
+"group": {
+"customer_num": "2",
+"price": "2690"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/280b2c9f2b/750/352/e6864b304cb68e3e9004d714efe1d4d6.jpg",
+"is_app": "0",
+"list_desc": "[\"\u592e\u89c6\u63a8\u8350\",\"\u76ae\u8584\u8089\u539a\",\"\u9999\u5473\u6d53\u90c1\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/280b2c9f2bd375f02a775e570915c02e/4cf13754a63f3cccc077c7066d915a5f.jpg",
+"mall_id": "520",
+"market_price": "3500"
+},
+{
+"event_type": "0",
+"goods_id": "13615",
+"goods_name": "27.9元 怡恩贝婴儿专用湿纸巾无香带盖80抽*6包 给宝宝的温柔呵护【不要红屁股】",
+"group": {
+"customer_num": "2",
+"price": "2790"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/2c103478d7/750/352/107045c393ba10eaa7f3028267d17bb3.jpg",
+"is_app": "0",
+"list_desc": "[\"\u5b9d\u5b9d\u64e6\u62ed\uff0c\u6e05\u6d01\u5976\u74f6\",\"\u65e0\u523a\u6fc0,\u4e0d\u6389\u7d6e\",\"\u6c34\u523a\u65e0\u7eba\u5e03\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/2c103478d7/250/250/dd0abc97041c7c98ac182852ee8cd57f.jpg",
+"mall_id": "734",
+"market_price": "8900"
+},
+{
+"event_type": "0",
+"goods_id": "18832",
+"goods_name": "799元 科沃斯魔盒Plus智能扫地机器人",
+"group": {
+"customer_num": "2",
+"price": "79900"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/5061b215b5/750/352/8324c80b6a2ed7cbc8428edd550d3e61.jpg",
+"is_app": "0",
+"list_desc": "[\"74mm\u7ea4\u8584\u673a\u8eab\",\"500pa\u771f\u7a7a\u5f3a\u52b2\u5438\",\"\u5b9a\u65f6\u9884\u7ea6\u81ea\u52a8\u56de\u5145\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/10/shcr6uu7nq0i7qr1.jpg",
+"mall_id": "120",
+"market_price": "89900"
+},
+{
+"event_type": "0",
+"goods_id": "3256",
+"goods_name": "22.9元2000W大功率吹风机 恒温静音设计 发廊专用 离子护发 3分钟塑形【大功率干得快】",
+"group": {
+"customer_num": "2",
+"price": "2290"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/06dae129a53a0abb49cc14a51a3c5502/df2346bd33effe5c944d21abbf6644c5.jpg",
+"is_app": "0",
+"list_desc": "[\"2000W\u5927\u529f\u7387\u7535\u673a\",\"\u4e09\u5206\u949f\u5feb\u901f\u5e72\u53d1\",\"57\u00b0C\u6052\u6e29\u62a4\u6cd5\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/fd6598aa29/310/310/d8c109692f3e54fe1ca4beb7e0f49b8e.jpg",
+"mall_id": "54",
+"market_price": "8800"
+},
+{
+"event_type": "0",
+"goods_id": "7552",
+"goods_name": "【历史最低】34.9元 一片式拉丝文胸女士无痕无钢圈聚拢调整型内衣少女小胸厚模杯四排扣",
+"group": {
+"customer_num": "2",
+"price": "3490"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/06dae129a53a0abb49cc14a51a3c5502/b6808f397b548e65a9bde6e131235866.jpg",
+"is_app": "0",
+"list_desc": "[\"\u65e0\u94a2\u5708 \u96f6\u675f\u7f1a\",\"\u805a\u62e2\u4e0a\u6258 \u8c03\u6574\u578b\",\"\u62c9\u4e1d\u9762\u6599 \u8f7b\u76c8\u900f\u6c14\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/06dae129a53a0abb49cc14a51a3c5502/d903c13937f1114ccf2bc45e6c23810c.jpg",
+"mall_id": "481",
+"market_price": "10200"
+},
+{
+"event_type": "0",
+"goods_id": "12825",
+"goods_name": "【意大利进口】58.5元 费列罗榛果威化巧克力 T30粒 进口零食礼物",
+"group": {
+"customer_num": "2",
+"price": "5850"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/5fdee5a68b/750/352/0efa043f1a4f26b3ebb14fe4bec08cec.jpg",
+"is_app": "0",
+"list_desc": "[\"\u610f\u5927\u5229\u8d39\u5217\u7f57\u5de7\u514b\u529b\",\"\u5e74\u8d27\u5fc5\u5907\u9996\u9009\",\"\u4e0d\u540c\u5305\u88c5\u968f\u673a\u53d1\u51fa\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/5fdee5a68b/310/310/7f2827db1f1eb00017ce3f013e93ad37.jpg",
+"mall_id": "745",
+"market_price": "11990"
+},
+{
+"event_type": "0",
+"goods_id": "13115",
+"goods_name": "【惊爆价限量抢购】199元苏泊尔炫彩无油烟不粘锅三件套 全国包邮",
+"group": {
+"customer_num": "2",
+"price": "19900"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/92100237d8/750/352/c21b44c917deaef92e4866759b87137e.jpg",
+"is_app": "0",
+"list_desc": "[\"\u65e0\u6cb9\u70df\u4e0d\u7c98\u9505\",\"\u8fdb\u53e3\u6d82\u5c42\u66f4\u8010\u78e8\",\"\u70ab\u5f69\u65f6\u5c1a\u70b9\u9753\u53a8\u623f\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/10/shcr6uu7nq0i7qr1.jpg",
+"mall_id": "120",
+"market_price": "87900"
+},
+{
+"event_type": "0",
+"goods_id": "15147",
+"goods_name": "【韩国进口】【预售18号全部发完】34元韩国bbia/bbi@口红丝绒唇膏口红lastlipstiok哑光硅胶口红【我就是韩剧女主】",
+"group": {
+"customer_num": "2",
+"price": "3400"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/b8db62ba91/750/352/ff68a2ad47da12319b4a1e2b89d5d28a.jpg",
+"is_app": "0",
+"list_desc": "[\"\u54d1\u5149\u78e8\u7802\u8d28\u5730\",\"\u4e0d\u4f1a\u7ed9\u4eba\u8d1f\u62c5\u611f\u7684\u7ea2\u8272\",\"\u8272\u9971\u548c\u5ea6\u975e\u5e38\u597d\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/c3f1046a61/310/310/f6688ac3f1784e6602d355c34cda48fb.jpg",
+"mall_id": "824",
+"market_price": "12900"
+},
+{
+"event_type": "0",
+"goods_id": "17188",
+"goods_name": "9.9元富平柿饼400克 香甜可口，一口就难以忘怀",
+"group": {
+"customer_num": "3",
+"price": "990"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/2ee7433b00/750/352/d3383f31aef4b45770ee0f4e49d792a3.jpg",
+"is_app": "0",
+"list_desc": "[\"\u65b0\u8d27\u5bcc\u5e73\u67ff\u997c\",\" \u9999\u751c\u7cef\",\"\u5988\u5988\u7684\u5473\u9053\u503c\u5f97\u56de\u5473\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/2ee7433b00/310/310/f980476c6a08abf99a1be4bcc22e5fed.jpg",
+"mall_id": "968",
+"market_price": "2190"
+},
+{
+"event_type": "0",
+"goods_id": "16783",
+"goods_name": "39.9元陆盛省力旋转拖把桶双驱动家用好神拖手压拖布桶自带3个拖把头【直降6元】",
+"group": {
+"customer_num": "2",
+"price": "3990"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/fd6598aa29/750/352/29a9de4aca125dfe978e5d1886128445.jpg",
+"is_app": "0",
+"list_desc": "[\"3\u4e2a\u62d6\u628a\u5934\u8d85\u503c\u4f4e\u4ef7\",\"\u4e0d\u4e70\u5c31\u6da8\u4ef7\u4e86\",\"\u7701\u65f6\u7701\u529b\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/fd6598aa29/310/310/27bb1ee32fb2707a2e06f53f80d461ac.jpg",
+"mall_id": "952",
+"market_price": "9900"
+},
+{
+"event_type": "0",
+"goods_id": "20080",
+"goods_name": "89元 【三合一】儿童滑板车 三轮闪光2-7岁小孩宝宝可坐踏板车玩具移(限量豪华礼包赠送)",
+"group": {
+"customer_num": "2",
+"price": "8900"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/2c103478d7/750/352/76dc4cb4b55b295ab6595a096515bdb5.jpg",
+"is_app": "0",
+"list_desc": "[\"\u4e09\u5408\u4e00\u968f\u610f\u7ec4\u5408\",\"\u5b9d\u5b9d\u8e0f\u9752\u6ed1\u677f\u8f66\",\"pu\u95ea\u5149\u8f6e\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/2c103478d7/310/310/080bf021edf2907a608b41acaa0f8a83.jpg",
+"mall_id": "853",
+"market_price": "28800"
+},
+{
+"event_type": "0",
+"goods_id": "5228",
+"goods_name": "16.8元3个装密封罐塑料透明大号2.5L粮食品厨房防潮 收纳瓶储物罐子奶粉盒密封罐",
+"group": {
+"customer_num": "2",
+"price": "1680"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/fd6598aa29e714574f8959cca79dd8aa/7e23eb49b41022584357f56b3fcb54d4.jpg",
+"is_app": "0",
+"list_desc": "[\"\u4e94\u8c37\u6742\u7cae \u5403\u8d27\u5fc5\u5907\",\"\u98df\u54c1\u7ea7PP\u6750\u8d28\u66f4\u5b89\u5168\",\"\u8d85\u5927\u5bb9\u91cf \u7ed3\u5b9e\u8010\u7528\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/fd6598aa29/310/310/5a1badf189d94c8e972cbd52d9e025ee.jpg",
+"mall_id": "24",
+"market_price": "5900"
+},
+{
+"event_type": "0",
+"goods_id": "15108",
+"goods_name": "7.9元 10条竹纤维不沾油多功能洗碗巾百洁布抹布",
+"group": {
+"customer_num": "3",
+"price": "790"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/3426b30a24/750/350/abfd4f1040b01e714e4a8d66d46f33b4.jpg",
+"is_app": "0",
+"list_desc": "[\"\u7af9\u7ea4\u7ef4\u6d17\u7897\u5e03\",\" \u4e0d\u6cbe\u6cb9\u591a\u529f\u80fd\",\"\u8d85\u503c\u805a\u5212\u7b97\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/3426b30a24/310/310/094ed6dd233f68a4b6b568b80ce3b1d9.jpg",
+"mall_id": "575",
+"market_price": "2100"
+},
+{
+"event_type": "0",
+"goods_id": "17988",
+"goods_name": "【韩国进口】175元兰芝新版雪润无瑕气垫粉凝霜气垫BB霜【15G*2送替换装】",
+"group": {
+"customer_num": "2",
+"price": "17500"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/9e2bf42020/750/352/47052e0ce62cd3e513b49f63140da263.jpg",
+"is_app": "0",
+"list_desc": "[\"\u7c89\u8d28\u7ec6\u817b\",\"\u4fdd\u6e7f\u6ecb\u6da6\",\"\u5b8c\u7f8e\u88f8\u5986\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/588cd8e171283a2be4e1ab02765232d5/aa2301d566ea92e039c76868235590cd.jpg",
+"mall_id": "286",
+"market_price": "29900"
+},
+{
+"event_type": "0",
+"goods_id": "15737",
+"goods_name": "【德国直供】189元brita碧然德Maxtra二代滤水壶净水器滤芯6+2只装 减少水垢安心饮水",
+"group": {
+"customer_num": "2",
+"price": "18900"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/809e6500c8/750/352/fe6490247a3e9796b923b8c19adcec57.jpg",
+"is_app": "0",
+"list_desc": "[\"\u5fb7\u56fd\u4e13\u4e1a\u6ee4\u6c34\u54c1\u724c  \",\"\u6709\u6548\u9664\u6c34\u57a2 \u5b89\u5fc3\u996e\u6c34\",\"\u7ed9\u5bb6\u4eba\u5065\u5eb7\u7684\u6c34\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/35ea4c679df10f40d266d3ac099b6982/31887b65121719cbb8a8f2131515644b.jpg",
+"mall_id": "410",
+"market_price": "51800"
+},
+{
+"event_type": "0",
+"goods_id": "20306",
+"goods_name": "189元 Joyoung/九阳 JYY-50YL1电压力锅5L升智能饭煲家用高压锅",
+"group": {
+"customer_num": "2",
+"price": "18900"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/5061b215b5/750/352/eb174694f4d213808dab3c2f14f3ba31.jpg",
+"is_app": "0",
+"list_desc": "[\"10\u5927\u529f\u80fd \u4e00\u952e\u76f4\u8fbe\",\"\u667a\u80fd\u9884\u7ea6 5L\u5927\u5bb9\u91cf\",\"\u53ef\u62c6\u5378 \u65b9\u4fbf\u6613\u6e05\u6d17\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/5061b215b5/310/310/d7af9f343bb4817a746b0af612cc7324.jpg",
+"mall_id": "830",
+"market_price": "21900"
+},
+{
+"event_type": "0",
+"goods_id": "11566",
+"goods_name": "39.9元   【每卷不到1元】维达无芯卷纸4提40包家用厕纸",
+"group": {
+"customer_num": "2",
+"price": "3990"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/5635bbe762/750/352/9465cac0aa583750f9d87172895d642e.jpg",
+"is_app": "0",
+"list_desc": "[\"Vinda\/\u7ef4\u8fbe\",\"\u539f\u6750\u6599\u6210\u5206: \u539f\u751f\u6d46\",\"112X100mm\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/588cd8e171/310/310/35a6ea467ff0a5322f3d2aa0918ab9c8.jpg",
+"mall_id": "736",
+"market_price": "6900"
+},
+{
+"event_type": "0",
+"goods_id": "20144",
+"goods_name": "24.5元电子称体重秤带温度计家用人体秤精准健康成人减肥体重计器",
+"group": {
+"customer_num": "2",
+"price": "2450"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/fd6598aa29/750/352/4e190024402059eb380993f3bd326281.jpg",
+"is_app": "0",
+"list_desc": "[\"\u7cbe\u51c6\u6d4b\u91cf \u5e26\u6e29\u5ea6\u8ba1\",\"12000\u6b21\u4e25\u683c\u6d4b\u8bd5\",\"\u9001\u7535\u6c60\uff0b\u76ae\u5c3a\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/fd6598aa29e714574f8959cca79dd8aa/969cb58d0e7f35c2a00460d48ae3f165.jpg",
+"mall_id": "446",
+"market_price": "5900"
+},
+{
+"event_type": "0",
+"goods_id": "20524",
+"goods_name": "75元包邮  宜家品质 雅特斯托 毛绒玩具大象玩偶公仔礼物[预售26号发完］",
+"group": {
+"customer_num": "2",
+"price": "7500"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/e1a3a07e15/750/352/64494e4244cb74a9d07c3fa37fa1fca6.jpg",
+"is_app": "0",
+"list_desc": "[\"\u5173\u9896\u5973\u513f\u540c\u6b3e\u5c0f\u8c61\u73a9\u5076\",\"\u5b9c\u5bb6\u54c1\u8d28\u5b9d\u5b9d\u6700\u7231\",\"\u53ef\u673a\u6d17\u53ef\u70d8\u5e72\u6613\u6536\u85cf\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/09/6adfa8c56d88ee61.jpg",
+"mall_id": "30",
+"market_price": "12900"
+},
+{
+"event_type": "0",
+"goods_id": "5788",
+"goods_name": "9.9元2个装创意可调节按扣式水龙头多用收纳挂篮 厨房水槽置物架海绵沥水架",
+"group": {
+"customer_num": "2",
+"price": "990"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/fd6598aa29e714574f8959cca79dd8aa/3193bdce72ab33193d2c497f6c934e29.jpg",
+"is_app": "0",
+"list_desc": "[\"2\u4e2a\u88c5\u4f18\u9009PVC\u6750\u8d28\",\"\u53a8\u623f\u6d74\u5ba4 \u90fd\u9002\u7528\",\"\u6309\u6263\u5f0f\u8bbe\u8ba1 \u62c6\u6d17\u65b9\u4fbf\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/fd6598aa29/310/310/5a1badf189d94c8e972cbd52d9e025ee.jpg",
+"mall_id": "24",
+"market_price": "3900"
+},
+{
+"event_type": "0",
+"goods_id": "16865",
+"goods_name": "【4A桂圆干龙眼干】19.9元好吃桂圆干500g*2包 香甜可口",
+"group": {
+"customer_num": "3",
+"price": "1990"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/2ee7433b00/750/352/978f591cf636bc960d9a0abf6d1f179e.jpg",
+"is_app": "0",
+"list_desc": "[\"\u65b0\u8d27\u6842\u5706\u5e72\",\"\u679c\u8089\u65b0\u9c9c \u6e7f\u6da6\u5ea6\u9002\u4e2d\",\"\u7172\u6c64\u6ce1\u8336\u5e72\u5403\u90fd\u53ef\u4ee5\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/2ee7433b00/310/310/f980476c6a08abf99a1be4bcc22e5fed.jpg",
+"mall_id": "968",
+"market_price": "3990"
+},
+{
+"event_type": "0",
+"goods_id": "19587",
+"goods_name": "79元 10000毫安苹果专用充电宝6/6S/6plus/6S plus无线充电宝 背夹电池",
+"group": {
+"customer_num": "2",
+"price": "7900"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/b2d946cdf33c7b4a89fc379706d4be244618214ff6.jpg",
+"is_app": "0",
+"list_desc": "[\"10000\u8d85\u5927\u6beb\u5b89\",\"\u4e24\u90e8\u624b\u673a\u540c\u65f6\u5145\u7535\",\"\u9690\u85cf\u5f0f\u652f\u67b6\u529f\u80fd\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/09/do9clcdios0o2svn.jpg",
+"mall_id": "47",
+"market_price": "15000"
+},
+{
+"event_type": "0",
+"goods_id": "14551",
+"goods_name": "19.9元 云南古法熬制玫瑰红糖260gx2盒 滋阴补血月经必备",
+"group": {
+"customer_num": "2",
+"price": "1990"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/b3da740182/750/352/1e3930f62a6e02b62f186c82195fe3df.jpg",
+"is_app": "0",
+"list_desc": "[\"\u5b89\u5b81\u516b\u8857\u73ab\u7470\u82b1\",\"\u4f18\u8d28\u7518\u8517\u539f\u6c41\u71ac\u5236\",\"\u201c\u6708\u201d\u559d\u8d8a\u8212\u670d\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/2ee7433b00/310/310/79f541dd2934c75bfa4c5ffc71299a05.jpg",
+"mall_id": "859",
+"market_price": "3990"
+},
+{
+"event_type": "0",
+"goods_id": "18026",
+"goods_name": "28.8元/套 14寸翻斗车遥控车翻滚特技车越野车遥控汽车充电动模型儿童玩具车男孩",
+"group": {
+"customer_num": "2",
+"price": "2880"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/6bdfe0af87/750/352/3c6b40bd4ccff917892e74dd258df5d6.jpg",
+"is_app": "0",
+"list_desc": "[\"360\u5ea6\u7075\u6d3b\u65cb\u8f6c\",\"\u9177\u70ab\u706f\u5149\u52a8\u611f\u97f3\u4e50\",\"\u4f18\u8d28\u6750\u8d28\u8010\u6454\u8010\u649e\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/2c103478d7/310/310/4f83623884e6bd098fc7df5f8fa56855.jpg",
+"mall_id": "776",
+"market_price": "7900"
+},
+{
+"event_type": "0",
+"goods_id": "15398",
+"goods_name": "【瑞典进口】36.5元瑞典ICA50%水果坚果燕麦片750g 即食免煮 纯天然无添加【欧美早餐大揭秘】",
+"group": {
+"customer_num": "2",
+"price": "3650"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/005b3fb3d6/750/352/e8958072de8e2474507df00cb1727157.jpg",
+"is_app": "0",
+"list_desc": "[\"\u745e\u5178\u8fdb\u53e3ICA\u71d5\u9ea6\u7247\",\"\u6765\u81ea\u5317\u6b27\u7eaf\u5929\u7136\u65e0\u6dfb\u52a0\",\"\u542b50%\u6c34\u679c\u575a\u679c\u71d5\u9ea6\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/005b3fb3d6/400/400/61113891ee401a5e9a8977d5cfb7583a.jpg",
+"mall_id": "637",
+"market_price": "5800"
+},
+{
+"event_type": "0",
+"goods_id": "11399",
+"goods_name": "【越南进口】19.8元越南芒果3斤（4-6个左右，1个3块多）青皮香玉芒 香甜爽口 果肉顺滑",
+"group": {
+"customer_num": "4",
+"price": "1980"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/280b2c9f2bd375f02a775e570915c02e/123fc0010f8656883262ec223465dc16.jpg",
+"is_app": "0",
+"list_desc": "[\"\u6838\u5fc3\u4ea7\u533a \u7cbe\u54c1\u79cd\u690d\",\"\u91d1\u9ec4\u679c\u8089 \u5473\u751c\u6d53\u90c1\",\"\u7518\u7f8e\u591a\u6c41 \u9999\u6c14\u8bf1\u4eba\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/280b2c9f2b/793/694/f564f04381247348eb4f0e9ca7b5a59c.jpg",
+"mall_id": "715",
+"market_price": "2900"
+},
+{
+"event_type": "0",
+"goods_id": "19940",
+"goods_name": "【法国进口】178元迪奥魅惑唇膏3.5橘色/粉色 双色可选【预售3月17日发完】",
+"group": {
+"customer_num": "2",
+"price": "17800"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/278d835147/750/352/a5decf1d00d30aa0ee5bf66cd911b582.jpg",
+"is_app": "0",
+"list_desc": "[\"\u6ecb\u517b\u67d4\u6ed1\",\"\u4e30\u6da6\u53cc\u5507\",\"\u7f8e\u80a4\u6021\u4eba\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/11/wulkkdt2xxwveaai.png",
+"mall_id": "202",
+"market_price": "26000"
+},
+{
+"event_type": "0",
+"goods_id": "9172",
+"goods_name": "【超低价】19.9元限量太空记忆枕 护颈保健枕头枕芯 慢回弹 缓解颈椎压力",
+"group": {
+"customer_num": "2",
+"price": "1990"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/fd6598aa29/750/352/3456001f0cf2c969135ead00b352389f.jpg",
+"is_app": "0",
+"list_desc": "[\"\u7f13\u89e3\u9888\u690e\u538b\u529b\",\"\u6162\u56de\u5f39\u8bb0\u5fc6\u6795\",\"\u6a61\u679c\u56fd\u9645\u51fa\u53e3\u54c1\u8d28\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/10/guwhefykhyh9ra41.jpg",
+"mall_id": "132",
+"market_price": "9900"
+},
+{
+"event_type": "0",
+"goods_id": "5357",
+"goods_name": "【法国进口】39元Dior迪奥真我香水Q版5ml  用过就不想换香【真我无畏】",
+"group": {
+"customer_num": "2",
+"price": "3900"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/9e2bf4202057e5506c175f2bd3767ebb/58842c24ab588754aa580ecda834a3fd.jpg",
+"is_app": "0",
+"list_desc": "[\"\u4e13\u67dc\u539f\u88c5\",\"\u5927\u724c\u4e4b\u9009\",\"\u9ad8\u96c5\u9999\u5473\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/11/t6bza2llrf0eumbb.jpg",
+"mall_id": "200",
+"market_price": "18800"
+},
+{
+"event_type": "0",
+"goods_id": "20424",
+"goods_name": "【法国进口】75.8元 Avene 雅漾舒护活泉水保湿补水喷雾300ML",
+"group": {
+"customer_num": "2",
+"price": "7580"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/b03704ec55/750/352/d28d2d49ed3e5be72fb37e2a71ee7bfb.jpg",
+"is_app": "0",
+"list_desc": "[\"\u808c\u80a4\u7684\u5929\u7136\u4fdd\u62a4\u5c4f\u969c \",\"\u957f\u6548\u8865\u6c34\u65f6\u523b\u6c34\u6da6\",\"\u8212\u7f13\u9547\u9759\u8fc7\u654f\u808c\u80a4\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/588cd8e171283a2be4e1ab02765232d5/aa2301d566ea92e039c76868235590cd.jpg",
+"mall_id": "286",
+"market_price": "15200"
+},
+{
+"event_type": "0",
+"goods_id": "14606",
+"goods_name": "22.9元云南高原水果玉米5斤（约6-8个） 不打农药 像水果一样甜",
+"group": {
+"customer_num": "2",
+"price": "2290"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/280b2c9f2b/750/352/41b12eac7c746b758849e8b2da2e1be1.jpg",
+"is_app": "0",
+"list_desc": "[\"\u9ad8\u539f\u79cd\u690d \u679c\u8089\u8106\u751c\",\"\u4e00\u53e3\u7206\u6d46 \u6ee1\u53e3\u6e05\u9999\",\"\u5e26\u76ae\u4fdd\u9c9c \u54c1\u8d28\u653e\u5fc3\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/280b2c9f2b/310/310/d5cee524cb09781e91adac97d2cee742.jpg",
+"mall_id": "791",
+"market_price": "2900"
+},
+{
+"event_type": "0",
+"goods_id": "17224",
+"goods_name": "【日本进口】870元/盒 Pola美白丸White Shot3个月量180粒 美白淡斑抗氧化",
+"group": {
+"customer_num": "2",
+"price": "87000"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/809e6500c8/750/352/e0c71a63276cb43497ea0a476a4d4da5.jpg",
+"is_app": "0",
+"list_desc": "[\"\u7f8e\u767d\u6de1\u6591\",\"\u6539\u5584\u80a4\u8272\",\"\u7eaf\u690d\u7269\u63d0\u53d6\u5065\u5eb7\u6709\u6548\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/dd5a6e9548/310/310/78b544a893eef235af39f6aa3965d67c.jpg",
+"mall_id": "658",
+"market_price": "188000"
+},
+{
+"event_type": "0",
+"goods_id": "19866",
+"goods_name": "26元 2016年春夏新款 女士多功能运动文胸 无钢圈健康瑜伽睡眠文胸2138",
+"group": {
+"customer_num": "2",
+"price": "2600"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/7c68e721b1/750/352/d8ef3db71e481aa0384859d8e66232ad.jpg",
+"is_app": "0",
+"list_desc": "[\"\u80cc\u5fc3\u5f0f\u591a\u529f\u80fd\u8fd0\u52a8\u6587\u80f8\",\"\u745c\u4f3d\u8dd1\u6b65\u7f51\u7403\u90fd\u53ef\u7a7f\u7740\",\"\u4e13\u4e1a\u7ea7\u5475\u62a4\u7cd6\u679c\u8272\u7cfb\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/828a47a7ef/310/310/3fbb62c31629ff269a1fac6af60b5f2f.jpg",
+"mall_id": "683",
+"market_price": "16800"
+},
+{
+"event_type": "0",
+"goods_id": "19143",
+"goods_name": "25.9元 【俞兆林全网最低价】2条装纳米银抗菌消毒女士清清裤 ",
+"group": {
+"customer_num": "2",
+"price": "2590"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/57666139591020806cc8d5798d01b92b6cc43e5b4c.jpg",
+"is_app": "0",
+"list_desc": "[\"\u8d34\u8eab\u65e0\u675f\u7f1a\u4e00\u7247\u5f0f\u65e0\u75d5\",\"\u8f7b\u76c8\u900f\u6c14\u8212\u9002\u89e6\u611f\u5347\u7ea7\",\"\u94f6\u79bb\u5b50\u6740\u83cc\u7ea2\u5916\u7ebf\u7406\u7597\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/5766613959/310/310/fe1d5f18e29c7fa443780f4127359594.jpg",
+"mall_id": "993",
+"market_price": "16900"
+},
+{
+"event_type": "0",
+"goods_id": "18711",
+"goods_name": "【韩国进口】19.9元/20包 海牌海苔原味休闲零食 2g*20包 香脆鲜 绝无食品添加剂",
+"group": {
+"customer_num": "2",
+"price": "1990"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/809e6500c8/750/352/f7b8218591c2fdf259332ba5233456fa.jpg",
+"is_app": "0",
+"list_desc": "[\"\u6d77\u724c\u6d77\u82d420g\/\u5305 \",\"\u97e9\u56fd\u8fdb\u53e3 \u601d\u5bc6\u8fbe\",\"\u9165\u8106\u53ef\u53e3 \u5165\u53e3\u56de\u5473 \"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/005b3fb3d6/310/310/5b35df9e5c6e273feebcc1725a73bcce.jpg",
+"mall_id": "842",
+"market_price": "4290"
+},
+{
+"event_type": "0",
+"goods_id": "17928",
+"goods_name": "18元/20双 隐形丝袜船袜 袜套女防脱落浅口袜 高跟鞋的福音【每双1元都不到】",
+"group": {
+"customer_num": "2",
+"price": "1800"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/fd6598aa29f2c2abd2dcbeca1d59aa3549cd4a73e5.jpg",
+"is_app": "0",
+"list_desc": "[\"\u5f39\u529b\u8d85\u597d \u67d4\u8f6f\u8212\u9002\",\"\u9732\u51fa\u811a\u8e1d \u900f\u6c14\u6027\u597d\",\"\u4f18\u8d28\u5305\u82af\u4e1d \u4e0d\u6613\u53d8\u5f62\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/10/zqyzeuordzft4xmn.jpg",
+"mall_id": "81",
+"market_price": "3900"
+},
+{
+"event_type": "0",
+"goods_id": "10496",
+"goods_name": "24.9元名迪 正宗法式马卡龙12枚礼盒装 两种包装随机发 办公室零食下午茶甜点",
+"group": {
+"customer_num": "2",
+"price": "2490"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/780b5d69c2/750/352/8cacfe264431e06ddcee0133728af9f0.jpg",
+"is_app": "0",
+"list_desc": "[\"\u5bd3\u610f\u751c\u8a00\u871c\u8bed\",\"\u751c\u54c1\u4e2d\u7684\u7687\u540e\",\"\u4e00\u76d212\u7c92\u88c5\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/d06f144f1d7e273e20f09350fbb614bf/93a897b123e932b083e703455e8f876e.jpg",
+"mall_id": "314",
+"market_price": "18900"
+},
+{
+"event_type": "0",
+"goods_id": "9453",
+"goods_name": "9.9元16只竹炭牙刷 纳米护齿软毛牙刷 黑黄两色随机发【折算每只0.6！】",
+"group": {
+"customer_num": "3",
+"price": "990"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/fd6598aa29/750/352/cf92b3e86a9d898bd8340d32648f1940.jpg",
+"is_app": "0",
+"list_desc": "[\"\u7af9\u70ad\u7eb3\u7c73\u7259\u5237\",\"\u8d85\u7ec6\u8f6f\u6bdb\",\"\u67d4\u8f6f\u62a4\u9f7f\u4fdd\u5065\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/fd6598aa29/310/310/de7ada53aec453574871ff42cb63a750.jpg",
+"mall_id": "258",
+"market_price": "9900"
+},
+{
+"event_type": "0",
+"goods_id": "18766",
+"goods_name": "【日本进口】54元/支 Deonatulle腋下干爽男女止汗剂去汗味消臭石20g 大胆举手say hello-连续四年cosme冠军",
+"group": {
+"customer_num": "2",
+"price": "5400"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/809e6500c8/750/352/29da04c45b2ed304cd1029333448e63b.jpg",
+"is_app": "0",
+"list_desc": "[\"\u6740\u83cc\u6e05\u6d01\",\"\u7d27\u81f4\u6bdb\u7a74\",\"\u65b9\u4fbf\u6301\u4e45\u6e05\u723d\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/dd5a6e9548/310/310/78b544a893eef235af39f6aa3965d67c.jpg",
+"mall_id": "658",
+"market_price": "11900"
+},
+{
+"event_type": "0",
+"goods_id": "13832",
+"goods_name": "27.9元【直降2元】春夏季新款韩款运动套装瑜伽服透气舒适女神新衣",
+"group": {
+"customer_num": "2",
+"price": "2790"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/d7c6a8a2f1/750/350/d80994539eab263816588999694417c8.jpg",
+"is_app": "0",
+"list_desc": "[\"\u7eaf\u68c9\u4e0d\u8d77\u7403\",\"\u8fd0\u52a8\u745c\u4f3d\u670d\",\"\u900f\u6c14\u5438\u6c57\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/d06f144f1d/310/310/bf8c9e53e0a91ae6726cee19f4ffb764.jpg",
+"mall_id": "624",
+"market_price": "9900"
+},
+{
+"event_type": "0",
+"goods_id": "9165",
+"goods_name": "8.8元 20粒蓝泡泡马桶洁厕灵厕所清洁剂",
+"group": {
+"customer_num": "2",
+"price": "880"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/fd6598aa29/750/352/584851f9c92b1fb298fdd397b13490e0.jpg",
+"is_app": "0",
+"list_desc": "[\"\u6d88\u706d\u536b\u751f\u95f4\u5f02\u5473\",\"\u6e05\u6d01\u7a7a\u6c14\",\"\u8d85\u5f3a\u706d\u83cc\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/10/guwhefykhyh9ra41.jpg",
+"mall_id": "132",
+"market_price": "2900"
+},
+{
+"event_type": "0",
+"goods_id": "17697",
+"goods_name": "【德国进口】33.9元/2支 汉高Theramed可站立式牙膏100ml*2支 4款随机发【全球排名前三的牙膏】",
+"group": {
+"customer_num": "2",
+"price": "3390"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/809e6500c8/750/352/d3c1948648016c095d55624f4e3a04fc.jpg",
+"is_app": "0",
+"list_desc": "[\"\u6709\u6548\u53bb\u9664\u7259\u9f7f\u6c61\u6e0d\",\"\u9884\u9632\u7259\u9f88\u51fa\u8840\",\"\u6de1\u96c5\u7684\u8584\u8377\u9999\u6c14\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/dd5a6e9548/310/310/56a6e7e57e50ce261332b739becdbd42.jpg",
+"mall_id": "654",
+"market_price": "7390"
+},
+{
+"event_type": "0",
+"goods_id": "7850",
+"goods_name": "99元贝尔莱德SALAV家用除螨仪 紫外灯迷你床上超声波吸尘器 【旗舰正品特价】",
+"group": {
+"customer_num": "2",
+"price": "9900"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/328d0b658fa4f419967090021af12f24/bee78c679484511dfc9598cef4ec1662.jpg",
+"is_app": "0",
+"list_desc": "[\"\u4e09\u5c42\u8fc7\u6ee4\u7cfb\u7edf\",\"\u65e0\u6b7b\u89d2\u9ad8\u9891\u7387\u5927\u9762\u79ef\",\"\u65e0\u4e8c\u6b21\u6c61\u67d3\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/328d0b658fa4f419967090021af12f24/e35feca8aed98f238a19e4bf93cfb8c5.jpg",
+"mall_id": "435",
+"market_price": "59900"
+},
+{
+"event_type": "0",
+"goods_id": "11760",
+"goods_name": "13.9元四川安岳新鲜黄柠檬5斤（大果！18-25个）切片泡水 酸甜可口",
+"group": {
+"customer_num": "2",
+"price": "1390"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/780b5d69c2/750/352/0f4e2768a8a8e0525fb9767af5fb06c0.jpg",
+"is_app": "0",
+"list_desc": "[\"\u5b89\u5cb3\u65b0\u9c9c\u9ec4\u67e0\u6aac 5\u65a4\",\"\u65b0\u9c9c\u91c7\u6458 \u4e0d\u6253\u8721\",\"\u539f\u4ea7\u5730\u53d1\u8d27 \u9178\u723d\u53ef\u53e3\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/828a47a7ef/310/310/ce0379028889e15b1c58b38e85f60f79.jpg",
+"mall_id": "586",
+"market_price": "2390"
+},
+{
+"event_type": "0",
+"goods_id": "13790",
+"goods_name": "【全网最低】23.9元金纺衣物护理剂3升(60包*50ML) 【衣服柔软到想哭】",
+"group": {
+"customer_num": "2",
+"price": "2390"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/278d835147/640/400/348c6e5b6850fd9963001a4ba6cf54b7.jpg",
+"is_app": "0",
+"list_desc": "[\"\u5168\u56fd\u5305\u90ae\",\"\u8863\u7269\u66f4\u52a0\u4e1d\u6ed1\u67d4\u987a\",\"60\u8fde\u5305\u6bcf\u530550ml\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/base/logo.jpg",
+"mall_id": "1",
+"market_price": "6050"
+},
+{
+"event_type": "0",
+"goods_id": "19058",
+"goods_name": "95元苏娜国际100%全棉活性亲肤四件套",
+"group": {
+"customer_num": "2",
+"price": "9500"
+},
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/e1a3a07e15/750/352/b5a69f9b5a5bf92cdfc3213ac65c3dfd.jpg",
+"is_app": "0",
+"list_desc": "[\"100%\u5168\u68c9\",\"\u4e0d\u8d77\u7403\u4e0d\u892a\u8272\u4e0d\u7f29\u6c34\",\"\u4eb2\u80a4\u900f\u6c14\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/09/9245725afb0792e8.jpg",
+"mall_id": "33",
+"market_price": "56900"
+}
+],
+"home_recommend_subjects": [
+{
+"desc": "开运桃花妆 6.8元起",
+"goods_list": [
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "8160",
+"goods_name": "【韩国进口】38.5元莱斯比水晶防晒喷雾150ML",
+"hd_thumb_url": "",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/9e2bf4202057e5506c175f2bd3767ebb/40d1fb2717a0f0878015a4180e2fb60e.jpg",
+"is_app": "0",
+"list_desc": "[\"\u6c34\u6676\u9632\u6652\",\"\u8f7b\u8584\u9694\u79bb\",\"\u5929\u7136\u6210\u5206\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/11/t6bza2llrf0eumbb.jpg",
+"mall_id": "200",
+"market_price": "17500",
+"price": "3850",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/9e2bf4202057e5506c175f2bd3767ebb/037366d37dc3c6f000d8129e8f4f31df.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "21848",
+"goods_name": "【韩国进口】25.5元吕 洗发水护发素 黄色洗发200ML /红色洗发200ML/红色护发素200ML3款可选",
+"hd_thumb_url": "",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/3426b30a24952fdf6681dcdef6bd22ed/1fe6ec25e85debf6ed29540ed67f1775.jpg",
+"is_app": "0",
+"list_desc": "[\"\u6539\u5584\u5934\u90e8\u8840\u6db2\u5faa\u73af\",\"\u5c45\u6d17\u53d1\u4e73\u9500\u91cf\u699c\u7b2c\u4e00\",\"\u5934\u53d1\u56de\u5f52\u5065\u5eb7\u7684\u5e73\u8861\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/9e2bf42020/310/310/ac7500d5b17faa49a620c37666e4cf1c.jpg",
+"mall_id": "533",
+"market_price": "11800",
+"price": "2550",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/9e2bf42020/200/200/376a760bd6146c3730975461fff623f3.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "18137",
+"goods_name": "【美国进口】85元Borghese 贝佳斯矿物营养美肤泥浆面膜 绿泥 212g ",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/f846c4bdf44a2fd057df2fddf01ae2b9a385dc4c57.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/b8db62ba91/750/352/895d5a64a5c1126ac365791ce4379112.jpg",
+"is_app": "0",
+"list_desc": "[\"\u8d1d\u4f73\u65af\u6ce5\u6d46\u9762\u819c 21\",\"\u6df1\u5c42\u6e05\u6d01 \u8d85\u51e1\u4fdd\u6e7f\",\"\u5f39\u6027\u5149\u6cfd \u7ec6\u6ed1\u7d27\u81f4\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/10/lrvd117upndbdfab.jpg",
+"mall_id": "67",
+"market_price": "19800",
+"price": "8500",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/f846c4bdf4f417e60550e9f51884d0241224814b16.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "21546",
+"goods_name": "【韩国进口】91.9元2瓶装 爱茉莉红吕洗发水400mlx2",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/f846c4bdf4/400/400/308ea46fec054ae1b9753434f9c72e7c.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/f846c4bdf4/750/352/0818612e819e942a98746399576b5d86.jpg",
+"is_app": "0",
+"list_desc": "[\"\u6e05\u723d+\u987a\u6ed1\",\"\u4fee\u590d+\u5f3a\u97e7\",\"\u5149\u6cfd+\u62a4\u7406\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/9e2bf42020/310/310/83502a66f58b34a3679d951a80aa50a7.jpg",
+"mall_id": "998",
+"market_price": "15800",
+"price": "9190",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/f846c4bdf4/200/200/6c01ba04f940534ea893de757d807222.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "17988",
+"goods_name": "【韩国进口】175元兰芝新版雪润无瑕气垫粉凝霜气垫BB霜【15G*2送替换装】",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/9e2bf42020/400/400/1fcbbec9fbb3b728223759f06ae444f4.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/9e2bf42020/750/352/47052e0ce62cd3e513b49f63140da263.jpg",
+"is_app": "0",
+"list_desc": "[\"\u7c89\u8d28\u7ec6\u817b\",\"\u4fdd\u6e7f\u6ecb\u6da6\",\"\u5b8c\u7f8e\u88f8\u5986\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/588cd8e171283a2be4e1ab02765232d5/aa2301d566ea92e039c76868235590cd.jpg",
+"mall_id": "286",
+"market_price": "29900",
+"price": "17500",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/9e2bf42020/200/200/28434cefa11be78d37119db245585769.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "21737",
+"goods_name": "【美国进口】210元雅诗兰黛 鲜养焕亮系列/红石榴鲜活营养7件套装",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/f846c4bdf4/400/400/39fe454cab702af4f25a6028efd0b15f.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/f846c4bdf4/750/352/2ca36df868df1181d13191c35e2250fb.jpg",
+"is_app": "0",
+"list_desc": "[\"\u7ea2\u77f3\u69b4\u6297\u6c27\u5316\u529f\u6548\",\"\u6e29\u548c\u6ecb\u6da6\u4fdd\u6301\u808c\u80a4\u5e74\u8f7b\",\"\u7cbe\u7f8e\u5316\u5986\u5305\u7ec4\u5408\u9001\u4eba\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/28d34f2e053dee2c0e9399a7924cd978/fcc9cbc147c8b91147ae9ee93361edbf.jpg",
+"mall_id": "240",
+"market_price": "26900",
+"price": "21000",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/f846c4bdf4/200/200/438fbbb345ebfc1af05837ea7166f307.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "20424",
+"goods_name": "【法国进口】75.8元 Avene 雅漾舒护活泉水保湿补水喷雾300ML",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/b03704ec55/400/400/6f7d0c83d80c095d755ea3303342bccd.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/b03704ec55/750/352/d28d2d49ed3e5be72fb37e2a71ee7bfb.jpg",
+"is_app": "0",
+"list_desc": "[\"\u808c\u80a4\u7684\u5929\u7136\u4fdd\u62a4\u5c4f\u969c \",\"\u957f\u6548\u8865\u6c34\u65f6\u523b\u6c34\u6da6\",\"\u8212\u7f13\u9547\u9759\u8fc7\u654f\u808c\u80a4\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/588cd8e171283a2be4e1ab02765232d5/aa2301d566ea92e039c76868235590cd.jpg",
+"mall_id": "286",
+"market_price": "15200",
+"price": "7580",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/b03704ec55/200/200/32f829f48f508e9489c541b3559e734e.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "15147",
+"goods_name": "【韩国进口】【预售18号全部发完】34元韩国bbia/bbi@口红丝绒唇膏口红lastlipstiok哑光硅胶口红【我就是韩剧女主】",
+"hd_thumb_url": "",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/b8db62ba91/750/352/ff68a2ad47da12319b4a1e2b89d5d28a.jpg",
+"is_app": "0",
+"list_desc": "[\"\u54d1\u5149\u78e8\u7802\u8d28\u5730\",\"\u4e0d\u4f1a\u7ed9\u4eba\u8d1f\u62c5\u611f\u7684\u7ea2\u8272\",\"\u8272\u9971\u548c\u5ea6\u975e\u5e38\u597d\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/c3f1046a61/310/310/f6688ac3f1784e6602d355c34cda48fb.jpg",
+"mall_id": "824",
+"market_price": "12900",
+"price": "3400",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/b8db62ba91/200/200/9b5a4da9f7e0d6e85c39a311a487bc49.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "19600",
+"goods_name": "29元即漾透明质酸润养肌底液玻尿酸精华液2ML*7支",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/9e2bf4202075cf7b7a7c151488686ee879865a5412.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/9e2bf420203d828e41c81a8a8209a7bbd538bfa393.jpg",
+"is_app": "0",
+"list_desc": "[\"\u4fdd\u6e7f\u8865\u6c34\",\"\u8212\u7f13\u6da6\u517b\",\"\u5bfc\u5165\u4fee\u62a4\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/9e2bf42020/310/310/cc12fd6113b5a43e612e5d4ee18f8d85.jpg",
+"mall_id": "897",
+"market_price": "15800",
+"price": "2900",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/9e2bf42020351bc498b0e5bda6cbecc6d547edba89.jpg"
+}
+],
+"home_banner": "http://omsproduction.b0.upaiyun.com/goods/371412c07a/640/350/bc988446a0ee44b537fce42d9520f669.jpg",
+"position": "4",
+"subject": "开运桃花妆 6.8元起",
+"subject_id": "155",
+"type": "home_recommend"
+},
+{
+"desc": "新货驾到，总有你喜欢",
+"goods_list": [
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "21329",
+"goods_name": "【英国进口】38元  Sudocrem屁屁霜屁屁乐深层清洁面膜 125G 去黑头粉刺护臀",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/99be854a78/400/400/475643ba9108d202e833cb83f952b065.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/99be854a78/750/352/c26c4d8360ec4f65a1edc6ca4c97332c.jpg",
+"is_app": "0",
+"list_desc": "[\"\u82f1\u56fd70\u5e74\u91d1\u724c\u4ea7\u54c1\",\"\u6e29\u548c\u7ec6\u817b\",\"1\u5468\u53bb\u9664\u987d\u56fa\u75d8\u75d8\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/5fdee5a68b5fbd618121bdc278b7f21e/ab3fc3fc141689534b749cee6e2bb171.jpg",
+"mall_id": "303",
+"market_price": "6600",
+"price": "3800",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/99be854a78/200/200/91fda6cc231b913b7dd937e4bb54bbfe.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "6493",
+"goods_name": "28.8元 Toms gilim蜂蜜黄油杏仁 35g*5包 风靡韩国各地 经常卖断货 颗颗饱满 嚼出香甜美味",
+"hd_thumb_url": "",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/798213f06ab255df9fdbcfd6cccbb0ab/829ceb3cfaa25f2211a47d908e264556.jpg",
+"is_app": "0",
+"list_desc": "[\"5\u8fde\u5305\u8702\u871c\u9ec4\u6cb9\u674f\u4ec1\",\"\u7f8e\u56fd\u674f\u4ec1 \u6fb3\u6d32\u9ec4\u6cb9\",\"\u9897\u9897\u9971\u6ee1 \u9187\u9999\u81f3\u5fc3\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/f25677a59a7ba8e1afac3facb598047d/89ad729d9b92ee9a58e18a5e7feabdb0.jpg",
+"mall_id": "398",
+"market_price": "5500",
+"price": "2880",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/f25677a59a7ba8e1afac3facb598047d/fe810fa9c07a0509d3237103121e562a.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "20500",
+"goods_name": "【韩国进口】54.9元 Stylenanda 3CE马克笔唇彩笔 口红咬唇笔4.8g 超便捷的韩式咬唇裸妆 韩式小清新全新体验",
+"hd_thumb_url": "",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/dd5a6e9548/750/352/8a0880f9090aa6b21c167edf330d614e.jpg",
+"is_app": "0",
+"list_desc": "[\"\u9a6c\u514b\u7b14\u8bbe\u8ba1\u8f7b\u677e\u4e0a\u624b\",\"\u6253\u9020\u97e9\u5f0f\u6e05\u65b0\u54ac\u5507\u5986\",\"\u6301\u4e45 \u4e0d\u7c98\u817b\u4e0d\u6cbe\u676f\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/dd5a6e9548/310/310/971e43d4c6f2b156a2eb672c2b64d849.jpg",
+"mall_id": "737",
+"market_price": "10900",
+"price": "5490",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/dd5a6e9548/200/200/4f982b4fcd81f7074f63415b81f786f6.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "5652",
+"goods_name": "【日本进口】139元 veggiedell酵素原液减肥瘦身排毒养颜浓缩软胶囊93粒\包",
+"hd_thumb_url": "",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/5fdee5a68b5fbd618121bdc278b7f21e/7e00ce88b0efa94521d5bab0babe152e.jpg",
+"is_app": "0",
+"list_desc": "[\"\u65e0\u6c34\u9ed1\u7cd6\u53d1\u9175\",\"\u6392\u6bd2\u7626\u8eab\",\"\u6539\u5584\u80a4\u8d28\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/dd5a6e9548d3ba96b4b440cb9ef11a60/20d7a2fa761559ef9b9f16de9f2fb2e1.jpg",
+"mall_id": "109",
+"market_price": "28900",
+"price": "13900",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/5fdee5a68b5fbd618121bdc278b7f21e/fa641d80d7dc2829e9737a013d618dff.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "20488",
+"goods_name": "【韩国进口】44.5元 爱茉莉美妆仙泡沫染发剂 多色任选 纯植物染发【“好色”当道】",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/005b3fb3d6/400/400/51194e2baec758124791956b82488016.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/005b3fb3d6/750/352/9f9d9e06cc861958a489657fec290df0.jpg",
+"is_app": "0",
+"list_desc": "[\"\u5f69\u8272\u67d3\u53d1\u5242  \",\"  30\u5206\u949f\u53d8\u5973\u795e \",\"\u5341\u5206\u5986\u5bb9\u53d1\u5360\u4e03\u5206  \"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/f25677a59a7ba8e1afac3facb598047d/89ad729d9b92ee9a58e18a5e7feabdb0.jpg",
+"mall_id": "398",
+"market_price": "7800",
+"price": "4450",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/005b3fb3d6/200/200/2c244023deff2adf5b6a37caf9eba67b.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "5837",
+"goods_name": "【韩国进口】67元 ahc第三代眼霜保湿提拉紧致去眼袋细纹黑眼圈30ml/盒 预售3月22日发货",
+"hd_thumb_url": "",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/dd5a6e9548d3ba96b4b440cb9ef11a60/8190b8a21b1388f6fd85211f983d72b8.jpg",
+"is_app": "0",
+"list_desc": "[\"\u51fb\u9000\u808c\u80a4\u8001\u5316\",\"\u6539\u5584\u773c\u90e8\u5e72\u71e5\u7eb9\u8def\",\"\u6d88\u9664\u773c\u888b\u6d6e\u80bf\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/11/t6bza2llrf0eumbb.jpg",
+"mall_id": "200",
+"market_price": "23900",
+"price": "6700",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/3426b30a24952fdf6681dcdef6bd22ed/49fee1c29780788e06347681b522d58b.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "9347",
+"goods_name": "【日本进口】76.9元日本代购生酵素 222种天然植物水果谷物酵素 30日/60粒水果酵素",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/5fdee5a68b/400/400/1cc5810081643695dfe918d31e1a5a13.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/5fdee5a68b/750/352/1d4fcdfd10fa40cea9122c88a03538c3.jpg",
+"is_app": "0",
+"list_desc": "[\"\u5929\u7136\u8c37\u7269 \u6c34\u679c\u9175\u7d20 \",\"\u8c03\u7406\u80a0\u80c3 \u7f8e\u5bb9\u7626\u8eab \",\"\u65e5\u672c\u8001\u724c\u4e50\u5929\u9500\u91cf\u7b2c\u4e00\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/5fdee5a68b5fbd618121bdc278b7f21e/a9ead8bf4b8663a1284c2e8560f3d55c.jpg",
+"mall_id": "400",
+"market_price": "14900",
+"price": "7690",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/5fdee5a68b/200/200/6d51ff49f3849f80174f4a7b61f0fa4b.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "5415",
+"goods_name": "【韩国进口】 244.8元 It's skin 伊思1号/2号水乳 水140ml/瓶+乳140ml/瓶 ",
+"hd_thumb_url": "",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/5fdee5a68b/750/352/ccb9519654e150e938f6ea8fe575bc04.jpg",
+"is_app": "0",
+"list_desc": "[\"\u97e9\u56fd\u8fdb\u53e3\",\"\u5168\u9762\u6539\u5584\u76ae\u80a4\u80a4\u8d28\",\"\u63d0\u62c9\u7d27\u81f4\u808c\u80a4\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/5fdee5a68b5fbd618121bdc278b7f21e/950bdae4edb1e2587bbaf615200ca66d.jpg",
+"mall_id": "327",
+"market_price": "46500",
+"price": "24480",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/5fdee5a68b5fbd618121bdc278b7f21e/95cff3e01d1b23e8ac6897ce1af99c77.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "15942",
+"goods_name": "【韩国进口】28.8 韩国大肚贴mymi大肚贴减肥贴5片装 大肚贴瘦身贴",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/5fdee5a68b/400/400/a11638614ffe44558be230b2b653d4ae.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/5fdee5a68b/750/352/4b99f02a0a6f9f927bcf51d93bf145e0.jpg",
+"is_app": "0",
+"list_desc": "[\"\u590f\u5b63\u51cf\u8863\u5fc5\u5907\u54c1\",\"\u4e0a\u73ed\u5de5\u4f5c\u968f\u65f6\u8d34\",\"\u8f7b\u677e\u6253\u9020\u5c0f\u86ee\u8170\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/3426b30a24/310/310/6dba2e5338ddd65a6b96659f670e92e2.jpg",
+"mall_id": "312",
+"market_price": "5990",
+"price": "2880",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/5fdee5a68b/200/200/b5d4fcef07b5aae1817cbf4f649b65fc.jpg"
+}
+],
+"home_banner": "http://omsproduction.b0.upaiyun.com/goods/371412c07a/640/350/f33e05fddc440b2c03d08e2972925b6e.jpg",
+"position": "8",
+"subject": "新货驾到，总有你喜欢",
+"subject_id": "149",
+"type": "home_recommend"
+},
+{
+"desc": "爆款新品
+轻松应对春日装扮",
+"goods_list": [
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "20783",
+"goods_name": "23.8元T恤女夏卡通印花短袖体恤宽松显瘦半袖上衣服韩版学生闺蜜姐妹装",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/10fd55b4e9/400/400/2359553e462231a6c19154c3edbf8bae.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/10fd55b4e9/750/352/255cdf440dfed795c1a6e1849970765a.jpg",
+"is_app": "0",
+"list_desc": "[\"\u5361\u901a\u5370\u82b1\u77ed\u8896\u4f53\u6064\",\"\u591a\u79cd\u6b3e\u5f0f\u53ef\u9009\",\"\u4f11\u95f2\u7eaf\u68c9\u8212\u9002\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/5766613959/310/310/82086008cc5d3de0f9dbcfd4119a9eda.jpg",
+"mall_id": "549",
+"market_price": "7800",
+"price": "2380",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/10fd55b4e9/200/200/e40ec7ba106d32b28b992bb64a989b8f.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "20677",
+"goods_name": "58元 春季新款印花大码棉麻衬衣时尚修身中长款衬衫",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/10fd55b4e9/400/400/054414303cc5d3aa3fb442bdba45b4f2.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/10fd55b4e9/750/352/4789638112c18d3bb60c5e6673df2343.jpg",
+"is_app": "0",
+"list_desc": "[\"\u9ad8\u6863\u4f18\u8d28\u68c9\u9ebb\u9762\u6599\",\"\u5bbd\u677e\u8212\u9002 \u80d6\u7626\u80fd\u7a7f\",\"\u4e0d\u8d77\u7403\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/d7c6a8a2f1/310/310/1f75fa046c2ee2b69ee76a6e5454dd24.jpg",
+"mall_id": "946",
+"market_price": "12800",
+"price": "5800",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/10fd55b4e9/200/200/d67bce29369bc1f85c40cc85f8effefb.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "21250",
+"goods_name": "16.9元 弹力仿牛仔打底裤 九分薄款小脚裤",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/7c68e721b1/400/400/dc19cb98415aeba985d23624ebf04255.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/7c68e721b1/750/352/5f71b1181f94b49e251bd16e1689145e.jpg",
+"is_app": "0",
+"list_desc": "[\"\u4eff\u725b\u4ed4\u4e5d\u5206\u6253\u5e95\u88e4\",\"\u6570\u91cf\u6709\u9650\uff0c\u62a2\u5b8c\u5373\u6b62\uff01\",\"\u5168\u5e74\u6700\u4f4e\uff0c\u4ec5\u6b64\u4e00\u6b21\uff01\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/d7c6a8a2f1/310/310/b551c05fe7e6b833c773202a265648ee.jpg",
+"mall_id": "665",
+"market_price": "9900",
+"price": "1690",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/7c68e721b1/200/200/b7255d3b7f0ac865315975d7f7585f84.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "21905",
+"goods_name": "39.9元【太阳的后裔】姜暮烟宋慧乔同款鞋内增高帆布鞋",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/5766613959/400/400/f54f89ad7c0f5fac056e17768892f853.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/5766613959/750/352/c73812b6d4a084adb64da3f2db5bea62.jpg",
+"is_app": "0",
+"list_desc": "[\"\u65f6\u5c1a\uff0c\u767e\u642d\",\"\u8212\u9002\u5ea6\u597d\",\"\u70ed\u64ad\u5267\u3010\u592a\u9633\u7684\u540e\u88d4\u3011\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/5766613959/310/310/1d31fbce36320e0270da8e38062a2a8c.jpg",
+"mall_id": "629",
+"market_price": "28800",
+"price": "3990",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/5766613959/200/200/779e40d9632f965c9a834385fb3bf71f.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "20183",
+"goods_name": "【直降10元】79元连帽卫衣+阔腿裤两件套休闲套装",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/d7c6a8a2f1/400/400/6ddf49741b3e10e49f451ec1ae78e9aa.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/d7c6a8a2f1/750/352/f2c96e7e3c657c47c03cd6a83f006f98.jpg",
+"is_app": "0",
+"list_desc": "[\"\u62d2\u7edd\u675f\u7f1a\uff0c\u505a\u6211\u81ea\u5df1\",\"\u5bbd\u677e\u7248\u578b\uff0c\u4e0d\u53d7\u9650\u5236\",\"\u88f8\u8272\u663e\u767d\uff0c\u9ed1\u8272\u663e\u7626\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/06dae129a53a0abb49cc14a51a3c5502/e337ed3a7901f99911687d16708d5248.jpg",
+"mall_id": "381",
+"market_price": "15800",
+"price": "7900",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/d7c6a8a2f1/200/200/df052f114cce101f94e023f088c4e4ee.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "21867",
+"goods_name": "19元范冰冰同款伸缩美肤防晒帽子 ",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/5766613959/400/400/cfbd180c2df00e5d25787c3aee2ba61b.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/5766613959/750/352/10460fbc0229da6f57fd5cef3c2ca880.jpg",
+"is_app": "0",
+"list_desc": "[\"\u5927\u6cbf\u906e\u9633\",\"\u53ef\u4f38\u7f29 \",\"\u8212\u9002\u900f\u6c14\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/d7c6a8a2f10b4b998beb7db9d2f53289/377e2d9948f8a2f5e3aa146adf8dbe59.jpg",
+"mall_id": "351",
+"market_price": "9900",
+"price": "1900",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/5766613959/200/200/9fd240112a17de7af8030e084a77b3e0.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "20685",
+"goods_name": "39元 韩版春款小清新棉麻荷叶边连衣裙",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/278d835147/400/400/40f5fdf0d24aed14f74ce3ae102c68cb.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/10fd55b4e9/750/352/f164fa7850bf16ff80b7c35bf1ee4d8d.jpg",
+"is_app": "0",
+"list_desc": "[\"\u65b0\u6625\u5fc5\u5907\u767e\u642d\u6b3e\",\"\u6570\u91cf\u6709\u9650\uff0c\u62a2\u5b8c\u4e3a\u6b62\",\"\u6e05\u51c9\u8212\u9002\uff0c\u5c45\u5bb6\u5fc5\u5907\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/d7c6a8a2f1/310/310/9b428f1416d9ac812ede2439b6bf6be3.jpg",
+"mall_id": "838",
+"market_price": "15900",
+"price": "3900",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/10fd55b4e9/200/200/f6e988c54fba2d23dd5acbee2945136b.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "18260",
+"goods_name": "【史无前例的低价】11.9元 2016春款热卖光泽裤打底裤 黑色显瘦 弹力塑身 进口面料",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/d7c6a8a2f1/400/400/24f3d294dd327fba1bef1a28ca7c1039.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/d7c6a8a2f1/750/352/f35b678246c8b0932eac368bacfc3a01.jpg",
+"is_app": "0",
+"list_desc": "[\"2016\u6625\u7206\u6b3e\",\"\u67d4\u8f6f\u4eb2\u80a4\",\"\u7b80\u5355\u800c\u65f6\u5c1a\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/3426b30a24952fdf6681dcdef6bd22ed/b00eee023d1a09876341eca9a041c0e7.jpg",
+"mall_id": "352",
+"market_price": "5600",
+"price": "1190",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/d7c6a8a2f1/200/200/82af6597ac3bb802e5cd5fe2ffc2a331.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "21916",
+"goods_name": "【预售3.21日发货】49.9元太阳的后裔宋慧乔同款镂空松糕鞋高帮韩版女鞋",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/5766613959/400/400/d59d9cdd9e83c4d01eb3c2871a4b1803.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/5766613959/750/352/a52ebe7c3edd3daf195e878f4cf42168.jpg",
+"is_app": "0",
+"list_desc": "[\"\u6b3e\u5f0f\u8d85\u767e\u642d\",\"\u4e0a\u811a\u8212\u9002\u5ea6\u6781\u9ad8\",\"\u3010\u592a\u9633\u7684\u540e\u88d4\u3011\u5b8b\u6167\u4e54\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/5766613959/310/310/1d31fbce36320e0270da8e38062a2a8c.jpg",
+"mall_id": "629",
+"market_price": "38800",
+"price": "4990",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/5766613959/200/200/13286433c3dc2930b2c4f0097f95da08.jpg"
+}
+],
+"home_banner": "http://omsproduction.b0.upaiyun.com/goods/371412c07a/640/350/58c85136ec72485539eefd698a21a1ae.jpg",
+"position": "12",
+"subject": "爆款新品 轻松应对春日装扮",
+"subject_id": "150",
+"type": "home_recommend"
+},
+{
+"desc": "我和家居有个约会",
+"goods_list": [
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "20909",
+"goods_name": "【99元超值抢购】 双立人彩色剥皮刀套装（蔬菜刀＋刨皮刀）［预售］16年3月18号发完",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/e1a3a07e15/400/400/07508113daad87a783cf3b98f5a5b4ad.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/e1a3a07e15/750/352/eae7633884feedd2f9c8921989bd3a51.jpg",
+"is_app": "0",
+"list_desc": "[\"\u4f18\u8d28\u4e0d\u9508\u94a2\uff0c\u4e13\u5229\u5de5\u827a\",\"\u6297\u8150\u8680\uff0c\u5200\u5203\u6301\u4e45\u950b\u5229\",\"\u4eba\u4f53\u5de5\u5b66\u624b\u67c4\u63e1\u611f\u8212\u9002\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/ef114d240f0ba5b2a2045116ac7fbf18cf00426065.jpg",
+"mall_id": "1157",
+"market_price": "20800",
+"price": "9900",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/e1a3a07e15/200/200/5831bb679f1571f24256f614f815c29e.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "8280",
+"goods_name": "29.9元 5包怡丽新素机感绵柔纤巧卫生巾日夜用组合装（3包日用+2包夜用）",
+"hd_thumb_url": "",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/fe30171ad750ee0afa700a386d1104d4/adc38cb58e200a85516cb15b3c3b221a.jpg",
+"is_app": "0",
+"list_desc": "[\"\u6f6e\u6d8c  \u4e45\u5750\u9632\u4fa7\u6f0f\",\"\u65e0\u8367\u5149\u5242 \u65e0\u523a\u6fc0\",\"\u53cc\u91cd\u5438\u6536\u66f4\u5e72\u723d\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/11/cb4w7ldbtwc2c2zi.jpg",
+"mall_id": "150",
+"market_price": "9990",
+"price": "2990",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/fe30171ad750ee0afa700a386d1104d4/234a66e8dd7654cf3697f9ca474f7ee1.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "8885",
+"goods_name": "【全网最低价】999元 TIGER/虎牌 JAG-A10C 微电脑智能电饭煲电饭锅3L正品日本3-4人",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/5635bbe762/400/400/7d6ab71ba93674e5abf0c5c1352f7bce.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/5635bbe762/750/352/f74da90675b9ecfd87a89935b4c63253.jpg",
+"is_app": "0",
+"list_desc": "[\"\u516b\u5927\u708a\u716e\u529f\u80fd\",\"24h\u9884\u7ea6 12h\u4fdd\",\"\u7897\u578b\u52a0\u70ed\u5668\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/5635bbe762/310/310/e56c3b40c0870c5143d9c4c50c9fb71d.jpg",
+"mall_id": "569",
+"market_price": "162800",
+"price": "99900",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/5635bbe762/200/200/fcbe01f71456e997418d3e814b583e8f.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "21486",
+"goods_name": "11.9元高品质特价瑜伽塑形拉力带女男士训练阻力带拉伸带健身弹力带",
+"hd_thumb_url": "",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/fd6598aa29/750/352/eb84eb7ededebd4e1a99366dc5fbb46f.jpg",
+"is_app": "0",
+"list_desc": "[\"\u9ad8\u54c1\u8d28\u5851\u5f62\u62c9\u529b\u5e26\",\"\u6838\u5fc3\u8bad\u7ec3\u4e73\u80f6\u80fd\u91cf\u5708\",\"\u591a\u65b9\u4f4d\u953b\u70bc\u8eab\u4f53\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/10/guwhefykhyh9ra41.jpg",
+"mall_id": "132",
+"market_price": "3900",
+"price": "1190",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/278d835147/200/200/7d568ca348b0a453732926c47adb5c4f.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "2291",
+"goods_name": "59.9元 27卷泉林本色3层厚实空心卷筒纸（140克/卷）【天猫双11同价】",
+"hd_thumb_url": "",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/d7c6a8a2f10b4b998beb7db9d2f53289/01ccc5e2726fa44f5a8c6e1c64a46f36.jpg",
+"is_app": "0",
+"list_desc": "",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/10/90pnhip1y8tiruhn.jpg",
+"mall_id": "103",
+"market_price": "16800",
+"price": "5990",
+"thumb_url": "http://pinduoduo.b0.upaiyun.com/2/2015/11/hnyqcjbsem9jh971.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "18481",
+"goods_name": "27.8元惊爆价回馈客户 150×200cm亲肤棉韩式夏被  特价包邮",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/e1a3a07e15/400/400/d94ebe7f7f00bed5b7f5a178beb917c2.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/e1a3a07e15/750/352/b5a057e8afa4d2b0a014ee48625bc49d.jpg",
+"is_app": "0",
+"list_desc": "[\"\u5929\u7136\u4eb2\u80a4\u73af\u4fdd\u5370\u82b1\",\"\u4e0d\u7ed3\u56e2\u4e0d\u8dd1\u68c9\",\"\u53ef\u6c34\u6d17\u66f4\u65b9\u4fbf\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/92100237d8/103/103/0308f20350f23aa58179c22022681b45.jpg",
+"mall_id": "794",
+"market_price": "10800",
+"price": "2780",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/e1a3a07e15/200/200/bd5de930d3bc8bace32b694f92d1a97c.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "20244",
+"goods_name": "69元 【2016新品】大号不锈钢烧烤炉 适合5-15人",
+"hd_thumb_url": "",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/92100237d8/750/352/9849dcae56742d8edfa41362b0983a30.jpg",
+"is_app": "0",
+"list_desc": "[\"\u4e0d\u9508\u94a2\u6750\u8d28\",\"\u5927\u53f7\u70e7\u70e4\u7089\",\"\u9002\u54085-15\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/09/wh0rl9xg2oxif8nb.jpg",
+"mall_id": "59",
+"market_price": "19900",
+"price": "6900",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/92100237d8/200/200/cbc5718677e9c9dd570550acf73cb9ce.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "20973",
+"goods_name": "35.9元威猛先生5合1洁厕液灵宝蓝泡泡厕所马桶除臭菌清洁剂4瓶共2400g",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/bd3279e25e/200/200/225632c97df520060b29acd501681d35.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/bd3279e25e/750/352/46afb96e32c8eecc667aa00d3efebd2f.jpg",
+"is_app": "0",
+"list_desc": "[\"\u6c14\u5473\u66f4\u6e29\u548c\",\"5\u54081\u529f\u6548\",\"\u9664\u83cc\u9664\u57a2 \u5395\u6240\u6e05\u6d01\u5242\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/d06f144f1d/310/310/2e30abca3923426abac3b55ae7bf230e.jpg",
+"mall_id": "1039",
+"market_price": "6900",
+"price": "3590",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/bd3279e25e/200/200/225632c97df520060b29acd501681d35.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "3434",
+"goods_name": "55.8元心相印180抽宽幅21包 经典系列升级款纳福定制装",
+"hd_thumb_url": "",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/06dae129a53a0abb49cc14a51a3c5502/8db6ef1050b4eb2801d76e3dced4fd6c.jpg",
+"is_app": "0",
+"list_desc": "[\"\u5bbd\u5e45180\u62bd2\u5c42\",\"\u5a5a\u5e86\u559c\u4e8b\u5b9a\u5236\u798f\u7eb8\",\"\u7ec6\u817b\u67d4\u8f6f\u4eb2\u80a4\u65e0\u7eb8\u5c51\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/10/90pnhip1y8tiruhn.jpg",
+"mall_id": "103",
+"market_price": "7800",
+"price": "5580",
+"thumb_url": "http://pinduoduo.b0.upaiyun.com/2/2015/11/nvh8yymk0id6j2pl.jpg"
+}
+],
+"home_banner": "http://omsproduction.b0.upaiyun.com/goods/371412c07a/640/350/025cf7eda9ff53bc0d99ec707519d4f8.jpg",
+"position": "16",
+"subject": "我和家居有个约惠",
+"subject_id": "151",
+"type": "home_recommend"
+},
+{
+"desc": "母婴春季囤货节",
+"goods_list": [
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "21753",
+"goods_name": "39元 【依码当先】  男童春秋冲锋衣儿童休闲外套  厂家直供 全网最低",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/f8533aff41/400/400/b4629aa6029db9da0def2e4f065419a5.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/f8533aff41/750/352/9439127c5812521bda70c46f1659ca9a.jpg",
+"is_app": "0",
+"list_desc": "[\"\u6b3e\u5f0f\u6f6e\u6d41 \u8bbe\u8ba1\u65f6\u5c1a\",\"\u9762\u6599\u8212\u9002 \u8d28\u91cf\u4fdd\u8bc1\",\"\u505a\u5de5\u7cbe\u81f4 \u6027\u4ef7\u6bd4\u9ad8\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/d06f144f1d9549345b14ecafc719737c562ea7bb11.jpg",
+"mall_id": "1166",
+"market_price": "16800",
+"price": "3900",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/f8533aff41/200/200/9ee5173bc0396b90df30a918f6cf3bf4.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "20545",
+"goods_name": "39元限量全网最低价【 品牌授权】画萌春秋装    女童t恤儿童T恤时尚流行上衣长袖",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/2c103478d7/400/400/155a950206cdc7022cc7a00501867b77.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/2c103478d7/750/352/f5ee0cc46dc67cd68601ad04beb0dc4f.jpg",
+"is_app": "0",
+"list_desc": "[\"\u957f\u6b3et\u6064\u97e9\u7248\u53ef\u7231\",\"\u5361\u901a\u5370\u82b1\",\"\u505a\u5de5\u7cbe\u81f4 \u6027\u4ef7\u6bd4\u9ad8\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/d06f144f1d/310/310/448b1af5ca5eaa485caef01fcded3e2d.jpg",
+"mall_id": "1123",
+"market_price": "16800",
+"price": "3900",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/2c103478d7/200/200/1fbb6a975842d5f266a94b566ad58e8d.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "17982",
+"goods_name": "29.9元 【潮童必备】儿童运动鞋1-7岁 毛毛虫款多色可选",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/6bdfe0af87/400/400/85d13da04f6f4b9a5bdf61a8f8bd78f9.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/6bdfe0af87/750/352/2d6bea25cfb438035b3f411244e87a3b.jpg",
+"is_app": "0",
+"list_desc": "[\"\u52a0\u539a\u978b\u5e95\u8010\u78e8\",\"\u9632\u6ed1\u6027\u80fd\u597d\",\"\u8f7b\u4fbf\u67d4\u8f6f\u8d34\u811a\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/2c103478d7/310/310/4cdb7c17f3141f871353f44c1e8c3aa1.jpg",
+"mall_id": "805",
+"market_price": "9900",
+"price": "2990",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/6bdfe0af87/200/200/7c178fd8a76497de9a35493d4d84a744.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "20104",
+"goods_name": "37.9元   2016儿童秋装长袖套装宝宝新款纯棉领结衬衫两件套",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/2c103478d7/400/400/da010a3d8db342d458401d0a23222ac6.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/2c103478d7/750/352/c080c155b0448d1e2576cef2ae59f09d.jpg",
+"is_app": "0",
+"list_desc": "[\"\u54c1\u8d28\u597d\",\"\u8212\u9002\u6027\u9ad8\",\"\u6027\u4ef7\u6bd4\u9ad8\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/d06f144f1d/310/310/db0d521a2e356cdbab285ed28bb2319f.jpg",
+"mall_id": "1106",
+"market_price": "10900",
+"price": "3790",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/2c103478d7/200/200/10b1dc6d2a67957dcdb5e2fb50ce1acb.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "21064",
+"goods_name": "29.9元/套春季童装女童宝宝中小童儿童套装蝙蝠衫打底裤套装",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/2c103478d7/400/400/56b4010a6460287202466ca738fcf6e4.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/2c103478d7/750/352/ca9f02b7aacf69ca9bf30ec1b3a26989.jpg",
+"is_app": "0",
+"list_desc": "[\"\u8759\u8760\u886b\u5957\u88c5\",\"\u4e0a\u8863+\u6253\u5e95\u88e4\u4e00\u5957\",\"\u67d4\u8f6f\u8212\u9002\u900f\u6c14\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/d06f144f1d/310/310/694cf493bdc1dfb059ebb75dea990bd5.jpg",
+"mall_id": "1048",
+"market_price": "5900",
+"price": "2990",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/2c103478d7/200/200/f59ebced7a2d57bb9eb1fa9f3ddf7be4.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "20391",
+"goods_name": "29.9元 婴儿布书0-3岁宝宝早教幼儿童带响纸益智玩具可水洗撕不烂",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/2c103478d7/400/400/812bdd55fba5786b81c2ae0478afedae.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/2c103478d7/750/352/e108f900ec7ffafeccea68f95516ea24.jpg",
+"is_app": "0",
+"list_desc": "[\"\u513f\u7ae5\u65e9\u6559\u5e03\u4e66\",\"\u53ef\u6c34\u6d17\u6495\u4e0d\u70c2\",\"6\u672c\u793c\u76d2\u5957\u88c5\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/d06f144f1d/310/310/e4b7caaeabe7d830c03e816a4fb23bb2.jpg",
+"mall_id": "1015",
+"market_price": "5900",
+"price": "2990",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/2c103478d7/200/200/0f04dc00294c6ceb87ed19bdec40f1dc.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "21167",
+"goods_name": "14.9元 全网最低 厂家直供 2016新款儿童卡通纯棉内衣套装",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/f8533aff41/400/400/fdb0ec12f1387bb284396c4ae2df258b.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/f8533aff41/750/352/9bc19a0d0617391d5833fd2325bbe3cd.jpg",
+"is_app": "0",
+"list_desc": "[\"\u4e0d\u6389\u8272\",\"\u4e0d\u8d77\u7403\",\"\u7eaf\u68c9\u67d4\u548c\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/d06f144f1d/310/310/dc231904ff75af24a473ac50d5f6f6aa.jpg",
+"mall_id": "1122",
+"market_price": "6800",
+"price": "1490",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/f8533aff41/200/200/cce77dfa98b165e42c76da25d443ef44.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "17806",
+"goods_name": "129元【假一罚十 】 惠氏3段1200克盒装金装幼儿乐S-26奶粉进口奶源",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/6bdfe0af87/400/400/73642577afd656f4360e1c80c5607f09.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/6bdfe0af87/750/352/26f7f08d54370a09dbb1260fdb4c0329.jpg",
+"is_app": "0",
+"list_desc": "[\"100%\u8fdb\u53e3\u5976\u6e90\",\"S-26\u667a\u5b66\u56e0\u5b50\u65b0\u914d\",\"\u66f4\u4f18 \u66f4\u5feb \u66f4\u5f3a\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/d06f144f1d/310/310/6ea14d6f1947116a5963a19d8101ea6a.jpg",
+"mall_id": "940",
+"market_price": "23800",
+"price": "12900",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/6bdfe0af87/200/200/b5ac9dfe0c3a8dbde2829bfc015a65e8.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "15734",
+"goods_name": "19.9元 春夏新款韩版运动单网鞋透气防滑童鞋休闲鞋",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/6bdfe0af87/400/400/2b07387425b499534c38ba3b907f187b.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/6bdfe0af87/750/352/c54f467cf9e7017684b5cf720485d251.jpg",
+"is_app": "0",
+"list_desc": "[\"\u591a\u8272\u53ef\u9009 \u8bbe\u8ba1\u65f6\u5c1a\",\"\u8212\u9002\u900f\u6c14 \u9632\u6ed1\u8010\u78e8\",\"\u505a\u5de5\u7cbe\u81f4 \u6027\u4ef7\u6bd4\u9ad8\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/d06f144f1d/310/310/d9b02ef68f87a5cf99d35c3437c836b1.jpg",
+"mall_id": "927",
+"market_price": "4900",
+"price": "1990",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/6bdfe0af87/200/200/c50516587920e39b8123a6b8d62025ef.jpg"
+}
+],
+"home_banner": "http://omsproduction.b0.upaiyun.com/goods/371412c07a/640/350/54a0dceee9bb8db4069041bfdd91e81d.jpg",
+"position": "20",
+"subject": "母婴春季囤货节",
+"subject_id": "152",
+"type": "home_recommend"
+},
+{
+"desc": "6.9元起 吃天下",
+"goods_list": [
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "20037",
+"goods_name": "17.9元 熊孩子 缤纷水果干118g*2灌装 5大果脯水果干组合 蜜饯果脯零食",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/2ee7433b00/400/400/50d569992e749992aaf2e780c77e82cf.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/2ee7433b00/750/352/d6f9562b045a45cebabcc35a5c69419d.jpg",
+"is_app": "0",
+"list_desc": "[\"\u7f24\u7eb7\u6c34\u679c\u5e72118g*\",\"\u4e94\u79cd\u6c34\u679c\",\"\u9178\u9178\u751c\u751c\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/2ee7433b00/310/310/6d13416d06fc34d84ba5ca1206f573f1.jpg",
+"mall_id": "625",
+"market_price": "3990",
+"price": "1790",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/2ee7433b00/200/200/e332e105e23da6da40957f0a1b45f1ca.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "18180",
+"goods_name": "23.9元/2箱 慕滋炼奶味三明治蒸蛋糕整箱500g*2鸡蛋手撕小面包休闲礼盒装",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/588cd8e171b42ea27603fd5a57f41910a4ac73b1c9.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/588cd8e171d8b189d3589ac14c1f889d317b31b61d.jpg",
+"is_app": "0",
+"list_desc": "[\"\u6155\u6ecb\u4e09\u660e\u6cbb\u84b8\u86cb\u7cd5\",\"\u70bc\u5976\u53e3\u5473 \u9c9c\u5ae9\u597d\u5403\",\"\u72ec\u7acb\u5c0f\u5305\u88c5 \u65b9\u4fbf\u536b\u751f\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/005b3fb3d6/310/310/5b35df9e5c6e273feebcc1725a73bcce.jpg",
+"mall_id": "842",
+"market_price": "3900",
+"price": "2390",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/588cd8e171c247fb712d111df69a67ae6d37276827.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "13773",
+"goods_name": "53.9元科尔沁牛肉干250g 来自科尔沁大草原的味道 五种口味可选",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/588cd8e171/400/400/f3e60637560cd1a9b0653586b9dc1dba.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/588cd8e171/750/352/e3bc599c17fe376647b59a2306376b52.jpg",
+"is_app": "0",
+"list_desc": "[\"\u6210\u5409\u601d\u6c57\u7684\u884c\u519b\u7cae\",\"\u79d1\u5c14\u6c81\u8349\u539f\u725b\u8089\u5e72\",\"\u8425\u517b\u7f8e\u5473\u597d\u5403\u4e0a\u763e\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/2aecaba3dc/200/200/c3ee03d3fa6fe9b46568b3b106d63cf9.jpg",
+"mall_id": "712",
+"market_price": "14900",
+"price": "5390",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/588cd8e171/200/200/42fe7f1fd264fb9ff8f0d9f259049515.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "15525",
+"goods_name": "38.9元【俄罗斯进口】正宗俄罗斯提拉米苏8寸/约800g 原味",
+"hd_thumb_url": "",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/2ee7433b00/750/352/0689b22bf1e801dbd5a176064c5edd22.jpg",
+"is_app": "0",
+"list_desc": "[\"\u4fc4\u7f57\u65af\u56fd\u6c11\u86cb\u7cd5\",\"\u53e3\u611f\u7ec6\u817b \u7231\u7684\u5473\u9053\",\"\u4efd\u91cf\u5341\u8db3 \u62fc\u8d85\u4f4e\u4ef7\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/2ee7433b00/310/310/0f2ddb3d440827f0ad8015de07bd7b17.jpg",
+"mall_id": "809",
+"market_price": "7900",
+"price": "3890",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/2ee7433b00/200/200/d7981bf919f6008be7c1ab913820ca4c.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "20732",
+"goods_name": "19.9元 冻干柠檬玫瑰花组合茶120g/套 【精品无硫玫瑰花60g+精品冻干柠檬片60g】",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/b3da740182/400/400/3a9ab157db7eb3f43f2282945f649abc.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/b3da740182/750/352/5baa0a2e206ba1c0a3e45fc1c38401a7.jpg",
+"is_app": "0",
+"list_desc": "[\"\u65e0\u786b\u73ab\u7470\u539f\u6599\",\"\u8702\u871c\u51bb\u5e72\u67e0\u6aac\u7247\",\"\u7f8e\u4e3d\u5b8c\u7f8e\u642d\u914d\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/b3da740182/200/200/864162169e7ccdd96054c81892e8b9fa.jpg",
+"mall_id": "995",
+"market_price": "6900",
+"price": "1990",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/b3da740182/200/200/2ce0fa79e7a48155a44a2d92ce578dbe.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "18182",
+"goods_name": "33.9元【红枣夹核桃（腰果）组合】限量亏卖2000份，红枣夹核桃果加（腰果）各250克  香甜可口，营养价格高",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/2ee7433b00d7859422ca441b4c2b9f7e8fbba3c44b.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/2ee7433b002e12349db182c9e2deaa0e6ccd15e0b7.jpg",
+"is_app": "0",
+"list_desc": "[\"\u65e9\u60f3\u548c\u4f60\u5728\u4e00\u8d77\",\"\u4e00\u4ef6\u5c31\u4eab\u53d72\u79cd\u53e3\u5473\",\"\u9999\u751c\u53ef\u53e3\u8425\u517b\u4ef7\u503c\u9ad8\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/2ee7433b00/310/310/f980476c6a08abf99a1be4bcc22e5fed.jpg",
+"mall_id": "968",
+"market_price": "7900",
+"price": "3390",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/2ee7433b00c87734414fae7a5f7c738c3c12884fe7.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "13187",
+"goods_name": "【印尼进口】6.9元 咔麦滋345g粗纤饼干",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/828a47a7ef/200/200/e3a5cda293c61f04575c04cdfa3cd067.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/828a47a7ef/750/352/906fadcb275322e64ae6a79ae0ad0566.jpg",
+"is_app": "0",
+"list_desc": "[\"\u7c97\u7ea4\u517b\u80a0\u80c3\",\"345g\u5206\u4eab\u88c5\",\"\u9999\u8106\u9165\u8d85\u597d\u5403\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/828a47a7ef0bdc4e443dce940a30fe12/38241b8c5bc917cdc45165a0ecdff4a2.jpg",
+"mall_id": "396",
+"market_price": "2990",
+"price": "690",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/828a47a7ef/200/200/e3a5cda293c61f04575c04cdfa3cd067.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "19361",
+"goods_name": "29.8元【口口福-蜜汁正片猪肉脯200gx2袋】现烤靖江 零食 特价独立包装",
+"hd_thumb_url": "http://omsproduction.b0.upaiyun.com/goods/2ee7433b00afec4ea182c5ae284b825c805698733e.jpg",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/2ee7433b00359db59ec0d32ce31463338df70fb1d4.jpg",
+"is_app": "0",
+"list_desc": "[\"\u7cbe\u5fc3\u6311\u9009\uff0c\u7247\u7247Q\u5f39\",\"\u5165\u53e3\u9187\u9999\uff0c\u56de\u5473\u65e0\u7a77\",\"200gx2\u888b\"]",
+"logo": "http://omsproduction.b0.upaiyun.com/goods/2ee7433b00/310/310/c03d28bdbc0b28b31616c5abca5c868a.jpg",
+"mall_id": "974",
+"market_price": "3900",
+"price": "2980",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/2ee7433b00ac549ac53a9d7ecb3f7c75266a03bad0.jpg"
+},
+{
+"customer_num": "2",
+"event_type": "0",
+"goods_id": "15121",
+"goods_name": "【茉莉香米惊爆价】19.9元 5斤 茉莉香米 自然生长环境 粒粒饱满纤长",
+"hd_thumb_url": "",
+"image_url": "http://omsproduction.b0.upaiyun.com/goods/3aef4b2dfc/750/352/9f68c76ea873e3e5db3c07ac6bacd4d6.jpg",
+"is_app": "0",
+"list_desc": "[\"\u6cf0\u56fd\u8309\u8389\u9999\u7c735\u65a4\",\"\u663c\u591c\u6e29\u5dee\u5927\u517b\u597d\u7c73 \",\"\u9971\u6ee1\u7ea4\u7f8e \u7c92\u7c92\u9187\u9999\"]",
+"logo": "http://pinduoduo.b0.upaiyun.com/2/2015/10/3wmw0tgqzfawa59v.jpg",
+"mall_id": "8",
+"market_price": "5990",
+"price": "1990",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/3aef4b2dfc/200/200/9cf99047dc9c09d3954eda9f371a8845.jpg"
+}
+],
+"home_banner": "http://omsproduction.b0.upaiyun.com/goods/371412c07a/640/350/74ced461676beca817dd4d50fccdbf31.jpg",
+"position": "24",
+"subject": "6.9元起 吃天下",
+"subject_id": "153",
+"type": "home_recommend"
+}
+],
+"mobile_app_groups": [
+{
+"banner": "http://omsproduction.b0.upaiyun.com/goods/d181311b8a4ffe5f704c10d5015acdc29bccd01058.jpg",
+"desc": "5元2斤樱桃APP专享团进行中，限量200份",
+"end_time": "1458468000",
+"goods_id": "21229",
+"goods_name": "【APP专享团】5元国产烟台美早大樱桃2斤装（果径约26mm）限量200份，再慢就被别人抢完啦！",
+"group_id": "49168",
+"start_time": "1457863200",
+"thumb_url": "http://omsproduction.b0.upaiyun.com/goods/d181311b8a9db033f03c395700243aaea78719c873.jpg"
+}
+]
+}
