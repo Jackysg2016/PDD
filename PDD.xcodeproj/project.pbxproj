@@ -29,6 +29,9 @@
 		713059AE1C99380D003128F5 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 713059A91C99380D003128F5 /* SVProgressHUD.m */; };
 		713059AF1C99380D003128F5 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 713059AB1C99380D003128F5 /* SVRadialGradientLayer.m */; };
 		713059B31C993A41003128F5 /* ViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713059B21C993A41003128F5 /* ViewController+Extension.swift */; };
+		713059B51C995104003128F5 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713059B41C995104003128F5 /* HomeHeaderView.swift */; };
+		713059B71C995288003128F5 /* HomeRollData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713059B61C995288003128F5 /* HomeRollData.swift */; };
+		713059B91C99536B003128F5 /* HomeRollModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713059B81C99536B003128F5 /* HomeRollModel.swift */; };
 		71EE0CE61C96BA6F002017F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71EE0CE51C96BA6F002017F7 /* Assets.xcassets */; };
 		71EE0CF41C96BA6F002017F7 /* PDDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EE0CF31C96BA6F002017F7 /* PDDTests.swift */; };
 		71EE0D0D1C96BA9F002017F7 /* FDDSYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EE0D0C1C96BA9F002017F7 /* FDDSYViewController.swift */; };
@@ -76,6 +79,9 @@
 		713059AA1C99380D003128F5 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
 		713059AB1C99380D003128F5 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
 		713059B21C993A41003128F5 /* ViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+Extension.swift"; sourceTree = "<group>"; };
+		713059B41C995104003128F5 /* HomeHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
+		713059B61C995288003128F5 /* HomeRollData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRollData.swift; sourceTree = "<group>"; };
+		713059B81C99536B003128F5 /* HomeRollModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRollModel.swift; sourceTree = "<group>"; };
 		71EE0CDB1C96BA6F002017F7 /* PDD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71EE0CE51C96BA6F002017F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71EE0CEA1C96BA6F002017F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -304,6 +310,7 @@
 			children = (
 				713059881C993524003128F5 /* Request.swift */,
 				713059891C993524003128F5 /* RequestData.swift */,
+				713059B61C995288003128F5 /* HomeRollData.swift */,
 			);
 			path = "网络请求";
 			sourceTree = "<group>";
@@ -330,6 +337,7 @@
 			isa = PBXGroup;
 			children = (
 				7130598E1C993524003128F5 /* HomeModel.swift */,
+				713059B81C99536B003128F5 /* HomeRollModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -339,6 +347,7 @@
 			children = (
 				713059901C993524003128F5 /* HomeFirstTableViewCell.swift */,
 				713059911C993524003128F5 /* HomeMainTableViewCell.swift */,
+				713059B41C995104003128F5 /* HomeHeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -591,15 +600,18 @@
 				7130599F1C993524003128F5 /* HomeViewController.swift in Sources */,
 				713059931C993524003128F5 /* PersonageViewController.swift in Sources */,
 				713059A11C993524003128F5 /* HomeFirstTableViewCell.swift in Sources */,
+				713059B91C99536B003128F5 /* HomeRollModel.swift in Sources */,
 				713059941C993524003128F5 /* Theme.swift in Sources */,
 				713059991C993524003128F5 /* UIImageView+Extension.swift in Sources */,
 				713059961C993524003128F5 /* BaseTabBarController.swift in Sources */,
 				713059921C993524003128F5 /* AppDelegate.swift in Sources */,
 				713059951C993524003128F5 /* BaseNavigationController.swift in Sources */,
+				713059B71C995288003128F5 /* HomeRollData.swift in Sources */,
 				7130599E1C993524003128F5 /* RequestData.swift in Sources */,
 				713059971C993524003128F5 /* BaseViewController.swift in Sources */,
 				713059AE1C99380D003128F5 /* SVProgressHUD.m in Sources */,
 				71EE0D0D1C96BA9F002017F7 /* FDDSYViewController.swift in Sources */,
+				713059B51C995104003128F5 /* HomeHeaderView.swift in Sources */,
 				713059A21C993524003128F5 /* HomeMainTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

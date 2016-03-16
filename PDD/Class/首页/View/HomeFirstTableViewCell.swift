@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeFirstTableViewCell: UITableViewCell {
+class HomeFirstTableViewCell: UITableViewCell,UITextFieldDelegate {
 
     var goodsImageView:UIImageView?
     var goodsName:UILabel?
@@ -30,11 +30,12 @@ class HomeFirstTableViewCell: UITableViewCell {
             make.width.equalTo(60)
         })
         smallIcon = UIImageView()
+        smallIcon?.image = UIImage(named: "wen.jpg")
         self.contentView.addSubview(smallIcon!)
         smallIcon?.snp_makeConstraints(closure: { (make) -> Void in
             make.left.equalTo(goodsImageView!.snp_right).offset(10)
             make.top.equalTo(self).offset(20)
-            make.width.height.equalTo(10)
+            make.width.height.equalTo(15)
         })
         
         goodsName = UILabel()
@@ -43,14 +44,65 @@ class HomeFirstTableViewCell: UITableViewCell {
         goodsName?.numberOfLines = 1
         self.contentView.addSubview(goodsName!)
         goodsName?.snp_makeConstraints(closure: { (make) -> Void in
-            make.left.equalTo(smallIcon!.snp_right).offset(5)
             make.top.equalTo(self).offset(20)
+            make.left.equalTo(smallIcon!.snp_right).offset(5)
+
+        })
+        
+        determineButton = UIButton()
+        determineButton?.setTitle("确认", forState: UIControlState.Normal)
+        determineButton?.setBackgroundImage(UIImage(named: "redBtn"), forState: UIControlState.Normal)
+        determineButton?.addTarget(self, action: "determine", forControlEvents: UIControlEvents.TouchUpInside)
+        determineButton?.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
+        self.contentView.addSubview(determineButton!)
+        
+        determineButton?.snp_makeConstraints(closure: { (make) -> Void in
+            make.right.equalTo(self).offset(-10)
+            make.width.equalTo(60)
+            make.height.equalTo(30)
+            make.bottom.equalTo(self).offset(0)
+        })
+        
+        importField = UITextField()
+        importField?.placeholder = "请输入“参团专享码”"
+        importField?.borderStyle = UITextBorderStyle.RoundedRect
+        importField?.font = UIFont.systemFontOfSize(12)
+        importField!.layer.borderColor = UIColor.redColor().CGColor
+        importField?.layer.borderWidth = 1
+        importField?.delegate = self
+        self.contentView.addSubview(importField!)
+
+        importField?.snp_makeConstraints(closure: { (make) -> Void in
+            make.left.equalTo(goodsImageView!.snp_right).offset(10)
+            make.right.equalTo(determineButton!.snp_left).offset(-10)
+            make.bottom.equalTo(self).offset(0)
+
         })
     }
 
+    func releaseData(homeData:HomeTotalData){
+        
+        goodsName?.text = homeData.mobile_app.desc
+        let imageURL = NSURL(string:homeData.mobile_app.thumb_url!)
+        goodsImageView?.wxn_setImageWithURL(imageURL!, placeholderImage: UIImage(named:"ddd.jpg")!)
+    }
+
+    func determine(){
+        print("确定")
+    }
+    
+    
+    
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        
+        importField?.resignFirstResponder()
+        
+        return true
+    }
     
+       
 }
