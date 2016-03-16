@@ -38,7 +38,6 @@ class FDDSYViewController: UIViewController, RequestDataDelegate {
         
     }
     
-   
     func request(goods_listArray:NSArray){
     
         print("---------\(goods_listArray.count)")
