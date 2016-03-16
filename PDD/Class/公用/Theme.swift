@@ -21,3 +21,14 @@ public let RanklistUrl:String = "http://apiv2.yangkeduo.com/v2/ranklist" // 热�
 public let NewlistUrl:String = "http://apiv2.yangkeduo.com/v2/newlist" // 热榜 － 最新
 public let RandlistUrl:String = "http://apiv2.yangkeduo.com/v2/randlist" // 热榜 － 猜你喜欢
 
+// MARK: - 全局常用颜色
+public let BgColor:UIColor = UIColor(colorLiteralRed: 0.97, green: 0.97, blue: 0.97, alpha: 1.00)
+public let BorderColor:UIColor = UIColor(colorLiteralRed: 213/255, green: 213/255, blue: 213/255, alpha: 1.00)
+
+
+// MARK: - 首页cell类型
+enum CellType {
+    case group
+    case common
+    case advertisement
+}

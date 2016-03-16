@@ -24,7 +24,7 @@ class HomeMainTableViewCell: UITableViewCell {
         bgView = UIView()
         bgView?.backgroundColor = UIColor.whiteColor()
         bgView?.layer.borderWidth = 1
-        bgView?.layer.borderColor = UIColor.cyanColor().CGColor
+        bgView?.layer.borderColor = BorderColor.CGColor
         self.contentView.addSubview(bgView!)
         bgView?.snp_makeConstraints(closure: { (make) -> Void in
             make.left.equalTo(self).offset(10)
@@ -42,14 +42,14 @@ class HomeMainTableViewCell: UITableViewCell {
         })
         
         goodsName = UILabel()
-        goodsName?.numberOfLines = 2
+        goodsName?.numberOfLines = 0
         goodsName?.font = UIFont.systemFontOfSize(15)
         goodsName?.textColor = UIColor.blackColor()
         bgView?.addSubview(goodsName!)
         
         goodsName?.snp_makeConstraints(closure: { (make) -> Void in
             make.left.equalTo(bgView!).offset(10)
-            make.top.equalTo(bgView!).offset(190)
+            make.top.equalTo(goodsImageView!.snp_bottom).offset(5)
             make.right.equalTo(bgView!).offset(-10)
         })
         
@@ -62,7 +62,7 @@ class HomeMainTableViewCell: UITableViewCell {
             make.right.equalTo(bgView!).offset(-15)
             make.width.equalTo(30)
             make.height.equalTo(28)
-            make.top.equalTo(bgView!).offset(230)
+            make.top.equalTo(goodsName!.snp_bottom).offset(10)
         })
                 
     }
@@ -71,13 +71,16 @@ class HomeMainTableViewCell: UITableViewCell {
         
         collectButton?.setImage(UIImage(named: "collection.jpg"), forState: UIControlState.Normal)
         print("收藏")
+        
     }
     
-    func releaseData(homeData:HomeModel){
+    func releaseData(homeData:HomeTotalData){
         
-        goodsName?.text = homeData.goods_name
-    
-        goodsImageView?.image = UIImage(named: "ddd.jpg")
+        goodsName?.text = homeData.good_list.goods_name
+        
+    let imageURL = NSURL(string:homeData.good_list.image_url!)
+        
+        goodsImageView?.wxn_setImageWithURL(imageURL!, placeholderImage: UIImage(named: "ddd.jpg")!)
     }
     
     

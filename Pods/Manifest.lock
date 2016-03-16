@@ -7,7 +7,6 @@ PODS:
     - SDWebImage/Core (= 3.7.5)
   - SDWebImage/Core (3.7.5)
   - SnapKit (0.19.1)
-  - SVProgressHUD (2.0-beta8)
   - SwiftyJSON (2.3.2)
 
 DEPENDENCIES:
@@ -17,7 +16,6 @@ DEPENDENCIES:
   - RDVTabBarController (~> 1.1.9)
   - SDWebImage (~> 3.7.4)
   - SnapKit (~> 0.19.1)
-  - SVProgressHUD (~> 2.0-beta4)
   - SwiftyJSON (~> 2.3.0)
 
 SPEC CHECKSUMS:
@@ -27,7 +25,6 @@ SPEC CHECKSUMS:
   RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
   SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
   SnapKit: eff58d6e3451bf2f482db2eccf86aecf371dc62d
-  SVProgressHUD: 6e48a1dda09ce3b58adc41d013baed3a8e8980ff
   SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
 
 COCOAPODS: 0.39.0
