@@ -120,5 +120,18 @@ struct mobile_app_groups_Model {
     }
 }
 
+class HomeTotalData:NSObject {
+        
+    var good_list = HomeModel()
+    
+    var home_recommend = home_recommend_subjectsModel()
+    
+    var mobile_app = mobile_app_groups_Model()
+    
+    var cellType = CellType.group
+
+}
+
+
 
 

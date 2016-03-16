@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '6785AA867F01E1701696A59D'
+               BlueprintIdentifier = '6DC952779E4844B8CACE4964'
                BlueprintName = 'HMSegmentedControl'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'HMSegmentedControl.framework'>

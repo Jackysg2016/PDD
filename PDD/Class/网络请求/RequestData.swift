@@ -30,6 +30,7 @@ class RequestData:NSObject {
                 var goods_listArray = [HomeModel]()
                 var home_recommendArray = [home_recommend_subjectsModel]()
                 var mobile_appArray = [mobile_app_groups_Model]()
+                var totalArray = [HomeTotalData]()
                 
                 for  goods_list_dict in goods_list! {
                     let dataJieXi = HomeModel()
@@ -49,7 +50,28 @@ class RequestData:NSObject {
                     mobile_appArray.append(mobile)
                 }
             
-                self.delegate?.request(goods_listArray)
+                for homeTotalData  in mobile_appArray {
+                    let homeTotal = HomeTotalData()
+                    homeTotal.mobile_app = homeTotalData
+                    homeTotal.cellType = CellType.group
+                    totalArray.append(homeTotal)
+                }
+                
+                for goods in goods_listArray {
+                    let homeTotal = HomeTotalData()
+                    homeTotal.good_list = goods
+                    homeTotal.cellType = CellType.common
+                    totalArray.append(homeTotal)
+                }
+                
+                for var i = 0;i<home_recommendArray.count;i++ {
+                    let homeTotal = HomeTotalData()
+                    homeTotal.home_recommend = home_recommendArray[i]
+                    homeTotal.cellType = CellType.advertisement
+                    totalArray.insert(homeTotal, atIndex: (i+1)*5)
+                }
+                
+                self.delegate?.request(totalArray)
             
             case .Failure(let error):
                 
