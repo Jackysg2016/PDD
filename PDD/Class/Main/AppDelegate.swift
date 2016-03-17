@@ -18,6 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let rootView = BaseTabBarController()
         window?.rootViewController = rootView
         window?.makeKeyAndVisible()
+        
+        NSThread.sleepForTimeInterval(1.5)
+        
         return true
     }
 

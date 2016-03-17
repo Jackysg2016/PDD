@@ -35,6 +35,11 @@
 		71EE0CE61C96BA6F002017F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71EE0CE51C96BA6F002017F7 /* Assets.xcassets */; };
 		71EE0CF41C96BA6F002017F7 /* PDDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EE0CF31C96BA6F002017F7 /* PDDTests.swift */; };
 		71EE0D0D1C96BA9F002017F7 /* FDDSYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EE0D0C1C96BA9F002017F7 /* FDDSYViewController.swift */; };
+		71FEBEE81C9A458600BAAA16 /* HomeAdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FEBEE71C9A458600BAAA16 /* HomeAdTableViewCell.swift */; };
+		71FEBEEA1C9A50AE00BAAA16 /* HomeAdCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FEBEE91C9A50AE00BAAA16 /* HomeAdCollectionViewCell.swift */; };
+		71FEBEF51C9AA5AF00BAAA16 /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 71FEBEF21C9AA5AF00BAAA16 /* HMSegmentedControl.m */; };
+		71FEBEF61C9AA5AF00BAAA16 /* LICENSE.md in Sources */ = {isa = PBXBuildFile; fileRef = 71FEBEF31C9AA5AF00BAAA16 /* LICENSE.md */; };
+		71FEBEF71C9AA5AF00BAAA16 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 71FEBEF41C9AA5AF00BAAA16 /* README.md */; };
 		71FFE9C21C97DEC500F47AF7 /* shouye in Resources */ = {isa = PBXBuildFile; fileRef = 71FFE9C11C97DEC500F47AF7 /* shouye */; };
 		AC170769D7589777FC534AE6 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1AD532DE12CA3150769A304 /* Pods.framework */; };
 /* End PBXBuildFile section */
@@ -91,6 +96,12 @@
 		71EE0CFE1C96BA6F002017F7 /* PDDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDDUITests.swift; sourceTree = "<group>"; };
 		71EE0D001C96BA6F002017F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71EE0D0C1C96BA9F002017F7 /* FDDSYViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDDSYViewController.swift; sourceTree = "<group>"; };
+		71FEBEE71C9A458600BAAA16 /* HomeAdTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeAdTableViewCell.swift; sourceTree = "<group>"; };
+		71FEBEE91C9A50AE00BAAA16 /* HomeAdCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeAdCollectionViewCell.swift; sourceTree = "<group>"; };
+		71FEBEF11C9AA5AF00BAAA16 /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
+		71FEBEF21C9AA5AF00BAAA16 /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
+		71FEBEF31C9AA5AF00BAAA16 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
+		71FEBEF41C9AA5AF00BAAA16 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		71FFE9C11C97DEC500F47AF7 /* shouye */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = shouye; sourceTree = "<group>"; };
 		E1AD532DE12CA3150769A304 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -300,6 +311,7 @@
 		713059861C993524003128F5 /* 第三方 */ = {
 			isa = PBXGroup;
 			children = (
+				71FEBEEF1C9AA5AF00BAAA16 /* HMSegmentedControl */,
 				713059A31C99380D003128F5 /* SVProgressHUD */,
 			);
 			path = "第三方";
@@ -347,6 +359,8 @@
 			children = (
 				713059901C993524003128F5 /* HomeFirstTableViewCell.swift */,
 				713059911C993524003128F5 /* HomeMainTableViewCell.swift */,
+				71FEBEE71C9A458600BAAA16 /* HomeAdTableViewCell.swift */,
+				71FEBEE91C9A50AE00BAAA16 /* HomeAdCollectionViewCell.swift */,
 				713059B41C995104003128F5 /* HomeHeaderView.swift */,
 			);
 			path = View;
@@ -416,6 +430,25 @@
 				71EE0D001C96BA6F002017F7 /* Info.plist */,
 			);
 			path = PDDUITests;
+			sourceTree = "<group>";
+		};
+		71FEBEEF1C9AA5AF00BAAA16 /* HMSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				71FEBEF01C9AA5AF00BAAA16 /* HMSegmentedControl */,
+				71FEBEF31C9AA5AF00BAAA16 /* LICENSE.md */,
+				71FEBEF41C9AA5AF00BAAA16 /* README.md */,
+			);
+			path = HMSegmentedControl;
+			sourceTree = "<group>";
+		};
+		71FEBEF01C9AA5AF00BAAA16 /* HMSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				71FEBEF11C9AA5AF00BAAA16 /* HMSegmentedControl.h */,
+				71FEBEF21C9AA5AF00BAAA16 /* HMSegmentedControl.m */,
+			);
+			path = HMSegmentedControl;
 			sourceTree = "<group>";
 		};
 		8AEA1171B7F62B923A8008FF /* Pods */ = {
@@ -588,6 +621,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71FEBEEA1C9A50AE00BAAA16 /* HomeAdCollectionViewCell.swift in Sources */,
 				7130599C1C993524003128F5 /* HotListViewController.swift in Sources */,
 				7130599D1C993524003128F5 /* Request.swift in Sources */,
 				713059AC1C99380D003128F5 /* SVIndefiniteAnimatedView.m in Sources */,
@@ -599,10 +633,13 @@
 				713059B31C993A41003128F5 /* ViewController+Extension.swift in Sources */,
 				7130599F1C993524003128F5 /* HomeViewController.swift in Sources */,
 				713059931C993524003128F5 /* PersonageViewController.swift in Sources */,
+				71FEBEF71C9AA5AF00BAAA16 /* README.md in Sources */,
+				71FEBEE81C9A458600BAAA16 /* HomeAdTableViewCell.swift in Sources */,
 				713059A11C993524003128F5 /* HomeFirstTableViewCell.swift in Sources */,
 				713059B91C99536B003128F5 /* HomeRollModel.swift in Sources */,
 				713059941C993524003128F5 /* Theme.swift in Sources */,
 				713059991C993524003128F5 /* UIImageView+Extension.swift in Sources */,
+				71FEBEF51C9AA5AF00BAAA16 /* HMSegmentedControl.m in Sources */,
 				713059961C993524003128F5 /* BaseTabBarController.swift in Sources */,
 				713059921C993524003128F5 /* AppDelegate.swift in Sources */,
 				713059951C993524003128F5 /* BaseNavigationController.swift in Sources */,
@@ -611,6 +648,7 @@
 				713059971C993524003128F5 /* BaseViewController.swift in Sources */,
 				713059AE1C99380D003128F5 /* SVProgressHUD.m in Sources */,
 				71EE0D0D1C96BA9F002017F7 /* FDDSYViewController.swift in Sources */,
+				71FEBEF61C9AA5AF00BAAA16 /* LICENSE.md in Sources */,
 				713059B51C995104003128F5 /* HomeHeaderView.swift in Sources */,
 				713059A21C993524003128F5 /* HomeMainTableViewCell.swift in Sources */,
 			);

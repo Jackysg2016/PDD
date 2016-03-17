@@ -4,7 +4,7 @@
 //
 //  Created by 周磊 on 16/3/16.
 //  Copyright © 2016年 ZL. All rights reserved.
-//
+//  首页cell样式1
 
 import UIKit
 
@@ -84,7 +84,7 @@ class HomeFirstTableViewCell: UITableViewCell,UITextFieldDelegate {
         
         goodsName?.text = homeData.mobile_app.desc
         let imageURL = NSURL(string:homeData.mobile_app.thumb_url!)
-        goodsImageView?.wxn_setImageWithURL(imageURL!, placeholderImage: UIImage(named:"ddd.jpg")!)
+        goodsImageView?.wxn_setImageWithURL(imageURL!, placeholderImage: UIImage(named:"homeWu.png")!)
     }
 
     func determine(){
