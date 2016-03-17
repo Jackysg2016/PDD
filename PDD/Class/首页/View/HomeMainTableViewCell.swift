@@ -4,7 +4,7 @@
 //
 //  Created by zhoulei on 16/3/15.
 //  Copyright © 2016年 ZL. All rights reserved.
-//
+//  首页主要cell
 
 import UIKit
 
@@ -80,7 +80,7 @@ class HomeMainTableViewCell: UITableViewCell {
         
     let imageURL = NSURL(string:homeData.good_list.image_url!)
         
-        goodsImageView?.wxn_setImageWithURL(imageURL!, placeholderImage: UIImage(named: "ddd.jpg")!)
+        goodsImageView?.wxn_setImageWithURL(imageURL!, placeholderImage: UIImage(named: "homeWu.png")!)
     }
     
     

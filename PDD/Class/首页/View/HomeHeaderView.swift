@@ -4,12 +4,14 @@
 //
 //  Created by 周磊 on 16/3/16.
 //  Copyright © 2016年 ZL. All rights reserved.
-//
+//  滚动广告视图
 
 import UIKit
 
 class HomeHeaderView: UIView,UIScrollViewDelegate {
 
+    weak var delegate:HomeHeaderDelegate?
+    
     var homeRollDataArray = [HomeRollModel]()
     var scrollView:UIScrollView?
     var pageControl:UIPageControl?
@@ -17,9 +19,9 @@ class HomeHeaderView: UIView,UIScrollViewDelegate {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.backgroundColor = UIColor.cyanColor()
+        self.backgroundColor = BgColor
         setUI()
-        addTimer()
+        
     }
 
     required init?(coder aDecoder: NSCoder) {
@@ -50,6 +52,9 @@ class HomeHeaderView: UIView,UIScrollViewDelegate {
             make.centerX.equalTo(self.snp_centerX).offset(0)
         })
         
+        let tapGestureRecognize = UITapGestureRecognizer(target: self, action: "singleTapGestureRecognizer")
+        tapGestureRecognize.numberOfTapsRequired = 1;
+        scrollView?.addGestureRecognizer(tapGestureRecognize)
         
     }
     
@@ -67,7 +72,7 @@ class HomeHeaderView: UIView,UIScrollViewDelegate {
     func nextImage(sender:AnyObject!){
         
         var page:Int = pageControl!.currentPage
-        if(page == 4){
+        if(page == homeRollDataArray.count-1){
             page = 0
         }else{
             ++page
@@ -77,13 +82,10 @@ class HomeHeaderView: UIView,UIScrollViewDelegate {
         
     }
     
-
-    
-    
-    
     func reloadData(daArray:NSArray){
         
         homeRollDataArray = daArray as! [HomeRollModel]
+        addTimer()
         
         for var i=0;i<homeRollDataArray.count;i++ {
             
@@ -91,8 +93,10 @@ class HomeHeaderView: UIView,UIScrollViewDelegate {
             
             let imageView = UIImageView(frame: CGRectMake(CGFloat(i) * scrollView!.frame.size.width, 0, scrollView!.frame.size.width, scrollView!.frame.size.height))
             
-            imageView.wxn_setImageWithURL(NSURL(string: homeData.home_banner!)!, placeholderImage: UIImage(named: "ddd.jpg")!)
+            imageView.wxn_setImageWithURL(NSURL(string: homeData.home_banner!)!, placeholderImage: UIImage(named: "homeWu.png")!)
             
+            imageView.userInteractionEnabled = true
+
             scrollView?.addSubview(imageView)
         }
         
@@ -120,6 +124,17 @@ class HomeHeaderView: UIView,UIScrollViewDelegate {
 //        addTimer()
 //    }
 
-
+    
+    func singleTapGestureRecognizer() {
+        let page = (Int)(scrollView!.contentOffset.x / scrollView!.frame.size.width)
+        let homeRoll = homeRollDataArray[page]
+        self.delegate?.homeHeaderRequestResult(homeRoll)
+    }
+    
 }
 
+protocol HomeHeaderDelegate: NSObjectProtocol {
+    
+    func homeHeaderRequestResult(homeRollData:HomeRollModel)
+    
+}

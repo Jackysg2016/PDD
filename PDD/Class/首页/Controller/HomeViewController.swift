@@ -8,13 +8,13 @@
 
 import UIKit
 
-class HomeViewController: BaseViewController,UITableViewDelegate,UITableViewDataSource,RequestDataDelegate,HomeRollDataDelegate {
+class HomeViewController: BaseViewController,UITableViewDelegate,UITableViewDataSource,RequestDataDelegate,HomeRollDataDelegate,ClickCollectionCallbackDelegate,HomeHeaderDelegate {
 
     var tableView:UITableView?
     var dataArray = [HomeTotalData]()
     var homeRollArray = [HomeRollModel]()
     var homeHeaderView = HomeHeaderView()
-    
+    var homeRecommendDataArray = [home_recommend_subjectsModel]()
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -27,8 +27,9 @@ class HomeViewController: BaseViewController,UITableViewDelegate,UITableViewData
         tableView?.separatorStyle = UITableViewCellSeparatorStyle.None
         tableView!.registerClass(HomeMainTableViewCell.self, forCellReuseIdentifier:"HomeMainTableViewCell")
         tableView!.registerClass(HomeFirstTableViewCell.self, forCellReuseIdentifier:"HomeFirstTableViewCell")
-        
-        homeHeaderView = HomeHeaderView(frame: CGRectMake(0, 0, ScreenWidth, 300))
+        tableView?.registerClass(HomeAdTableViewCell.self, forCellReuseIdentifier: "HomeAdTableViewCell")
+        homeHeaderView = HomeHeaderView(frame: CGRectMake(0, 0, ScreenWidth, 200))
+        homeHeaderView.delegate = self
         tableView!.tableHeaderView = homeHeaderView;
         view.addSubview(tableView!)
         
@@ -43,14 +44,12 @@ class HomeViewController: BaseViewController,UITableViewDelegate,UITableViewData
         homeRoll.delegate = self
         homeRoll.requestData()
         
-        
-        
     }
 // MARK: - RequestDataDelegate
     func request(goods_listArray:NSArray){
 
         self.hideHUD()
-        dataArray = goods_listArray as! [HomeTotalData];
+        dataArray = goods_listArray as! [HomeTotalData]
         tableView?.reloadData()
     }
     
@@ -71,7 +70,7 @@ class HomeViewController: BaseViewController,UITableViewDelegate,UITableViewData
         
         var home = HomeTotalData()
         home = dataArray[indexPath.row]
-
+        
         switch home.cellType {
         case .group:
             
@@ -90,21 +89,14 @@ class HomeViewController: BaseViewController,UITableViewDelegate,UITableViewData
 
             return cell
             
-            
         default:
             
-            let cellid = "cell"
-            var cell = tableView.dequeueReusableCellWithIdentifier(cellid)
-            if cell == nil {
-                
-                cell = UITableViewCell.init(style: UITableViewCellStyle.Default, reuseIdentifier: cellid)
-                cell!.selectionStyle = UITableViewCellSelectionStyle.None
-
-            }
-            
-            cell?.textLabel?.text = home.home_recommend.desc
-
-            return cell!
+            let  cell = tableView.dequeueReusableCellWithIdentifier("HomeAdTableViewCell", forIndexPath: indexPath) as! HomeAdTableViewCell
+            cell.backgroundColor = BgColor
+            cell.selectionStyle = UITableViewCellSelectionStyle.None
+            cell.releaseHomeAdData(home, homeRecommend: home.home_recommend.goodsList)
+            cell.delegate = self
+            return cell
             
         }
     }
@@ -116,27 +108,30 @@ class HomeViewController: BaseViewController,UITableViewDelegate,UITableViewData
         
         switch home.cellType {
         case .group:
-            
             return 80
-            
         case .common:
-    
             let  height=home.good_list.goods_name!.stringHeightWith(15,width:(ScreenWidth-20))
-            
             return (180 + 85 + height)
-            
         default:
-            
-            return 250
-            
+            return 280
         }
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
         print("\(indexPath.row)")
 
     }
     
-
-    
+// MARK: - 中间广告点击事件
+    func requestResult(home_recommend_goodlist:home_recommend_goodlistModel) {
+        
+        print(home_recommend_goodlist.goods_name)
+        
+    }
+// MARK: - 滚动图片点击事件
+    func homeHeaderRequestResult(homeRollData:HomeRollModel) {
+        
+        print(homeRollData.subject)
+    }
 }
