@@ -16,8 +16,7 @@ class HomeViewController: BaseViewController,UITableViewDelegate,UITableViewData
     var homeHeaderView = HomeHeaderView()
     var homeRecommendDataArray = [home_recommend_subjectsModel]()
     override func viewDidLoad() {
-        super.viewDidLoad()
-
+        super.viewDidLoad()        
         view.backgroundColor = BgColor
         
         tableView = UITableView(frame: CGRectMake(0, 0, ScreenWidth, ScreenHeight))
@@ -43,7 +42,7 @@ class HomeViewController: BaseViewController,UITableViewDelegate,UITableViewData
         let homeRoll = HomeRollData()
         homeRoll.delegate = self
         homeRoll.requestData()
-        
+
     }
 // MARK: - RequestDataDelegate
     func request(goods_listArray:NSArray){

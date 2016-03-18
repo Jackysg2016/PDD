@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		711C16891C9BA14100FD3113 /* RankingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C16881C9BA14100FD3113 /* RankingTableViewController.swift */; };
+		711C168B1C9BA54E00FD3113 /* HotListRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C168A1C9BA54E00FD3113 /* HotListRequestData.swift */; };
+		711C168D1C9BAA7200FD3113 /* HotListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C168C1C9BAA7200FD3113 /* HotListModel.swift */; };
+		711C168F1C9BAC6E00FD3113 /* HotListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C168E1C9BAC6E00FD3113 /* HotListTableViewCell.swift */; };
 		713059921C993524003128F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713059671C993524003128F5 /* AppDelegate.swift */; };
 		713059931C993524003128F5 /* PersonageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7130596B1C993524003128F5 /* PersonageViewController.swift */; };
 		713059941C993524003128F5 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7130596F1C993524003128F5 /* Theme.swift */; };
@@ -57,6 +61,10 @@
 /* Begin PBXFileReference section */
 		48404C5D96711E995D3A3F28 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6974B2E804129D94C085DB2F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		711C16881C9BA14100FD3113 /* RankingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingTableViewController.swift; sourceTree = "<group>"; };
+		711C168A1C9BA54E00FD3113 /* HotListRequestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotListRequestData.swift; sourceTree = "<group>"; };
+		711C168C1C9BAA7200FD3113 /* HotListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotListModel.swift; sourceTree = "<group>"; };
+		711C168E1C9BAC6E00FD3113 /* HotListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotListTableViewCell.swift; sourceTree = "<group>"; };
 		713059671C993524003128F5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		713059681C993524003128F5 /* PDD-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PDD-Bridging-Header.h"; sourceTree = "<group>"; };
 		7130596B1C993524003128F5 /* PersonageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonageViewController.swift; sourceTree = "<group>"; };
@@ -290,6 +298,7 @@
 			isa = PBXGroup;
 			children = (
 				713059831C993524003128F5 /* HotListViewController.swift */,
+				711C16881C9BA14100FD3113 /* RankingTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -297,6 +306,7 @@
 		713059841C993524003128F5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				711C168C1C9BAA7200FD3113 /* HotListModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -304,6 +314,7 @@
 		713059851C993524003128F5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				711C168E1C9BAC6E00FD3113 /* HotListTableViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -323,6 +334,7 @@
 				713059881C993524003128F5 /* Request.swift */,
 				713059891C993524003128F5 /* RequestData.swift */,
 				713059B61C995288003128F5 /* HomeRollData.swift */,
+				711C168A1C9BA54E00FD3113 /* HotListRequestData.swift */,
 			);
 			path = "网络请求";
 			sourceTree = "<group>";
@@ -621,6 +633,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				711C16891C9BA14100FD3113 /* RankingTableViewController.swift in Sources */,
 				71FEBEEA1C9A50AE00BAAA16 /* HomeAdCollectionViewCell.swift in Sources */,
 				7130599C1C993524003128F5 /* HotListViewController.swift in Sources */,
 				7130599D1C993524003128F5 /* Request.swift in Sources */,
@@ -631,7 +644,9 @@
 				713059981C993524003128F5 /* Extension+String.swift in Sources */,
 				713059AF1C99380D003128F5 /* SVRadialGradientLayer.m in Sources */,
 				713059B31C993A41003128F5 /* ViewController+Extension.swift in Sources */,
+				711C168F1C9BAC6E00FD3113 /* HotListTableViewCell.swift in Sources */,
 				7130599F1C993524003128F5 /* HomeViewController.swift in Sources */,
+				711C168D1C9BAA7200FD3113 /* HotListModel.swift in Sources */,
 				713059931C993524003128F5 /* PersonageViewController.swift in Sources */,
 				71FEBEF71C9AA5AF00BAAA16 /* README.md in Sources */,
 				71FEBEE81C9A458600BAAA16 /* HomeAdTableViewCell.swift in Sources */,
@@ -649,6 +664,7 @@
 				713059AE1C99380D003128F5 /* SVProgressHUD.m in Sources */,
 				71EE0D0D1C96BA9F002017F7 /* FDDSYViewController.swift in Sources */,
 				71FEBEF61C9AA5AF00BAAA16 /* LICENSE.md in Sources */,
+				711C168B1C9BA54E00FD3113 /* HotListRequestData.swift in Sources */,
 				713059B51C995104003128F5 /* HomeHeaderView.swift in Sources */,
 				713059A21C993524003128F5 /* HomeMainTableViewCell.swift in Sources */,
 			);

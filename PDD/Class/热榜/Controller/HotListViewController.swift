@@ -12,17 +12,18 @@ class HotListViewController: BaseViewController,UIScrollViewDelegate {
     
     var mainScrollView:UIScrollView?
     var arrayList = [String]()
+    var parameterArray = [String]()
     var segmentedControl = HMSegmentedControl()
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        view.backgroundColor = UIColor.cyanColor()
-        self.title = "排行榜"
+        
         arrayList = ["大家都在买","最新","猜你喜欢"]
-
+        parameterArray = ["ranklist","newlist","randlist"]
+        
         setTopScrollView()
         setMainScrollerView()
         addViewControllers()
+        
     }
 
     func setTopScrollView() {
@@ -53,6 +54,8 @@ class HotListViewController: BaseViewController,UIScrollViewDelegate {
         
         mainScrollView!.contentOffset = CGPointMake(CGFloat(Float(segment.selectedSegmentIndex))*ScreenWidth, 0);
         
+        addControllersWhenSlider(segmentedControl.selectedSegmentIndex)
+        
     }
     
     func setMainScrollerView() {
@@ -72,14 +75,23 @@ class HotListViewController: BaseViewController,UIScrollViewDelegate {
     func addViewControllers() {
         
         for var i = 0; i < arrayList.count; i++ {
-            let vc = UIViewController()
-            vc.view.backgroundColor = UIColor.yellowColor()
-            self.addChildViewController(vc)
+            
+            let rankingView = RankingTableViewController()
+            
+            rankingView.parameter = parameterArray[i]
+            
+            self.addChildViewController(rankingView)
         }
+        /// 添加默认控制器
+        let rankingVC:RankingTableViewController = (self.childViewControllers[0] as! RankingTableViewController)
+        rankingVC.view.frame = mainScrollView!.bounds;
+        mainScrollView!.addSubview(rankingVC.view)
     }
+    
     func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
         
         scrollViewDidEndScrollingAnimation(scrollView)
+        
     }
     
     func scrollViewDidEndScrollingAnimation(scrollView: UIScrollView) {
@@ -88,15 +100,15 @@ class HotListViewController: BaseViewController,UIScrollViewDelegate {
         
         segmentedControl.selectedSegmentIndex =  Int(Float(index))
 
+        addControllersWhenSlider(segmentedControl.selectedSegmentIndex)
     }
     
     func addControllersWhenSlider(index:Int) {
         
-        let vc = self.childViewControllers[index];
-        vc.view.backgroundColor = UIColor.yellowColor()
-        vc.view.frame = mainScrollView!.bounds;
-        mainScrollView?.addSubview(vc.view)
-
+        let rankingView:RankingTableViewController = (self.childViewControllers[index] as! RankingTableViewController)
+        rankingView.view.frame = mainScrollView!.bounds
+        mainScrollView?.addSubview(rankingView.view)
+        
     }
 
 }

@@ -50,27 +50,23 @@ class HomeAdCollectionViewCell: UICollectionViewCell {
             make.bottom.equalTo(self).offset(-10)
             
         })
-        
     }
 
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 
-    
     func releaseData(homeData:home_recommend_goodlistModel){
         
         var pice :Float?
         pice = NSString(string: homeData.price!).floatValue / 100
-        
         var price:String?
         price = String(format: "%.2f", pice!)
         
-        
         goodsName?.text = homeData.goods_name
         goosPice?.text = "¥"  + price!
-        let imageURL = NSURL(string:homeData.thumb_url!)
         
+        let imageURL = NSURL(string:homeData.thumb_url!)
         goodsImageView?.wxn_setImageWithURL(imageURL!, placeholderImage: UIImage(named: "wu.jpg")!)
     }
     
