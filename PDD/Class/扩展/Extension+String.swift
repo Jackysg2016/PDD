@@ -32,4 +32,33 @@ extension String {
         return rect.size.height
         
     }
+    
+    
 }
+extension NSInteger {
+    
+    
+    //MARK:时间戳转时间
+    
+    func timeStampToInteger(timeStamp:NSInteger)->NSDate {
+        
+        let timeSta:NSTimeInterval = Double(timeStamp)
+        
+        let dfmatter = NSDateFormatter()
+        
+        dfmatter.dateFormat="yyyy年MM月dd日 HH时mm分ss秒"
+        
+        let date = NSDate(timeIntervalSince1970: timeSta)
+        
+        return date
+        
+    }
+    
+}
+
+
+
+
+
+
+

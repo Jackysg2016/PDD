@@ -11,13 +11,13 @@ import SnapKit
 
 class BaseViewController: UIViewController,UIGestureRecognizerDelegate {
     
+    var titleLabel = UILabel()
+
     override func viewDidLoad() {
         super.viewDidLoad()
         /**允许右滑返回*/
         self.navigationController!.interactivePopGestureRecognizer!.enabled = true;
         self.navigationController!.interactivePopGestureRecognizer!.delegate = self;
-
-
         configureInterface()
     }
     /**右侧分享按钮*/

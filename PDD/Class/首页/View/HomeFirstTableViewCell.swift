@@ -41,11 +41,12 @@ class HomeFirstTableViewCell: UITableViewCell,UITextFieldDelegate {
         goodsName = UILabel()
         goodsName?.textColor = UIColor.grayColor()
         goodsName?.font = UIFont.systemFontOfSize(12)
-        goodsName?.numberOfLines = 1
+        goodsName?.numberOfLines = 0
         self.contentView.addSubview(goodsName!)
         goodsName?.snp_makeConstraints(closure: { (make) -> Void in
             make.top.equalTo(self).offset(20)
             make.left.equalTo(smallIcon!.snp_right).offset(5)
+            make.right.equalTo(self).offset(-10)
 
         })
         

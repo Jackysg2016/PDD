@@ -81,12 +81,60 @@ class HomeMainTableViewCell: UITableViewCell {
     let imageURL = NSURL(string:homeData.good_list.image_url!)
         
         goodsImageView?.wxn_setImageWithURL(imageURL!, placeholderImage: UIImage(named: "homeWu.png")!)
+        
+        
+        let tempString = homeData.good_list.list_desc?.stringByReplacingOccurrencesOfString("[", withString: "")
+
+        let temp = tempString!.stringByReplacingOccurrencesOfString("]", withString: "")
+        
+        let strArray = temp.componentsSeparatedByString(",")
+        
+        
+     
+        
+        
+        for ddd in strArray {
+            
+
+            print(replaceUnicode(ddd))
+
+        }
+        /*Optional(0.0)
+        "\u9632\u6c34"
+        "\u643a\u5e26\u65b9\u4fbf"
+        " \u65c5\u884c\u5c45\u5bb6\u5fc5\u5907"
+        "\u6cf0\u56fd\u8fdb\u53e3\u69b4\u83b2"
+        "\u65b0\u9c9c\u7a7a\u8fd0 \u8d28\u5730\u9971\u6ee1"
+        "\u6d3b\u8840\u6563\u5bd2 \u5065\u813e\u8865\u6c14"
+*/
+        /*\u9632\u6c34
+        \u643a\u5e26\u65b9\u4fbf
+        \u65c5\u884c\u5c45\u5bb6\u5fc5\u5907
+        \u6cf0\u56fd\u8fdb\u53e3\u69b4\u83b2
+        \u65b0\u9c9c\u7a7a\u8fd0 \u8d28\u5730\u9971\u6ee1
+        \u6d3b\u8840\u6563\u5bd2 \u5065\u813e\u8865\u6c14
+*/
     }
     
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
+    
+    
+    func replaceUnicode(unicodeStr:String) -> String{
+        
+        let tempStr1 = unicodeStr.stringByReplacingOccurrencesOfString("\\u", withString: "\\u")
+        let tempStr2 = tempStr1.stringByReplacingOccurrencesOfString("", withString: "\\")
+        let tempStr3 = "".stringByAppendingString(tempStr2).stringByAppendingString("")
+        let tempData = tempStr3.dataUsingEncoding(NSUTF8StringEncoding)
+        let returnStr = NSPropertyListSerialization.propertyListFromData(tempData!, mutabilityOption: NSPropertyListMutabilityOptions.Immutable, format: nil, errorDescription: nil)
+        
+        
+        return returnStr!.stringByReplacingOccurrencesOfString("\\r\\n",withString:"\n")
+
+    }
+    
     
     
 }
