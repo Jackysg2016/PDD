@@ -43,7 +43,6 @@ class HomeModel: NSObject {
     }
     
 }
-
 struct home_recommend_subjectsModel {
     var desc:String?
     var goods_list:NSArray?

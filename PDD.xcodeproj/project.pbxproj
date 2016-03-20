@@ -27,6 +27,10 @@
 		710804911C9C350D00699A21 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 7108047D1C9C350C00699A21 /* UIScrollView+MJRefresh.m */; };
 		710804921C9C350D00699A21 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7108047F1C9C350C00699A21 /* UIView+MJExtension.m */; };
 		7108A8981C9E597B00162C2B /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7108A8971C9E597B00162C2B /* UIScrollView+EmptyDataSet.m */; };
+		7108A89A1C9E9C5600162C2B /* HaiTaoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7108A8991C9E9C5600162C2B /* HaiTaoRequest.swift */; };
+		7108A89C1C9E9E4600162C2B /* HaiTaoDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7108A89B1C9E9E4600162C2B /* HaiTaoDataModel.swift */; };
+		7108A89E1C9EAD4D00162C2B /* HaiTaoCountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7108A89D1C9EAD4D00162C2B /* HaiTaoCountryTableViewCell.swift */; };
+		7108A8A01C9EB08800162C2B /* HaiTaoCountryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7108A89F1C9EB08800162C2B /* HaiTaoCountryCollectionViewCell.swift */; };
 		711C16891C9BA14100FD3113 /* RankingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C16881C9BA14100FD3113 /* RankingTableViewController.swift */; };
 		711C168B1C9BA54E00FD3113 /* HotListRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C168A1C9BA54E00FD3113 /* HotListRequestData.swift */; };
 		711C168D1C9BAA7200FD3113 /* HotListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C168C1C9BAA7200FD3113 /* HotListModel.swift */; };
@@ -121,6 +125,10 @@
 		7108047F1C9C350C00699A21 /* UIView+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MJExtension.m"; sourceTree = "<group>"; };
 		7108A8961C9E597B00162C2B /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
 		7108A8971C9E597B00162C2B /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		7108A8991C9E9C5600162C2B /* HaiTaoRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaiTaoRequest.swift; sourceTree = "<group>"; };
+		7108A89B1C9E9E4600162C2B /* HaiTaoDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HaiTaoDataModel.swift; path = "PDD/Class/网络请求/HaiTaoDataModel.swift"; sourceTree = SOURCE_ROOT; };
+		7108A89D1C9EAD4D00162C2B /* HaiTaoCountryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaiTaoCountryTableViewCell.swift; sourceTree = "<group>"; };
+		7108A89F1C9EB08800162C2B /* HaiTaoCountryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaiTaoCountryCollectionViewCell.swift; sourceTree = "<group>"; };
 		711C16881C9BA14100FD3113 /* RankingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingTableViewController.swift; sourceTree = "<group>"; };
 		711C168A1C9BA54E00FD3113 /* HotListRequestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotListRequestData.swift; sourceTree = "<group>"; };
 		711C168C1C9BAA7200FD3113 /* HotListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotListModel.swift; sourceTree = "<group>"; };
@@ -435,6 +443,7 @@
 		7130597F1C993524003128F5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7108A89B1C9E9E4600162C2B /* HaiTaoDataModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -442,6 +451,8 @@
 		713059801C993524003128F5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7108A89D1C9EAD4D00162C2B /* HaiTaoCountryTableViewCell.swift */,
+				7108A89F1C9EB08800162C2B /* HaiTaoCountryCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -499,6 +510,7 @@
 				713059891C993524003128F5 /* RequestData.swift */,
 				713059B61C995288003128F5 /* HomeRollData.swift */,
 				711C168A1C9BA54E00FD3113 /* HotListRequestData.swift */,
+				7108A8991C9E9C5600162C2B /* HaiTaoRequest.swift */,
 			);
 			path = "网络请求";
 			sourceTree = "<group>";
@@ -819,6 +831,7 @@
 				7130599F1C993524003128F5 /* HomeViewController.swift in Sources */,
 				710804891C9C350D00699A21 /* MJRefreshBackNormalFooter.m in Sources */,
 				711C168D1C9BAA7200FD3113 /* HotListModel.swift in Sources */,
+				7108A8A01C9EB08800162C2B /* HaiTaoCountryCollectionViewCell.swift in Sources */,
 				713059931C993524003128F5 /* PersonageViewController.swift in Sources */,
 				71FEBEF71C9AA5AF00BAAA16 /* README.md in Sources */,
 				710804811C9C350D00699A21 /* MJRefreshBackFooter.m in Sources */,
@@ -827,10 +840,12 @@
 				7108048F1C9C350D00699A21 /* MJRefreshConst.m in Sources */,
 				713059B91C99536B003128F5 /* HomeRollModel.swift in Sources */,
 				710804851C9C350D00699A21 /* MJRefreshAutoGifFooter.m in Sources */,
+				7108A89C1C9E9E4600162C2B /* HaiTaoDataModel.swift in Sources */,
 				713059941C993524003128F5 /* Theme.swift in Sources */,
 				713059991C993524003128F5 /* UIImageView+Extension.swift in Sources */,
 				71FEBEF51C9AA5AF00BAAA16 /* HMSegmentedControl.m in Sources */,
 				713059961C993524003128F5 /* BaseTabBarController.swift in Sources */,
+				7108A89A1C9E9C5600162C2B /* HaiTaoRequest.swift in Sources */,
 				710804921C9C350D00699A21 /* UIView+MJExtension.m in Sources */,
 				710804881C9C350D00699A21 /* MJRefreshBackGifFooter.m in Sources */,
 				710804821C9C350D00699A21 /* MJRefreshComponent.m in Sources */,
@@ -844,6 +859,7 @@
 				71FEBEF61C9AA5AF00BAAA16 /* LICENSE.md in Sources */,
 				711C168B1C9BA54E00FD3113 /* HotListRequestData.swift in Sources */,
 				710804841C9C350D00699A21 /* MJRefreshHeader.m in Sources */,
+				7108A89E1C9EAD4D00162C2B /* HaiTaoCountryTableViewCell.swift in Sources */,
 				7108048A1C9C350D00699A21 /* MJRefreshBackStateFooter.m in Sources */,
 				7108048C1C9C350D00699A21 /* MJRefreshNormalHeader.m in Sources */,
 				7108A8981C9E597B00162C2B /* UIScrollView+EmptyDataSet.m in Sources */,
