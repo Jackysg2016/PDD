@@ -80,7 +80,7 @@ class HomeMainTableViewCell: UITableViewCell {
         
     let imageURL = NSURL(string:homeData.good_list.image_url!)
         
-        goodsImageView?.wxn_setImageWithURL(imageURL!, placeholderImage: UIImage(named: "homeWu.png")!)
+        goodsImageView?.pdd_setImageWithURL(imageURL!, placeholderImage: UIImage(named: "homeWu.png")!)
         
         
         let tempString = homeData.good_list.list_desc?.stringByReplacingOccurrencesOfString("[", withString: "")
@@ -96,7 +96,7 @@ class HomeMainTableViewCell: UITableViewCell {
         for ddd in strArray {
             
 
-            print(replaceUnicode(ddd))
+//            print(replaceUnicode(ddd))
 
         }
         /*Optional(0.0)
@@ -122,19 +122,19 @@ class HomeMainTableViewCell: UITableViewCell {
     }
     
     
-    func replaceUnicode(unicodeStr:String) -> String{
-        
-        let tempStr1 = unicodeStr.stringByReplacingOccurrencesOfString("\\u", withString: "\\u")
-        let tempStr2 = tempStr1.stringByReplacingOccurrencesOfString("", withString: "\\")
-        let tempStr3 = "".stringByAppendingString(tempStr2).stringByAppendingString("")
-        let tempData = tempStr3.dataUsingEncoding(NSUTF8StringEncoding)
-        let returnStr = NSPropertyListSerialization.propertyListFromData(tempData!, mutabilityOption: NSPropertyListMutabilityOptions.Immutable, format: nil, errorDescription: nil)
-        
-        
-        return returnStr!.stringByReplacingOccurrencesOfString("\\r\\n",withString:"\n")
-
-    }
-    
+//    func replaceUnicode(unicodeStr:String) -> String{
+//        
+//        let tempStr1 = unicodeStr.stringByReplacingOccurrencesOfString("\\u", withString: "\\u")
+//        let tempStr2 = tempStr1.stringByReplacingOccurrencesOfString("", withString: "\\")
+//        let tempStr3 = "".stringByAppendingString(tempStr2).stringByAppendingString("")
+//        let tempData = tempStr3.dataUsingEncoding(NSUTF8StringEncoding)
+//        let returnStr = NSPropertyListSerialization.propertyListFromData(tempData!, mutabilityOption: NSPropertyListMutabilityOptions.Immutable, format: nil, errorDescription: nil)
+//        
+//        
+//        return returnStr!.stringByReplacingOccurrencesOfString("\\r\\n",withString:"\n")
+//
+//    }
+//    
     
     
 }

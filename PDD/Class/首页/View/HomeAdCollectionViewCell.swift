@@ -67,7 +67,7 @@ class HomeAdCollectionViewCell: UICollectionViewCell {
         goosPice?.text = "¥"  + price!
         
         let imageURL = NSURL(string:homeData.thumb_url!)
-        goodsImageView?.wxn_setImageWithURL(imageURL!, placeholderImage: UIImage(named: "wu.jpg")!)
+        goodsImageView?.pdd_setImageWithURL(imageURL!, placeholderImage: UIImage(named: "wu.jpg")!)
     }
     
 }

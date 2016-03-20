@@ -93,7 +93,7 @@ class HomeHeaderView: UIView,UIScrollViewDelegate {
             
             let imageView = UIImageView(frame: CGRectMake(CGFloat(i) * scrollView!.frame.size.width, 0, scrollView!.frame.size.width, scrollView!.frame.size.height))
             
-            imageView.wxn_setImageWithURL(NSURL(string: homeData.home_banner!)!, placeholderImage: UIImage(named: "homeWu.png")!)
+            imageView.pdd_setImageWithURL(NSURL(string: homeData.home_banner!)!, placeholderImage: UIImage(named: "homeWu.png")!)
             
             imageView.userInteractionEnabled = true
 

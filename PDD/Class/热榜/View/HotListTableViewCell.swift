@@ -75,7 +75,7 @@ class HotListTableViewCell: UITableViewCell {
         
         numericalOrder?.text = index
         let imageURL = NSURL(string:hotList.thumb_url!)
-        goodsImageView?.wxn_setImageWithURL(imageURL!, placeholderImage: UIImage(named: "wu.jpg")!)
+        goodsImageView?.pdd_setImageWithURL(imageURL!, placeholderImage: UIImage(named: "wu.jpg")!)
         goodsName?.text = hotList.goods_name
 
         if hotList.cnt != nil && hotList.time == nil {
@@ -104,18 +104,19 @@ class HotListTableViewCell: UITableViewCell {
             
             goodsSalesAmount?.font = UIFont.systemFontOfSize(13)
             goodsSalesAmount?.textColor = UIColor.grayColor()
-            goodsSalesAmount?.text = "\(minutes)分钟前"
+            
+            if minutes < 60 {
+                goodsSalesAmount?.text = "\(minutes)分钟前"
+            }else  {
+                let hour = lroundf(Float(minutes/60))
+                goodsSalesAmount?.text = "\(hour)小时前"
+            }
             
         }else {
             
             goodsSalesAmount?.hidden = true
         }
-        
-
-        
-        
     }
-    
    
     
     func setupAttributeString(text : NSString, highlightText : NSString) -> NSMutableAttributedString {

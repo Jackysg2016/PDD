@@ -16,10 +16,9 @@ class HotListViewController: BaseViewController,UIScrollViewDelegate {
     var segmentedControl = HMSegmentedControl()
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        self.view.backgroundColor = UIColor.whiteColor()
         arrayList = ["大家都在买","最新","猜你喜欢"]
         parameterArray = ["ranklist","newlist","randlist"]
-        
         setTopScrollView()
         setMainScrollerView()
         addViewControllers()
@@ -60,6 +59,10 @@ class HotListViewController: BaseViewController,UIScrollViewDelegate {
     
     func setMainScrollerView() {
         
+//        let headerView = UIView(frame:CGRectMake(0, 64+45, ScreenWidth, 5))
+//        headerView.backgroundColor = BgColor
+//        self.view.addSubview(headerView)
+
         mainScrollView = UIScrollView(frame:CGRectMake(0, 64+45, ScreenWidth, ScreenHeight-64-45))
         mainScrollView!.contentSize = CGSizeMake((ScreenWidth * CGFloat(Float(arrayList.count))), ScreenHeight-64-45);
         mainScrollView!.pagingEnabled = true
@@ -67,7 +70,8 @@ class HotListViewController: BaseViewController,UIScrollViewDelegate {
         mainScrollView!.showsHorizontalScrollIndicator = true
         mainScrollView!.directionalLockEnabled = true
         mainScrollView?.delegate = self
-        mainScrollView!.contentOffset = CGPointMake(0, 0);
+        mainScrollView!.contentOffset = CGPointMake(0, 0)
+        mainScrollView?.backgroundColor = UIColor.whiteColor()
         self.view.addSubview(mainScrollView!)
 
     }

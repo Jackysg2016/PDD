@@ -8,11 +8,15 @@
 
 import UIKit
 
-class RankingTableViewController: UITableViewController,hotListRequestDataDelegate {
+class RankingTableViewController: UITableViewController,hotListRequestDataDelegate,DZNEmptyDataSetSource,DZNEmptyDataSetDelegate {
 
     var parameter:String?
     var dataSouce = [HotListModel]()
+    // 顶部刷新
+    let header = MJRefreshNormalHeader()
     
+    let hotListRequest = HotListRequestData()
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,21 +27,39 @@ class RankingTableViewController: UITableViewController,hotListRequestDataDelega
         let headerView = UIView(frame:CGRectMake(0, 0, ScreenWidth, 5))
 
         headerView.backgroundColor = BgColor
-        
+                
         tableView!.tableHeaderView = headerView;
-
         
+        tableView.emptyDataSetSource = self
+        tableView.emptyDataSetDelegate = self
+        tableView.tableFooterView = UIView()
         
-        let hotListRequest = HotListRequestData()
         hotListRequest.delegate = self
         self.showHUD()
         hotListRequest.requestData(parameter!)
+      
+        // 下拉刷新
+        header.setRefreshingTarget(self, refreshingAction: Selector("headerRefresh"))
+        header.lastUpdatedTimeLabel!.hidden = true
+        header.stateLabel!.hidden = true
+        tableView.mj_header = header
+        
+    }
+    
+    // 顶部刷新
+    func headerRefresh(){
+        
+       hotListRequest.requestData(parameter!)
         
     }
     
     func hotListRequest(goods_listArray:NSArray) {
         
         self.hideHUD()
+        // 结束刷新
+        tableView.mj_header.endRefreshing()
+        
+        dataSouce.removeAll()
         
         dataSouce = goods_listArray as! [HotListModel]
         
@@ -72,6 +94,13 @@ class RankingTableViewController: UITableViewController,hotListRequestDataDelega
         return 150
     }
     
+    func customViewForEmptyDataSet(scrollView: UIScrollView!) -> UIView! {
+        
+        let emptyViewGound = UIView(frame: CGRectMake(0,0,ScreenWidth,ScreenHeight))
+        emptyViewGound.backgroundColor = UIColor.whiteColor()
+        return emptyViewGound
+        
+    }
     
     
 }

@@ -25,7 +25,6 @@ class BaseViewController: UIViewController,UIGestureRecognizerDelegate {
         let rightBtn = UIBarButtonItem(title: "", style: .Plain, target: self, action: "share")
         rightBtn.image = UIImage(named: "share")!.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal)
         navigationItem.rightBarButtonItem = rightBtn
-        print(navigationItem.rightBarButtonItem?.width)
     }
     
     func share(){

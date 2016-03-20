@@ -85,7 +85,7 @@ class HomeFirstTableViewCell: UITableViewCell,UITextFieldDelegate {
         
         goodsName?.text = homeData.mobile_app.desc
         let imageURL = NSURL(string:homeData.mobile_app.thumb_url!)
-        goodsImageView?.wxn_setImageWithURL(imageURL!, placeholderImage: UIImage(named:"homeWu.png")!)
+        goodsImageView?.pdd_setImageWithURL(imageURL!, placeholderImage: UIImage(named:"homeWu.png")!)
     }
 
     func determine(){

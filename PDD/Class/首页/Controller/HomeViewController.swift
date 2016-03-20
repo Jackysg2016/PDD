@@ -38,23 +38,21 @@ class HomeViewController: BaseViewController,UITableViewDelegate,UITableViewData
         self.showHUD()
         homeRequest.requestData()
         
-        
-        let homeRoll = HomeRollData()
-        homeRoll.delegate = self
-        homeRoll.requestData()
-
     }
 // MARK: - RequestDataDelegate
     func request(goods_listArray:NSArray){
 
-        self.hideHUD()
         dataArray = goods_listArray as! [HomeTotalData]
         tableView?.reloadData()
+        
+        let homeRoll = HomeRollData()
+        homeRoll.delegate = self
+        homeRoll.requestData()
     }
     
 // MARK: - HomeRollDataDelegate
     func requestResult(homeRollDataArray:NSArray) {
-        
+        self.hideHUD()
         homeRollArray = homeRollDataArray as! [HomeRollModel]
         homeHeaderView.reloadData(homeRollArray)
     }
