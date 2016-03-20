@@ -74,16 +74,15 @@ class HomeMainTableViewCell: UITableViewCell {
         
     }
     
-    func releaseData(homeData:HomeTotalData){
+    func releaseData(homeData:HomeModel){
         
-        goodsName?.text = homeData.good_list.goods_name
+        goodsName?.text = homeData.goods_name
         
-    let imageURL = NSURL(string:homeData.good_list.image_url!)
+    let imageURL = NSURL(string:homeData.image_url!)
         
         goodsImageView?.pdd_setImageWithURL(imageURL!, placeholderImage: UIImage(named: "homeWu.png")!)
         
-        
-        let tempString = homeData.good_list.list_desc?.stringByReplacingOccurrencesOfString("[", withString: "")
+        let tempString = homeData.list_desc?.stringByReplacingOccurrencesOfString("[", withString: "")
 
         let temp = tempString!.stringByReplacingOccurrencesOfString("]", withString: "")
         

@@ -14,6 +14,7 @@ class HomeViewController: BaseViewController,UITableViewDelegate,UITableViewData
     var dataArray = [HomeTotalData]()
     var homeRollArray = [HomeRollModel]()
     var homeHeaderView = HomeHeaderView()
+    
     var homeRecommendDataArray = [home_recommend_subjectsModel]()
     override func viewDidLoad() {
         super.viewDidLoad()        
@@ -82,7 +83,7 @@ class HomeViewController: BaseViewController,UITableViewDelegate,UITableViewData
             let  cell = tableView.dequeueReusableCellWithIdentifier("HomeMainTableViewCell", forIndexPath: indexPath) as! HomeMainTableViewCell
             cell.selectionStyle = UITableViewCellSelectionStyle.None
             cell.backgroundColor = BgColor
-            cell.releaseData(home)
+            cell.releaseData(home.good_list)
 
             return cell
             
@@ -91,7 +92,7 @@ class HomeViewController: BaseViewController,UITableViewDelegate,UITableViewData
             let  cell = tableView.dequeueReusableCellWithIdentifier("HomeAdTableViewCell", forIndexPath: indexPath) as! HomeAdTableViewCell
             cell.backgroundColor = BgColor
             cell.selectionStyle = UITableViewCellSelectionStyle.None
-            cell.releaseHomeAdData(home, homeRecommend: home.home_recommend.goodsList)
+            cell.releaseHomeAdData(home.home_recommend, homeRecommend: home.home_recommend.goodsList)
             cell.delegate = self
             return cell
             

@@ -91,13 +91,21 @@ class HomeAdTableViewCell: UITableViewCell,UICollectionViewDataSource,UICollecti
         fatalError("init(coder:) has not been implemented")
     }
     
-    func releaseHomeAdData(homeData:HomeTotalData,homeRecommend:[home_recommend_goodlistModel]){
+    func releaseHomeAdData(homeData:home_recommend_subjectsModel,homeRecommend:[home_recommend_goodlistModel]){
         
-        titleName?.text = homeData.home_recommend.subject
+        titleName?.text = homeData.subject
         dataSouce = homeRecommend
         collectionView?.reloadData()
     }
 
+    func releaseHaiTaoAdData(homeData:home_recommend_subjectsModel,homeRecommend:[home_recommend_goodlistModel]){
+        
+        titleName?.text = homeData.subject
+        dataSouce = homeRecommend
+        collectionView?.reloadData()
+    }
+    
+    
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return dataSouce.count
     }
