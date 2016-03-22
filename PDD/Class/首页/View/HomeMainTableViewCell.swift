@@ -91,13 +91,13 @@ class HomeMainTableViewCell: UITableViewCell {
         
      
         
-        
-        for ddd in strArray {
-            
-
-//            print(replaceUnicode(ddd))
-
-        }
+//        
+//        for ddd in strArray {
+//            
+//
+////            print(replaceUnicode(ddd))
+//
+//        }
         /*Optional(0.0)
         "\u9632\u6c34"
         "\u643a\u5e26\u65b9\u4fbf"

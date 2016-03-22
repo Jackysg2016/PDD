@@ -21,8 +21,8 @@ public let RanklistUrl:String = "http://apiv2.yangkeduo.com/v2/ranklist" // 热�
 public let NewlistUrl:String = "http://apiv2.yangkeduo.com/v2/newlist" // 热榜 － 最新
 public let RandlistUrl:String = "http://apiv2.yangkeduo.com/v2/randlist" // 热榜 － 猜你喜欢
 public let HaitaoUrl:String = "http://apiv2.yangkeduo.com/v2/haitaov2?page=1&size=200" // 海淘
-
-
+public let OperationsUrl:String = "http://apiv2.yangkeduo.com/operations" // 搜索
+public let UserUrl:String = "http://apiv2.yangkeduo.com/user/me" // 个人中心
 
 
 // MARK: - 全局常用颜色

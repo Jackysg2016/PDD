@@ -60,6 +60,10 @@
 		713059B51C995104003128F5 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713059B41C995104003128F5 /* HomeHeaderView.swift */; };
 		713059B71C995288003128F5 /* HomeRollData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713059B61C995288003128F5 /* HomeRollData.swift */; };
 		713059B91C99536B003128F5 /* HomeRollModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713059B81C99536B003128F5 /* HomeRollModel.swift */; };
+		715BDEF71C9FC708000C3BF8 /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715BDEF61C9FC708000C3BF8 /* SearchModel.swift */; };
+		71876F341CA0E0E900AE8B18 /* SearchHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71876F331CA0E0E900AE8B18 /* SearchHeaderView.swift */; };
+		71A08FAC1CA012180085A699 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A08FAB1CA012180085A699 /* SearchTableViewCell.swift */; };
+		71A08FAE1CA016C30085A699 /* SearchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A08FAD1CA016C30085A699 /* SearchRequest.swift */; };
 		71EE0CE61C96BA6F002017F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71EE0CE51C96BA6F002017F7 /* Assets.xcassets */; };
 		71EE0CF41C96BA6F002017F7 /* PDDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EE0CF31C96BA6F002017F7 /* PDDTests.swift */; };
 		71EE0D0D1C96BA9F002017F7 /* FDDSYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EE0D0C1C96BA9F002017F7 /* FDDSYViewController.swift */; };
@@ -163,6 +167,10 @@
 		713059B41C995104003128F5 /* HomeHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 		713059B61C995288003128F5 /* HomeRollData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRollData.swift; sourceTree = "<group>"; };
 		713059B81C99536B003128F5 /* HomeRollModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRollModel.swift; sourceTree = "<group>"; };
+		715BDEF61C9FC708000C3BF8 /* SearchModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
+		71876F331CA0E0E900AE8B18 /* SearchHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchHeaderView.swift; sourceTree = "<group>"; };
+		71A08FAB1CA012180085A699 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		71A08FAD1CA016C30085A699 /* SearchRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRequest.swift; sourceTree = "<group>"; };
 		71EE0CDB1C96BA6F002017F7 /* PDD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71EE0CE51C96BA6F002017F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71EE0CEA1C96BA6F002017F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -411,6 +419,7 @@
 		7130597A1C993524003128F5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				715BDEF61C9FC708000C3BF8 /* SearchModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -418,6 +427,8 @@
 		7130597B1C993524003128F5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				71A08FAB1CA012180085A699 /* SearchTableViewCell.swift */,
+				71876F331CA0E0E900AE8B18 /* SearchHeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -511,6 +522,7 @@
 				713059B61C995288003128F5 /* HomeRollData.swift */,
 				711C168A1C9BA54E00FD3113 /* HotListRequestData.swift */,
 				7108A8991C9E9C5600162C2B /* HaiTaoRequest.swift */,
+				71A08FAD1CA016C30085A699 /* SearchRequest.swift */,
 			);
 			path = "网络请求";
 			sourceTree = "<group>";
@@ -813,15 +825,18 @@
 				711C16891C9BA14100FD3113 /* RankingTableViewController.swift in Sources */,
 				71FEBEEA1C9A50AE00BAAA16 /* HomeAdCollectionViewCell.swift in Sources */,
 				7130599C1C993524003128F5 /* HotListViewController.swift in Sources */,
+				715BDEF71C9FC708000C3BF8 /* SearchModel.swift in Sources */,
 				710804901C9C350D00699A21 /* UIScrollView+MJExtension.m in Sources */,
 				7130599D1C993524003128F5 /* Request.swift in Sources */,
 				713059AC1C99380D003128F5 /* SVIndefiniteAnimatedView.m in Sources */,
 				710804861C9C350D00699A21 /* MJRefreshAutoNormalFooter.m in Sources */,
 				7130599A1C993524003128F5 /* SearchViewController.swift in Sources */,
 				710804911C9C350D00699A21 /* UIScrollView+MJRefresh.m in Sources */,
+				71876F341CA0E0E900AE8B18 /* SearchHeaderView.swift in Sources */,
 				7130599B1C993524003128F5 /* OverseasViewController.swift in Sources */,
 				713059A01C993524003128F5 /* HomeModel.swift in Sources */,
 				7108048D1C9C350D00699A21 /* MJRefreshStateHeader.m in Sources */,
+				71A08FAE1CA016C30085A699 /* SearchRequest.swift in Sources */,
 				710804831C9C350D00699A21 /* MJRefreshFooter.m in Sources */,
 				713059981C993524003128F5 /* Extension+String.swift in Sources */,
 				7108048B1C9C350D00699A21 /* MJRefreshGifHeader.m in Sources */,
@@ -853,6 +868,7 @@
 				713059951C993524003128F5 /* BaseNavigationController.swift in Sources */,
 				713059B71C995288003128F5 /* HomeRollData.swift in Sources */,
 				7130599E1C993524003128F5 /* RequestData.swift in Sources */,
+				71A08FAC1CA012180085A699 /* SearchTableViewCell.swift in Sources */,
 				713059971C993524003128F5 /* BaseViewController.swift in Sources */,
 				713059AE1C99380D003128F5 /* SVProgressHUD.m in Sources */,
 				71EE0D0D1C96BA9F002017F7 /* FDDSYViewController.swift in Sources */,
@@ -982,10 +998,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PDD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.111.PDD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "PDD/Class/Main/PDD-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -999,10 +1017,12 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = PDD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.111.PDD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "PDD/Class/Main/PDD-Bridging-Header.h";
 			};
 			name = Release;
