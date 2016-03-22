@@ -31,6 +31,7 @@
 		7108A89C1C9E9E4600162C2B /* HaiTaoDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7108A89B1C9E9E4600162C2B /* HaiTaoDataModel.swift */; };
 		7108A89E1C9EAD4D00162C2B /* HaiTaoCountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7108A89D1C9EAD4D00162C2B /* HaiTaoCountryTableViewCell.swift */; };
 		7108A8A01C9EB08800162C2B /* HaiTaoCountryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7108A89F1C9EB08800162C2B /* HaiTaoCountryCollectionViewCell.swift */; };
+		71119B1D1CA1897C007EA1FE /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71119B1C1CA1897C007EA1FE /* SearchModel.swift */; };
 		711C16891C9BA14100FD3113 /* RankingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C16881C9BA14100FD3113 /* RankingTableViewController.swift */; };
 		711C168B1C9BA54E00FD3113 /* HotListRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C168A1C9BA54E00FD3113 /* HotListRequestData.swift */; };
 		711C168D1C9BAA7200FD3113 /* HotListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C168C1C9BAA7200FD3113 /* HotListModel.swift */; };
@@ -60,7 +61,6 @@
 		713059B51C995104003128F5 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713059B41C995104003128F5 /* HomeHeaderView.swift */; };
 		713059B71C995288003128F5 /* HomeRollData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713059B61C995288003128F5 /* HomeRollData.swift */; };
 		713059B91C99536B003128F5 /* HomeRollModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713059B81C99536B003128F5 /* HomeRollModel.swift */; };
-		715BDEF71C9FC708000C3BF8 /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715BDEF61C9FC708000C3BF8 /* SearchModel.swift */; };
 		71876F341CA0E0E900AE8B18 /* SearchHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71876F331CA0E0E900AE8B18 /* SearchHeaderView.swift */; };
 		71A08FAC1CA012180085A699 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A08FAB1CA012180085A699 /* SearchTableViewCell.swift */; };
 		71A08FAE1CA016C30085A699 /* SearchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A08FAD1CA016C30085A699 /* SearchRequest.swift */; };
@@ -133,6 +133,7 @@
 		7108A89B1C9E9E4600162C2B /* HaiTaoDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HaiTaoDataModel.swift; path = "PDD/Class/网络请求/HaiTaoDataModel.swift"; sourceTree = SOURCE_ROOT; };
 		7108A89D1C9EAD4D00162C2B /* HaiTaoCountryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaiTaoCountryTableViewCell.swift; sourceTree = "<group>"; };
 		7108A89F1C9EB08800162C2B /* HaiTaoCountryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaiTaoCountryCollectionViewCell.swift; sourceTree = "<group>"; };
+		71119B1C1CA1897C007EA1FE /* SearchModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
 		711C16881C9BA14100FD3113 /* RankingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingTableViewController.swift; sourceTree = "<group>"; };
 		711C168A1C9BA54E00FD3113 /* HotListRequestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotListRequestData.swift; sourceTree = "<group>"; };
 		711C168C1C9BAA7200FD3113 /* HotListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotListModel.swift; sourceTree = "<group>"; };
@@ -167,7 +168,6 @@
 		713059B41C995104003128F5 /* HomeHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 		713059B61C995288003128F5 /* HomeRollData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRollData.swift; sourceTree = "<group>"; };
 		713059B81C99536B003128F5 /* HomeRollModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRollModel.swift; sourceTree = "<group>"; };
-		715BDEF61C9FC708000C3BF8 /* SearchModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
 		71876F331CA0E0E900AE8B18 /* SearchHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchHeaderView.swift; sourceTree = "<group>"; };
 		71A08FAB1CA012180085A699 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 		71A08FAD1CA016C30085A699 /* SearchRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRequest.swift; sourceTree = "<group>"; };
@@ -419,7 +419,7 @@
 		7130597A1C993524003128F5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				715BDEF61C9FC708000C3BF8 /* SearchModel.swift */,
+				71119B1C1CA1897C007EA1FE /* SearchModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -825,7 +825,6 @@
 				711C16891C9BA14100FD3113 /* RankingTableViewController.swift in Sources */,
 				71FEBEEA1C9A50AE00BAAA16 /* HomeAdCollectionViewCell.swift in Sources */,
 				7130599C1C993524003128F5 /* HotListViewController.swift in Sources */,
-				715BDEF71C9FC708000C3BF8 /* SearchModel.swift in Sources */,
 				710804901C9C350D00699A21 /* UIScrollView+MJExtension.m in Sources */,
 				7130599D1C993524003128F5 /* Request.swift in Sources */,
 				713059AC1C99380D003128F5 /* SVIndefiniteAnimatedView.m in Sources */,
@@ -847,6 +846,7 @@
 				710804891C9C350D00699A21 /* MJRefreshBackNormalFooter.m in Sources */,
 				711C168D1C9BAA7200FD3113 /* HotListModel.swift in Sources */,
 				7108A8A01C9EB08800162C2B /* HaiTaoCountryCollectionViewCell.swift in Sources */,
+				71119B1D1CA1897C007EA1FE /* SearchModel.swift in Sources */,
 				713059931C993524003128F5 /* PersonageViewController.swift in Sources */,
 				71FEBEF71C9AA5AF00BAAA16 /* README.md in Sources */,
 				710804811C9C350D00699A21 /* MJRefreshBackFooter.m in Sources */,

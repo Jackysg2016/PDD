@@ -40,7 +40,7 @@ class HomeViewController: BaseViewController {
     }
 }
 
-// MARK: - 处理数据
+// MARK: - 获取数据
 extension  HomeViewController:RequestDataDelegate,HomeRollDataDelegate {
 
     func request(goods_listArray:NSArray){

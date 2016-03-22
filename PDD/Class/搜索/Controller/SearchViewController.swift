@@ -31,7 +31,7 @@ class SearchViewController: BaseViewController {
         self.showHUD()
     }
 }
-// MARK: - 处理数据请求
+// MARK: - 获取数据
 extension SearchViewController:searchRequestDataDelegate {
     
     func searchRequest(searchDataArray:[SearchModel]) {
