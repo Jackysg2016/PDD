@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeViewController: BaseViewController,UITableViewDelegate,UITableViewDataSource,RequestDataDelegate,HomeRollDataDelegate,ClickCollectionCallbackDelegate,HomeHeaderDelegate {
+class HomeViewController: BaseViewController {
 
     var tableView:UITableView?
     var dataArray = [HomeTotalData]()
@@ -33,32 +33,32 @@ class HomeViewController: BaseViewController,UITableViewDelegate,UITableViewData
         tableView!.tableHeaderView = homeHeaderView;
         view.addSubview(tableView!)
         
-        
         let homeRequest = RequestData()
         homeRequest.delegate = self
         self.showHUD()
         homeRequest.requestData()
-        
     }
-// MARK: - RequestDataDelegate
-    func request(goods_listArray:NSArray){
+}
 
+// MARK: - 处理数据
+extension  HomeViewController:RequestDataDelegate,HomeRollDataDelegate {
+
+    func request(goods_listArray:NSArray){
         dataArray = goods_listArray as! [HomeTotalData]
         tableView?.reloadData()
-        
         let homeRoll = HomeRollData()
         homeRoll.delegate = self
         homeRoll.requestData()
     }
-    
-// MARK: - HomeRollDataDelegate
+   
     func requestResult(homeRollDataArray:NSArray) {
         self.hideHUD()
         homeRollArray = homeRollDataArray as! [HomeRollModel]
         homeHeaderView.reloadData(homeRollArray)
     }
-    
+}
 // MARK: - UITableViewDelegate
+extension HomeViewController:UITableViewDelegate,UITableViewDataSource {
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
         return dataArray.count
@@ -84,7 +84,7 @@ class HomeViewController: BaseViewController,UITableViewDelegate,UITableViewData
             cell.selectionStyle = UITableViewCellSelectionStyle.None
             cell.backgroundColor = BgColor
             cell.releaseData(home.good_list)
-
+            
             return cell
             
         default:
@@ -100,7 +100,7 @@ class HomeViewController: BaseViewController,UITableViewDelegate,UITableViewData
     }
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
-       
+        
         var home = HomeTotalData()
         home = dataArray[indexPath.row]
         
@@ -118,18 +118,24 @@ class HomeViewController: BaseViewController,UITableViewDelegate,UITableViewData
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
         print("\(indexPath.row)")
-
+        
     }
-    
+}
+
 // MARK: - 中间广告点击事件
+extension  HomeViewController:ClickCollectionCallbackDelegate {
+    
     func requestResult(home_recommend_goodlist:home_recommend_goodlistModel) {
         
         print(home_recommend_goodlist.goods_name)
-        
     }
+}
 // MARK: - 滚动图片点击事件
+extension  HomeViewController:HomeHeaderDelegate {
+    
     func homeHeaderRequestResult(homeRollData:HomeRollModel) {
         
         print(homeRollData.subject)
     }
 }
+

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SearchViewController: BaseViewController,UITableViewDataSource,UITableViewDelegate,searchRequestDataDelegate {
+class SearchViewController: BaseViewController {
 
     var tableView:UITableView?
     var request:SearchRequest?
@@ -30,7 +30,9 @@ class SearchViewController: BaseViewController,UITableViewDataSource,UITableView
         request!.delegate = self
         self.showHUD()
     }
-    
+}
+// MARK: - 处理数据请求
+extension SearchViewController:searchRequestDataDelegate {
     
     func searchRequest(searchDataArray:[SearchModel]) {
         self.hideHUD()
@@ -42,7 +44,12 @@ class SearchViewController: BaseViewController,UITableViewDataSource,UITableView
         
         tableView?.reloadData()
     }
-    
+
+}
+
+
+// MARK: - TableView代理
+extension SearchViewController: UITableViewDataSource,UITableViewDelegate {
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return dataArray.count
@@ -61,7 +68,7 @@ class SearchViewController: BaseViewController,UITableViewDataSource,UITableView
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         let searchModel = dataArray[indexPath.row]
-
+        
         let divide:Float = Float((searchModel.children?.count)!)/4
         let result = Int(ceilf(divide))
         
@@ -69,3 +76,5 @@ class SearchViewController: BaseViewController,UITableViewDataSource,UITableView
     }
     
 }
+
+
