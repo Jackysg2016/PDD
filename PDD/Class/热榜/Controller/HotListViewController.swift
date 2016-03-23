@@ -42,7 +42,7 @@ class HotListViewController: BaseViewController,UIScrollViewDelegate {
         /**设置滚动条颜色*/
         segmentedControl.selectionIndicatorColor = UIColor.redColor()
         /**添加点击事件*/
-        segmentedControl.addTarget(self, action: Selector("segmentedControlChangedValue:"), forControlEvents: UIControlEvents.ValueChanged)
+        segmentedControl.addTarget(self, action: #selector(HotListViewController.segmentedControlChangedValue(_:)), forControlEvents: UIControlEvents.ValueChanged)
         self.view.addSubview(segmentedControl)
 
     }
@@ -78,7 +78,7 @@ class HotListViewController: BaseViewController,UIScrollViewDelegate {
     
     func addViewControllers() {
         
-        for var i = 0; i < arrayList.count; i++ {
+        for i in 0 ..< arrayList.count {
             
             let rankingView = RankingTableViewController()
             

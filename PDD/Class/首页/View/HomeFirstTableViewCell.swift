@@ -53,7 +53,7 @@ class HomeFirstTableViewCell: UITableViewCell,UITextFieldDelegate {
         determineButton = UIButton()
         determineButton?.setTitle("确认", forState: UIControlState.Normal)
         determineButton?.setBackgroundImage(UIImage(named: "redBtn"), forState: UIControlState.Normal)
-        determineButton?.addTarget(self, action: "determine", forControlEvents: UIControlEvents.TouchUpInside)
+        determineButton?.addTarget(self, action: #selector(HomeFirstTableViewCell.determine), forControlEvents: UIControlEvents.TouchUpInside)
         determineButton?.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
         self.contentView.addSubview(determineButton!)
         

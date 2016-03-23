@@ -8,31 +8,56 @@
 
 import UIKit
 
-class PersonageViewController: BaseViewController {
+class PersonageViewController: BaseViewController,UICollectionViewDataSource,UICollectionViewDelegate {
 
+    var collectionView:UICollectionView?
+    
+   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    
+    
+    
+    func setUpConnectionView() {
+        
+        let flowLayout = UICollectionViewFlowLayout()
+        flowLayout.scrollDirection = UICollectionViewScrollDirection.Vertical
+        flowLayout.itemSize = CGSizeMake(80,80)
+        flowLayout.minimumLineSpacing = 0
+        flowLayout.minimumInteritemSpacing = 0
+        flowLayout.sectionInset = UIEdgeInsetsMake(0, 0, 0, 0)
+        
+        collectionView = UICollectionView(frame: CGRectMake(0, 0, ScreenWidth, ScreenHeight))
+        collectionView?.collectionViewLayout = flowLayout
+        collectionView?.dataSource = self
+        collectionView?.delegate = self
+        collectionView?.backgroundColor = UIColor.whiteColor()
+        collectionView?.showsHorizontalScrollIndicator = false
+        collectionView?.showsVerticalScrollIndicator = false
+        collectionView?.registerClass(PersonCollectionViewCell.self, forCellWithReuseIdentifier: "PersonCollectionViewCell")
 
-        view.backgroundColor = UIColor.yellowColor()
+        self.view.addSubview(collectionView!)
         
-        let  button = UIButton(type: UIButtonType.Custom)
-
-        button.frame = CGRectMake(50, 50, 50, 50)
-        
-        button.setTitle("跳转", forState: UIControlState.Normal)
-        button.addTarget(self, action: "tiao", forControlEvents: UIControlEvents.TouchUpInside)
-        
-        view.addSubview(button)
         
         
     }
     
-    func tiao(){
-        let mmm = FDDSYViewController()
+    
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         
-        self.navigationController?.pushViewController(mmm, animated: true)
-        
+        return 5
     }
     
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+        
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("PersonCollectionViewCell", forIndexPath: indexPath) as! PersonCollectionViewCell
+        cell.backgroundColor = UIColor.cyanColor()
+        cell.nameLabel.text = "\(indexPath.row)"
+        return cell
+        
+    }
     
 }
+

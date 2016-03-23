@@ -55,7 +55,7 @@ class HomeMainTableViewCell: UITableViewCell {
         
         collectButton = UIButton(type: UIButtonType.Custom)
         collectButton?.setImage(UIImage(named: "collection_1.jpg"), forState: UIControlState.Normal)
-        collectButton?.addTarget(self, action: "collection", forControlEvents: UIControlEvents.TouchUpInside)
+        collectButton?.addTarget(self, action: #selector(HomeMainTableViewCell.collection), forControlEvents: UIControlEvents.TouchUpInside)
         bgView?.addSubview(collectButton!)
         
         collectButton?.snp_makeConstraints(closure: { (make) -> Void in
@@ -86,7 +86,7 @@ class HomeMainTableViewCell: UITableViewCell {
 
         let temp = tempString!.stringByReplacingOccurrencesOfString("]", withString: "")
         
-        let strArray = temp.componentsSeparatedByString(",")
+        _ = temp.componentsSeparatedByString(",")
         
         
      

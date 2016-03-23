@@ -39,7 +39,7 @@ class RankingTableViewController: UITableViewController,hotListRequestDataDelega
         hotListRequest.requestData(parameter!)
       
         // 下拉刷新
-        header.setRefreshingTarget(self, refreshingAction: Selector("headerRefresh"))
+        header.setRefreshingTarget(self, refreshingAction: #selector(RankingTableViewController.headerRefresh))
         header.lastUpdatedTimeLabel!.hidden = true
         header.stateLabel!.hidden = true
         tableView.mj_header = header

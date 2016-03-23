@@ -20,7 +20,7 @@ class BaseNavigationController: UINavigationController {
         let backBtn = UIButton(type: UIButtonType.Custom)
         backBtn.setImage(UIImage(named: "back"), forState: .Normal)
         backBtn.titleLabel?.hidden = true
-        backBtn.addTarget(self, action: "back", forControlEvents: .TouchUpInside)
+        backBtn.addTarget(self, action: #selector(BaseNavigationController.back), forControlEvents: .TouchUpInside)
         backBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignment.Left
         backBtn.contentEdgeInsets = UIEdgeInsetsMake(0, -10, 0, 0)
         let btnW: CGFloat = ScreenWidth > 375.0 ? 50 : 44
@@ -31,7 +31,7 @@ class BaseNavigationController: UINavigationController {
     lazy var rightBtn:UIButton = {
         let rightBtn = UIButton(type: UIButtonType.Custom)
         rightBtn.setImage(UIImage(named: "share"), forState: .Normal)
-        rightBtn.addTarget(self, action: "share", forControlEvents: .TouchUpInside)
+        rightBtn.addTarget(self, action: #selector(BaseNavigationController.share), forControlEvents: .TouchUpInside)
         rightBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignment.Right
         rightBtn.contentEdgeInsets = UIEdgeInsetsMake(0, -10, 0, 0)
         let btnW: CGFloat = ScreenWidth > 375.0 ? 50 : 44
