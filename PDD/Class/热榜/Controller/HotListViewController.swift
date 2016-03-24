@@ -59,10 +59,6 @@ class HotListViewController: BaseViewController,UIScrollViewDelegate {
     
     func setMainScrollerView() {
         
-//        let headerView = UIView(frame:CGRectMake(0, 64+45, ScreenWidth, 5))
-//        headerView.backgroundColor = BgColor
-//        self.view.addSubview(headerView)
-
         mainScrollView = UIScrollView(frame:CGRectMake(0, 64+45, ScreenWidth, ScreenHeight-64-45))
         mainScrollView!.contentSize = CGSizeMake((ScreenWidth * CGFloat(Float(arrayList.count))), ScreenHeight-64-45);
         mainScrollView!.pagingEnabled = true

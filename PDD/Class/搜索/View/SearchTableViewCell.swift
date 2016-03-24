@@ -13,6 +13,7 @@ class SearchTableViewCell: UITableViewCell {
     var bgImageView:UIImageView?
     var titleName:UILabel?
     var bgView:UIView?
+    var childrenEntityArray = [childrenModel]()
     
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         
@@ -29,7 +30,6 @@ class SearchTableViewCell: UITableViewCell {
             make.right.equalTo(self).offset(-2.5)
             make.top.equalTo(self).offset(10)
             make.bottom.equalTo(self).offset(0)
-
         })
         
         bgImageView = UIImageView()
@@ -38,7 +38,6 @@ class SearchTableViewCell: UITableViewCell {
             make.left.right.top.equalTo(bgView!).offset(0)
             make.height.equalTo(50)
         })
-        
         titleName = UILabel()
         titleName?.textColor = UIColor.whiteColor()
         titleName?.font = UIFont.systemFontOfSize(20)
@@ -48,9 +47,6 @@ class SearchTableViewCell: UITableViewCell {
             make.centerX.equalTo(bgView!.snp_centerX).offset(0)
             make.centerY.equalTo(bgImageView!.snp_centerY).offset(0)
         })
-        
-        
-        
     }
 
     required init?(coder aDecoder: NSCoder) {
@@ -67,6 +63,7 @@ class SearchTableViewCell: UITableViewCell {
             
             var childrenEntity = childrenModel()
             childrenEntity.mapping(childrendatasouce[i] as! Dictionary<String, AnyObject>)
+            childrenEntityArray.append(childrenEntity)
             
             let nameLabel_W = (ScreenWidth - 5)/4
             let line = 4 //列数
@@ -86,18 +83,16 @@ class SearchTableViewCell: UITableViewCell {
             let nameLabel_Y = ((i/line) * nameLabel_H) + 50
             
             nameLabel.frame = CGRectMake(nameLabel_X, CGFloat(nameLabel_Y), nameLabel_W, CGFloat(nameLabel_H))
-            
             bgView?.addSubview(nameLabel)
             
         }
-        
     }
     
     func labelTouchUpInside(recognizer:UITapGestureRecognizer){
         
         let label:UILabel = recognizer.view as! UILabel
-        
-        print("\(label.tag)")
+        let childrenEntity = childrenEntityArray[label.tag-1]
+         print(childrenEntity.opt_name)
     }
     
 }

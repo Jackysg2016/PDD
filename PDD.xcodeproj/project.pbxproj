@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		7105EC391CA283C7002A80D8 /* PersonageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7105EC381CA283C7002A80D8 /* PersonageModel.swift */; };
-		7105EC3C1CA28C6C002A80D8 /* PersonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7105EC3A1CA28C6C002A80D8 /* PersonCollectionViewCell.swift */; };
-		7105EC3D1CA28C6C002A80D8 /* PersonCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7105EC3B1CA28C6C002A80D8 /* PersonCollectionViewCell.xib */; };
 		710804801C9C350C00699A21 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 710804561C9C350C00699A21 /* MJRefreshAutoFooter.m */; };
 		710804811C9C350D00699A21 /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 710804581C9C350C00699A21 /* MJRefreshBackFooter.m */; };
 		710804821C9C350D00699A21 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7108045A1C9C350C00699A21 /* MJRefreshComponent.m */; };
@@ -34,6 +32,10 @@
 		7108A89C1C9E9E4600162C2B /* HaiTaoDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7108A89B1C9E9E4600162C2B /* HaiTaoDataModel.swift */; };
 		7108A89E1C9EAD4D00162C2B /* HaiTaoCountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7108A89D1C9EAD4D00162C2B /* HaiTaoCountryTableViewCell.swift */; };
 		7108A8A01C9EB08800162C2B /* HaiTaoCountryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7108A89F1C9EB08800162C2B /* HaiTaoCountryCollectionViewCell.swift */; };
+		710E63D31CA3BB3F0094DBEC /* PersonTypeCellOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710E63D21CA3BB3F0094DBEC /* PersonTypeCellOne.swift */; };
+		710E63D51CA3BB580094DBEC /* PersonTypeCellTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710E63D41CA3BB580094DBEC /* PersonTypeCellTwo.swift */; };
+		710E63D71CA3BB720094DBEC /* PersonTypeCellThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710E63D61CA3BB720094DBEC /* PersonTypeCellThree.swift */; };
+		710E63D91CA3BB890094DBEC /* PersonTypeCellFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710E63D81CA3BB890094DBEC /* PersonTypeCellFour.swift */; };
 		71119B1D1CA1897C007EA1FE /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71119B1C1CA1897C007EA1FE /* SearchModel.swift */; };
 		711C16891C9BA14100FD3113 /* RankingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C16881C9BA14100FD3113 /* RankingTableViewController.swift */; };
 		711C168B1C9BA54E00FD3113 /* HotListRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C168A1C9BA54E00FD3113 /* HotListRequestData.swift */; };
@@ -93,8 +95,6 @@
 		48404C5D96711E995D3A3F28 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6974B2E804129D94C085DB2F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		7105EC381CA283C7002A80D8 /* PersonageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonageModel.swift; sourceTree = "<group>"; };
-		7105EC3A1CA28C6C002A80D8 /* PersonCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCollectionViewCell.swift; sourceTree = "<group>"; };
-		7105EC3B1CA28C6C002A80D8 /* PersonCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonCollectionViewCell.xib; sourceTree = "<group>"; };
 		710804551C9C350C00699A21 /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshAutoFooter.h; sourceTree = "<group>"; };
 		710804561C9C350C00699A21 /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshAutoFooter.m; sourceTree = "<group>"; };
 		710804571C9C350C00699A21 /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBackFooter.h; sourceTree = "<group>"; };
@@ -139,6 +139,10 @@
 		7108A89B1C9E9E4600162C2B /* HaiTaoDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HaiTaoDataModel.swift; path = "PDD/Class/网络请求/HaiTaoDataModel.swift"; sourceTree = SOURCE_ROOT; };
 		7108A89D1C9EAD4D00162C2B /* HaiTaoCountryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaiTaoCountryTableViewCell.swift; sourceTree = "<group>"; };
 		7108A89F1C9EB08800162C2B /* HaiTaoCountryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaiTaoCountryCollectionViewCell.swift; sourceTree = "<group>"; };
+		710E63D21CA3BB3F0094DBEC /* PersonTypeCellOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTypeCellOne.swift; sourceTree = "<group>"; };
+		710E63D41CA3BB580094DBEC /* PersonTypeCellTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTypeCellTwo.swift; sourceTree = "<group>"; };
+		710E63D61CA3BB720094DBEC /* PersonTypeCellThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTypeCellThree.swift; sourceTree = "<group>"; };
+		710E63D81CA3BB890094DBEC /* PersonTypeCellFour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTypeCellFour.swift; sourceTree = "<group>"; };
 		71119B1C1CA1897C007EA1FE /* SearchModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
 		711C16881C9BA14100FD3113 /* RankingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingTableViewController.swift; sourceTree = "<group>"; };
 		711C168A1C9BA54E00FD3113 /* HotListRequestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotListRequestData.swift; sourceTree = "<group>"; };
@@ -373,8 +377,10 @@
 		7130596D1C993524003128F5 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				7105EC3A1CA28C6C002A80D8 /* PersonCollectionViewCell.swift */,
-				7105EC3B1CA28C6C002A80D8 /* PersonCollectionViewCell.xib */,
+				710E63D21CA3BB3F0094DBEC /* PersonTypeCellOne.swift */,
+				710E63D41CA3BB580094DBEC /* PersonTypeCellTwo.swift */,
+				710E63D61CA3BB720094DBEC /* PersonTypeCellThree.swift */,
+				710E63D81CA3BB890094DBEC /* PersonTypeCellFour.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -764,7 +770,6 @@
 			files = (
 				71EE0CE61C96BA6F002017F7 /* Assets.xcassets in Resources */,
 				71FFE9C21C97DEC500F47AF7 /* shouye in Resources */,
-				7105EC3D1CA28C6C002A80D8 /* PersonCollectionViewCell.xib in Resources */,
 				7108048E1C9C350D00699A21 /* MJRefresh.bundle in Resources */,
 				713059AD1C99380D003128F5 /* SVProgressHUD.bundle in Resources */,
 			);
@@ -836,7 +841,9 @@
 				71FEBEEA1C9A50AE00BAAA16 /* HomeAdCollectionViewCell.swift in Sources */,
 				7130599C1C993524003128F5 /* HotListViewController.swift in Sources */,
 				710804901C9C350D00699A21 /* UIScrollView+MJExtension.m in Sources */,
+				710E63D91CA3BB890094DBEC /* PersonTypeCellFour.swift in Sources */,
 				7130599D1C993524003128F5 /* Request.swift in Sources */,
+				710E63D51CA3BB580094DBEC /* PersonTypeCellTwo.swift in Sources */,
 				713059AC1C99380D003128F5 /* SVIndefiniteAnimatedView.m in Sources */,
 				710804861C9C350D00699A21 /* MJRefreshAutoNormalFooter.m in Sources */,
 				7130599A1C993524003128F5 /* SearchViewController.swift in Sources */,
@@ -852,6 +859,7 @@
 				7108048B1C9C350D00699A21 /* MJRefreshGifHeader.m in Sources */,
 				713059AF1C99380D003128F5 /* SVRadialGradientLayer.m in Sources */,
 				713059B31C993A41003128F5 /* ViewController+Extension.swift in Sources */,
+				710E63D31CA3BB3F0094DBEC /* PersonTypeCellOne.swift in Sources */,
 				711C168F1C9BAC6E00FD3113 /* HotListTableViewCell.swift in Sources */,
 				7130599F1C993524003128F5 /* HomeViewController.swift in Sources */,
 				710804891C9C350D00699A21 /* MJRefreshBackNormalFooter.m in Sources */,
@@ -867,12 +875,12 @@
 				713059B91C99536B003128F5 /* HomeRollModel.swift in Sources */,
 				710804851C9C350D00699A21 /* MJRefreshAutoGifFooter.m in Sources */,
 				7108A89C1C9E9E4600162C2B /* HaiTaoDataModel.swift in Sources */,
+				710E63D71CA3BB720094DBEC /* PersonTypeCellThree.swift in Sources */,
 				713059941C993524003128F5 /* Theme.swift in Sources */,
 				713059991C993524003128F5 /* UIImageView+Extension.swift in Sources */,
 				71FEBEF51C9AA5AF00BAAA16 /* HMSegmentedControl.m in Sources */,
 				713059961C993524003128F5 /* BaseTabBarController.swift in Sources */,
 				7108A89A1C9E9C5600162C2B /* HaiTaoRequest.swift in Sources */,
-				7105EC3C1CA28C6C002A80D8 /* PersonCollectionViewCell.swift in Sources */,
 				710804921C9C350D00699A21 /* UIView+MJExtension.m in Sources */,
 				710804881C9C350D00699A21 /* MJRefreshBackGifFooter.m in Sources */,
 				710804821C9C350D00699A21 /* MJRefreshComponent.m in Sources */,

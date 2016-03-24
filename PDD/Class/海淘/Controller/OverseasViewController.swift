@@ -8,7 +8,7 @@
 
 import UIKit
 
-class OverseasViewController: BaseViewController,UITableViewDataSource,UITableViewDelegate,haiTaoRequestDataDelegate,ClickCollectionCallbackDelegate,HomeHeaderDelegate {
+class OverseasViewController: BaseViewController {
     
     var tableView:UITableView?
     var homeHeaderView = HomeHeaderView()
@@ -38,12 +38,13 @@ class OverseasViewController: BaseViewController,UITableViewDataSource,UITableVi
         haiTaorequset.delegate = self
         self.showHUD()
         haiTaorequset.haiTaoRequest()
-    
     }
-    
+}
+
+// MARK: - 处理数据
+extension OverseasViewController: haiTaoRequestDataDelegate {
     
     func haiTapRequest(haiTaoTotalArray:NSArray,promotionData:[HomeRollModel],countryData:[HomeRollModel]) {
-        
         self.hideHUD()
         dataArray = haiTaoTotalArray as! [HaiTaoDataModel]
         promotionArray = promotionData
@@ -52,8 +53,11 @@ class OverseasViewController: BaseViewController,UITableViewDataSource,UITableVi
         tableView?.reloadData()
         
     }
+}
+
+// MARK: - UITableViewDelegate
+extension OverseasViewController:UITableViewDataSource,UITableViewDelegate {
     
-    // MARK: - UITableViewDelegate
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
         return dataArray.count
@@ -108,22 +112,30 @@ class OverseasViewController: BaseViewController,UITableViewDataSource,UITableVi
         case .common:
             let  height=haitao.good_list.goods_name!.stringHeightWith(15,width:(ScreenWidth-20))
             return (180 + 85 + height)
-                        
+            
         default:
             return 280
         }
     }
+}
+
+// MARK: - 中间广告点击事件
+extension OverseasViewController: ClickCollectionCallbackDelegate {
     
-    // MARK: - 中间广告点击事件
     func requestResult(home_recommend_goodlist:home_recommend_goodlistModel) {
         
         print(home_recommend_goodlist.goods_name)
         
     }
-    // MARK: - 滚动图片点击事件
+}
+// MARK: - 滚动图片点击事件
+extension OverseasViewController: HomeHeaderDelegate {
+    
     func homeHeaderRequestResult(homeRollData:HomeRollModel) {
         
         print(homeRollData.subject)
     }
 }
+
+
 

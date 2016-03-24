@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RankingTableViewController: UITableViewController,hotListRequestDataDelegate,DZNEmptyDataSetSource,DZNEmptyDataSetDelegate {
+class RankingTableViewController: UITableViewController {
 
     var parameter:String?
     var dataSouce = [HotListModel]()
@@ -46,61 +46,55 @@ class RankingTableViewController: UITableViewController,hotListRequestDataDelega
         
     }
     
+}
+// MARK: - 请求数据
+extension RankingTableViewController:hotListRequestDataDelegate {
     // 顶部刷新
     func headerRefresh(){
         
-       hotListRequest.requestData(parameter!)
-        
+        hotListRequest.requestData(parameter!)
     }
-    
     func hotListRequest(goods_listArray:NSArray) {
         
         self.hideHUD()
         // 结束刷新
         tableView.mj_header.endRefreshing()
-        
         dataSouce.removeAll()
-        
         dataSouce = goods_listArray as! [HotListModel]
-        
         tableView.reloadData()
-        
     }
+}
+// MARK: - Table view data source
+extension RankingTableViewController{
     
-    
-    // MARK: - Table view data source
-     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
         return dataSouce.count
     }
-
     
-     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         var hotList = HotListModel()
         hotList = dataSouce[indexPath.row]
         
         let  cell = tableView.dequeueReusableCellWithIdentifier("HotListTableViewCell", forIndexPath: indexPath) as! HotListTableViewCell
-    
         cell.selectionStyle = UITableViewCellSelectionStyle.None
         cell.releaseData(hotList, index: "\(indexPath.row+1)")
-        
         return cell
-        
     }
- 
     override  func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         
         return 150
     }
+}
+// MARK: - 无数据时展示
+extension RankingTableViewController:DZNEmptyDataSetSource,DZNEmptyDataSetDelegate {
     
     func customViewForEmptyDataSet(scrollView: UIScrollView!) -> UIView! {
-        
         let emptyViewGound = UIView(frame: CGRectMake(0,0,ScreenWidth,ScreenHeight))
         emptyViewGound.backgroundColor = UIColor.whiteColor()
         return emptyViewGound
-        
     }
-    
-    
 }
+
+
+
