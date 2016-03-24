@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7105EC391CA283C7002A80D8 /* PersonageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7105EC381CA283C7002A80D8 /* PersonageModel.swift */; };
+		7105EC3C1CA28C6C002A80D8 /* PersonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7105EC3A1CA28C6C002A80D8 /* PersonCollectionViewCell.swift */; };
+		7105EC3D1CA28C6C002A80D8 /* PersonCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7105EC3B1CA28C6C002A80D8 /* PersonCollectionViewCell.xib */; };
 		710804801C9C350C00699A21 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 710804561C9C350C00699A21 /* MJRefreshAutoFooter.m */; };
 		710804811C9C350D00699A21 /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 710804581C9C350C00699A21 /* MJRefreshBackFooter.m */; };
 		710804821C9C350D00699A21 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7108045A1C9C350C00699A21 /* MJRefreshComponent.m */; };
@@ -89,6 +92,9 @@
 /* Begin PBXFileReference section */
 		48404C5D96711E995D3A3F28 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6974B2E804129D94C085DB2F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		7105EC381CA283C7002A80D8 /* PersonageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonageModel.swift; sourceTree = "<group>"; };
+		7105EC3A1CA28C6C002A80D8 /* PersonCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonCollectionViewCell.swift; sourceTree = "<group>"; };
+		7105EC3B1CA28C6C002A80D8 /* PersonCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonCollectionViewCell.xib; sourceTree = "<group>"; };
 		710804551C9C350C00699A21 /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshAutoFooter.h; sourceTree = "<group>"; };
 		710804561C9C350C00699A21 /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshAutoFooter.m; sourceTree = "<group>"; };
 		710804571C9C350C00699A21 /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBackFooter.h; sourceTree = "<group>"; };
@@ -359,6 +365,7 @@
 		7130596C1C993524003128F5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7105EC381CA283C7002A80D8 /* PersonageModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -366,6 +373,8 @@
 		7130596D1C993524003128F5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7105EC3A1CA28C6C002A80D8 /* PersonCollectionViewCell.swift */,
+				7105EC3B1CA28C6C002A80D8 /* PersonCollectionViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -755,6 +764,7 @@
 			files = (
 				71EE0CE61C96BA6F002017F7 /* Assets.xcassets in Resources */,
 				71FFE9C21C97DEC500F47AF7 /* shouye in Resources */,
+				7105EC3D1CA28C6C002A80D8 /* PersonCollectionViewCell.xib in Resources */,
 				7108048E1C9C350D00699A21 /* MJRefresh.bundle in Resources */,
 				713059AD1C99380D003128F5 /* SVProgressHUD.bundle in Resources */,
 			);
@@ -837,6 +847,7 @@
 				7108048D1C9C350D00699A21 /* MJRefreshStateHeader.m in Sources */,
 				71A08FAE1CA016C30085A699 /* SearchRequest.swift in Sources */,
 				710804831C9C350D00699A21 /* MJRefreshFooter.m in Sources */,
+				7105EC391CA283C7002A80D8 /* PersonageModel.swift in Sources */,
 				713059981C993524003128F5 /* Extension+String.swift in Sources */,
 				7108048B1C9C350D00699A21 /* MJRefreshGifHeader.m in Sources */,
 				713059AF1C99380D003128F5 /* SVRadialGradientLayer.m in Sources */,
@@ -861,6 +872,7 @@
 				71FEBEF51C9AA5AF00BAAA16 /* HMSegmentedControl.m in Sources */,
 				713059961C993524003128F5 /* BaseTabBarController.swift in Sources */,
 				7108A89A1C9E9C5600162C2B /* HaiTaoRequest.swift in Sources */,
+				7105EC3C1CA28C6C002A80D8 /* PersonCollectionViewCell.swift in Sources */,
 				710804921C9C350D00699A21 /* UIView+MJExtension.m in Sources */,
 				710804881C9C350D00699A21 /* MJRefreshBackGifFooter.m in Sources */,
 				710804821C9C350D00699A21 /* MJRefreshComponent.m in Sources */,

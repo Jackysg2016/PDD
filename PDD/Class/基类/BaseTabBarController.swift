@@ -24,7 +24,7 @@ class BaseTabBarController: UITabBarController {
     func cutThePicture(){
         let image = UIImage(named: "tabbar-0ddc923383")
         let imageRef = image?.CGImage
-        for var i=0;i<10;i++ {
+        for i in 0 ..< 10 {
             let rect = CGRectMake(CGFloat(i) * 66, 0, 66, 66)
             let newImageRef = CGImageCreateWithImageInRect(imageRef, rect)
             let newImage = UIImage(CGImage: newImageRef!)

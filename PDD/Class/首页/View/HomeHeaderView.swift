@@ -52,7 +52,7 @@ class HomeHeaderView: UIView,UIScrollViewDelegate {
             make.centerX.equalTo(self.snp_centerX).offset(0)
         })
         
-        let tapGestureRecognize = UITapGestureRecognizer(target: self, action: "singleTapGestureRecognizer")
+        let tapGestureRecognize = UITapGestureRecognizer(target: self, action: #selector(HomeHeaderView.singleTapGestureRecognizer))
         tapGestureRecognize.numberOfTapsRequired = 1;
         scrollView?.addGestureRecognizer(tapGestureRecognize)
         
@@ -61,7 +61,7 @@ class HomeHeaderView: UIView,UIScrollViewDelegate {
     
     func addTimer(){
         
-        timer = NSTimer.scheduledTimerWithTimeInterval(3, target: self, selector: "nextImage:", userInfo: nil, repeats: true)
+        timer = NSTimer.scheduledTimerWithTimeInterval(3, target: self, selector: #selector(HomeHeaderView.nextImage(_:)), userInfo: nil, repeats: true)
         NSRunLoop.currentRunLoop().addTimer(self.timer!, forMode: NSRunLoopCommonModes)
     }
     
@@ -75,7 +75,7 @@ class HomeHeaderView: UIView,UIScrollViewDelegate {
         if(page == homeRollDataArray.count-1){
             page = 0
         }else{
-            ++page
+            page += 1
         }
         let x:CGFloat = CGFloat(page) * scrollView!.frame.size.width
         scrollView!.contentOffset = CGPointMake(x, 0)
@@ -87,7 +87,7 @@ class HomeHeaderView: UIView,UIScrollViewDelegate {
         homeRollDataArray = daArray as! [HomeRollModel]
         addTimer()
         
-        for var i=0;i<homeRollDataArray.count;i++ {
+        for i in 0 ..< homeRollDataArray.count {
             
             let homeData = homeRollDataArray[i]
             

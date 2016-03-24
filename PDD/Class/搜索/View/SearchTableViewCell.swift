@@ -63,7 +63,7 @@ class SearchTableViewCell: UITableViewCell {
         bgImageView?.pdd_setImageWithURL(imgUrl!, placeholderImage: UIImage(named: "wu.jpg")!)
         titleName?.text = datsSouce.opt_name
         
-        for var i = 0;i<childrendatasouce.count;i++ {
+        for i in 0 ..< childrendatasouce.count {
             
             var childrenEntity = childrenModel()
             childrenEntity.mapping(childrendatasouce[i] as! Dictionary<String, AnyObject>)
@@ -78,7 +78,7 @@ class SearchTableViewCell: UITableViewCell {
             nameLabel.font = UIFont.systemFontOfSize(15)
             nameLabel.backgroundColor = UIColor.whiteColor()
             nameLabel.userInteractionEnabled = true
-            let labelTapGestureRecognizer = UITapGestureRecognizer(target: self, action: Selector("labelTouchUpInside:"))
+            let labelTapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(SearchTableViewCell.labelTouchUpInside(_:)))
             nameLabel.addGestureRecognizer(labelTapGestureRecognizer)
             
             let nameLabel_H = 30

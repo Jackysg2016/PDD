@@ -22,7 +22,7 @@ class BaseViewController: UIViewController,UIGestureRecognizerDelegate {
     }
     /**右侧分享按钮*/
     private func configureInterface() {
-        let rightBtn = UIBarButtonItem(title: "", style: .Plain, target: self, action: "share")
+        let rightBtn = UIBarButtonItem(title: "", style: .Plain, target: self, action: #selector(BaseViewController.share))
         rightBtn.image = UIImage(named: "share")!.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal)
         navigationItem.rightBarButtonItem = rightBtn
     }

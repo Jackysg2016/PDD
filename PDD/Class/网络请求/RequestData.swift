@@ -64,7 +64,7 @@ class RequestData:NSObject {
                     totalArray.append(homeTotal)
                 }
                 
-                for var i = 0;i<home_recommendArray.count;i++ {
+                for i in 0 ..< home_recommendArray.count {
                     let homeTotal = HomeTotalData()
                     homeTotal.home_recommend = home_recommendArray[i]
                     homeTotal.cellType = CellType.advertisement

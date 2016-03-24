@@ -4,7 +4,7 @@
 //
 //  Created by zhoulei on 16/3/20.
 //  Copyright © 2016年 ZL. All rights reserved.
-//  海淘数据请求
+//  海淘网络请求
 
 import UIKit
 
@@ -72,7 +72,7 @@ class HaiTaoRequest: NSObject {
                 }
                 
                 
-                for var i = 0;i<home_recommendArray.count;i++ {
+                for i in 0 ..< home_recommendArray.count {
                     let haiTaoTotal = HaiTaoDataModel()
                     haiTaoTotal.home_recommend = home_recommendArray[i]
                     haiTaoTotal.cellType = CellType.advertisement
