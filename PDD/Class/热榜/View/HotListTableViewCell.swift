@@ -17,9 +17,13 @@ class HotListTableViewCell: UITableViewCell {
     var  goodsName:UILabel?
       /**售出数量*/
     var goodsSalesAmount:UILabel?
-      /**几人团*/
-     
-     /**价格*/
+    ///开团背景图片
+    var regimentImage:UIImageView?
+    ///开团人数
+    var regimentPersonLabel:UILabel?
+    ///开团价
+    var piceLabel:UILabel?
+    
     
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
@@ -33,17 +37,14 @@ class HotListTableViewCell: UITableViewCell {
             make.left.equalTo(self).offset(10)
             make.centerY.equalTo(self.snp_centerY).offset(0)
             make.height.equalTo(20)
-
         })
-        
         goodsImageView = UIImageView()
         self.contentView.addSubview(goodsImageView!)
         goodsImageView?.snp_makeConstraints(closure: { (make) -> Void in
             make.left.equalTo(numericalOrder!.snp_right).offset(10)
             make.centerY.equalTo(self.snp_centerY).offset(0)
-            make.width.height.equalTo(130)
+            make.width.height.equalTo(100)
         })
-        
         goodsName = UILabel()
         goodsName?.font = UIFont.systemFontOfSize(16)
         goodsName?.numberOfLines = 3
@@ -54,16 +55,49 @@ class HotListTableViewCell: UITableViewCell {
             make.top.equalTo(self).offset(10)
             make.right.equalTo(self).offset(-10)
         })
-        
-        
         goodsSalesAmount = UILabel()
-        
         self.contentView.addSubview(goodsSalesAmount!)
         goodsSalesAmount?.snp_makeConstraints(closure: { (make) -> Void in
             make.left.equalTo(goodsImageView!.snp_right).offset(10)
-            
             make.bottom.equalTo(self).offset(-50)
         })
+        
+        regimentImage = UIImageView()
+        regimentImage?.image = UIImage(named: "rekaituan")
+        regimentImage!.layer.masksToBounds = true
+        regimentImage!.layer.cornerRadius = 5
+        self.contentView.addSubview(regimentImage!)
+        regimentImage?.snp_makeConstraints(closure: { (make) -> Void in
+            make.top.equalTo(goodsSalesAmount!.snp_bottom).offset(10)
+            make.bottom.equalTo(self).offset(-10)
+            make.left.equalTo(goodsImageView!.snp_right).offset(10)
+            make.width.equalTo(ScreenWidth-165)
+
+        })
+        regimentPersonLabel = UILabel()
+        regimentPersonLabel?.font = UIFont.systemFontOfSize(10)
+        regimentPersonLabel?.textColor = UIColor.grayColor()
+         self.contentView.addSubview(regimentPersonLabel!)
+        regimentPersonLabel?.snp_makeConstraints(closure: { (make) -> Void in
+            make.centerY.equalTo(regimentImage!.snp_centerY).offset(0)
+            make.left.equalTo(regimentImage!.snp_left).offset(5)
+        })
+        
+        piceLabel = UILabel()
+        piceLabel?.font = UIFont.systemFontOfSize(15)
+        piceLabel?.textColor = UIColor.redColor()
+         self.contentView.addSubview(piceLabel!)
+        piceLabel?.snp_makeConstraints(closure: { (make) -> Void in
+            make.centerY.equalTo(regimentImage!.snp_centerY).offset(0)
+            make.left.equalTo(regimentPersonLabel!.snp_right).offset(20)
+        })
+        
+        if ScreenWidth < 375 {
+            piceLabel?.snp_updateConstraints(closure: { (make) in
+                make.centerY.equalTo(regimentImage!.snp_centerY).offset(0)
+                make.left.equalTo(regimentPersonLabel!.snp_right).offset(5)
+            })
+        }
         
     }
 
@@ -72,6 +106,18 @@ class HotListTableViewCell: UITableViewCell {
     }
     
     func releaseData(hotList:HotListModel,index:String) {
+        
+        if hotList.customer_num != nil {
+            regimentPersonLabel?.text = hotList.customer_num! + "人团"
+        }
+        if hotList.price != nil {
+            var pice :Float?
+            pice = NSString(string: hotList.price!).floatValue / 100
+            var price:String?
+            price = String(format: "%.2f", pice!)
+            piceLabel?.text = "¥" +  price!
+        }
+        
         
         numericalOrder?.text = index
         let imageURL = NSURL(string:hotList.thumb_url!)

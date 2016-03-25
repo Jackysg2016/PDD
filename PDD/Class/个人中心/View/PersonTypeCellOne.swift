@@ -57,7 +57,7 @@ class PersonTypeCellOne: UICollectionViewCell {
     
     func reloadData (name:String) {
         
-        nameTitle?.text = name
+        nameTitle?.text = "未登录"
     }
     
 }

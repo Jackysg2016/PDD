@@ -39,10 +39,23 @@ class PersonTypeCellThree: UICollectionViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func typeCellThreeReloadData (title:String,imageName:String) {
+    func typeCellThreeReloadData (title:String,imageName:String,section:Int) {
         
         bgImageView?.image = UIImage(named: imageName)
         nameTitle?.text = title
+        
+        if section==3 {
+            bgImageView?.snp_updateConstraints(closure: { (make) in
+                make.centerX.equalTo(self.snp_centerX).offset(0)
+                make.top.equalTo(self).offset(10)
+                make.width.height.equalTo(40)
+            })
+            nameTitle?.snp_updateConstraints(closure: { (make) in
+                make.centerX.equalTo(self.snp_centerX).offset(0)
+                make.top.equalTo(bgImageView!.snp_bottom).offset(5)
+            })
+            
+        }
     }
 
 }

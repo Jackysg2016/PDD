@@ -23,8 +23,6 @@ class PersonageViewController: BaseViewController,UICollectionViewDataSource,UIC
         print(ScreenWidth)
     }
     
-    
-    
     func setUpConnectionView() {
         
         let flowLayout = UICollectionViewFlowLayout()
@@ -40,8 +38,8 @@ class PersonageViewController: BaseViewController,UICollectionViewDataSource,UIC
         collectionView?.registerClass(PersonTypeCellOne.self, forCellWithReuseIdentifier: "PersonTypeCellOne")
         collectionView?.registerClass(PersonTypeCellTwo.self, forCellWithReuseIdentifier: "PersonTypeCellTwo")
         collectionView?.registerClass(PersonTypeCellThree.self, forCellWithReuseIdentifier: "PersonTypeCellThree")
+        collectionView?.registerClass(PersonTypeCellFour.self, forCellWithReuseIdentifier: "PersonTypeCellFour")
         self.view.addSubview(collectionView!)
-        
         
         // 下拉刷新
         header.setRefreshingTarget(self, refreshingAction: #selector(RankingTableViewController.headerRefresh))
@@ -53,6 +51,8 @@ class PersonageViewController: BaseViewController,UICollectionViewDataSource,UIC
     
     func headerRefresh(){
         
+        collectionView!.mj_header.endRefreshing()
+
     }
     
     
@@ -124,9 +124,24 @@ class PersonageViewController: BaseViewController,UICollectionViewDataSource,UIC
             
             let cell = collectionView.dequeueReusableCellWithReuseIdentifier("PersonTypeCellThree", forIndexPath: indexPath) as! PersonTypeCellThree
             cell.backgroundColor = UIColor.whiteColor()
-            cell.typeCellThreeReloadData(personage.segmentTitleArray[indexPath.row], imageName: personage.segmentImageArray[indexPath.row])
+            cell.typeCellThreeReloadData(personage.segmentTitleArray[indexPath.row], imageName: personage.segmentImageArray[indexPath.row],section: indexPath.section)
             
             return cell
+        } else if indexPath.section == 3 {
+            
+            let cell = collectionView.dequeueReusableCellWithReuseIdentifier("PersonTypeCellThree", forIndexPath: indexPath) as! PersonTypeCellThree
+            cell.backgroundColor = UIColor.whiteColor()
+            cell.typeCellThreeReloadData(personage.itemNameArray[indexPath.row], imageName: personage.itemImageArray[indexPath.row],section: indexPath.section)
+            
+            return cell
+            
+        }else if indexPath.section == 4 {
+            
+            let cell = collectionView.dequeueReusableCellWithReuseIdentifier("PersonTypeCellFour", forIndexPath: indexPath) as! PersonTypeCellFour
+            cell.backgroundColor = UIColor.whiteColor()
+            
+            return cell
+            
         }else {
             let cell = collectionView.dequeueReusableCellWithReuseIdentifier("PersonTypeCellOne", forIndexPath: indexPath) as! PersonTypeCellOne
             cell.backgroundColor = UIColor.whiteColor()
@@ -135,7 +150,6 @@ class PersonageViewController: BaseViewController,UICollectionViewDataSource,UIC
             
             return cell
         }
-    
         
         
     }

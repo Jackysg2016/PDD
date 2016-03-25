@@ -80,11 +80,12 @@ extension HomeViewController:UITableViewDelegate,UITableViewDataSource {
             
         case .common:
             
-            let  cell = tableView.dequeueReusableCellWithIdentifier("HomeMainTableViewCell", forIndexPath: indexPath) as! HomeMainTableViewCell
+            let cell = tableView.dequeueReusableCellWithIdentifier("HomeMainTableViewCell", forIndexPath: indexPath) as! HomeMainTableViewCell
             cell.selectionStyle = UITableViewCellSelectionStyle.None
             cell.backgroundColor = BgColor
-            cell.releaseData(home.good_list)
-            
+            cell.removeObj()
+            cell.releaseData(home.good_list,secton:indexPath.row)
+
             return cell
             
         default:

@@ -33,6 +33,7 @@ class RequestData:NSObject {
                 var totalArray = [HomeTotalData]()
                 
                 for  goods_list_dict in goods_list! {
+                    
                     let dataJieXi = HomeModel()
                     dataJieXi.mapping(goods_list_dict as! Dictionary<String, AnyObject>)
                     goods_listArray.append(dataJieXi)

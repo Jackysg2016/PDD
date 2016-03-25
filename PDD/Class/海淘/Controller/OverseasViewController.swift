@@ -83,7 +83,8 @@ extension OverseasViewController:UITableViewDataSource,UITableViewDelegate {
             let  cell = tableView.dequeueReusableCellWithIdentifier("HomeMainTableViewCell", forIndexPath: indexPath) as! HomeMainTableViewCell
             cell.selectionStyle = UITableViewCellSelectionStyle.None
             cell.backgroundColor = BgColor
-            cell.releaseData(haiTao.good_list)
+            cell.removeObj()
+            cell.releaseData(haiTao.good_list,secton: indexPath.row)
             
             return cell
             

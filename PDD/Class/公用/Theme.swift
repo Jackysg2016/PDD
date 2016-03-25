@@ -14,6 +14,7 @@ public let ScreenWidth: CGFloat = UIScreen.mainScreen().bounds.size.width
 public let ScreenHeight: CGFloat = UIScreen.mainScreen().bounds.size.height
 public let ScreenBounds: CGRect = UIScreen.mainScreen().bounds
 
+
 // MARK: - URL
 public let HomeUrl:String = "http://apiv2.yangkeduo.com/v2/goods"  //首页
 public let SubjectsUrl:String = "http://apiv2.yangkeduo.com/subjects" //滚动图片广告

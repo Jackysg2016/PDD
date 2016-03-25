@@ -72,6 +72,7 @@
 		71EE0CE61C96BA6F002017F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71EE0CE51C96BA6F002017F7 /* Assets.xcassets */; };
 		71EE0CF41C96BA6F002017F7 /* PDDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EE0CF31C96BA6F002017F7 /* PDDTests.swift */; };
 		71EE0D0D1C96BA9F002017F7 /* FDDSYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EE0D0C1C96BA9F002017F7 /* FDDSYViewController.swift */; };
+		71F669961CA4FFB8000102EA /* IntroductionLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F669951CA4FFB8000102EA /* IntroductionLabel.swift */; };
 		71FEBEE81C9A458600BAAA16 /* HomeAdTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FEBEE71C9A458600BAAA16 /* HomeAdTableViewCell.swift */; };
 		71FEBEEA1C9A50AE00BAAA16 /* HomeAdCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71FEBEE91C9A50AE00BAAA16 /* HomeAdCollectionViewCell.swift */; };
 		71FEBEF51C9AA5AF00BAAA16 /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 71FEBEF21C9AA5AF00BAAA16 /* HMSegmentedControl.m */; };
@@ -190,6 +191,7 @@
 		71EE0CFE1C96BA6F002017F7 /* PDDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDDUITests.swift; sourceTree = "<group>"; };
 		71EE0D001C96BA6F002017F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		71EE0D0C1C96BA9F002017F7 /* FDDSYViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FDDSYViewController.swift; sourceTree = "<group>"; };
+		71F669951CA4FFB8000102EA /* IntroductionLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroductionLabel.swift; sourceTree = "<group>"; };
 		71FEBEE71C9A458600BAAA16 /* HomeAdTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeAdTableViewCell.swift; sourceTree = "<group>"; };
 		71FEBEE91C9A50AE00BAAA16 /* HomeAdCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeAdCollectionViewCell.swift; sourceTree = "<group>"; };
 		71FEBEF11C9AA5AF00BAAA16 /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
@@ -577,6 +579,7 @@
 				71FEBEE71C9A458600BAAA16 /* HomeAdTableViewCell.swift */,
 				71FEBEE91C9A50AE00BAAA16 /* HomeAdCollectionViewCell.swift */,
 				713059B41C995104003128F5 /* HomeHeaderView.swift */,
+				71F669951CA4FFB8000102EA /* IntroductionLabel.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -901,6 +904,7 @@
 				7108A8981C9E597B00162C2B /* UIScrollView+EmptyDataSet.m in Sources */,
 				713059B51C995104003128F5 /* HomeHeaderView.swift in Sources */,
 				713059A21C993524003128F5 /* HomeMainTableViewCell.swift in Sources */,
+				71F669961CA4FFB8000102EA /* IntroductionLabel.swift in Sources */,
 				710804801C9C350C00699A21 /* MJRefreshAutoFooter.m in Sources */,
 				710804871C9C350D00699A21 /* MJRefreshAutoStateFooter.m in Sources */,
 			);
