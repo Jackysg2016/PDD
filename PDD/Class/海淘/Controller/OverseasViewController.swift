@@ -134,7 +134,11 @@ extension OverseasViewController: HomeHeaderDelegate {
     
     func homeHeaderRequestResult(homeRollData:HomeRollModel) {
         
-        print(homeRollData.subject)
+        let homeSubject = HomeSubjectViewController()
+        homeSubject.title = homeRollData.subject
+        homeSubject.subjectID = homeRollData.subject_id
+        homeSubject.bgImageString = homeRollData.home_banner
+        self.navigationController?.pushViewController(homeSubject, animated: true)
     }
 }
 

@@ -4,7 +4,7 @@
 //
 //  Created by 周磊 on 16/3/15.
 //  Copyright © 2016年 ZL. All rights reserved.
-//
+//  首页
 
 import UIKit
 
@@ -136,7 +136,12 @@ extension  HomeViewController:HomeHeaderDelegate {
     
     func homeHeaderRequestResult(homeRollData:HomeRollModel) {
         
-        print(homeRollData.subject)
+        let homeSubject = HomeSubjectViewController()
+        homeSubject.title = homeRollData.subject
+        homeSubject.subjectID = homeRollData.subject_id
+        homeSubject.bgImageString = homeRollData.home_banner
+        self.navigationController?.pushViewController(homeSubject, animated: true)
+        
     }
 }
 

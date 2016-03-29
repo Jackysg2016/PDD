@@ -15,9 +15,7 @@ class BaseViewController: UIViewController,UIGestureRecognizerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        /**允许右滑返回*/
-        self.navigationController!.interactivePopGestureRecognizer!.enabled = true;
-        self.navigationController!.interactivePopGestureRecognizer!.delegate = self;
+
         configureInterface()
     }
     /**右侧分享按钮*/
@@ -29,15 +27,6 @@ class BaseViewController: UIViewController,UIGestureRecognizerDelegate {
     
     func share(){
         print("分享")
-    }
-    
-    func gestureRecognizerShouldBegin(gestureRecognizer: UIGestureRecognizer) -> Bool {
-        
-        if self.navigationController?.viewControllers.count == 1 {
-            return false
-        }else{
-            return true
-        }
     }
     
 }

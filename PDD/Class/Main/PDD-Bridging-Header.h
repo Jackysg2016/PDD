@@ -7,3 +7,4 @@
 #import "HMSegmentedControl.h"
 #import "UIScrollView+EmptyDataSet.h"
 #import "MJRefresh.h"
+#import "UINavigationController+FDFullscreenPopGesture.h"
