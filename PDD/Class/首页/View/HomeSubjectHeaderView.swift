@@ -29,7 +29,9 @@ class HomeSubjectHeaderView: UIView {
         self.addSubview(bgImageView!)
         bgImageView?.snp_makeConstraints(closure: { (make) in
             make.left.top.equalTo(self).offset(10)
-            make.right.bottom.equalTo(self).offset(-10)
+            make.right.equalTo(self).offset(-10)
+            make.bottom.equalTo(self).offset(0)
+
         })
     }
     func reloadImage(urlString:String) {
