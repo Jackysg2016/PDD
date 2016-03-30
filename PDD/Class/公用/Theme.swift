@@ -26,6 +26,15 @@ public let OperationsUrl:String = "http://apiv2.yangkeduo.com/operations" // 搜
 public let UserUrl:String = "http://apiv2.yangkeduo.com/user/me" // 个人中心
 
 
+//http://apiv2.yangkeduo.com/goods/22289
+
+//http://apiv2.yangkeduo.com/recommendation?goods_id=22289&referrer=goods
+
+//http://apiv2.yangkeduo.com/operation/12/groups?opt_type=1
+//http://apiv2.yangkeduo.com/operation/14/groups?opt_type=1
+//http://apiv2.yangkeduo.com/operation/219/groups?opt_type=2
+
+
 // MARK: - 全局常用颜色
 public let BgColor:UIColor = UIColor(colorLiteralRed: 0.97, green: 0.97, blue: 0.97, alpha: 1.00)
 public let BorderColor:UIColor = UIColor(colorLiteralRed: 213/255, green: 213/255, blue: 213/255, alpha: 1.00)

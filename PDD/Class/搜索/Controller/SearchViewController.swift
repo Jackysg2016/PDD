@@ -44,9 +44,7 @@ extension SearchViewController:searchRequestDataDelegate {
         
         tableView?.reloadData()
     }
-
 }
-
 
 // MARK: - TableView代理
 extension SearchViewController: UITableViewDataSource,UITableViewDelegate {
@@ -62,19 +60,38 @@ extension SearchViewController: UITableViewDataSource,UITableViewDelegate {
         cell.backgroundColor = BgColor
         cell.selectionStyle = UITableViewCellSelectionStyle.None
         cell.reloaddata(searchModel, childrendatasouce: searchModel.children!)
-        
+        cell.delegate = self
         return cell
     }
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         let searchModel = dataArray[indexPath.row]
-        
         let divide:Float = Float((searchModel.children?.count)!)/4
         let result = Int(ceilf(divide))
-        
         return CGFloat((result*30) + 60)
     }
     
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        var searchModel = SearchModel()
+        searchModel =  dataArray[indexPath.row]
+        
+        let searchDetailView = SearchDetailsViewController()
+        searchDetailView.title = searchModel.opt_name
+        searchDetailView.goodsId = searchModel.id
+        searchDetailView.opt_type = "1"
+        self.navigationController?.pushViewController(searchDetailView, animated: true)
+    }
 }
-
+// MARK: - 小单元格点击事件
+extension SearchViewController:searchCellDelegate {
+    
+    func searchCellData(childrenEntity:childrenModel) {
+        let searchDetailView = SearchDetailsViewController()
+        searchDetailView.title = childrenEntity.opt_name
+        searchDetailView.goodsId = childrenEntity.id
+        searchDetailView.opt_type = "2"
+        self.navigationController?.pushViewController(searchDetailView, animated: true)
+    }
+}
 

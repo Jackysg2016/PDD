@@ -72,7 +72,50 @@ struct childrenModel {
         opt_name = map["opt_name"] as? String
     
     }
+}
 
+
+struct SearchDetailsGoods_listModel {
+    
+    var goods_id:String?
+    var goods_name:String?
+    var group:NSDictionary?
+    var image_url:String?
+    var market_price:String?
+    var thumb_url:String?
+    
+    var customer_num:String?
+    var price:String?
+    
+    mutating func mapping(map:Dictionary<String,AnyObject>){
+        
+        goods_id = map["goods_id"] as? String
+        goods_name = map["goods_name"] as? String
+        group = map["group"] as? NSDictionary
+        image_url = map["image_url"] as? String
+        market_price = map["market_price"] as? String
+        thumb_url = map["thumb_url"] as? String
+
+        customer_num = group!["customer_num"] as? String
+        price = group!["price"] as? String
+        
+    }
+    
+}
+
+struct SearchDetailsOpt_infosModel {
+    
+    var id:String?
+    var opt_name:String?
+    var priority:String?
+    
+    mutating func mapping(map:Dictionary<String,AnyObject>){
+        
+        id = map["id"] as? String
+        opt_name = map["opt_name"] as? String
+        priority = map["priority"] as? String
+        
+    }
 }
 
 

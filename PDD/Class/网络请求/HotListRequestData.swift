@@ -14,7 +14,7 @@ class HotListRequestData: NSObject {
 
     func requestData(parameter:String) {
         
-        let url = "http://apiv2.yangkeduo.com/v2/" + parameter
+        let url = "http://apiv2.yangkeduo.com/v2/\(parameter)"
         
         request.defaultInstance().GetRequest(url).responseJSON { response in
             

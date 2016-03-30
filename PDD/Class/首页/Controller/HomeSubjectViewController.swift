@@ -10,7 +10,7 @@ import UIKit
 
 class HomeSubjectViewController: BaseViewController,homeSubjectDataDelegate {
 
-    var subjectID = String?()
+    var subjectID:String!
     var tableView:UITableView?
     var dataArray = [HomeModel]()
     var bgImageString:String!

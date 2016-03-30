@@ -111,7 +111,7 @@ class HomeMainTableViewCell: UITableViewCell {
 
     func collection(){
         
-        collectButton?.setImage(UIImage(named: "collection.jpg"), forState: UIControlState.Normal)
+//        collectButton?.setImage(UIImage(named: "collection.jpg"), forState: UIControlState.Normal)
         print("收藏")
         
     }

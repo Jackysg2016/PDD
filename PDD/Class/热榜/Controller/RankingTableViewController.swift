@@ -10,7 +10,7 @@ import UIKit
 
 class RankingTableViewController: UITableViewController {
 
-    var parameter:String?
+    var parameter:String!
     var dataSouce = [HotListModel]()
     // 顶部刷新
     let header = MJRefreshNormalHeader()

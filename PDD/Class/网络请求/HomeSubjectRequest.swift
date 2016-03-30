@@ -4,7 +4,7 @@
 //
 //  Created by 周磊 on 16/3/28.
 //  Copyright © 2016年 ZL. All rights reserved.
-//
+//  首页、海淘滚动广告数据请求
 
 import UIKit
 
@@ -14,8 +14,8 @@ class HomeSubjectRequest: NSObject {
     
     func homeSubjectRequest(subjectId:String){
         
-        let url = "http://apiv2.yangkeduo.com/v2/subject/" + subjectId + "/goods"
-
+        let url = "http://apiv2.yangkeduo.com/v2/subject/\(subjectId)/goods"
+        
         request.defaultInstance().GetRequest(url).responseJSON { response in
             
             switch response.result {

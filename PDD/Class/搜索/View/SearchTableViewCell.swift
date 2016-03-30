@@ -9,7 +9,9 @@
 import UIKit
 
 class SearchTableViewCell: UITableViewCell {
-
+    
+    weak var delegate:searchCellDelegate?
+    
     var bgImageView:UIImageView?
     var titleName:UILabel?
     var bgView:UIView?
@@ -84,15 +86,20 @@ class SearchTableViewCell: UITableViewCell {
             
             nameLabel.frame = CGRectMake(nameLabel_X, CGFloat(nameLabel_Y), nameLabel_W, CGFloat(nameLabel_H))
             bgView?.addSubview(nameLabel)
-            
         }
     }
     
     func labelTouchUpInside(recognizer:UITapGestureRecognizer){
-        
         let label:UILabel = recognizer.view as! UILabel
-        let childrenEntity = childrenEntityArray[label.tag-1]
-         print(childrenEntity.opt_name)
+        var childrenEntity = childrenModel()
+        childrenEntity = childrenEntityArray[label.tag-1]
+        self.delegate?.searchCellData(childrenEntity)
     }
+}
+
+protocol searchCellDelegate: NSObjectProtocol {
+    
+    func searchCellData(childrenEntity:childrenModel)
     
 }
+

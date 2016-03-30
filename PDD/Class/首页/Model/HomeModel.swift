@@ -130,8 +130,6 @@ struct home_recommend_goodlistModel {
 }
 
 
-
-
 class HomeTotalData:NSObject {
     
     var good_list = HomeModel()
