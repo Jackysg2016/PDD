@@ -74,6 +74,7 @@
 		71876F341CA0E0E900AE8B18 /* SearchHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71876F331CA0E0E900AE8B18 /* SearchHeaderView.swift */; };
 		71A08FAC1CA012180085A699 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A08FAB1CA012180085A699 /* SearchTableViewCell.swift */; };
 		71A08FAE1CA016C30085A699 /* SearchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A08FAD1CA016C30085A699 /* SearchRequest.swift */; };
+		71DB16331CAD0D9600CB4737 /* SearchDetailsScrollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DB16321CAD0D9600CB4737 /* SearchDetailsScrollerViewController.swift */; };
 		71EB65B41CAA564200F0CD36 /* HomeSubjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EB65B31CAA564200F0CD36 /* HomeSubjectHeaderView.swift */; };
 		71EB65B81CAA687E00F0CD36 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EB65B71CAA687E00F0CD36 /* UINavigationController+FDFullscreenPopGesture.m */; };
 		71EE0CE61C96BA6F002017F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71EE0CE51C96BA6F002017F7 /* Assets.xcassets */; };
@@ -194,6 +195,7 @@
 		71876F331CA0E0E900AE8B18 /* SearchHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchHeaderView.swift; sourceTree = "<group>"; };
 		71A08FAB1CA012180085A699 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 		71A08FAD1CA016C30085A699 /* SearchRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRequest.swift; sourceTree = "<group>"; };
+		71DB16321CAD0D9600CB4737 /* SearchDetailsScrollerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchDetailsScrollerViewController.swift; sourceTree = "<group>"; };
 		71EB65B31CAA564200F0CD36 /* HomeSubjectHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSubjectHeaderView.swift; sourceTree = "<group>"; };
 		71EB65B61CAA687E00F0CD36 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
 		71EB65B71CAA687E00F0CD36 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
@@ -444,6 +446,7 @@
 			isa = PBXGroup;
 			children = (
 				713059791C993524003128F5 /* SearchViewController.swift */,
+				71DB16321CAD0D9600CB4737 /* SearchDetailsScrollerViewController.swift */,
 				711E4C401CABC4B700095F11 /* SearchDetailsViewController.swift */,
 			);
 			path = Controller;
@@ -886,6 +889,7 @@
 				710804911C9C350D00699A21 /* UIScrollView+MJRefresh.m in Sources */,
 				71876F341CA0E0E900AE8B18 /* SearchHeaderView.swift in Sources */,
 				7130599B1C993524003128F5 /* OverseasViewController.swift in Sources */,
+				71DB16331CAD0D9600CB4737 /* SearchDetailsScrollerViewController.swift in Sources */,
 				71EB65B41CAA564200F0CD36 /* HomeSubjectHeaderView.swift in Sources */,
 				713059A01C993524003128F5 /* HomeModel.swift in Sources */,
 				7108048D1C9C350D00699A21 /* MJRefreshStateHeader.m in Sources */,

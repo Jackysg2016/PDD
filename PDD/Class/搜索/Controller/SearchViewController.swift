@@ -56,7 +56,7 @@ extension SearchViewController: UITableViewDataSource,UITableViewDelegate {
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
         let searchModel = dataArray[indexPath.row]
-        let cell = tableView.dequeueReusableCellWithIdentifier("SearchTableViewCell", forIndexPath: indexPath) as! SearchTableViewCell
+        let cell = SearchTableViewCell.init(style: UITableViewCellStyle.Default, reuseIdentifier: "SearchTableViewCell")
         cell.backgroundColor = BgColor
         cell.selectionStyle = UITableViewCellSelectionStyle.None
         cell.reloaddata(searchModel, childrendatasouce: searchModel.children!)
@@ -76,9 +76,10 @@ extension SearchViewController: UITableViewDataSource,UITableViewDelegate {
         var searchModel = SearchModel()
         searchModel =  dataArray[indexPath.row]
         
-        let searchDetailView = SearchDetailsViewController()
+        let searchDetailView = SearchDetailsScrollerViewController()
         searchDetailView.title = searchModel.opt_name
         searchDetailView.goodsId = searchModel.id
+        searchDetailView.listArray = searchModel.children
         searchDetailView.opt_type = "1"
         self.navigationController?.pushViewController(searchDetailView, animated: true)
     }

@@ -30,7 +30,6 @@ class SearchDetailsViewController: BaseViewController,UICollectionViewDataSource
         setUpRequest()
         
     }
-
     
     func setUpRequest() {
         
@@ -56,17 +55,12 @@ class SearchDetailsViewController: BaseViewController,UICollectionViewDataSource
         flowLayout.minimumLineSpacing = 10
         flowLayout.minimumInteritemSpacing = 10
         
-        collectionView = UICollectionView(frame: CGRectMake(0, 0, ScreenWidth, ScreenHeight),collectionViewLayout: flowLayout)
+        collectionView = UICollectionView(frame: CGRectMake(0, 0, ScreenWidth, ScreenHeight-64-45),collectionViewLayout: flowLayout)
         collectionView?.dataSource = self
         collectionView?.delegate = self
         collectionView?.backgroundColor = BgColor
         collectionView?.registerClass(SearchDetailsCollectionViewCell.self, forCellWithReuseIdentifier: "SearchDetailsCollectionViewCell")
-        
-        var headerView = UIView(frame:CGRectMake(0,0,ScreenWidth,60))
-        headerView.backgroundColor = UIColor.cyanColor()
-        
         self.view.addSubview(collectionView!)
-        
         
     }
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
