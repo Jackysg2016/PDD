@@ -50,6 +50,52 @@ class SearchDetailsRequest: NSObject {
             }
         }
     }
+    
+    
+    func getUpOpt_infosDataArray(optId:String,optType:String,completion: (namedataAray: [String]?,iddataArray:[String]?)->Void) {
+        
+        let url = "http://apiv2.yangkeduo.com/operation/\(optId)/groups?opt_type=\(optType)"
+
+        request.defaultInstance().GetRequest(url).responseJSON { response in
+            
+            switch response.result {
+            case .Success:
+                
+                guard let JsonData = response.result.value else { return }
+                let opt_infos = JsonData["opt_infos"] as? NSArray
+                var opt_infosArray = [SearchDetailsOpt_infosModel]()
+                var optinfosArray = [String]()
+                var optinfosIdArray = [String]()
+
+                for  opt_infos_dict in opt_infos! {
+                    var searchDetailsOpt_infos = SearchDetailsOpt_infosModel()
+                    searchDetailsOpt_infos.mapping(opt_infos_dict as! Dictionary<String, AnyObject>)
+                    opt_infosArray.append(searchDetailsOpt_infos)
+                }
+                var optinfos =  SearchDetailsOpt_infosModel()
+                optinfos.id = optId
+                optinfos.opt_name = "全部"
+                optinfos.priority = "0"
+                opt_infosArray.insert(optinfos, atIndex: 0)
+                
+                
+                for i in 0 ..< opt_infosArray.count {
+                    
+                    let searchDetailsOpt_infos = opt_infosArray[i]
+                    optinfosArray.append(searchDetailsOpt_infos.opt_name!)
+                    optinfosIdArray.append(searchDetailsOpt_infos.id!)
+
+                }
+                
+                completion(namedataAray: optinfosArray,iddataArray: optinfosIdArray)
+
+            case .Failure(let error):
+                
+                print(error)
+            }
+        }
+    }
+        
 }
 protocol searchDetailsRequestDelegate: NSObjectProtocol {
     

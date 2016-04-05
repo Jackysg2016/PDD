@@ -80,7 +80,7 @@ extension SearchViewController: UITableViewDataSource,UITableViewDelegate {
         searchDetailView.title = searchModel.opt_name
         searchDetailView.goodsId = searchModel.id
         searchDetailView.listArray = searchModel.children
-        searchDetailView.opt_type = "1"
+        searchDetailView.optType = goodsOpt_Type.firstType
         self.navigationController?.pushViewController(searchDetailView, animated: true)
     }
 }
@@ -88,10 +88,10 @@ extension SearchViewController: UITableViewDataSource,UITableViewDelegate {
 extension SearchViewController:searchCellDelegate {
     
     func searchCellData(childrenEntity:childrenModel) {
-        let searchDetailView = SearchDetailsViewController()
+        let searchDetailView = SearchDetailsScrollerViewController()
         searchDetailView.title = childrenEntity.opt_name
         searchDetailView.goodsId = childrenEntity.id
-        searchDetailView.opt_type = "2"
+        searchDetailView.optType = goodsOpt_Type.secondType
         self.navigationController?.pushViewController(searchDetailView, animated: true)
     }
 }

@@ -33,11 +33,19 @@ class HomeSubjectViewController: BaseViewController,homeSubjectDataDelegate {
         tableView?.dataSource = self
         tableView!.registerClass(HomeMainTableViewCell.self, forCellReuseIdentifier:"HomeMainTableViewCell")
         tableView?.tableFooterView = UIView()
-        
-        let headerView = HomeSubjectHeaderView(frame: CGRectMake(0,0,ScreenWidth,200))
-        tableView?.tableHeaderView = headerView
-        headerView.reloadImage(bgImageString)
         self.view.addSubview(tableView!)
+
+        if bgImageString != nil {
+            let headerView = HomeSubjectHeaderView(frame: CGRectMake(0,0,ScreenWidth,200))
+            tableView?.tableHeaderView = headerView
+            headerView.reloadImage(bgImageString)
+        }else {
+            homeSubjecRequest.countryGoodsListRequest(subjectID, blockPicture: { (picture) in
+                let headerView = HomeSubjectHeaderView(frame: CGRectMake(0,0,ScreenWidth,200))
+                self.tableView?.tableHeaderView = headerView
+                headerView.reloadImage(picture)
+            })
+        }
         
         // 下拉刷新
         header.setRefreshingTarget(self, refreshingAction: #selector(RankingTableViewController.headerRefresh))

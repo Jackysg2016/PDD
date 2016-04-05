@@ -42,7 +42,32 @@ class HomeSubjectRequest: NSObject {
         }
     }
     
+    
+    func countryGoodsListRequest(subjectId:String,blockPicture:(picture:String)->Void){
+        
+        let url = "http://apiv2.yangkeduo.com/subject/\(subjectId)"
+
+        request.defaultInstance().GetRequest(url).responseJSON { response in
+            
+            switch response.result {
+            case .Success:
+                
+                guard let JsonData = response.result.value else { return }
+                
+                let goods_list = JsonData["banner"] as! String
+
+                blockPicture(picture: goods_list)
+                
+            case .Failure(let error):
+                
+                print(error)
+            }
+        }
+        
+    }
+
 }
+
 protocol homeSubjectDataDelegate: NSObjectProtocol {
     
     func homeSubjectRequest(goods_listArray:NSArray)

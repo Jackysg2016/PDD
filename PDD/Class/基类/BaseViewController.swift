@@ -13,6 +13,8 @@ class BaseViewController: UIViewController,UIGestureRecognizerDelegate {
     
     var titleLabel = UILabel()
 
+    var topButton:UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -28,5 +30,19 @@ class BaseViewController: UIViewController,UIGestureRecognizerDelegate {
     func share(){
         print("分享")
     }
+    
+    func top(){
+        topButton = UIButton(frame:CGRectMake(ScreenWidth - 60, self.view.frame.size.height - 100, 40, 40))
+        topButton.setImage(UIImage(named: "home_topBtn"), forState: UIControlState.Normal)
+        topButton.alpha = 0;
+        topButton.addTarget(self, action: #selector(BaseViewController.topButtonClick), forControlEvents: UIControlEvents.TouchUpInside)
+        self.view.addSubview(topButton)
+    }
+    
+    func topButtonClick() {
+        
+       print(111)
+    }
+    
     
 }

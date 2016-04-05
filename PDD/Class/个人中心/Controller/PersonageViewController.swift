@@ -19,8 +19,7 @@ class PersonageViewController: BaseViewController,UICollectionViewDataSource,UIC
         super.viewDidLoad()
         self.view.backgroundColor = BgColor
         setUpConnectionView()
-        
-        print(ScreenWidth)
+
     }
     
     func setUpConnectionView() {

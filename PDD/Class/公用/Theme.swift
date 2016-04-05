@@ -14,7 +14,6 @@ public let ScreenWidth: CGFloat = UIScreen.mainScreen().bounds.size.width
 public let ScreenHeight: CGFloat = UIScreen.mainScreen().bounds.size.height
 public let ScreenBounds: CGRect = UIScreen.mainScreen().bounds
 
-
 // MARK: - URL
 public let HomeUrl:String = "http://apiv2.yangkeduo.com/v2/goods"  //首页
 public let SubjectsUrl:String = "http://apiv2.yangkeduo.com/subjects" //滚动图片广告
@@ -26,13 +25,8 @@ public let OperationsUrl:String = "http://apiv2.yangkeduo.com/operations" // 搜
 public let UserUrl:String = "http://apiv2.yangkeduo.com/user/me" // 个人中心
 
 
-//http://apiv2.yangkeduo.com/goods/22289
-
-//http://apiv2.yangkeduo.com/recommendation?goods_id=22289&referrer=goods
-
-//http://apiv2.yangkeduo.com/operation/12/groups?opt_type=1
-//http://apiv2.yangkeduo.com/operation/14/groups?opt_type=1
-//http://apiv2.yangkeduo.com/operation/219/groups?opt_type=2
+//http://apiv2.yangkeduo.com/subject/65
+//http://apiv2.yangkeduo.com/v2/subject/65/goods
 
 
 // MARK: - 全局常用颜色

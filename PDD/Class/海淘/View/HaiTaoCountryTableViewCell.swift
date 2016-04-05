@@ -8,11 +8,14 @@
 
 import UIKit
 
+typealias blockSubject_id = (HomeRollModel) -> Void   //定义闭包类型（特定的函数类型函数类型）
+
 class HaiTaoCountryTableViewCell: UITableViewCell,UICollectionViewDataSource,UICollectionViewDelegate {
 
     var collectionView:UICollectionView?
     var countryArray = [HomeRollModel]()
-
+    var backClosure:blockSubject_id?
+    
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         
@@ -63,6 +66,19 @@ class HaiTaoCountryTableViewCell: UITableViewCell,UICollectionViewDataSource,UIC
         cell.releaseData(country)
         return cell
         
+    }
+    
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        
+        var country = HomeRollModel()
+        country = countryArray[indexPath.row]
+         self.backClosure!(country)
+    }
+    
+    //闭包变量的Seter方法
+    func setBackMyClosure(tempClosure:blockSubject_id) {
+        
+        self.backClosure = tempClosure
     }
     
 }

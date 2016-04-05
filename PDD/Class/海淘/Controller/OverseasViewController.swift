@@ -75,6 +75,12 @@ extension OverseasViewController:UITableViewDataSource,UITableViewDelegate {
             cell.selectionStyle = UITableViewCellSelectionStyle.None
             cell.backgroundColor = BgColor
             cell.releaseData(countryArray)
+            
+            cell.setBackMyClosure({ (tempClosure) in
+                
+                self.goToHomeSubjectView(tempClosure)
+            })
+            
             return cell
             
             
@@ -117,6 +123,18 @@ extension OverseasViewController:UITableViewDataSource,UITableViewDelegate {
         default:
             return 280
         }
+    }
+    
+    
+    
+    func goToHomeSubjectView(homeRoll:HomeRollModel) {
+        
+        let homeSubject = HomeSubjectViewController()
+        homeSubject.title = homeRoll.subject
+        homeSubject.subjectID = homeRoll.subject_id
+        homeSubject.bgImageString = nil
+        self.navigationController?.pushViewController(homeSubject, animated: true)
+        
     }
 }
 
