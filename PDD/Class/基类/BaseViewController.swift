@@ -31,7 +31,8 @@ class BaseViewController: UIViewController,UIGestureRecognizerDelegate {
         print("分享")
     }
     
-    func top(){
+    func top(scroller:UIScrollView){
+        
         topButton = UIButton(frame:CGRectMake(ScreenWidth - 60, self.view.frame.size.height - 100, 40, 40))
         topButton.setImage(UIImage(named: "home_topBtn"), forState: UIControlState.Normal)
         topButton.alpha = 0;

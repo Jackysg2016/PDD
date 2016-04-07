@@ -34,16 +34,17 @@ class RankingTableViewController: UITableViewController {
         tableView.emptyDataSetDelegate = self
         tableView.tableFooterView = UIView()
         
-        hotListRequest.delegate = self
-        self.showHUD()
-        hotListRequest.requestData(parameter!)
-      
+        
         // 下拉刷新
         header.setRefreshingTarget(self, refreshingAction: #selector(RankingTableViewController.headerRefresh))
         header.lastUpdatedTimeLabel!.hidden = true
         header.stateLabel!.hidden = true
         tableView.mj_header = header
         
+        hotListRequest.delegate = self
+        tableView!.mj_header.beginRefreshing()
+        hotListRequest.requestData(parameter!)
+      
     }
     
 }
@@ -56,7 +57,6 @@ extension RankingTableViewController:hotListRequestDataDelegate {
     }
     func hotListRequest(goods_listArray:NSArray) {
         
-        self.hideHUD()
         // 结束刷新
         tableView.mj_header.endRefreshing()
         dataSouce.removeAll()

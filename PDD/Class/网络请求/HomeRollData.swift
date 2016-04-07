@@ -22,7 +22,7 @@ class HomeRollData: NSObject {
                 guard let JsonData = response.result.value else { return }
                 
                 let dataSouce = JsonData as? NSArray
-                
+                                
                 var homeRollDataArray = [HomeRollModel]()
 
                 for data in dataSouce! {

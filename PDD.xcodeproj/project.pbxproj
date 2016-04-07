@@ -46,6 +46,9 @@
 		711E4C411CABC4B700095F11 /* SearchDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711E4C401CABC4B700095F11 /* SearchDetailsViewController.swift */; };
 		711E4C431CABC87200095F11 /* SearchDetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711E4C421CABC87200095F11 /* SearchDetailsCollectionViewCell.swift */; };
 		711E4C451CABCE9C00095F11 /* SearchDetailsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711E4C441CABCE9C00095F11 /* SearchDetailsRequest.swift */; };
+		712F70AF1CB64A43009DB63C /* GoodsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F70AE1CB64A43009DB63C /* GoodsDetailsViewController.swift */; };
+		712F70B11CB64F1A009DB63C /* GoodsDetailsrequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F70B01CB64F1A009DB63C /* GoodsDetailsrequest.swift */; };
+		712F70B31CB658E6009DB63C /* GoodsDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712F70B21CB658E6009DB63C /* GoodsDetailsModel.swift */; };
 		713059921C993524003128F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713059671C993524003128F5 /* AppDelegate.swift */; };
 		713059931C993524003128F5 /* PersonageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7130596B1C993524003128F5 /* PersonageViewController.swift */; };
 		713059941C993524003128F5 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7130596F1C993524003128F5 /* Theme.swift */; };
@@ -162,6 +165,9 @@
 		711E4C401CABC4B700095F11 /* SearchDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchDetailsViewController.swift; sourceTree = "<group>"; };
 		711E4C421CABC87200095F11 /* SearchDetailsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchDetailsCollectionViewCell.swift; sourceTree = "<group>"; };
 		711E4C441CABCE9C00095F11 /* SearchDetailsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchDetailsRequest.swift; sourceTree = "<group>"; };
+		712F70AE1CB64A43009DB63C /* GoodsDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsDetailsViewController.swift; sourceTree = "<group>"; };
+		712F70B01CB64F1A009DB63C /* GoodsDetailsrequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsDetailsrequest.swift; sourceTree = "<group>"; };
+		712F70B21CB658E6009DB63C /* GoodsDetailsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsDetailsModel.swift; sourceTree = "<group>"; };
 		713059671C993524003128F5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		713059681C993524003128F5 /* PDD-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PDD-Bridging-Header.h"; sourceTree = "<group>"; };
 		7130596B1C993524003128F5 /* PersonageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonageViewController.swift; sourceTree = "<group>"; };
@@ -408,6 +414,8 @@
 			isa = PBXGroup;
 			children = (
 				7130596F1C993524003128F5 /* Theme.swift */,
+				712F70AE1CB64A43009DB63C /* GoodsDetailsViewController.swift */,
+				712F70B21CB658E6009DB63C /* GoodsDetailsModel.swift */,
 			);
 			path = "公用";
 			sourceTree = "<group>";
@@ -563,6 +571,7 @@
 				71A08FAD1CA016C30085A699 /* SearchRequest.swift */,
 				7117DE761CA9224E008ABC68 /* HomeSubjectRequest.swift */,
 				711E4C441CABCE9C00095F11 /* SearchDetailsRequest.swift */,
+				712F70B01CB64F1A009DB63C /* GoodsDetailsrequest.swift */,
 			);
 			path = "网络请求";
 			sourceTree = "<group>";
@@ -894,12 +903,14 @@
 				713059A01C993524003128F5 /* HomeModel.swift in Sources */,
 				7108048D1C9C350D00699A21 /* MJRefreshStateHeader.m in Sources */,
 				71A08FAE1CA016C30085A699 /* SearchRequest.swift in Sources */,
+				712F70AF1CB64A43009DB63C /* GoodsDetailsViewController.swift in Sources */,
 				710804831C9C350D00699A21 /* MJRefreshFooter.m in Sources */,
 				7105EC391CA283C7002A80D8 /* PersonageModel.swift in Sources */,
 				713059981C993524003128F5 /* Extension+String.swift in Sources */,
 				7108048B1C9C350D00699A21 /* MJRefreshGifHeader.m in Sources */,
 				713059AF1C99380D003128F5 /* SVRadialGradientLayer.m in Sources */,
 				713059B31C993A41003128F5 /* ViewController+Extension.swift in Sources */,
+				712F70B31CB658E6009DB63C /* GoodsDetailsModel.swift in Sources */,
 				710E63D31CA3BB3F0094DBEC /* PersonTypeCellOne.swift in Sources */,
 				711C168F1C9BAC6E00FD3113 /* HotListTableViewCell.swift in Sources */,
 				7130599F1C993524003128F5 /* HomeViewController.swift in Sources */,
@@ -945,6 +956,7 @@
 				7108A8981C9E597B00162C2B /* UIScrollView+EmptyDataSet.m in Sources */,
 				713059B51C995104003128F5 /* HomeHeaderView.swift in Sources */,
 				713059A21C993524003128F5 /* HomeMainTableViewCell.swift in Sources */,
+				712F70B11CB64F1A009DB63C /* GoodsDetailsrequest.swift in Sources */,
 				71F669961CA4FFB8000102EA /* IntroductionLabel.swift in Sources */,
 				711E4C411CABC4B700095F11 /* SearchDetailsViewController.swift in Sources */,
 				710804801C9C350C00699A21 /* MJRefreshAutoFooter.m in Sources */,

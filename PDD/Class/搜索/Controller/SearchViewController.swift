@@ -13,6 +13,7 @@ class SearchViewController: BaseViewController {
     var tableView:UITableView?
     var request:SearchRequest?
     var dataArray = [SearchModel]()
+    let header = MJRefreshNormalHeader()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,17 +26,28 @@ class SearchViewController: BaseViewController {
         tableView?.registerClass(SearchTableViewCell.self, forCellReuseIdentifier: "SearchTableViewCell")
         self.view.addSubview(tableView!)
         
+        header.setRefreshingTarget(self, refreshingAction: #selector(RankingTableViewController.headerRefresh))
+        tableView!.mj_header = header
+        header.lastUpdatedTimeLabel!.hidden = true
+        header.stateLabel!.hidden = true
+        
+        
         request = SearchRequest()
         request!.searchRequest()
         request!.delegate = self
-        self.showHUD()
+        tableView!.mj_header.beginRefreshing()
+    }
+    
+    // 顶部刷新
+    func headerRefresh(){
+        request!.searchRequest()
     }
 }
 // MARK: - 获取数据
 extension SearchViewController:searchRequestDataDelegate {
     
     func searchRequest(searchDataArray:[SearchModel]) {
-        self.hideHUD()
+        tableView!.mj_header.endRefreshing()
         dataArray = searchDataArray
         
         let headerView = SearchHeaderView(frame:CGRectMake(0,0,ScreenWidth,40))

@@ -71,6 +71,8 @@ class HomeSubjectViewController: BaseViewController,homeSubjectDataDelegate {
         
         dataArray = goods_listArray as! [HomeModel]
         tableView?.reloadData()
+        
+        
     }
     
 }

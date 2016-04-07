@@ -98,7 +98,6 @@ class PersonageViewController: BaseViewController,UICollectionViewDataSource,UIC
         }else {
             return 1
         }
-        
     }
     
     
@@ -150,7 +149,60 @@ class PersonageViewController: BaseViewController,UICollectionViewDataSource,UIC
             return cell
         }
         
+    }
+    
+    
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         
+        switch indexPath.section {
+            
+        case 0:///点击头像登录
+            print(indexPath.section)
+        case 1:///我的订单
+            
+            print(indexPath.section)
+
+        case 2:
+            
+            switch indexPath.row {
+            case 0:///代付款
+                print(indexPath.row)
+                
+            case 1:///代发货
+                print(indexPath.row)
+                
+            case 2:///待收货
+                print(indexPath.row)
+                
+            default:///待评价
+                print(indexPath.row)
+                
+            }
+            
+        case 3:
+            
+            switch indexPath.row {
+            case 0:///我的团
+                print(indexPath.row)
+            case 1:///我的抽奖
+                print(indexPath.row)
+            case 2:///我的收藏
+                print(indexPath.row)
+            case 3:///我的优惠券
+                print(indexPath.row)
+            case 4:///收货地址
+                print(indexPath.row)
+            case 5:///我的消息
+                print(indexPath.row)
+            default:///常见问题
+                print(indexPath.row)
+                
+            }
+        
+        default:///点击登录
+            print(indexPath.section)
+
+        }
     }
     
 }

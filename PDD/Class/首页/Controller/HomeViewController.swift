@@ -14,6 +14,9 @@ class HomeViewController: BaseViewController {
     var dataArray = [HomeTotalData]()
     var homeRollArray = [HomeRollModel]()
     var homeHeaderView = HomeHeaderView()
+    let header = MJRefreshNormalHeader()
+    let homeRequest = RequestData()
+
     
     var homeRecommendDataArray = [home_recommend_subjectsModel]()
     override func viewDidLoad() {
@@ -33,26 +36,41 @@ class HomeViewController: BaseViewController {
         tableView!.tableHeaderView = homeHeaderView;
         view.addSubview(tableView!)
         
-        let homeRequest = RequestData()
+        
+        header.setRefreshingTarget(self, refreshingAction: #selector(RankingTableViewController.headerRefresh))
+        tableView!.mj_header = header
+        header.lastUpdatedTimeLabel!.hidden = true
+        header.stateLabel!.hidden = true
+    
         homeRequest.delegate = self
-        self.showHUD()
+        tableView!.mj_header.beginRefreshing()
         homeRequest.requestData()
     }
+    // 顶部刷新
+    func headerRefresh(){
+        homeRequest.requestData()
+    }
+    
 }
 
 // MARK: - 获取数据
 extension  HomeViewController:RequestDataDelegate,HomeRollDataDelegate {
 
     func request(goods_listArray:NSArray){
+        
+        dataArray.removeAll()
         dataArray = goods_listArray as! [HomeTotalData]
         tableView?.reloadData()
         let homeRoll = HomeRollData()
         homeRoll.delegate = self
         homeRoll.requestData()
+        tableView!.mj_header.endRefreshing()
+
     }
    
     func requestResult(homeRollDataArray:NSArray) {
-        self.hideHUD()
+        
+        tableView!.mj_header.endRefreshing()
         homeRollArray = homeRollDataArray as! [HomeRollModel]
         homeHeaderView.reloadData(homeRollArray)
     }
@@ -118,8 +136,20 @@ extension HomeViewController:UITableViewDelegate,UITableViewDataSource {
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         
-        print("\(indexPath.row)")
+        var home = HomeTotalData()
+        home = dataArray[indexPath.row]
         
+        if home.cellType == .common {
+            
+            let goodsSubject = GoodsDetailsViewController()
+            goodsSubject.title = home.good_list.goods_name
+            goodsSubject.goodsId = home.good_list.goods_id
+            goodsSubject.mallId = home.good_list.mall_id
+            self.navigationController?.pushViewController(goodsSubject, animated: true)
+            
+        }else {
+            return
+        }
     }
 }
 

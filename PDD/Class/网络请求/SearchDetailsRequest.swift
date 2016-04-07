@@ -63,6 +63,8 @@ class SearchDetailsRequest: NSObject {
                 
                 guard let JsonData = response.result.value else { return }
                 let opt_infos = JsonData["opt_infos"] as? NSArray
+                
+                             
                 var opt_infosArray = [SearchDetailsOpt_infosModel]()
                 var optinfosArray = [String]()
                 var optinfosIdArray = [String]()

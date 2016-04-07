@@ -62,11 +62,11 @@ class HomeHeaderView: UIView,UIScrollViewDelegate {
     func addTimer(){
         
         timer = NSTimer.scheduledTimerWithTimeInterval(3, target: self, selector: #selector(HomeHeaderView.nextImage(_:)), userInfo: nil, repeats: true)
-        NSRunLoop.currentRunLoop().addTimer(self.timer!, forMode: NSRunLoopCommonModes)
+        NSRunLoop.currentRunLoop().addTimer(timer!, forMode: NSRunLoopCommonModes)
     }
     
     func removeTimer(){
-        self.timer!.invalidate()
+        timer!.invalidate()
     }
     
     func nextImage(sender:AnyObject!){
@@ -115,14 +115,14 @@ class HomeHeaderView: UIView,UIScrollViewDelegate {
         pageControl!.currentPage = page
     }
     
-//    func scrollViewWillBeginDecelerating(scrollView: UIScrollView) {
-//
-//        removeTimer()
-//    }
-//    
-//    func scrollViewDidEndDragging(scrollView: UIScrollView, willDecelerate decelerate: Bool) {
-//        addTimer()
-//    }
+    func scrollViewWillBeginDecelerating(scrollView: UIScrollView) {
+
+        removeTimer()
+    }
+    
+    func scrollViewDidEndDragging(scrollView: UIScrollView, willDecelerate decelerate: Bool) {
+        addTimer()
+    }
 
     
     func singleTapGestureRecognizer() {

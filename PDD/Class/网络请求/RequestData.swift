@@ -24,6 +24,7 @@ class RequestData:NSObject {
                 guard let JsonData = response.result.value else { return }
                 
                 let goods_list = JsonData["goods_list"] as? NSArray
+                
                 let home_recommend = JsonData["home_recommend_subjects"] as? NSArray
                 let mobile_app_groups = JsonData["mobile_app_groups"] as? NSArray
                 

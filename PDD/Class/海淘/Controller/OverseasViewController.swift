@@ -15,6 +15,8 @@ class OverseasViewController: BaseViewController {
     var dataArray = [HaiTaoDataModel]()
     var countryArray = [HomeRollModel]()
     var promotionArray = [HomeRollModel]()
+    let header = MJRefreshNormalHeader()
+    let haiTaorequset = HaiTaoRequest()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,18 +36,30 @@ class OverseasViewController: BaseViewController {
         tableView!.tableHeaderView = homeHeaderView;
         view.addSubview(tableView!)
 
-        let haiTaorequset = HaiTaoRequest()
+        header.setRefreshingTarget(self, refreshingAction: #selector(RankingTableViewController.headerRefresh))
+        tableView!.mj_header = header
+        header.lastUpdatedTimeLabel!.hidden = true
+        header.stateLabel!.hidden = true
+        
+        
         haiTaorequset.delegate = self
-        self.showHUD()
+        tableView!.mj_header.beginRefreshing()
         haiTaorequset.haiTaoRequest()
     }
+    
+    // 顶部刷新
+    func headerRefresh(){
+        haiTaorequset.haiTaoRequest()
+    }
+
 }
 
 // MARK: - 处理数据
 extension OverseasViewController: haiTaoRequestDataDelegate {
     
     func haiTapRequest(haiTaoTotalArray:NSArray,promotionData:[HomeRollModel],countryData:[HomeRollModel]) {
-        self.hideHUD()
+        
+        tableView!.mj_header.endRefreshing()
         dataArray = haiTaoTotalArray as! [HaiTaoDataModel]
         promotionArray = promotionData
         countryArray = countryData
