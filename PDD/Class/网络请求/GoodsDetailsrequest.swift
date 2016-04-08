@@ -16,87 +16,119 @@ class GoodsDetailsrequest: NSObject {
     //http://apiv2.yangkeduo.com/reviews/18029?page=1&size=2 评价
     //http://apiv2.yangkeduo.com/goods/18029 主要数据
     //http://apiv2.yangkeduo.com/mall/896/info 店铺信息
-    ///
+    //http://apiv2.yangkeduo.com/lucky_draw/18029 抽奖信息
 
-    func goodsDetailsrequest(goodsId:String,mallId:String){
+    var goodsJson:JSON!
+    var mallJson:JSON?
+    var reviewsJson:JSON?
+    var recommendationJson:JSON?
+    
+    
+    func goodsDetailsrequest(goodsId:String,successBlock:(successJson:JSON)->Void,errorBlock:(error:NSError)->Void){
         
         let goodsUrl = "http://apiv2.yangkeduo.com/goods/\(goodsId)"
-        let mallUrl = "http://apiv2.yangkeduo.com/mall/\(mallId)/info"
-        let reviewsUrl = "http://apiv2.yangkeduo.com/reviews/\(goodsId)?page=1&size=2"
-        let recommendationUrl = "http://apiv2.yangkeduo.com/recommendation?goods_id=\(goodsId)&referrer=goods"
-
-        
-//        request.defaultInstance().GetRequest(goodsUrl).responseJSON { response in
-//            
-//            switch response.result {
-//            case .Success:
-//                
-//                guard let JsonData = response.result.value else { return }
-//                
-//               
-//            case .Failure(let error):
-//                
-//                print(error)
-//            }
-//        }
         
         request.defaultInstance().GetRequest(goodsUrl).responseData { response in
             
-            guard let JsonData = response.result.value else { return }
-
-            let json = JSON(data: JsonData)
-
-            print(json["gallery"][0]["url"])
-
+            switch response.result {
+            case .Success:
+                
+                guard let JsonData = response.result.value else { return }
+                
+                let json = JSON(data: JsonData)
+                 successBlock(successJson: json)
+            case .Failure(let error):
+                
+                errorBlock(error: error)
+            }
             
         }
-        
-        
-//        request.defaultInstance().GetRequest(mallUrl).responseJSON { response in
-//            
-//            switch response.result {
-//            case .Success:
-//                
-//                guard let JsonData = response.result.value else { return }
-//                
-//                print("mallUrl----\(JsonData)")
-//                
-//            case .Failure(let error):
-//                
-//                print(error)
-//            }
-//        }
-//        
-//        request.defaultInstance().GetRequest(reviewsUrl).responseJSON { response in
-//            
-//            switch response.result {
-//            case .Success:
-//                
-//                guard let JsonData = response.result.value else { return }
-//                
-//                print("reviewsUrl----\(JsonData)")
-//                
-//            case .Failure(let error):
-//                
-//                print(error)
-//            }
-//        }
-//
-//        
-//        request.defaultInstance().GetRequest(recommendationUrl).responseJSON { response in
-//            
-//            switch response.result {
-//            case .Success:
-//                
-//                guard let JsonData = response.result.value else { return }
-//                
-//                print("recommendationUrl----\(JsonData)")
-//                
-//            case .Failure(let error):
-//                
-//                print(error)
-//            }
-//        }
-//
     }
+    
+    
+    func goodsDetailsmallRequest(mallId:String,successBlock:(successJson:JSON)->Void,errorBlock:(error:NSError)->Void) {
+        
+        let mallUrl = "http://apiv2.yangkeduo.com/mall/\(mallId)/info"
+
+        request.defaultInstance().GetRequest(mallUrl).responseData { response in
+            
+            switch response.result {
+            case .Success:
+                
+                guard let JsonData = response.result.value else { return }
+                
+                let json = JSON(data: JsonData)
+                successBlock(successJson: json)
+            case .Failure(let error):
+                
+               errorBlock(error: error)
+            }
+        }
+        
+    }
+    
+    func goodsDetailsReviewsRequest(goodsId:String,successBlock:(successJson:JSON)->Void,errorBlock:(error:NSError)->Void) {
+        
+        let reviewsUrl = "http://apiv2.yangkeduo.com/reviews/\(goodsId)?page=1&size=2"
+        request.defaultInstance().GetRequest(reviewsUrl).responseData { response in
+            
+            switch response.result {
+            case .Success:
+                
+                guard let JsonData = response.result.value else { return }
+                
+                let json = JSON(data: JsonData)
+                 successBlock(successJson: json)
+            case .Failure(let error):
+                
+                errorBlock(error: error)
+            }
+        }
+
+    }
+    
+    func goodsDetailsRecommendationRequest(goodsId:String,successBlock:(successJson:JSON)->Void,errorBlock:(error:NSError)->Void) {
+        
+        let recommendationUrl = "http://apiv2.yangkeduo.com/recommendation?goods_id=\(goodsId)&referrer=goods"
+        request.defaultInstance().GetRequest(recommendationUrl).responseData { response in
+            
+            switch response.result {
+            case .Success:
+                
+                guard let JsonData = response.result.value else { return }
+                
+                let json = JSON(data: JsonData)
+                 successBlock(successJson: json)
+                
+            case .Failure(let error):
+                
+                errorBlock(error: error)
+            }
+        }
+
+    }
+    
+    func goodsDetailslucky_drawRequest(goodsId:String,successBlock:(successJson:JSON)->Void,errorBlock:(error:NSError)->Void) {
+        
+        let lucky_drawUrl = "http://apiv2.yangkeduo.com/lucky_draw/\(goodsId)"
+        request.defaultInstance().GetRequest(lucky_drawUrl).responseData { response in
+            switch response.result {
+            case .Success:
+                
+                guard let JsonData = response.result.value else { return }
+                
+                let json = JSON(data: JsonData)
+                
+                successBlock(successJson: json)
+                
+            case .Failure(let error):
+                
+                errorBlock(error: error)
+                
+            }
+            
+        }
+
+    }
+    
 }

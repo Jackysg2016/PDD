@@ -77,6 +77,8 @@
 		71876F341CA0E0E900AE8B18 /* SearchHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71876F331CA0E0E900AE8B18 /* SearchHeaderView.swift */; };
 		71A08FAC1CA012180085A699 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A08FAB1CA012180085A699 /* SearchTableViewCell.swift */; };
 		71A08FAE1CA016C30085A699 /* SearchRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71A08FAD1CA016C30085A699 /* SearchRequest.swift */; };
+		71ADC3FB1CB7836A000EA9F6 /* GoodsDetailsBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71ADC3FA1CB7836A000EA9F6 /* GoodsDetailsBottomView.swift */; };
+		71ADC3FD1CB783E7000EA9F6 /* GoodsDetailsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71ADC3FC1CB783E7000EA9F6 /* GoodsDetailsButton.swift */; };
 		71DB16331CAD0D9600CB4737 /* SearchDetailsScrollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71DB16321CAD0D9600CB4737 /* SearchDetailsScrollerViewController.swift */; };
 		71EB65B41CAA564200F0CD36 /* HomeSubjectHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71EB65B31CAA564200F0CD36 /* HomeSubjectHeaderView.swift */; };
 		71EB65B81CAA687E00F0CD36 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 71EB65B71CAA687E00F0CD36 /* UINavigationController+FDFullscreenPopGesture.m */; };
@@ -199,8 +201,11 @@
 		713059B61C995288003128F5 /* HomeRollData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRollData.swift; sourceTree = "<group>"; };
 		713059B81C99536B003128F5 /* HomeRollModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeRollModel.swift; sourceTree = "<group>"; };
 		71876F331CA0E0E900AE8B18 /* SearchHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchHeaderView.swift; sourceTree = "<group>"; };
+		718FF5B81CB7419600886808 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		71A08FAB1CA012180085A699 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 		71A08FAD1CA016C30085A699 /* SearchRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRequest.swift; sourceTree = "<group>"; };
+		71ADC3FA1CB7836A000EA9F6 /* GoodsDetailsBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsDetailsBottomView.swift; sourceTree = "<group>"; };
+		71ADC3FC1CB783E7000EA9F6 /* GoodsDetailsButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsDetailsButton.swift; sourceTree = "<group>"; };
 		71DB16321CAD0D9600CB4737 /* SearchDetailsScrollerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchDetailsScrollerViewController.swift; sourceTree = "<group>"; };
 		71EB65B31CAA564200F0CD36 /* HomeSubjectHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSubjectHeaderView.swift; sourceTree = "<group>"; };
 		71EB65B61CAA687E00F0CD36 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
@@ -416,6 +421,8 @@
 				7130596F1C993524003128F5 /* Theme.swift */,
 				712F70AE1CB64A43009DB63C /* GoodsDetailsViewController.swift */,
 				712F70B21CB658E6009DB63C /* GoodsDetailsModel.swift */,
+				71ADC3FA1CB7836A000EA9F6 /* GoodsDetailsBottomView.swift */,
+				71ADC3FC1CB783E7000EA9F6 /* GoodsDetailsButton.swift */,
 			);
 			path = "公用";
 			sourceTree = "<group>";
@@ -724,6 +731,7 @@
 		C9871CDADB2372F171657323 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				718FF5B81CB7419600886808 /* ImageIO.framework */,
 				E1AD532DE12CA3150769A304 /* Pods.framework */,
 			);
 			name = Frameworks;
@@ -884,6 +892,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				711C16891C9BA14100FD3113 /* RankingTableViewController.swift in Sources */,
+				71ADC3FD1CB783E7000EA9F6 /* GoodsDetailsButton.swift in Sources */,
 				71FEBEEA1C9A50AE00BAAA16 /* HomeAdCollectionViewCell.swift in Sources */,
 				7130599C1C993524003128F5 /* HotListViewController.swift in Sources */,
 				71EB65B81CAA687E00F0CD36 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
@@ -896,6 +905,7 @@
 				710804861C9C350D00699A21 /* MJRefreshAutoNormalFooter.m in Sources */,
 				7130599A1C993524003128F5 /* SearchViewController.swift in Sources */,
 				710804911C9C350D00699A21 /* UIScrollView+MJRefresh.m in Sources */,
+				71ADC3FB1CB7836A000EA9F6 /* GoodsDetailsBottomView.swift in Sources */,
 				71876F341CA0E0E900AE8B18 /* SearchHeaderView.swift in Sources */,
 				7130599B1C993524003128F5 /* OverseasViewController.swift in Sources */,
 				71DB16331CAD0D9600CB4737 /* SearchDetailsScrollerViewController.swift in Sources */,
