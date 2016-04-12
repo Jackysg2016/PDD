@@ -139,6 +139,24 @@ extension OverseasViewController:UITableViewDataSource,UITableViewDelegate {
         }
     }
     
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        var haitao = HaiTaoDataModel()
+        haitao = dataArray[indexPath.row]
+        
+        if haitao.cellType == .common {
+            
+            let goodsSubject = GoodsDetailsViewController()
+            goodsSubject.title = haitao.good_list.goods_name
+            goodsSubject.goodsId = haitao.good_list.goods_id
+            goodsSubject.mallId = haitao.good_list.mall_id
+            self.navigationController?.pushViewController(goodsSubject, animated: true)
+            
+        }else {
+            return
+        }
+    }
+
     
     
     func goToHomeSubjectView(homeRoll:HomeRollModel) {
@@ -157,7 +175,12 @@ extension OverseasViewController: ClickCollectionCallbackDelegate {
     
     func requestResult(home_recommend_goodlist:home_recommend_goodlistModel) {
         
-        print(home_recommend_goodlist.goods_name)
+        let goodsSubject = GoodsDetailsViewController()
+        goodsSubject.title = home_recommend_goodlist.goods_name
+        goodsSubject.goodsId = home_recommend_goodlist.goods_id
+        goodsSubject.mallId = home_recommend_goodlist.mall_id
+        goodsSubject.isSearchGoInto = false
+        self.navigationController?.pushViewController(goodsSubject, animated: true)
         
     }
 }

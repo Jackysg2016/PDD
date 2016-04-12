@@ -60,20 +60,16 @@ class BaseTabBarController: UITabBarController {
     
     /**初始化tabbar*/
     func setUpTabBarViewControllew(){
-        let homeVC = HomeViewController()
-        tabBaraAddChildViewController(homeVC, image: imageArray[0], selectedImage: imageArray[1], title: "首页")
         
-        let hotVC = HotListViewController()
-        tabBaraAddChildViewController(hotVC, image: imageArray[2], selectedImage: imageArray[3], title: "热榜")
+        tabBaraAddChildViewController(HomeViewController(), image: imageArray[0], selectedImage: imageArray[1], title: "首页")
         
-        let overseasVC = OverseasViewController()
-        tabBaraAddChildViewController(overseasVC, image: imageArray[4], selectedImage: imageArray[5], title: "海淘")
+        tabBaraAddChildViewController(HotListViewController(), image: imageArray[2], selectedImage: imageArray[3], title: "热榜")
         
-        let searchVC = SearchViewController()
-        tabBaraAddChildViewController(searchVC, image: imageArray[6], selectedImage: imageArray[7], title: "搜索")
+        tabBaraAddChildViewController(OverseasViewController(), image: imageArray[4], selectedImage: imageArray[5], title: "海淘")
         
-        let personVC = PersonageViewController()
-        tabBaraAddChildViewController(personVC, image: imageArray[8], selectedImage: imageArray[9], title: "个人中心")
+        tabBaraAddChildViewController(SearchViewController(), image: imageArray[6], selectedImage: imageArray[7], title: "搜索")
+        
+        tabBaraAddChildViewController(PersonageViewController(), image: imageArray[8], selectedImage: imageArray[9], title: "个人中心")
     }
     
     /**设置tabbar*/
@@ -82,7 +78,7 @@ class BaseTabBarController: UITabBarController {
         vc.tabBarItem.image = image.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal)
         vc.tabBarItem.selectedImage = selectedImage.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal)
         vc.title = title
-        let navi = BaseNavigationController(rootViewController: vc)
+        let navi = BaseNavigationController.init(rootViewController: vc)
         self.addChildViewController(navi)
     }
     

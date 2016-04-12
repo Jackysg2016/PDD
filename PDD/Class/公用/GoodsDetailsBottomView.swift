@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftyJSON
 
 typealias groupViewClickBlock = () -> Void
 typealias aloneViewClickBlock = () -> Void
@@ -26,6 +27,27 @@ class GoodsDetailsBottomView: UIView {
     var groupPrice:UILabel!///团购价
     var alonePrice:UILabel!///单独购买价
     var numberGroup:UILabel!///几人团
+    
+    var basicDataSouce:JSON = [] {
+        
+        didSet {
+            
+            let price = String(basicDataSouce["group"][1]["price"])
+            let floatPrice = Float(price)!/100
+            groupPrice.text = String(format: "¥ %.2f", floatPrice)
+            
+            let marketprice = String(basicDataSouce["market_price"])
+            let marketfloatPrice = Float(marketprice)!/100
+            alonePrice.text = String(format: "¥ %.2f", marketfloatPrice)
+            
+            numberGroup.text = "\(basicDataSouce["group"][1]["customer_num"])人团"
+            
+        }
+    }
+    
+    
+    
+    
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -122,7 +144,6 @@ class GoodsDetailsBottomView: UIView {
         alonePrice = UILabel()
         alonePrice.textColor = UIColor.whiteColor()
         alonePrice.font = UIFont.systemFontOfSize(12)
-        alonePrice.text = "¥ 118.00"
         aloneView.addSubview(alonePrice)
         alonePrice.snp_makeConstraints { (make) in
             make.centerX.equalTo(aloneView.snp_centerX).offset(0)
@@ -142,7 +163,6 @@ class GoodsDetailsBottomView: UIView {
         groupPrice = UILabel()
         groupPrice.textColor = UIColor.whiteColor()
         groupPrice.font = UIFont.systemFontOfSize(12)
-        groupPrice.text = "¥ 1.00"
         groupView.addSubview(groupPrice)
         groupPrice.snp_makeConstraints { (make) in
             make.centerX.equalTo(groupView.snp_centerX).offset(0)
@@ -152,7 +172,7 @@ class GoodsDetailsBottomView: UIView {
         numberGroup = UILabel()
         numberGroup.textColor = UIColor.whiteColor()
         numberGroup.font = UIFont.systemFontOfSize(12)
-        numberGroup.text = "10人团"
+        
         groupView.addSubview(numberGroup)
         numberGroup.snp_makeConstraints { (make) in
             make.centerX.equalTo(groupView.snp_centerX).offset(0)

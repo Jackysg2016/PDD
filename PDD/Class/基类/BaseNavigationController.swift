@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BaseNavigationController: UINavigationController {
+class BaseNavigationController: LCPanNavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -41,7 +41,6 @@ class BaseNavigationController: UINavigationController {
     
     /**重写push方法*/
     override func pushViewController(viewController: UIViewController, animated: Bool) {
-//        viewController.navigationItem.hidesBackButton = true
         if childViewControllers.count > 0 {
             UINavigationBar.appearance().backItem?.hidesBackButton = false
             viewController.navigationItem.leftBarButtonItem = UIBarButtonItem(customView: backBtn)

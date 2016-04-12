@@ -85,6 +85,20 @@ extension RankingTableViewController{
         
         return 150
     }
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        var hotList = HotListModel()
+        hotList = dataSouce[indexPath.row]
+        
+            let goodsSubject = GoodsDetailsViewController()
+            goodsSubject.title = hotList.goods_name
+            goodsSubject.goodsId = hotList.goods_id
+            goodsSubject.mallId = hotList.mall_id
+            goodsSubject.isSearchGoInto = false
+            self.navigationController?.pushViewController(goodsSubject, animated: true)
+    }
+
 }
 // MARK: - 无数据时展示
 extension RankingTableViewController:DZNEmptyDataSetSource,DZNEmptyDataSetDelegate {

@@ -39,10 +39,22 @@
 		71119B1D1CA1897C007EA1FE /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71119B1C1CA1897C007EA1FE /* SearchModel.swift */; };
 		7117DE751CA9211A008ABC68 /* HomeSubjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7117DE741CA9211A008ABC68 /* HomeSubjectViewController.swift */; };
 		7117DE771CA9224E008ABC68 /* HomeSubjectRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7117DE761CA9224E008ABC68 /* HomeSubjectRequest.swift */; };
+		711A8F1D1CBC86A4004D0806 /* AllowedRegionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711A8F1C1CBC86A4004D0806 /* AllowedRegionCell.swift */; };
+		711A8F1F1CBC8DD5004D0806 /* GroupSpecificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711A8F1E1CBC8DD5004D0806 /* GroupSpecificationCell.swift */; };
+		711A8F211CBCC459004D0806 /* GroupBuyingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711A8F201CBCC458004D0806 /* GroupBuyingCell.swift */; };
+		711A8F231CBCC680004D0806 /* GroupPurchaseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711A8F221CBCC680004D0806 /* GroupPurchaseCell.swift */; };
 		711C16891C9BA14100FD3113 /* RankingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C16881C9BA14100FD3113 /* RankingTableViewController.swift */; };
 		711C168B1C9BA54E00FD3113 /* HotListRequestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C168A1C9BA54E00FD3113 /* HotListRequestData.swift */; };
 		711C168D1C9BAA7200FD3113 /* HotListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C168C1C9BAA7200FD3113 /* HotListModel.swift */; };
 		711C168F1C9BAC6E00FD3113 /* HotListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C168E1C9BAC6E00FD3113 /* HotListTableViewCell.swift */; };
+		711D61D61CBB39020025F17D /* LCPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 711D61D11CBB39020025F17D /* LCPanGestureRecognizer.m */; };
+		711D61D71CBB39020025F17D /* LCPanNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 711D61D31CBB39020025F17D /* LCPanNavigationController.m */; };
+		711D61D81CBB39020025F17D /* UIView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 711D61D51CBB39020025F17D /* UIView+Snapshot.m */; };
+		711D61DB1CBB8EB30025F17D /* PricesAndSalesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711D61DA1CBB8EB30025F17D /* PricesAndSalesCell.swift */; };
+		711D61DD1CBB9DD90025F17D /* GoodsNameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711D61DC1CBB9DD90025F17D /* GoodsNameCell.swift */; };
+		711D61DF1CBBA3F20025F17D /* GoodsDescCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711D61DE1CBBA3F20025F17D /* GoodsDescCell.swift */; };
+		711D61E11CBBA5E80025F17D /* LotteryRulesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711D61E01CBBA5E80025F17D /* LotteryRulesCell.swift */; };
+		711D61E31CBBAE9D0025F17D /* ImportedGoodsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711D61E21CBBAE9D0025F17D /* ImportedGoodsCell.swift */; };
 		711E4C411CABC4B700095F11 /* SearchDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711E4C401CABC4B700095F11 /* SearchDetailsViewController.swift */; };
 		711E4C431CABC87200095F11 /* SearchDetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711E4C421CABC87200095F11 /* SearchDetailsCollectionViewCell.swift */; };
 		711E4C451CABCE9C00095F11 /* SearchDetailsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711E4C441CABCE9C00095F11 /* SearchDetailsRequest.swift */; };
@@ -160,10 +172,25 @@
 		71119B1C1CA1897C007EA1FE /* SearchModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
 		7117DE741CA9211A008ABC68 /* HomeSubjectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSubjectViewController.swift; sourceTree = "<group>"; };
 		7117DE761CA9224E008ABC68 /* HomeSubjectRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeSubjectRequest.swift; sourceTree = "<group>"; };
+		711A8F1C1CBC86A4004D0806 /* AllowedRegionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllowedRegionCell.swift; sourceTree = "<group>"; };
+		711A8F1E1CBC8DD5004D0806 /* GroupSpecificationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupSpecificationCell.swift; sourceTree = "<group>"; };
+		711A8F201CBCC458004D0806 /* GroupBuyingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupBuyingCell.swift; sourceTree = "<group>"; };
+		711A8F221CBCC680004D0806 /* GroupPurchaseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupPurchaseCell.swift; sourceTree = "<group>"; };
 		711C16881C9BA14100FD3113 /* RankingTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankingTableViewController.swift; sourceTree = "<group>"; };
 		711C168A1C9BA54E00FD3113 /* HotListRequestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotListRequestData.swift; sourceTree = "<group>"; };
 		711C168C1C9BAA7200FD3113 /* HotListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotListModel.swift; sourceTree = "<group>"; };
 		711C168E1C9BAC6E00FD3113 /* HotListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotListTableViewCell.swift; sourceTree = "<group>"; };
+		711D61D01CBB39020025F17D /* LCPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCPanGestureRecognizer.h; sourceTree = "<group>"; };
+		711D61D11CBB39020025F17D /* LCPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCPanGestureRecognizer.m; sourceTree = "<group>"; };
+		711D61D21CBB39020025F17D /* LCPanNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCPanNavigationController.h; sourceTree = "<group>"; };
+		711D61D31CBB39020025F17D /* LCPanNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCPanNavigationController.m; sourceTree = "<group>"; };
+		711D61D41CBB39020025F17D /* UIView+Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Snapshot.h"; sourceTree = "<group>"; };
+		711D61D51CBB39020025F17D /* UIView+Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Snapshot.m"; sourceTree = "<group>"; };
+		711D61DA1CBB8EB30025F17D /* PricesAndSalesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PricesAndSalesCell.swift; sourceTree = "<group>"; };
+		711D61DC1CBB9DD90025F17D /* GoodsNameCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsNameCell.swift; sourceTree = "<group>"; };
+		711D61DE1CBBA3F20025F17D /* GoodsDescCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsDescCell.swift; sourceTree = "<group>"; };
+		711D61E01CBBA5E80025F17D /* LotteryRulesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LotteryRulesCell.swift; sourceTree = "<group>"; };
+		711D61E21CBBAE9D0025F17D /* ImportedGoodsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImportedGoodsCell.swift; sourceTree = "<group>"; };
 		711E4C401CABC4B700095F11 /* SearchDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchDetailsViewController.swift; sourceTree = "<group>"; };
 		711E4C421CABC87200095F11 /* SearchDetailsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchDetailsCollectionViewCell.swift; sourceTree = "<group>"; };
 		711E4C441CABCE9C00095F11 /* SearchDetailsRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchDetailsRequest.swift; sourceTree = "<group>"; };
@@ -351,6 +378,35 @@
 			path = DZNEmptyDataSet;
 			sourceTree = "<group>";
 		};
+		711D61CF1CBB39020025F17D /* PanNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				711D61D01CBB39020025F17D /* LCPanGestureRecognizer.h */,
+				711D61D11CBB39020025F17D /* LCPanGestureRecognizer.m */,
+				711D61D21CBB39020025F17D /* LCPanNavigationController.h */,
+				711D61D31CBB39020025F17D /* LCPanNavigationController.m */,
+				711D61D41CBB39020025F17D /* UIView+Snapshot.h */,
+				711D61D51CBB39020025F17D /* UIView+Snapshot.m */,
+			);
+			path = PanNavigationController;
+			sourceTree = "<group>";
+		};
+		711D61D91CBB8E610025F17D /* cellView */ = {
+			isa = PBXGroup;
+			children = (
+				711D61DA1CBB8EB30025F17D /* PricesAndSalesCell.swift */,
+				711D61DC1CBB9DD90025F17D /* GoodsNameCell.swift */,
+				711D61DE1CBBA3F20025F17D /* GoodsDescCell.swift */,
+				711D61E01CBBA5E80025F17D /* LotteryRulesCell.swift */,
+				711D61E21CBBAE9D0025F17D /* ImportedGoodsCell.swift */,
+				711A8F1C1CBC86A4004D0806 /* AllowedRegionCell.swift */,
+				711A8F1E1CBC8DD5004D0806 /* GroupSpecificationCell.swift */,
+				711A8F201CBCC458004D0806 /* GroupBuyingCell.swift */,
+				711A8F221CBCC680004D0806 /* GroupPurchaseCell.swift */,
+			);
+			name = cellView;
+			sourceTree = "<group>";
+		};
 		713059651C993524003128F5 /* Class */ = {
 			isa = PBXGroup;
 			children = (
@@ -423,6 +479,7 @@
 				712F70B21CB658E6009DB63C /* GoodsDetailsModel.swift */,
 				71ADC3FA1CB7836A000EA9F6 /* GoodsDetailsBottomView.swift */,
 				71ADC3FC1CB783E7000EA9F6 /* GoodsDetailsButton.swift */,
+				711D61D91CBB8E610025F17D /* cellView */,
 			);
 			path = "公用";
 			sourceTree = "<group>";
@@ -558,6 +615,7 @@
 		713059861C993524003128F5 /* 第三方 */ = {
 			isa = PBXGroup;
 			children = (
+				711D61CF1CBB39020025F17D /* PanNavigationController */,
 				71EB65B51CAA687E00F0CD36 /* FDFullscreenPopGesture */,
 				7108A8951C9E597B00162C2B /* DZNEmptyDataSet */,
 				710804531C9C350C00699A21 /* MJRefresh */,
@@ -897,15 +955,20 @@
 				7130599C1C993524003128F5 /* HotListViewController.swift in Sources */,
 				71EB65B81CAA687E00F0CD36 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				710804901C9C350D00699A21 /* UIScrollView+MJExtension.m in Sources */,
+				711A8F231CBCC680004D0806 /* GroupPurchaseCell.swift in Sources */,
 				710E63D91CA3BB890094DBEC /* PersonTypeCellFour.swift in Sources */,
 				711E4C451CABCE9C00095F11 /* SearchDetailsRequest.swift in Sources */,
 				7130599D1C993524003128F5 /* Request.swift in Sources */,
+				711D61DF1CBBA3F20025F17D /* GoodsDescCell.swift in Sources */,
 				710E63D51CA3BB580094DBEC /* PersonTypeCellTwo.swift in Sources */,
 				713059AC1C99380D003128F5 /* SVIndefiniteAnimatedView.m in Sources */,
 				710804861C9C350D00699A21 /* MJRefreshAutoNormalFooter.m in Sources */,
 				7130599A1C993524003128F5 /* SearchViewController.swift in Sources */,
+				711D61D81CBB39020025F17D /* UIView+Snapshot.m in Sources */,
 				710804911C9C350D00699A21 /* UIScrollView+MJRefresh.m in Sources */,
+				711A8F1D1CBC86A4004D0806 /* AllowedRegionCell.swift in Sources */,
 				71ADC3FB1CB7836A000EA9F6 /* GoodsDetailsBottomView.swift in Sources */,
+				711D61E11CBBA5E80025F17D /* LotteryRulesCell.swift in Sources */,
 				71876F341CA0E0E900AE8B18 /* SearchHeaderView.swift in Sources */,
 				7130599B1C993524003128F5 /* OverseasViewController.swift in Sources */,
 				71DB16331CAD0D9600CB4737 /* SearchDetailsScrollerViewController.swift in Sources */,
@@ -914,14 +977,17 @@
 				7108048D1C9C350D00699A21 /* MJRefreshStateHeader.m in Sources */,
 				71A08FAE1CA016C30085A699 /* SearchRequest.swift in Sources */,
 				712F70AF1CB64A43009DB63C /* GoodsDetailsViewController.swift in Sources */,
+				711D61DD1CBB9DD90025F17D /* GoodsNameCell.swift in Sources */,
 				710804831C9C350D00699A21 /* MJRefreshFooter.m in Sources */,
 				7105EC391CA283C7002A80D8 /* PersonageModel.swift in Sources */,
 				713059981C993524003128F5 /* Extension+String.swift in Sources */,
 				7108048B1C9C350D00699A21 /* MJRefreshGifHeader.m in Sources */,
 				713059AF1C99380D003128F5 /* SVRadialGradientLayer.m in Sources */,
 				713059B31C993A41003128F5 /* ViewController+Extension.swift in Sources */,
+				711D61D61CBB39020025F17D /* LCPanGestureRecognizer.m in Sources */,
 				712F70B31CB658E6009DB63C /* GoodsDetailsModel.swift in Sources */,
 				710E63D31CA3BB3F0094DBEC /* PersonTypeCellOne.swift in Sources */,
+				711A8F211CBCC459004D0806 /* GroupBuyingCell.swift in Sources */,
 				711C168F1C9BAC6E00FD3113 /* HotListTableViewCell.swift in Sources */,
 				7130599F1C993524003128F5 /* HomeViewController.swift in Sources */,
 				710804891C9C350D00699A21 /* MJRefreshBackNormalFooter.m in Sources */,
@@ -942,6 +1008,7 @@
 				713059941C993524003128F5 /* Theme.swift in Sources */,
 				713059991C993524003128F5 /* UIImageView+Extension.swift in Sources */,
 				71FEBEF51C9AA5AF00BAAA16 /* HMSegmentedControl.m in Sources */,
+				711A8F1F1CBC8DD5004D0806 /* GroupSpecificationCell.swift in Sources */,
 				7117DE751CA9211A008ABC68 /* HomeSubjectViewController.swift in Sources */,
 				713059961C993524003128F5 /* BaseTabBarController.swift in Sources */,
 				7108A89A1C9E9C5600162C2B /* HaiTaoRequest.swift in Sources */,
@@ -949,11 +1016,14 @@
 				710804881C9C350D00699A21 /* MJRefreshBackGifFooter.m in Sources */,
 				710804821C9C350D00699A21 /* MJRefreshComponent.m in Sources */,
 				713059921C993524003128F5 /* AppDelegate.swift in Sources */,
+				711D61DB1CBB8EB30025F17D /* PricesAndSalesCell.swift in Sources */,
 				713059951C993524003128F5 /* BaseNavigationController.swift in Sources */,
 				713059B71C995288003128F5 /* HomeRollData.swift in Sources */,
+				711D61E31CBBAE9D0025F17D /* ImportedGoodsCell.swift in Sources */,
 				7130599E1C993524003128F5 /* RequestData.swift in Sources */,
 				71A08FAC1CA012180085A699 /* SearchTableViewCell.swift in Sources */,
 				713059971C993524003128F5 /* BaseViewController.swift in Sources */,
+				711D61D71CBB39020025F17D /* LCPanNavigationController.m in Sources */,
 				713059AE1C99380D003128F5 /* SVProgressHUD.m in Sources */,
 				71EE0D0D1C96BA9F002017F7 /* FDDSYViewController.swift in Sources */,
 				71FEBEF61C9AA5AF00BAAA16 /* LICENSE.md in Sources */,

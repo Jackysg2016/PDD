@@ -37,3 +37,23 @@ enum CellType {
     case common
     case advertisement
 }
+
+enum GoodsDetailsCellType {
+    
+    case pricesAndSales///价格和销量
+    case goodsName///商品名称
+    case goodsDesc///商品说明
+    case lotteryRules///抽奖规则
+    case importedGoods///进口商品
+    case allowedRegion///商家许可范围
+    case groupSpecification///团购说明
+    case groupBuying///参加团购
+    case groupPurchaseDetails///团购详情
+    case evaluate///用户评价
+    case evaluateParticulars///评价详情
+    case store///店铺信息
+    case image///图片信息
+    case interval///间隙
+    case striping///横线
+    
+}

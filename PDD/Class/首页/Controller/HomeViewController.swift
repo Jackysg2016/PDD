@@ -107,7 +107,7 @@ extension HomeViewController:UITableViewDelegate,UITableViewDataSource {
             return cell
             
         default:
-            
+//            let  cell = HomeAdTableViewCell.init(style: UITableViewCellStyle.Default, reuseIdentifier: "HomeAdTableViewCell")
             let  cell = tableView.dequeueReusableCellWithIdentifier("HomeAdTableViewCell", forIndexPath: indexPath) as! HomeAdTableViewCell
             cell.backgroundColor = BgColor
             cell.selectionStyle = UITableViewCellSelectionStyle.None
@@ -145,6 +145,7 @@ extension HomeViewController:UITableViewDelegate,UITableViewDataSource {
             goodsSubject.title = home.good_list.goods_name
             goodsSubject.goodsId = home.good_list.goods_id
             goodsSubject.mallId = home.good_list.mall_id
+            goodsSubject.isSearchGoInto = false
             self.navigationController?.pushViewController(goodsSubject, animated: true)
             
         }else {
@@ -158,7 +159,12 @@ extension  HomeViewController:ClickCollectionCallbackDelegate {
     
     func requestResult(home_recommend_goodlist:home_recommend_goodlistModel) {
         
-        print(home_recommend_goodlist.goods_name)
+        let goodsSubject = GoodsDetailsViewController()
+        goodsSubject.title = home_recommend_goodlist.goods_name
+        goodsSubject.goodsId = home_recommend_goodlist.goods_id
+        goodsSubject.mallId = home_recommend_goodlist.mall_id
+        self.navigationController?.pushViewController(goodsSubject, animated: true)
+        
     }
 }
 // MARK: - 滚动图片点击事件

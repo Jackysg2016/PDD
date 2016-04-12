@@ -94,6 +94,21 @@ class SearchDetailsViewController: BaseViewController,UICollectionViewDataSource
         return UIEdgeInsetsMake(10, 10, 0, 10);//分别为上、左、下、右
     }
     
+    
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        
+        var searchDetailsModel = SearchDetailsGoods_listModel()
+        searchDetailsModel =  mainDataArray[indexPath.row]
+        
+        let goodsSubject = GoodsDetailsViewController()
+        goodsSubject.title = searchDetailsModel.goods_name
+        goodsSubject.goodsId = searchDetailsModel.goods_id
+        goodsSubject.isSearchGoInto = false
+        goodsSubject.mallId = "1"
+        self.navigationController?.pushViewController(goodsSubject, animated: true)
+        
+    }
+    
 }
 
 // MARK: - 无数据时展示

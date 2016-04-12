@@ -72,7 +72,6 @@ class HomeSubjectViewController: BaseViewController,homeSubjectDataDelegate {
         dataArray = goods_listArray as! [HomeModel]
         tableView?.reloadData()
         
-        
     }
     
 }
@@ -103,7 +102,18 @@ extension HomeSubjectViewController:UITableViewDelegate,UITableViewDataSource {
         
         let  height=homeSubject.goods_name!.stringHeightWith(15,width:(ScreenWidth-20))
         return (180 + 85 + height)
-        
     }
 
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+        var homeSubject = HomeModel()
+        homeSubject = dataArray[indexPath.row]
+        
+            let goodsSubject = GoodsDetailsViewController()
+            goodsSubject.title = homeSubject.goods_name
+            goodsSubject.goodsId = homeSubject.goods_id
+            goodsSubject.mallId = homeSubject.mall_id
+            goodsSubject.isSearchGoInto = false
+            self.navigationController?.pushViewController(goodsSubject, animated: true)
+    }
 }

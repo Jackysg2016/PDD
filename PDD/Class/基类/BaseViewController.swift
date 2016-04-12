@@ -8,6 +8,8 @@
 
 import UIKit
 import SnapKit
+import ReachabilitySwift
+
 
 class BaseViewController: UIViewController,UIGestureRecognizerDelegate {
     
@@ -17,9 +19,16 @@ class BaseViewController: UIViewController,UIGestureRecognizerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         configureInterface()
     }
+    
+    override func viewWillAppear(animated: Bool) {
+        
+        /**监测有无网络 */
+        httpReachability()
+    }
+    
+    
     /**右侧分享按钮*/
     private func configureInterface() {
         let rightBtn = UIBarButtonItem(title: "", style: .Plain, target: self, action: #selector(BaseViewController.share))
@@ -44,6 +53,34 @@ class BaseViewController: UIViewController,UIGestureRecognizerDelegate {
         
        print(111)
     }
-    
-    
+// MARK: - 监测有无网络
+    func httpReachability() {
+        
+        let reachability: Reachability
+        do {
+            reachability = try Reachability.reachabilityForInternetConnection()
+        } catch {
+            return
+        }
+        
+        /**判断连接状态*/
+        if reachability.isReachable() {
+            
+            /**网络连接可用*/
+
+        }else {
+            
+            self.showErrorAllTextDialog("当前网络没有链接")
+        }
+        
+//        //判断连接类型
+//        if reachability.isReachableViaWiFi() {
+//            self.showStatusHub("WiFi")
+//        }else if reachability.isReachableViaWWAN() {
+//            self.showStatusHub("移动网络")
+//        }else {
+//            self.showStatusHub("没有网络连接")
+//
+//        }
+    }
 }

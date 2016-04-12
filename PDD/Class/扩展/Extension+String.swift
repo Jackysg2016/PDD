@@ -33,10 +33,18 @@ extension String {
         
     }
     
+    func timeStampToString(timeStamp:String)->String {
+        
+        let string = NSString(string: timeStamp)
+        let timeSta:NSTimeInterval = string.doubleValue
+        let dfmatter = NSDateFormatter()
+        dfmatter.dateFormat="MM月dd日HH:mm"
+        let date = NSDate(timeIntervalSince1970: timeSta)
+        return dfmatter.stringFromDate(date)
+    }
     
 }
 extension NSInteger {
-    
     
     //MARK:时间戳转时间
     
