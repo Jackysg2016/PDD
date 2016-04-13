@@ -50,9 +50,11 @@ class BaseNavigationController: LCPanNavigationController {
         super.pushViewController(viewController, animated: animated)
     }
     
-    func back(){
+    func back() {
+        
         popViewControllerAnimated(true)
     }
+    
     func share(){
         print("分享")
     }

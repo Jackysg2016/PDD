@@ -33,11 +33,21 @@ class basicInformation: NSObject {
     var groupDesc:JSON!
         /// cell类型
     var cellType = GoodsDetailsCellType.goodsName
-    
+        /// 团购详情
     var groupPurchaseDetails:String?
-
-    var cellHeight:CGFloat!
+        /// 评价详情
+    var evaluateInformation:JSON?
     
+    /// 图片信息
+    var imagesInformn:imagesInformation?
+        /// 推荐信息
+    var recommendInformn:recommendInformation?
+    /// 店铺信息
+    var shopMation:shopInformation?
+    
+    var cellHeight:CGFloat!
+    var cellWidth:CGFloat!
+
     var basicDataSouce:JSON = [] {
         
         didSet {
@@ -64,39 +74,38 @@ class basicInformation: NSObject {
 }
 
 
-/**团购信息*/
-struct groupInformation {
-    
-    var cellType = GoodsDetailsCellType.groupBuying
-
-}
-
-
-
-/**评价信息*/
-struct evaluateInformation {
-    
-    var cellType = GoodsDetailsCellType.evaluateParticulars
-
-}
-
-
-
 /**店铺信息*/
 struct shopInformation {
-    var cellType = GoodsDetailsCellType.store
 
+    var logo:String?
+    var mall_name:String?
+    var mall_sales:String?
+    var id:String?
+    
 }
 
 
 /**图片信息*/
 struct imagesInformation {
-    var cellType = GoodsDetailsCellType.image
 
+    var goods_id:String?
+    var height:String?
+    var id:String?
+    var priority:Int?
+    var type:String?
+    var url:String?
+    var width:String?
+    
 }
 
 
 /**推荐信息*/
 struct recommendInformation {
 
+    var goods_id:String?
+    var thumb_url:String?
+    var goods_name:String?
+    var mall_id:String?
+    var price:String?
+    
 }

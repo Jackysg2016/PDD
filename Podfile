@@ -6,4 +6,5 @@ pod 'Alamofire', '~> 3.0.0'
 pod 'SwiftyJSON', '~> 2.3.0'
 pod 'SnapKit', '~> 0.19.1'
 pod 'ReachabilitySwift', '~> 2.3.3'
+pod 'SKPhotoBrowser'
 

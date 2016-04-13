@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71055F331CBDD6EA00EB9282 /* EvaluateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71055F321CBDD6EA00EB9282 /* EvaluateCell.swift */; };
+		71055F351CBDDC8B00EB9282 /* EvaluateParticularsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71055F341CBDDC8B00EB9282 /* EvaluateParticularsCell.swift */; };
+		71055F371CBDF51E00EB9282 /* StoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71055F361CBDF51E00EB9282 /* StoreCell.swift */; };
 		7105EC391CA283C7002A80D8 /* PersonageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7105EC381CA283C7002A80D8 /* PersonageModel.swift */; };
 		710804801C9C350C00699A21 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 710804561C9C350C00699A21 /* MJRefreshAutoFooter.m */; };
 		710804811C9C350D00699A21 /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 710804581C9C350C00699A21 /* MJRefreshBackFooter.m */; };
@@ -32,6 +35,11 @@
 		7108A89C1C9E9E4600162C2B /* HaiTaoDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7108A89B1C9E9E4600162C2B /* HaiTaoDataModel.swift */; };
 		7108A89E1C9EAD4D00162C2B /* HaiTaoCountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7108A89D1C9EAD4D00162C2B /* HaiTaoCountryTableViewCell.swift */; };
 		7108A8A01C9EB08800162C2B /* HaiTaoCountryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7108A89F1C9EB08800162C2B /* HaiTaoCountryCollectionViewCell.swift */; };
+		710C8E991CBE18FF004FBF34 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710C8E981CBE18FF004FBF34 /* ImageCell.swift */; };
+		710C8E9B1CBE2903004FBF34 /* GoodsDetailsHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710C8E9A1CBE2903004FBF34 /* GoodsDetailsHeadView.swift */; };
+		710C8EA11CBE3975004FBF34 /* MayLoveCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710C8EA01CBE3975004FBF34 /* MayLoveCell.swift */; };
+		710C8EA31CBE3A6D004FBF34 /* RecommendedGoodsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710C8EA21CBE3A6D004FBF34 /* RecommendedGoodsCell.swift */; };
+		710C8EA51CBE49DB004FBF34 /* GoodsDetailsBottomReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710C8EA41CBE49DB004FBF34 /* GoodsDetailsBottomReusableView.swift */; };
 		710E63D31CA3BB3F0094DBEC /* PersonTypeCellOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710E63D21CA3BB3F0094DBEC /* PersonTypeCellOne.swift */; };
 		710E63D51CA3BB580094DBEC /* PersonTypeCellTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710E63D41CA3BB580094DBEC /* PersonTypeCellTwo.swift */; };
 		710E63D71CA3BB720094DBEC /* PersonTypeCellThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 710E63D61CA3BB720094DBEC /* PersonTypeCellThree.swift */; };
@@ -120,6 +128,9 @@
 /* Begin PBXFileReference section */
 		48404C5D96711E995D3A3F28 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6974B2E804129D94C085DB2F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		71055F321CBDD6EA00EB9282 /* EvaluateCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvaluateCell.swift; sourceTree = "<group>"; };
+		71055F341CBDDC8B00EB9282 /* EvaluateParticularsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvaluateParticularsCell.swift; sourceTree = "<group>"; };
+		71055F361CBDF51E00EB9282 /* StoreCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreCell.swift; sourceTree = "<group>"; };
 		7105EC381CA283C7002A80D8 /* PersonageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonageModel.swift; sourceTree = "<group>"; };
 		710804551C9C350C00699A21 /* MJRefreshAutoFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshAutoFooter.h; sourceTree = "<group>"; };
 		710804561C9C350C00699A21 /* MJRefreshAutoFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshAutoFooter.m; sourceTree = "<group>"; };
@@ -165,6 +176,11 @@
 		7108A89B1C9E9E4600162C2B /* HaiTaoDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HaiTaoDataModel.swift; path = "PDD/Class/网络请求/HaiTaoDataModel.swift"; sourceTree = SOURCE_ROOT; };
 		7108A89D1C9EAD4D00162C2B /* HaiTaoCountryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaiTaoCountryTableViewCell.swift; sourceTree = "<group>"; };
 		7108A89F1C9EB08800162C2B /* HaiTaoCountryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HaiTaoCountryCollectionViewCell.swift; sourceTree = "<group>"; };
+		710C8E981CBE18FF004FBF34 /* ImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		710C8E9A1CBE2903004FBF34 /* GoodsDetailsHeadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsDetailsHeadView.swift; sourceTree = "<group>"; };
+		710C8EA01CBE3975004FBF34 /* MayLoveCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MayLoveCell.swift; sourceTree = "<group>"; };
+		710C8EA21CBE3A6D004FBF34 /* RecommendedGoodsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendedGoodsCell.swift; sourceTree = "<group>"; };
+		710C8EA41CBE49DB004FBF34 /* GoodsDetailsBottomReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsDetailsBottomReusableView.swift; sourceTree = "<group>"; };
 		710E63D21CA3BB3F0094DBEC /* PersonTypeCellOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTypeCellOne.swift; sourceTree = "<group>"; };
 		710E63D41CA3BB580094DBEC /* PersonTypeCellTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTypeCellTwo.swift; sourceTree = "<group>"; };
 		710E63D61CA3BB720094DBEC /* PersonTypeCellThree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTypeCellThree.swift; sourceTree = "<group>"; };
@@ -403,6 +419,12 @@
 				711A8F1E1CBC8DD5004D0806 /* GroupSpecificationCell.swift */,
 				711A8F201CBCC458004D0806 /* GroupBuyingCell.swift */,
 				711A8F221CBCC680004D0806 /* GroupPurchaseCell.swift */,
+				71055F321CBDD6EA00EB9282 /* EvaluateCell.swift */,
+				71055F341CBDDC8B00EB9282 /* EvaluateParticularsCell.swift */,
+				71055F361CBDF51E00EB9282 /* StoreCell.swift */,
+				710C8E981CBE18FF004FBF34 /* ImageCell.swift */,
+				710C8EA01CBE3975004FBF34 /* MayLoveCell.swift */,
+				710C8EA21CBE3A6D004FBF34 /* RecommendedGoodsCell.swift */,
 			);
 			name = cellView;
 			sourceTree = "<group>";
@@ -479,6 +501,8 @@
 				712F70B21CB658E6009DB63C /* GoodsDetailsModel.swift */,
 				71ADC3FA1CB7836A000EA9F6 /* GoodsDetailsBottomView.swift */,
 				71ADC3FC1CB783E7000EA9F6 /* GoodsDetailsButton.swift */,
+				710C8E9A1CBE2903004FBF34 /* GoodsDetailsHeadView.swift */,
+				710C8EA41CBE49DB004FBF34 /* GoodsDetailsBottomReusableView.swift */,
 				711D61D91CBB8E610025F17D /* cellView */,
 			);
 			path = "公用";
@@ -952,6 +976,7 @@
 				711C16891C9BA14100FD3113 /* RankingTableViewController.swift in Sources */,
 				71ADC3FD1CB783E7000EA9F6 /* GoodsDetailsButton.swift in Sources */,
 				71FEBEEA1C9A50AE00BAAA16 /* HomeAdCollectionViewCell.swift in Sources */,
+				710C8EA31CBE3A6D004FBF34 /* RecommendedGoodsCell.swift in Sources */,
 				7130599C1C993524003128F5 /* HotListViewController.swift in Sources */,
 				71EB65B81CAA687E00F0CD36 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				710804901C9C350D00699A21 /* UIScrollView+MJExtension.m in Sources */,
@@ -972,6 +997,7 @@
 				71876F341CA0E0E900AE8B18 /* SearchHeaderView.swift in Sources */,
 				7130599B1C993524003128F5 /* OverseasViewController.swift in Sources */,
 				71DB16331CAD0D9600CB4737 /* SearchDetailsScrollerViewController.swift in Sources */,
+				710C8EA11CBE3975004FBF34 /* MayLoveCell.swift in Sources */,
 				71EB65B41CAA564200F0CD36 /* HomeSubjectHeaderView.swift in Sources */,
 				713059A01C993524003128F5 /* HomeModel.swift in Sources */,
 				7108048D1C9C350D00699A21 /* MJRefreshStateHeader.m in Sources */,
@@ -983,8 +1009,10 @@
 				713059981C993524003128F5 /* Extension+String.swift in Sources */,
 				7108048B1C9C350D00699A21 /* MJRefreshGifHeader.m in Sources */,
 				713059AF1C99380D003128F5 /* SVRadialGradientLayer.m in Sources */,
+				710C8EA51CBE49DB004FBF34 /* GoodsDetailsBottomReusableView.swift in Sources */,
 				713059B31C993A41003128F5 /* ViewController+Extension.swift in Sources */,
 				711D61D61CBB39020025F17D /* LCPanGestureRecognizer.m in Sources */,
+				71055F371CBDF51E00EB9282 /* StoreCell.swift in Sources */,
 				712F70B31CB658E6009DB63C /* GoodsDetailsModel.swift in Sources */,
 				710E63D31CA3BB3F0094DBEC /* PersonTypeCellOne.swift in Sources */,
 				711A8F211CBCC459004D0806 /* GroupBuyingCell.swift in Sources */,
@@ -1025,21 +1053,25 @@
 				713059971C993524003128F5 /* BaseViewController.swift in Sources */,
 				711D61D71CBB39020025F17D /* LCPanNavigationController.m in Sources */,
 				713059AE1C99380D003128F5 /* SVProgressHUD.m in Sources */,
+				710C8E991CBE18FF004FBF34 /* ImageCell.swift in Sources */,
 				71EE0D0D1C96BA9F002017F7 /* FDDSYViewController.swift in Sources */,
 				71FEBEF61C9AA5AF00BAAA16 /* LICENSE.md in Sources */,
 				711C168B1C9BA54E00FD3113 /* HotListRequestData.swift in Sources */,
+				71055F351CBDDC8B00EB9282 /* EvaluateParticularsCell.swift in Sources */,
 				710804841C9C350D00699A21 /* MJRefreshHeader.m in Sources */,
 				7108A89E1C9EAD4D00162C2B /* HaiTaoCountryTableViewCell.swift in Sources */,
 				7108048A1C9C350D00699A21 /* MJRefreshBackStateFooter.m in Sources */,
 				711E4C431CABC87200095F11 /* SearchDetailsCollectionViewCell.swift in Sources */,
 				7108048C1C9C350D00699A21 /* MJRefreshNormalHeader.m in Sources */,
 				7108A8981C9E597B00162C2B /* UIScrollView+EmptyDataSet.m in Sources */,
+				710C8E9B1CBE2903004FBF34 /* GoodsDetailsHeadView.swift in Sources */,
 				713059B51C995104003128F5 /* HomeHeaderView.swift in Sources */,
 				713059A21C993524003128F5 /* HomeMainTableViewCell.swift in Sources */,
 				712F70B11CB64F1A009DB63C /* GoodsDetailsrequest.swift in Sources */,
 				71F669961CA4FFB8000102EA /* IntroductionLabel.swift in Sources */,
 				711E4C411CABC4B700095F11 /* SearchDetailsViewController.swift in Sources */,
 				710804801C9C350C00699A21 /* MJRefreshAutoFooter.m in Sources */,
+				71055F331CBDD6EA00EB9282 /* EvaluateCell.swift in Sources */,
 				710804871C9C350D00699A21 /* MJRefreshAutoStateFooter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -163,6 +163,7 @@ extension  HomeViewController:ClickCollectionCallbackDelegate {
         goodsSubject.title = home_recommend_goodlist.goods_name
         goodsSubject.goodsId = home_recommend_goodlist.goods_id
         goodsSubject.mallId = home_recommend_goodlist.mall_id
+        goodsSubject.isSearchGoInto = false
         self.navigationController?.pushViewController(goodsSubject, animated: true)
         
     }

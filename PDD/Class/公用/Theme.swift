@@ -53,7 +53,6 @@ enum GoodsDetailsCellType {
     case evaluateParticulars///评价详情
     case store///店铺信息
     case image///图片信息
-    case interval///间隙
-    case striping///横线
-    
+    case mayLove///可能喜欢
+    case recommendedGoods///推荐的商品
 }

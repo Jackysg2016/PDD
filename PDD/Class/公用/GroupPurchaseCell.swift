@@ -92,7 +92,7 @@ class GroupPurchaseCell: UICollectionViewCell {
         figureName.snp_makeConstraints { (make) in
             make.top.equalTo(bgImageView.snp_top).offset(2)
             make.left.equalTo(headImageView.snp_right).offset(10)
-//            make.width.equalTo(60)
+            make.width.equalTo(100)
 
         }
         
@@ -132,7 +132,7 @@ class GroupPurchaseCell: UICollectionViewCell {
         self.contentView.addSubview(lastSecondeLabel)
         lastSecondeLabel.snp_makeConstraints { (make) in
             make.bottom.equalTo(bgImageView.snp_bottom).offset(-2)
-            make.right.equalTo(endTimeLabel.snp_left).offset(-1)
+            make.right.equalTo(groupImageView.snp_left).offset(-30)
         }
 
         formatMinuteLabel = UILabel()
@@ -142,7 +142,7 @@ class GroupPurchaseCell: UICollectionViewCell {
         self.contentView.addSubview(formatMinuteLabel)
         formatMinuteLabel.snp_makeConstraints { (make) in
             make.bottom.equalTo(bgImageView.snp_bottom).offset(-2)
-            make.right.equalTo(lastSecondeLabel.snp_left).offset(-1)
+            make.right.equalTo(groupImageView.snp_left).offset(-44)
         }
         
         lastMinuteLabel = UILabel()
@@ -194,7 +194,7 @@ class GroupPurchaseCell: UICollectionViewCell {
         let jsonDict = try! NSJSONSerialization.JSONObjectWithData(jsonData!, options: NSJSONReadingOptions.MutableContainers) as! NSDictionary
         
         let url = NSURL.init(string: jsonDict["avatar"]! as! String)
-        headImageView.pdd_setImageWithURL(url!, placeholderImage: UIImage(named: "homeWu.png")!)
+        headImageView.pdd_setImageWithURL(url!, placeholderImage: UIImage(named: "wu.jpg")!)
         
         figureName.text = jsonDict["nickname"]! as? String
         figureAddress.text = jsonDict["city_name"]! as? String

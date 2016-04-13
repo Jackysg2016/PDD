@@ -150,6 +150,7 @@ extension OverseasViewController:UITableViewDataSource,UITableViewDelegate {
             goodsSubject.title = haitao.good_list.goods_name
             goodsSubject.goodsId = haitao.good_list.goods_id
             goodsSubject.mallId = haitao.good_list.mall_id
+            goodsSubject.isSearchGoInto = false
             self.navigationController?.pushViewController(goodsSubject, animated: true)
             
         }else {
