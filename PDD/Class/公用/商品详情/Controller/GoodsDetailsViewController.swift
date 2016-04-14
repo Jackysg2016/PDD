@@ -14,8 +14,10 @@ class GoodsDetailsViewController: BaseViewController {
     
         /// 是否是搜索页进来的，搜索页的商家id是在请求后得来的
     var isSearchGoInto:Bool!
-    /// 是否请求结束
-    var isLoadRequestFinish:Bool?
+    
+    /// 判断是不是从店铺信息界面跳转进来的，如果是从店铺信息页跳转进来的，再次点击店铺信息的时候要返回上一层
+    var isStoreInformationGoInto:Bool!
+    
     
     /// 商品id
     var goodsId:String!
@@ -37,7 +39,6 @@ class GoodsDetailsViewController: BaseViewController {
     var imageArray = [imagesInformation]()
     
     var headView = GoodsDetailsHeadView()
-    var footerView = GoodsDetailsBottomReusableView()
     
     lazy var bottomView:GoodsDetailsBottomView = {
         let bottomView = GoodsDetailsBottomView(frame:CGRectMake(0,ScreenHeight-45,ScreenWidth,45))
@@ -67,7 +68,7 @@ class GoodsDetailsViewController: BaseViewController {
         flowLayout.minimumLineSpacing = 0
         flowLayout.minimumInteritemSpacing = 0
         
-        let collectionView = UICollectionView(frame: CGRectMake(0, 64, ScreenWidth, ScreenHeight-64-45),collectionViewLayout: flowLayout)
+        let collectionView = UICollectionView(frame: CGRectMake(0, 0, ScreenWidth, ScreenHeight-45),collectionViewLayout: flowLayout)
         collectionView.dataSource = self
         collectionView.delegate = self
         collectionView.emptyDataSetSource = self
@@ -91,7 +92,7 @@ class GoodsDetailsViewController: BaseViewController {
         collectionView.registerClass(GoodsDetailsHeadView.self, forSupplementaryViewOfKind:UICollectionElementKindSectionHeader, withReuseIdentifier: "GoodsDetailsHeadView")
         collectionView.registerClass(MayLoveCell.self, forCellWithReuseIdentifier: "MayLoveCell")
         collectionView.registerClass(RecommendedGoodsCell.self, forCellWithReuseIdentifier: "RecommendedGoodsCell")
-        collectionView.registerClass(GoodsDetailsBottomReusableView.self, forSupplementaryViewOfKind:UICollectionElementKindSectionFooter, withReuseIdentifier: "GoodsDetailsBottomReusableView")
+        collectionView.registerClass(BottomCell.self, forCellWithReuseIdentifier: "BottomCell")
 
         return collectionView
     }()
@@ -101,28 +102,18 @@ class GoodsDetailsViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.whiteColor()
-        self.view.addSubview(bottomView)
         self.view.addSubview(collectionView)
         self.showHUD()
-        isLoadRequestFinish = false
         request()
         
     }
     
-    
-    
     func request() {
         /**主要数据*/
         
-        if isSearchGoInto == false {
-            
             goodsRequest.goodsDetailsrequest(goodsId, successBlock: { (successJson) in
                 self.goodsJson = successJson
-                /**店铺信息*/
-                self.goodsRequest.goodsDetailsmallRequest(self.mallId, successBlock: { (successJson) in
-                    self.mallJson = successJson
-                    
-                    /**评价信息*/
+                /**评价信息*/
                     self.goodsRequest.goodsDetailsReviewsRequest(self.goodsId, successBlock: { (successJson) in
                         self.reviewsJson = successJson
                         /**抽奖信息*/
@@ -131,12 +122,20 @@ class GoodsDetailsViewController: BaseViewController {
                             /**可能喜欢*/
                             self.goodsRequest.goodsDetailsRecommendationRequest(self.goodsId, successBlock: { (successJson) in
                                 
-                                self.hideHUD()
-                                self.isLoadRequestFinish = true
-
                                 self.recommendationJson = successJson
                                 
-                                self.processData(self.goodsJson, mallData: self.mallJson, reviewsData: self.reviewsJson, recommendationData: self.recommendationJson, lucky_drawData: self.lucky_drawJson)
+                                let mall_id:String = self.isSearchGoInto == true  ? String(self.goodsJson["mall_id"]) : self.mallId
+                                /**店铺信息 */
+                                self.goodsRequest.goodsDetailsmallRequest(mall_id, successBlock: { (successJson) in
+                                    
+                                    self.hideHUD()
+                                    self.view.addSubview(self.bottomView)
+                                    self.mallJson = successJson
+                                    self.processData(self.goodsJson, mallData: self.mallJson, reviewsData: self.reviewsJson, recommendationData: self.recommendationJson, lucky_drawData: self.lucky_drawJson)
+                                    
+                                    }, errorBlock: { (error) in
+                                        print(error)
+                                })
                                 
                             }) { (error) in
                                 print(error)
@@ -149,21 +148,10 @@ class GoodsDetailsViewController: BaseViewController {
                     }) { (error) in
                         print(error)
                     }
-                    
-                }) { (error) in
-                    print(error)
-                }
                 
             }) { (error) in
                 print(error)
             }
-
-        } else {
-        
-            
-        
-        }
-        
     }
     
     /**处理数据*/
@@ -286,11 +274,9 @@ class GoodsDetailsViewController: BaseViewController {
         
         
         /**
-         *  解析图片，唉，这个真不好解析呀
-         *
+         *  解析图片
          *  @return nil
          */
-
         var array = [imagesInformation]()
         var scrollImageArray = [imagesInformation]()
         
@@ -313,7 +299,7 @@ class GoodsDetailsViewController: BaseViewController {
         }
         
         
-       //对数组进行排序
+       //对数组进行排序,反序
         imageArray = array.sort({$0.priority < $1.priority})
         scrollerImageArray = scrollImageArray.sort({$0.priority < $1.priority})
         
@@ -347,7 +333,7 @@ class GoodsDetailsViewController: BaseViewController {
             recommend.mall_id = String(recommendationData["list"][j]["mall_id"])
             recommend.price = String(recommendationData["list"][j]["price"])
 
-            /// 可能喜欢
+            /// ///推荐的商品
             let recommendedGoods = basicInformation()
             recommendedGoods.cellType = .recommendedGoods
             recommendedGoods.cellHeight = 180
@@ -355,6 +341,13 @@ class GoodsDetailsViewController: BaseViewController {
             recommendedGoods.recommendInformn = recommend
             basicDataArray.append(recommendedGoods)
         }
+        
+        ///底部显示
+        let bottom = basicInformation()
+        bottom.cellType = .bottom
+        bottom.cellHeight = 50
+        bottom.cellWidth = ScreenWidth
+        basicDataArray.append(bottom)
         
         collectionView.reloadData()
         bottomView.basicDataSouce = goodsData
@@ -443,10 +436,13 @@ extension GoodsDetailsViewController:UICollectionViewDataSource,UICollectionView
             let cell = collectionView.dequeueReusableCellWithReuseIdentifier("MayLoveCell", forIndexPath: indexPath) as! MayLoveCell
             cell.backgroundColor = UIColor.whiteColor()
             return cell
-        default:
+        case .recommendedGoods:
             let cell = collectionView.dequeueReusableCellWithReuseIdentifier("RecommendedGoodsCell", forIndexPath: indexPath) as! RecommendedGoodsCell
             cell.backgroundColor = UIColor.whiteColor()
             cell.recommend = basic.recommendInformn!
+            return cell
+        default:
+            let cell = collectionView.dequeueReusableCellWithReuseIdentifier("BottomCell", forIndexPath: indexPath) as! BottomCell
             return cell
         }
         
@@ -465,12 +461,6 @@ extension GoodsDetailsViewController:UICollectionViewDataSource,UICollectionView
         return CGSize(width: ScreenWidth, height: 230)
     }
     
-    
-    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForFooterInSection section: Int) -> CGSize {
-        return CGSizeMake(ScreenWidth, 50)
-    }
-    
-    
     func collectionView(collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, atIndexPath indexPath: NSIndexPath) -> UICollectionReusableView{
         
         switch kind {
@@ -483,8 +473,7 @@ extension GoodsDetailsViewController:UICollectionViewDataSource,UICollectionView
             
         case UICollectionElementKindSectionFooter:
             
-            footerView = collectionView.dequeueReusableSupplementaryViewOfKind(kind, withReuseIdentifier: "GoodsDetailsBottomReusableView", forIndexPath: indexPath) as! GoodsDetailsBottomReusableView
-            return footerView
+            return UICollectionReusableView()
             
         default:
             return UICollectionReusableView()
@@ -503,12 +492,29 @@ extension GoodsDetailsViewController:UICollectionViewDataSource,UICollectionView
             
         case .evaluate:///用户评价
             
-            print(basic.evaluateInformation)
-
+            let evaluateView = ProductEvaluationViewController()
+            evaluateView.goodsId = goodsId
+            evaluateView.average = String(self.reviewsJson["average"])
+            evaluateView.number = String(self.reviewsJson["number"])
+            self.navigationController?.pushViewController(evaluateView, animated: true)
+            
         case .store:///店铺信息
             
-            print(basic.shopMation)
-
+            if isStoreInformationGoInto == true {
+                
+                self.navigationController?.popViewControllerAnimated(true)
+                
+            }else {
+                
+                let homeSubject = HomeSubjectViewController()
+                homeSubject.StoreInformation = self.mallJson
+                homeSubject.isGoodsDetailsGoInto = true
+                homeSubject.title = String(self.mallJson["mall_name"])
+                self.navigationController?.pushViewController(homeSubject, animated: true)
+                
+            }
+            
+            
         case .recommendedGoods:///推荐的商品
             
             let goodsSubject = GoodsDetailsViewController()
@@ -516,6 +522,7 @@ extension GoodsDetailsViewController:UICollectionViewDataSource,UICollectionView
             goodsSubject.goodsId = basic.recommendInformn!.goods_id
             goodsSubject.mallId = basic.recommendInformn!.mall_id
             goodsSubject.isSearchGoInto = false
+            goodsSubject.isStoreInformationGoInto = false
             self.navigationController?.pushViewController(goodsSubject, animated: true)
             
         default:
@@ -549,15 +556,10 @@ extension GoodsDetailsViewController:UICollectionViewDataSource,UICollectionView
 extension GoodsDetailsViewController:DZNEmptyDataSetSource,DZNEmptyDataSetDelegate {
     
     func customViewForEmptyDataSet(scrollView: UIScrollView!) -> UIView! {
-        if  isLoadRequestFinish == true  {
+        
             let emptyViewGound = UIView(frame: CGRectMake(0,0,ScreenWidth,ScreenHeight))
             emptyViewGound.backgroundColor = UIColor.whiteColor()
             return emptyViewGound
-            
-        }else {
-            return nil
-        }
-        
     }
 }
 

@@ -66,6 +66,39 @@ class HomeSubjectRequest: NSObject {
         
     }
 
+    
+    func StoreInformationRequest(mallId:String) {
+        
+         //http://apiv2.yangkeduo.com/v2/mall/548/goods
+        
+            let url = "http://apiv2.yangkeduo.com/v2/mall/\(mallId)/goods"
+            
+            request.defaultInstance().GetRequest(url).responseJSON { response in
+                
+                switch response.result {
+                case .Success:
+                    
+                    guard let JsonData = response.result.value else { return }
+                    
+                    let goods_list = JsonData["goods_list"] as? NSArray
+                    
+                    var goods_listArray = [HomeModel]()
+                    
+                    for  goods_list_dict in goods_list! {
+                        
+                        let homeSubject = HomeModel()
+                        homeSubject.mapping(goods_list_dict as! Dictionary<String, AnyObject>)
+                        goods_listArray.append(homeSubject)
+                    }
+                    self.delegate?.homeSubjectRequest(goods_listArray)
+                    
+                case .Failure(let error):
+                    
+                    print(error)
+                }
+            }
+    }
+    
 }
 
 protocol homeSubjectDataDelegate: NSObjectProtocol {

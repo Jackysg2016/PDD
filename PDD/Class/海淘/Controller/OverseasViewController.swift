@@ -151,6 +151,7 @@ extension OverseasViewController:UITableViewDataSource,UITableViewDelegate {
             goodsSubject.goodsId = haitao.good_list.goods_id
             goodsSubject.mallId = haitao.good_list.mall_id
             goodsSubject.isSearchGoInto = false
+            goodsSubject.isStoreInformationGoInto = false
             self.navigationController?.pushViewController(goodsSubject, animated: true)
             
         }else {
@@ -166,6 +167,7 @@ extension OverseasViewController:UITableViewDataSource,UITableViewDelegate {
         homeSubject.title = homeRoll.subject
         homeSubject.subjectID = homeRoll.subject_id
         homeSubject.bgImageString = nil
+        homeSubject.isGoodsDetailsGoInto = false
         self.navigationController?.pushViewController(homeSubject, animated: true)
         
     }
@@ -181,6 +183,7 @@ extension OverseasViewController: ClickCollectionCallbackDelegate {
         goodsSubject.goodsId = home_recommend_goodlist.goods_id
         goodsSubject.mallId = home_recommend_goodlist.mall_id
         goodsSubject.isSearchGoInto = false
+        goodsSubject.isStoreInformationGoInto = false
         self.navigationController?.pushViewController(goodsSubject, animated: true)
         
     }
@@ -194,6 +197,7 @@ extension OverseasViewController: HomeHeaderDelegate {
         homeSubject.title = homeRollData.subject
         homeSubject.subjectID = homeRollData.subject_id
         homeSubject.bgImageString = homeRollData.home_banner
+        homeSubject.isGoodsDetailsGoInto = false
         self.navigationController?.pushViewController(homeSubject, animated: true)
     }
 }

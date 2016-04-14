@@ -84,7 +84,6 @@ struct shopInformation {
     
 }
 
-
 /**图片信息*/
 struct imagesInformation {
 
@@ -98,7 +97,6 @@ struct imagesInformation {
     
 }
 
-
 /**推荐信息*/
 struct recommendInformation {
 
@@ -107,5 +105,23 @@ struct recommendInformation {
     var goods_name:String?
     var mall_id:String?
     var price:String?
+}
+/**商品评价*/
+struct productEvaluation {
     
+    var avatar:String?
+    var comment:String?
+    var name:String?
+    var stars:String?
+    var time:String?
+    
+    mutating func mapping(map: JSON) {
+        
+        avatar = String(map["avatar"])
+        comment = String(map["comment"])
+        name = String(map["name"])
+        stars = String(map["stars"])
+        time = String(map["time"])
+        
+    }
 }

@@ -25,6 +25,7 @@ public let OperationsUrl:String = "http://apiv2.yangkeduo.com/operations" // 搜
 public let UserUrl:String = "http://apiv2.yangkeduo.com/user/me" // 个人中心
 
 
+
  
 // MARK: - 全局常用颜色
 public let BgColor:UIColor = UIColor(colorLiteralRed: 0.97, green: 0.97, blue: 0.97, alpha: 1.00)
@@ -55,4 +56,5 @@ enum GoodsDetailsCellType {
     case image///图片信息
     case mayLove///可能喜欢
     case recommendedGoods///推荐的商品
+    case bottom///底部显示
 }

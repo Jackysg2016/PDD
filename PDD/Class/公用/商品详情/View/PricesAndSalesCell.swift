@@ -22,11 +22,19 @@ class PricesAndSalesCell: UICollectionViewCell {
             
             let sales = String(basicDataSouce["sales"])
             let numberSales = Float(sales)
-            if numberSales > 10000 {
-                salesNumber.text = "累计销售：10000+件"
-            }else  {
+            
+            if Float(String(basicDataSouce["mall_id"]))  != 1  {
                 salesNumber.text = "累计销售：\(basicDataSouce["sales"])件"
+            }else {
+                
+                if numberSales > 10000 {
+                    salesNumber.text = "累计销售：10000+件"
+                }else  {
+                    salesNumber.text = "累计销售：\(basicDataSouce["sales"])件"
+                }
             }
+            
+            
             let price = String(basicDataSouce["group"][1]["price"])
             let floatPrice = Float(price)!/100
             nowPrice.text = String(format: "¥ %.2f", floatPrice)

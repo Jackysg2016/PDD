@@ -4,7 +4,7 @@
 //
 //  Created by 周磊 on 16/4/8.
 //  Copyright © 2016年 ZL. All rights reserved.
-//
+//  底部视图
 
 import UIKit
 import SwiftyJSON
@@ -36,19 +36,14 @@ class GoodsDetailsBottomView: UIView {
             let floatPrice = Float(price)!/100
             groupPrice.text = String(format: "¥ %.2f", floatPrice)
             
-            let marketprice = String(basicDataSouce["market_price"])
+            let marketprice = String(basicDataSouce["group"][0]["price"])
             let marketfloatPrice = Float(marketprice)!/100
             alonePrice.text = String(format: "¥ %.2f", marketfloatPrice)
-            
             numberGroup.text = "\(basicDataSouce["group"][1]["customer_num"])人团"
             
         }
     }
-    
-    
-    
-    
-    
+
     override init(frame: CGRect) {
         super.init(frame: frame)
         

@@ -35,8 +35,8 @@ class RecommendedGoodsCell: UICollectionViewCell {
         super.init(frame: frame)
         
         headImageView = UIImageView()
-        headImageView.layer.borderColor = UIColor.grayColor().CGColor
-        headImageView.layer.borderWidth = 0.5
+//        headImageView.layer.borderColor = UIColor.grayColor().CGColor
+//        headImageView.layer.borderWidth = 0.5
         self.contentView.addSubview(headImageView)
         headImageView.snp_makeConstraints { (make) in
             make.left.equalTo(self).offset(10)

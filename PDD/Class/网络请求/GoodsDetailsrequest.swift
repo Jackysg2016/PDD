@@ -4,7 +4,7 @@
 //
 //  Created by 周磊 on 16/4/7.
 //  Copyright © 2016年 ZL. All rights reserved.
-//
+//  商品详情
 
 import UIKit
 import SwiftyJSON
@@ -12,9 +12,9 @@ import SwiftyJSON
 class GoodsDetailsrequest: NSObject {
 
     
-    // http://apiv2.yangkeduo.com/recommendation?goods_id=18029&referrer=goods 可能喜欢
+    //http://apiv2.yangkeduo.com/recommendation?goods_id=18029&referrer=goods 可能喜欢
     //http://apiv2.yangkeduo.com/reviews/18029?page=1&size=2 评价
-    //http://apiv2.yangkeduo.com/goods/18029主要数据
+    //http://apiv2.yangkeduo.com/goods/30878主要数据
     //http://apiv2.yangkeduo.com/mall/896/info 店铺信息
     //http://apiv2.yangkeduo.com/lucky_draw/18029 抽奖信息
 

@@ -1,18 +1,17 @@
 //
-//  GoodsDetailsBottomReusableView.swift
+//  BottomCell.swift
 //  PDD
 //
-//  Created by 周磊 on 16/4/13.
+//  Created by 周磊 on 16/4/14.
 //  Copyright © 2016年 ZL. All rights reserved.
-//
+//  底部
 
 import UIKit
-import SwiftyJSON
 
-class GoodsDetailsBottomReusableView: UICollectionReusableView {
+class BottomCell: UICollectionViewCell {
     
     var bottomLabel:UILabel!
-
+    
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -46,10 +45,8 @@ class GoodsDetailsBottomReusableView: UICollectionReusableView {
             make.right.equalTo(self).offset(-20)
             make.left.equalTo(bottomLabel.snp_right).offset(10)
             make.height.equalTo(0.5)
-
+            
         }
-        
-        
     }
     
     required init?(coder aDecoder: NSCoder) {

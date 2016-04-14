@@ -246,7 +246,6 @@ class GroupPurchaseCell: UICollectionViewCell {
         lastime.hour = hour
         lastime.minute = minute
         lastime.second = second
-
         //把目标时间装载入date
         let todate = cal.dateFromComponents(lastime)
         //获取当前时间
@@ -261,6 +260,15 @@ class GroupPurchaseCell: UICollectionViewCell {
         
         if d.hour < 0 {//关闭定时器
             theTimer.invalidate()
+            
+            formatHourLabel.hidden = true
+            formatMinuteLabel.hidden = true
+            endTimeLabel.hidden = true
+            lastTimeLabel.hidden = true
+            lastHourLabel.hidden = true
+            lastMinuteLabel.hidden = true
+            lastSecondeLabel.hidden = true
+
         }
         
         

@@ -96,6 +96,7 @@ extension RankingTableViewController{
             goodsSubject.goodsId = hotList.goods_id
             goodsSubject.mallId = hotList.mall_id
             goodsSubject.isSearchGoInto = false
+        goodsSubject.isStoreInformationGoInto = false
             self.navigationController?.pushViewController(goodsSubject, animated: true)
     }
 

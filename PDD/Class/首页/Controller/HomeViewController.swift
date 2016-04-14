@@ -146,6 +146,8 @@ extension HomeViewController:UITableViewDelegate,UITableViewDataSource {
             goodsSubject.goodsId = home.good_list.goods_id
             goodsSubject.mallId = home.good_list.mall_id
             goodsSubject.isSearchGoInto = false
+            goodsSubject.isStoreInformationGoInto = false
+            print(home.good_list.goods_id!)
             self.navigationController?.pushViewController(goodsSubject, animated: true)
             
         }else {
@@ -164,6 +166,7 @@ extension  HomeViewController:ClickCollectionCallbackDelegate {
         goodsSubject.goodsId = home_recommend_goodlist.goods_id
         goodsSubject.mallId = home_recommend_goodlist.mall_id
         goodsSubject.isSearchGoInto = false
+        goodsSubject.isStoreInformationGoInto = false
         self.navigationController?.pushViewController(goodsSubject, animated: true)
         
     }
@@ -177,6 +180,7 @@ extension  HomeViewController:HomeHeaderDelegate {
         homeSubject.title = homeRollData.subject
         homeSubject.subjectID = homeRollData.subject_id
         homeSubject.bgImageString = homeRollData.home_banner
+        homeSubject.isGoodsDetailsGoInto = false
         self.navigationController?.pushViewController(homeSubject, animated: true)
         
     }

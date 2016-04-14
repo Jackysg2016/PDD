@@ -7,6 +7,7 @@
 //  首页滚动广告视图控制器
 
 import UIKit
+import SwiftyJSON
 
 class HomeSubjectViewController: BaseViewController,homeSubjectDataDelegate {
 
@@ -16,6 +17,13 @@ class HomeSubjectViewController: BaseViewController,homeSubjectDataDelegate {
     var bgImageString:String!
     var homeSubjecRequest = HomeSubjectRequest()
 
+        /// 是否是商品详情页进来的，商详页进来的headerView不一样，数据请求也不一样
+    var isGoodsDetailsGoInto:Bool!
+
+        /// 店铺信息
+    var StoreInformation:JSON!
+    
+    
     // 顶部刷新
     let header = MJRefreshNormalHeader()
     
@@ -24,9 +32,6 @@ class HomeSubjectViewController: BaseViewController,homeSubjectDataDelegate {
 
         self.view.backgroundColor = UIColor.cyanColor()
         
-        homeSubjecRequest.homeSubjectRequest(subjectID!)
-        self.showHUD()
-        homeSubjecRequest.delegate = self
         
         tableView = UITableView(frame: CGRectMake(0, 0, ScreenWidth, ScreenHeight))
         tableView?.delegate = self
@@ -35,17 +40,39 @@ class HomeSubjectViewController: BaseViewController,homeSubjectDataDelegate {
         tableView?.tableFooterView = UIView()
         self.view.addSubview(tableView!)
 
-        if bgImageString != nil {
-            let headerView = HomeSubjectHeaderView(frame: CGRectMake(0,0,ScreenWidth,200))
-            tableView?.tableHeaderView = headerView
-            headerView.reloadImage(bgImageString)
-        }else {
-            homeSubjecRequest.countryGoodsListRequest(subjectID, blockPicture: { (picture) in
+        if isGoodsDetailsGoInto == false {
+            
+            homeSubjecRequest.homeSubjectRequest(subjectID!)
+            self.showHUD()
+            homeSubjecRequest.delegate = self
+            
+            
+            if bgImageString != nil {
                 let headerView = HomeSubjectHeaderView(frame: CGRectMake(0,0,ScreenWidth,200))
-                self.tableView?.tableHeaderView = headerView
-                headerView.reloadImage(picture)
-            })
+                tableView?.tableHeaderView = headerView
+                headerView.reloadImage(bgImageString)
+                
+            }else {
+                
+                homeSubjecRequest.countryGoodsListRequest(subjectID, blockPicture: { (picture) in
+                    let headerView = HomeSubjectHeaderView(frame: CGRectMake(0,0,ScreenWidth,200))
+                    self.tableView?.tableHeaderView = headerView
+                    headerView.reloadImage(picture)
+                })
+
+            }
+        }else {
+            
+            homeSubjecRequest.StoreInformationRequest(String(StoreInformation["mall_id"]))
+            self.showHUD()
+            homeSubjecRequest.delegate = self
+             
+            let headerView = StoreInformationHeaderView(frame: CGRectMake(0,0,ScreenWidth,String(StoreInformation["mall_desc"]).stringHeightWith(13,width:(ScreenWidth-10))+90))
+            headerView.backgroundColor = BgColor
+            headerView.StoreInformation = StoreInformation
+            tableView?.tableHeaderView = headerView
         }
+    
         
         // 下拉刷新
         header.setRefreshingTarget(self, refreshingAction: #selector(RankingTableViewController.headerRefresh))
@@ -58,7 +85,11 @@ class HomeSubjectViewController: BaseViewController,homeSubjectDataDelegate {
     // 顶部刷新
     func headerRefresh(){
         
-        homeSubjecRequest.homeSubjectRequest(subjectID!)
+        if isGoodsDetailsGoInto == false {
+            homeSubjecRequest.homeSubjectRequest(subjectID!)
+        }else {
+            homeSubjecRequest.StoreInformationRequest(String(StoreInformation["mall_id"]))
+        }
     }
 
     
@@ -114,6 +145,14 @@ extension HomeSubjectViewController:UITableViewDelegate,UITableViewDataSource {
             goodsSubject.goodsId = homeSubject.goods_id
             goodsSubject.mallId = homeSubject.mall_id
             goodsSubject.isSearchGoInto = false
+
+        if isGoodsDetailsGoInto == true {
+            
+            goodsSubject.isStoreInformationGoInto = true
+        }else {
+            goodsSubject.isStoreInformationGoInto = false
+
+        }
             self.navigationController?.pushViewController(goodsSubject, animated: true)
     }
 }

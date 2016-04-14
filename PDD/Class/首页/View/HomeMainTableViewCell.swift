@@ -180,7 +180,8 @@ class HomeMainTableViewCell: UITableViewCell {
     func removeObj() {
         
         for subView in (bgView!.subviews) {
-            if subView.isKindOfClass(IntroductionLabel) {
+            if subView.isKindOfClass(IntroductionLabel){
+                
                 subView.removeFromSuperview()
             }
         }
