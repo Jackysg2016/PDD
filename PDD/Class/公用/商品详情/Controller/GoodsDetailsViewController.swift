@@ -105,13 +105,9 @@ class GoodsDetailsViewController: BaseViewController {
         dataAccess()
     }
     
- 
-
-    
     func dataAccess() {
         
         let goodsViewModel = GoodsDetailsViewModel()
-        
         goodsViewModel.request(self.goodsId, mallId: self.mallId, isSearchGoInto: self.isSearchGoInto, successBlock: { (goodsJson, mallJson, reviewsJson, recommendationJson, lucky_drawJson, basicDataArray, scrollerImageArray, imageArray) in
             
             self.hideHUD()
@@ -133,9 +129,7 @@ class GoodsDetailsViewController: BaseViewController {
                 
                 self.collectionView.reloadData()
                 self.bottomView.basicDataSouce = goodsJson
-                
             })
-            
             
             }) { (error) in
                 self.showErrorAllTextDialog("出错了")

@@ -154,9 +154,21 @@ extension OverseasViewController:UITableViewDataSource,UITableViewDelegate {
             goodsSubject.isStoreInformationGoInto = false
             self.navigationController?.pushViewController(goodsSubject, animated: true)
             
+        }else if haitao.cellType == .advertisement{
+            
+            let homeSubject = HomeSubjectViewController()
+            
+            homeSubject.title = haitao.home_recommend.subject!
+            homeSubject.subjectID = haitao.home_recommend.subject_id!
+            homeSubject.bgImageString = nil
+            homeSubject.isGoodsDetailsGoInto = false
+            self.navigationController?.pushViewController(homeSubject, animated: true)
+            
         }else {
+            
             return
         }
+
     }
 
     
