@@ -147,10 +147,21 @@ extension HomeViewController:UITableViewDelegate,UITableViewDataSource {
             goodsSubject.mallId = home.good_list.mall_id
             goodsSubject.isSearchGoInto = false
             goodsSubject.isStoreInformationGoInto = false
-            print(home.good_list.goods_id!)
             self.navigationController?.pushViewController(goodsSubject, animated: true)
             
+        }else if home.cellType == .advertisement{
+            
+            let homeSubject = HomeSubjectViewController()
+            
+            homeSubject.title = home.home_recommend.subject!
+            homeSubject.subjectID = home.home_recommend.subject_id!
+            homeSubject.bgImageString = nil
+            homeSubject.isGoodsDetailsGoInto = false
+            self.navigationController?.pushViewController(homeSubject, animated: true)
+            
         }else {
+            
+            
             return
         }
     }
