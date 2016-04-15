@@ -517,6 +517,4 @@ class GoodsDetailsViewModel: NSObject {
  collectionView.reloadData()
  bottomView.basicDataSouce = goodsData
  }
- }
-
  */

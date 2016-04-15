@@ -103,6 +103,7 @@ class SearchDetailsViewController: BaseViewController,UICollectionViewDataSource
         let goodsSubject = GoodsDetailsViewController()
         goodsSubject.title = searchDetailsModel.goods_name
         goodsSubject.goodsId = searchDetailsModel.goods_id
+        goodsSubject.mallId = "1"
         goodsSubject.isSearchGoInto = true
         goodsSubject.isStoreInformationGoInto = false
         self.navigationController?.pushViewController(goodsSubject, animated: true)
