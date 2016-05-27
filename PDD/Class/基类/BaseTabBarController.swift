@@ -79,8 +79,10 @@ class BaseTabBarController: UITabBarController {
         vc.tabBarItem.selectedImage = selectedImage.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal)
         vc.title = title
         let navi = BaseNavigationController.init(rootViewController: vc)
+        navi.navigationBar.barTintColor = BgColor
         self.addChildViewController(navi)
     }
     
     
+
 }

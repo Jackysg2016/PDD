@@ -13,6 +13,9 @@ class BaseNavigationController: LCPanNavigationController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+
+        
     }
     
     /// 返回按钮
@@ -46,13 +49,16 @@ class BaseNavigationController: LCPanNavigationController {
             viewController.navigationItem.leftBarButtonItem = UIBarButtonItem(customView: backBtn)
             viewController.navigationItem.rightBarButtonItem = UIBarButtonItem(customView: rightBtn)
             viewController.hidesBottomBarWhenPushed = true
+
         }
         super.pushViewController(viewController, animated: animated)
     }
     
     func back() {
         
+        self.hideHUD()
         popViewControllerAnimated(true)
+        
     }
     
     func share(){

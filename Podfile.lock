@@ -1,5 +1,6 @@
 PODS:
   - Alamofire (3.0.1)
+  - pop (1.0.9)
   - ReachabilitySwift (2.3.3)
   - SDWebImage (3.7.5):
     - SDWebImage/Core (= 3.7.5)
@@ -10,6 +11,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 3.0.0)
+  - pop (~> 1.0)
   - ReachabilitySwift (~> 2.3.3)
   - SDWebImage (~> 3.7.4)
   - SKPhotoBrowser
@@ -18,6 +20,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   Alamofire: 2457e1b2e6c46bb05c3a598c542b7bfd08893775
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
   ReachabilitySwift: e0f6b6f280effb47731acfaaa2d5ffe223703793
   SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
   SKPhotoBrowser: 2f70e6f1df20ab5de832461b93b97e1d6ba5fb60

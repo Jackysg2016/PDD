@@ -62,7 +62,7 @@ class HomeHeaderView: UIView,UIScrollViewDelegate {
     func addTimer(){
         
         timer = NSTimer.scheduledTimerWithTimeInterval(3, target: self, selector: #selector(HomeHeaderView.nextImage(_:)), userInfo: nil, repeats: true)
-        NSRunLoop.mainRunLoop().addTimer(timer!, forMode: NSRunLoopCommonModes)
+        NSRunLoop.currentRunLoop().addTimer(timer!, forMode: NSRunLoopCommonModes)
     }
     
     func removeTimer(){

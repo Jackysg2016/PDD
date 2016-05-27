@@ -28,7 +28,7 @@ class BaseViewController: UIViewController,UIGestureRecognizerDelegate {
         httpReachability()
     }
     
-    
+        
     /**右侧分享按钮*/
     private func configureInterface() {
         let rightBtn = UIBarButtonItem(title: "", style: .Plain, target: self, action: #selector(BaseViewController.share))

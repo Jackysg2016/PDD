@@ -11,8 +11,12 @@ import Foundation
 extension UIViewController {
     
      func showHUD() {
+              
         SVProgressHUD.setDefaultAnimationType(SVProgressHUDAnimationType.Native)
         SVProgressHUD.show()
+        
+        
+        
     }
     
     

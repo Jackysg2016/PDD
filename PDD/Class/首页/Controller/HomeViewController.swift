@@ -23,6 +23,8 @@ class HomeViewController: BaseViewController {
         super.viewDidLoad()        
         view.backgroundColor = BgColor
         
+        print(ScreenWidth);
+        
         tableView = UITableView(frame: CGRectMake(0, 0, ScreenWidth, ScreenHeight))
         tableView?.delegate = self
         tableView?.dataSource = self
@@ -45,6 +47,8 @@ class HomeViewController: BaseViewController {
         homeRequest.delegate = self
         tableView!.mj_header.beginRefreshing()
         homeRequest.requestData()
+                
+        
     }
     // 顶部刷新
     func headerRefresh(){
@@ -144,6 +148,10 @@ extension HomeViewController:UITableViewDelegate,UITableViewDataSource {
             let goodsSubject = GoodsDetailsViewController()
             goodsSubject.title = home.good_list.goods_name
             goodsSubject.goodsId = home.good_list.goods_id
+            
+            if home.good_list.mall_id == nil {
+                home.good_list.mall_id = "1"
+            }
             goodsSubject.mallId = home.good_list.mall_id
             goodsSubject.isSearchGoInto = false
             goodsSubject.isStoreInformationGoInto = false
