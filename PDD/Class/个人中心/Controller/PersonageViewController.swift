@@ -19,7 +19,7 @@ class PersonageViewController: BaseViewController,UICollectionViewDataSource,UIC
         super.viewDidLoad()
         self.view.backgroundColor = BgColor
         setUpConnectionView()
-
+        
     }
     
     func setUpConnectionView() {
@@ -53,6 +53,19 @@ class PersonageViewController: BaseViewController,UICollectionViewDataSource,UIC
         collectionView!.mj_header.endRefreshing()
 
     }
+    
+    
+    func lalalalala(collection:BaseViewController,dataArray:[String],dataDict:[String:AnyObject]) {
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+    
     
     
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
@@ -158,9 +171,21 @@ class PersonageViewController: BaseViewController,UICollectionViewDataSource,UIC
             
         case 0:///点击头像登录
             print(indexPath.section)
+            
+            let pop = UIPopoverListView.init(frame: CGRectMake(10, 100, ScreenWidth-100, 200))
+            pop.center = self.view.center
+            pop.listView.scrollEnabled = false
+            pop.titleView.text = "选择不喜欢的理由"
+            pop.show()
+            
         case 1:///我的订单
             
             print(indexPath.section)
+            let webView = WebViewController()
+            
+            self.navigationController?.pushViewController(webView, animated: true)
+            
+            
 
         case 2:
             

@@ -7,4 +7,5 @@ pod 'SwiftyJSON', '~> 2.3.0'
 pod 'SnapKit', '~> 0.19.1'
 pod 'ReachabilitySwift', '~> 2.3.3'
 pod 'SKPhotoBrowser'
+pod 'pop', '~> 1.0'
 

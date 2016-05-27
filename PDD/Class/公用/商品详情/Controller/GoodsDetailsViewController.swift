@@ -108,6 +108,7 @@ class GoodsDetailsViewController: BaseViewController {
     func dataAccess() {
         
         let goodsViewModel = GoodsDetailsViewModel()
+        
         goodsViewModel.request(self.goodsId, mallId: self.mallId, isSearchGoInto: self.isSearchGoInto, successBlock: { (goodsJson, mallJson, reviewsJson, recommendationJson, lucky_drawJson, basicDataArray, scrollerImageArray, imageArray) in
             
             self.hideHUD()

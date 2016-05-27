@@ -33,6 +33,19 @@ extension String {
         
     }
     
+    
+    func ZuoHeightWithConstrainedWidth ( width :  CGFloat , font :  UIFont,  str : NSString )  ->  CGFloat  {
+        let constraintRect =  CGSize ( width : width , height :  CGFloat . max )
+        
+        let boundingBox =  str.boundingRectWithSize ( constraintRect , options :  NSStringDrawingOptions . UsesLineFragmentOrigin , attributes :  [ NSFontAttributeName : font ], context :  nil )
+        
+        return boundingBox.height
+    }
+
+    
+    
+    
+    
     func timeStampToString(timeStamp:String)->String {
         
         let string = NSString(string: timeStamp)

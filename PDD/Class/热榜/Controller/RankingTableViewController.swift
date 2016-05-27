@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import pop
 
 class RankingTableViewController: UITableViewController {
 
@@ -62,6 +63,7 @@ extension RankingTableViewController:hotListRequestDataDelegate {
         dataSouce.removeAll()
         dataSouce = goods_listArray as! [HotListModel]
         tableView.reloadData()
+        
     }
 }
 // MARK: - Table view data source

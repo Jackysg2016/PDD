@@ -2,57 +2,9 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>SchemeUserState</key>
-	<dict>
-		<key>Alamofire.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>Pods.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>ReachabilitySwift.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>SDWebImage.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>SKPhotoBrowser.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>SnapKit.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>SwiftyJSON.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>0CA0BF1A0CB7F5DCC970BEA937CD631A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>12AF406021C836E6960AA8F9CAA1F881</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>1AB2686EB22CDD817AEF908AEA4C3C16</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -97,11 +49,6 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8881E14563D932E88121FF5165C31038</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>8E872531D9DA0A12C9E147762C170FEA</key>
 		<dict>
 			<key>primary</key>
@@ -112,17 +59,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>971A9E229A04B97B9085A667140B5D66</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>C01685D60C8A45E5A9E9F81BD3B1677B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>D81758EEEF24879A323DB419D9DD227C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
