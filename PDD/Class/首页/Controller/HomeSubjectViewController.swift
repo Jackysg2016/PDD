@@ -143,6 +143,11 @@ extension HomeSubjectViewController:UITableViewDelegate,UITableViewDataSource {
             let goodsSubject = GoodsDetailsViewController()
             goodsSubject.title = homeSubject.goods_name
             goodsSubject.goodsId = homeSubject.goods_id
+       
+        
+        if homeSubject.mall_id == nil {
+            homeSubject.mall_id = "1"
+        }
             goodsSubject.mallId = homeSubject.mall_id
             goodsSubject.isSearchGoInto = false
 

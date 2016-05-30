@@ -149,6 +149,9 @@ extension OverseasViewController:UITableViewDataSource,UITableViewDelegate {
             let goodsSubject = GoodsDetailsViewController()
             goodsSubject.title = haitao.good_list.goods_name
             goodsSubject.goodsId = haitao.good_list.goods_id
+            if haitao.good_list.mall_id == nil {
+                haitao.good_list.mall_id = "1"
+            }
             goodsSubject.mallId = haitao.good_list.mall_id
             goodsSubject.isSearchGoInto = false
             goodsSubject.isStoreInformationGoInto = false
