@@ -74,6 +74,7 @@ extension RankingTableViewController{
         return dataSouce.count
     }
     
+    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         var hotList = HotListModel()
         hotList = dataSouce[indexPath.row]
