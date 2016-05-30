@@ -96,6 +96,9 @@ extension RankingTableViewController{
             let goodsSubject = GoodsDetailsViewController()
             goodsSubject.title = hotList.goods_name
             goodsSubject.goodsId = hotList.goods_id
+        if hotList.mall_id == nil {
+            hotList.mall_id = "1"
+        }
             goodsSubject.mallId = hotList.mall_id
             goodsSubject.isSearchGoInto = false
         goodsSubject.isStoreInformationGoInto = false
